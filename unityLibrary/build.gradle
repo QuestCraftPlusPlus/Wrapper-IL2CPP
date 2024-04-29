@@ -92,14 +92,6 @@ def BuildIl2Cpp(String workingDir, String configuration, String architecture, St
 }
 
 android {
-    signingConfigs {
-        debug {
-            keyAlias 'qcxr'
-            keyPassword '***REMOVED***'
-            storeFile file('C:\\Users\\CADIndie\\Downloads\\qcxr.keystore')
-            storePassword '***REMOVED***'
-        }
-    }
     task BuildIl2CppTask {
         doLast {
               BuildIl2Cpp(projectDir.toString().replaceAll('\\\\', '/'), 'Release', 'arm64', 'arm64-v8a', [  ] as String[]);

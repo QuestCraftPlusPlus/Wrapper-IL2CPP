@@ -33,21 +33,6 @@ android {
         ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
     }
 
-    signingConfigs {
-        debug {
-            keyAlias 'qcxr'
-            keyPassword '***REMOVED***'
-            storeFile file('C:\\Users\\CADIndie\\Downloads\\qcxr.keystore')
-            storePassword '***REMOVED***'
-        }
-        release {
-            storeFile file('C:/Users/CADIndie/Downloads/qcxr.keystore')
-            keyAlias 'qcxr'
-            keyPassword '***REMOVED***'
-            storePassword '***REMOVED***'
-        }
-    }
-
     lintOptions {
         abortOnError false
     }
