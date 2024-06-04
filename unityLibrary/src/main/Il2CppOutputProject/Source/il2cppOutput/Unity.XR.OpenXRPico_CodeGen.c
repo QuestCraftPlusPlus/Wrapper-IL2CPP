@@ -1,0 +1,609 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile::RegisterDeviceLayout()
+extern void PICO4ControllerProfile_RegisterDeviceLayout_mB49FDE9D4AEA394EBA0B86450D7181A00DD9B55F (void);
+// 0x00000002 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile::UnregisterDeviceLayout()
+extern void PICO4ControllerProfile_UnregisterDeviceLayout_m7197292DE47D6B6549B3F33B1A2D8D45587156B4 (void);
+// 0x00000003 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile::RegisterActionMapsWithRuntime()
+extern void PICO4ControllerProfile_RegisterActionMapsWithRuntime_m967D500C259E799A5B52FA871A89AF2956D00941 (void);
+// 0x00000004 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile::.ctor()
+extern void PICO4ControllerProfile__ctor_m7C6ECB403945D1F563AA0AFCCDF831D858C8B43E (void);
+// 0x00000005 UnityEngine.InputSystem.Controls.Vector2Control UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_thumbstick()
+extern void PICO4TouchController_get_thumbstick_m120C3773C2B6A4B409B32C9F07FC4094B4A34FBD (void);
+// 0x00000006 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_thumbstick(UnityEngine.InputSystem.Controls.Vector2Control)
+extern void PICO4TouchController_set_thumbstick_mA652E0B64997971EE64A5152AE334B9939E4EB86 (void);
+// 0x00000007 UnityEngine.InputSystem.Controls.AxisControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_grip()
+extern void PICO4TouchController_get_grip_m762D59DCC5D2539B502AC364251053EF029CA3CE (void);
+// 0x00000008 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_grip(UnityEngine.InputSystem.Controls.AxisControl)
+extern void PICO4TouchController_set_grip_mC5E3961482EE45FE8C890A62B24970EF7CEAAE09 (void);
+// 0x00000009 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_gripPressed()
+extern void PICO4TouchController_get_gripPressed_m1F78A9AF16C4F82495C75BE18E55B3B2A0AD4C3D (void);
+// 0x0000000A System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_gripPressed(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICO4TouchController_set_gripPressed_mCBE6CBE219E20422C99F98512BBE2CAD1BABB847 (void);
+// 0x0000000B UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_menu()
+extern void PICO4TouchController_get_menu_m66FBF9DC7136EEC73495F7E02354996DCF55A24B (void);
+// 0x0000000C System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_menu(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICO4TouchController_set_menu_mEC9ABC3546BA791F0B67EA3E1C227FA08605D834 (void);
+// 0x0000000D UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_system()
+extern void PICO4TouchController_get_system_mE698D299D4E54E3D9C3D158CBE506AC1F065423F (void);
+// 0x0000000E System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_system(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICO4TouchController_set_system_m151376B85E67E6617E47433354D94F4ABD97014F (void);
+// 0x0000000F UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_primaryButton()
+extern void PICO4TouchController_get_primaryButton_m1D0A2FAA2A2F9627EC9E3CF509F3AD886620C89B (void);
+// 0x00000010 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_primaryButton(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICO4TouchController_set_primaryButton_mA2E7AC78EA3190CB651099D627EA1C29AA3D77CB (void);
+// 0x00000011 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_primaryTouched()
+extern void PICO4TouchController_get_primaryTouched_m67843B8D574AD2EDECF9C1226441A2E936B398B9 (void);
+// 0x00000012 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_primaryTouched(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICO4TouchController_set_primaryTouched_m99DDA4A65D43042E805AB17E55751187A55C81CA (void);
+// 0x00000013 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_secondaryButton()
+extern void PICO4TouchController_get_secondaryButton_m68653295F105F2F2D9E9C3E3CF94CC8154A0C6C6 (void);
+// 0x00000014 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_secondaryButton(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICO4TouchController_set_secondaryButton_m00749EA0DBE3E42E6E69D1B1AC6EB884C8164158 (void);
+// 0x00000015 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_secondaryTouched()
+extern void PICO4TouchController_get_secondaryTouched_mFFA8176C30CBA40B4F4F0A749749A3FCC1F7D598 (void);
+// 0x00000016 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_secondaryTouched(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICO4TouchController_set_secondaryTouched_m28B704B13BB409F17A4195EACC0C94D28B7C7DB4 (void);
+// 0x00000017 UnityEngine.InputSystem.Controls.AxisControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_trigger()
+extern void PICO4TouchController_get_trigger_m4C605CC408BE638DD3F36596ECB92B5B0D4491E3 (void);
+// 0x00000018 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_trigger(UnityEngine.InputSystem.Controls.AxisControl)
+extern void PICO4TouchController_set_trigger_mFEF96B465E5CD243EFC31DBE98220403678B3DBE (void);
+// 0x00000019 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_triggerPressed()
+extern void PICO4TouchController_get_triggerPressed_m50DA86DE0A3CA52629ED767BC93018B9D0808A6A (void);
+// 0x0000001A System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_triggerPressed(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICO4TouchController_set_triggerPressed_m3DE061E7B545A2C37F9EAD0BD8EFFDE87D8E4485 (void);
+// 0x0000001B UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_triggerTouched()
+extern void PICO4TouchController_get_triggerTouched_m8C9692692604F8A82CD4D0696316F51393EC9DAD (void);
+// 0x0000001C System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_triggerTouched(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICO4TouchController_set_triggerTouched_mEC92C55E23C4B76766AA376EAF49DCFE26BF0B3F (void);
+// 0x0000001D UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_thumbstickClicked()
+extern void PICO4TouchController_get_thumbstickClicked_mA09B5DB164BF54133DACF77F828FFC00A3FB5613 (void);
+// 0x0000001E System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_thumbstickClicked(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICO4TouchController_set_thumbstickClicked_m4403E56A4A2546CC046F990F79375918715F3BA6 (void);
+// 0x0000001F UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_thumbstickTouched()
+extern void PICO4TouchController_get_thumbstickTouched_m6577AA54A927CFD31CB13B43ACE99DCF86B37F1E (void);
+// 0x00000020 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_thumbstickTouched(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICO4TouchController_set_thumbstickTouched_mB7DED6A31B10CD5E6568CD53919451328AC31D60 (void);
+// 0x00000021 UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_devicePose()
+extern void PICO4TouchController_get_devicePose_m984A417561B1C3D0478510A80AB148F5CE45BDB5 (void);
+// 0x00000022 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+extern void PICO4TouchController_set_devicePose_mEA8E69FDDC53827EDEFD7C0C0ABA385C6BDBE5ED (void);
+// 0x00000023 UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_pointer()
+extern void PICO4TouchController_get_pointer_m028B3254C091FDBB513E72B766F731C74B62360C (void);
+// 0x00000024 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+extern void PICO4TouchController_set_pointer_m7CE1FA5C2957EA1CC61B385933490C0A3DD37B19 (void);
+// 0x00000025 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_isTracked()
+extern void PICO4TouchController_get_isTracked_m05DB70500961B78F09777D7D3D91F2F692533B9A (void);
+// 0x00000026 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_isTracked(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICO4TouchController_set_isTracked_m6D54160EECA6C6DE80685618EBCB6D822D1B689D (void);
+// 0x00000027 UnityEngine.InputSystem.Controls.IntegerControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_trackingState()
+extern void PICO4TouchController_get_trackingState_mB36F42FA846FD8B8CEC2C376DC3B0C05F2A690EB (void);
+// 0x00000028 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_trackingState(UnityEngine.InputSystem.Controls.IntegerControl)
+extern void PICO4TouchController_set_trackingState_m701D14F9439534DC0DF362EF5CE2AF961319939A (void);
+// 0x00000029 UnityEngine.InputSystem.Controls.Vector3Control UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_devicePosition()
+extern void PICO4TouchController_get_devicePosition_mAB98662A61837DF66F7F8C52FEA7EE05B721E611 (void);
+// 0x0000002A System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_devicePosition(UnityEngine.InputSystem.Controls.Vector3Control)
+extern void PICO4TouchController_set_devicePosition_m208C769E7B516CFE6C7396CBDCDEFF70DE4CFD8C (void);
+// 0x0000002B UnityEngine.InputSystem.Controls.QuaternionControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_deviceRotation()
+extern void PICO4TouchController_get_deviceRotation_m2197540BEEA02C03C742053A8D60104E605A3B0E (void);
+// 0x0000002C System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_deviceRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
+extern void PICO4TouchController_set_deviceRotation_mDD447DDBB467AA1653CAB2297096CDC877165784 (void);
+// 0x0000002D UnityEngine.InputSystem.Controls.Vector3Control UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_pointerPosition()
+extern void PICO4TouchController_get_pointerPosition_m1B071729DED2EC5DE79D24C04E7DCE6576C38A21 (void);
+// 0x0000002E System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_pointerPosition(UnityEngine.InputSystem.Controls.Vector3Control)
+extern void PICO4TouchController_set_pointerPosition_mE1A49A6EAEBB4816A514A8E9AFA5CE126C7F78A1 (void);
+// 0x0000002F UnityEngine.InputSystem.Controls.QuaternionControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_pointerRotation()
+extern void PICO4TouchController_get_pointerRotation_m2E2F0AF5ED53A5408E25076BD043A41834BA5A32 (void);
+// 0x00000030 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_pointerRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
+extern void PICO4TouchController_set_pointerRotation_mE1C3B95FC7DBB451E94BEAEC30C81B342AB709D6 (void);
+// 0x00000031 UnityEngine.XR.OpenXR.Input.HapticControl UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::get_haptic()
+extern void PICO4TouchController_get_haptic_mDA28BD225122981DCA0FE38C1AC3B07EC94A2795 (void);
+// 0x00000032 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::set_haptic(UnityEngine.XR.OpenXR.Input.HapticControl)
+extern void PICO4TouchController_set_haptic_m49205EB93ED8E99B3081AC80E3D1263924E779DE (void);
+// 0x00000033 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::FinishSetup()
+extern void PICO4TouchController_FinishSetup_m9C91CA8F717A64B2EFCAE812A2BA200C2A85F4B0 (void);
+// 0x00000034 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICO4ControllerProfile/PICO4TouchController::.ctor()
+extern void PICO4TouchController__ctor_m6FCEA8AD50A5D189BC5A39C8F409486F9EEDFAE6 (void);
+// 0x00000035 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile::RegisterDeviceLayout()
+extern void PICOG3ControllerProfile_RegisterDeviceLayout_m8C8A56CC9C37EF0B2B614965F93433CC8C604062 (void);
+// 0x00000036 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile::UnregisterDeviceLayout()
+extern void PICOG3ControllerProfile_UnregisterDeviceLayout_m8E64F53259025531D87A171E7A46D01C77B8F021 (void);
+// 0x00000037 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile::RegisterActionMapsWithRuntime()
+extern void PICOG3ControllerProfile_RegisterActionMapsWithRuntime_mC9FFC92A05E4C54A33F230F37BD08A04F98F6D75 (void);
+// 0x00000038 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile::.ctor()
+extern void PICOG3ControllerProfile__ctor_mD87A2A091C8EC041BDFFCDD6A11C33952ED402DF (void);
+// 0x00000039 UnityEngine.InputSystem.Controls.Vector2Control UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_thumbstick()
+extern void PICOG3TouchController_get_thumbstick_mA1EED7C4ACDF77971BDA9066BE38A32771855BE7 (void);
+// 0x0000003A System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_thumbstick(UnityEngine.InputSystem.Controls.Vector2Control)
+extern void PICOG3TouchController_set_thumbstick_m9E7F52AEDA7134F9EAC05976421DCC3AD032AF90 (void);
+// 0x0000003B UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_menu()
+extern void PICOG3TouchController_get_menu_m682C65C99AA08D9D78A15A109B8B97031EFCF147 (void);
+// 0x0000003C System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_menu(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICOG3TouchController_set_menu_m207AA7C14527AF8F5673604084731BC6838FABB9 (void);
+// 0x0000003D UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_system()
+extern void PICOG3TouchController_get_system_m6D62E5DAF2D67B412EB473BD7FABB65C952C6B33 (void);
+// 0x0000003E System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_system(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICOG3TouchController_set_system_m53425A504A9A224DF37A65487F76509A09DF4373 (void);
+// 0x0000003F UnityEngine.InputSystem.Controls.AxisControl UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_trigger()
+extern void PICOG3TouchController_get_trigger_mD898DA0C77F8360838A905B6D0BC0A6317D1EE51 (void);
+// 0x00000040 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_trigger(UnityEngine.InputSystem.Controls.AxisControl)
+extern void PICOG3TouchController_set_trigger_mE1D616F0D519664EC8E0F2BE2A88D37FEA6F2BA9 (void);
+// 0x00000041 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_triggerPressed()
+extern void PICOG3TouchController_get_triggerPressed_m57DAAB5213002CA8F6ADEDE7E7B1FCFAC0F95EEB (void);
+// 0x00000042 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_triggerPressed(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICOG3TouchController_set_triggerPressed_mDEE8B90566DF74C5220B000D42A78DF2ECAF220A (void);
+// 0x00000043 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_thumbstickClicked()
+extern void PICOG3TouchController_get_thumbstickClicked_mEE1632CDB0F41319C7B54CF195F60F2060B45E8E (void);
+// 0x00000044 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_thumbstickClicked(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICOG3TouchController_set_thumbstickClicked_mBAD6993745C2BF8D0D307719989174457A8478D4 (void);
+// 0x00000045 UnityEngine.InputSystem.Controls.Vector2Control UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_trackpad()
+extern void PICOG3TouchController_get_trackpad_mAD089257113ADE89423BD100F81634439A94B118 (void);
+// 0x00000046 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_trackpad(UnityEngine.InputSystem.Controls.Vector2Control)
+extern void PICOG3TouchController_set_trackpad_m0157F15F9F8F276602F22CCE7567B2345FCD6D71 (void);
+// 0x00000047 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_trackpadClicked()
+extern void PICOG3TouchController_get_trackpadClicked_m2357917346B39D665C49FF1111C02D6B1CCA732A (void);
+// 0x00000048 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_trackpadClicked(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICOG3TouchController_set_trackpadClicked_m949066F42153F8AE86BB558B8A67AF810EECF3F2 (void);
+// 0x00000049 UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_devicePose()
+extern void PICOG3TouchController_get_devicePose_m80BCE1C8AC2C79C3E8A775F37AEE8A654A30DDA7 (void);
+// 0x0000004A System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+extern void PICOG3TouchController_set_devicePose_m541135FB78CD5465152D43C364784E7A395DB26E (void);
+// 0x0000004B UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_pointer()
+extern void PICOG3TouchController_get_pointer_m02B0954C6F0DD3C064587036AA90564356271E0C (void);
+// 0x0000004C System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+extern void PICOG3TouchController_set_pointer_mA0B072A22F60FB89B6EE51BFBCB76FBFBED527DF (void);
+// 0x0000004D UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_isTracked()
+extern void PICOG3TouchController_get_isTracked_mD03B9560B15FF1C73E4F5DD07C506402B674C34B (void);
+// 0x0000004E System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_isTracked(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICOG3TouchController_set_isTracked_m8F654909BFFAEFEF9D7E2D10DBC7AAD2A6962EF0 (void);
+// 0x0000004F UnityEngine.InputSystem.Controls.IntegerControl UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_trackingState()
+extern void PICOG3TouchController_get_trackingState_mC3742F24F1A293F68E1DA271D916732516722D1F (void);
+// 0x00000050 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_trackingState(UnityEngine.InputSystem.Controls.IntegerControl)
+extern void PICOG3TouchController_set_trackingState_m6F608572E0A741E282CC9480E5C56980A8F41EED (void);
+// 0x00000051 UnityEngine.InputSystem.Controls.Vector3Control UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_devicePosition()
+extern void PICOG3TouchController_get_devicePosition_m5064CE8711346057A74A5CA144488DF70C13628A (void);
+// 0x00000052 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_devicePosition(UnityEngine.InputSystem.Controls.Vector3Control)
+extern void PICOG3TouchController_set_devicePosition_m6BC5420119A9917DD3230BCCDACF6AD5C42A633F (void);
+// 0x00000053 UnityEngine.InputSystem.Controls.QuaternionControl UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_deviceRotation()
+extern void PICOG3TouchController_get_deviceRotation_mD97F11A85C4C1CB3E3E91A495C13B99903C6C12C (void);
+// 0x00000054 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_deviceRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
+extern void PICOG3TouchController_set_deviceRotation_m460D1B651086C9F172F632C4F5AC0BA7BB01FB0B (void);
+// 0x00000055 UnityEngine.InputSystem.Controls.Vector3Control UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_pointerPosition()
+extern void PICOG3TouchController_get_pointerPosition_m5ED09177B405FD9CAAC3DAF24D898154D32313E2 (void);
+// 0x00000056 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_pointerPosition(UnityEngine.InputSystem.Controls.Vector3Control)
+extern void PICOG3TouchController_set_pointerPosition_m470F1A1FB8B2EA4550732829CDE91C9FE3AE68CA (void);
+// 0x00000057 UnityEngine.InputSystem.Controls.QuaternionControl UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::get_pointerRotation()
+extern void PICOG3TouchController_get_pointerRotation_m125B46004AC42B0FA515B5E7BBE72CF5275EA039 (void);
+// 0x00000058 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::set_pointerRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
+extern void PICOG3TouchController_set_pointerRotation_m443BE9B4182EFCB4941063DC1FA2CF758A810327 (void);
+// 0x00000059 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::FinishSetup()
+extern void PICOG3TouchController_FinishSetup_mC72DE42080870CFC64A206A1C7678FD057406C96 (void);
+// 0x0000005A System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICOG3ControllerProfile/PICOG3TouchController::.ctor()
+extern void PICOG3TouchController__ctor_m78E2B7308551510056A59BC7A802A4CC7CB55875 (void);
+// 0x0000005B System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile::RegisterDeviceLayout()
+extern void PICONeo3ControllerProfile_RegisterDeviceLayout_mD4EC0C8687ED99C079FFFBC79017B8C984F34632 (void);
+// 0x0000005C System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile::UnregisterDeviceLayout()
+extern void PICONeo3ControllerProfile_UnregisterDeviceLayout_mB209C35D312D4C8FE9442E7E4DB04415341C9FD6 (void);
+// 0x0000005D System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile::RegisterActionMapsWithRuntime()
+extern void PICONeo3ControllerProfile_RegisterActionMapsWithRuntime_m35132FBB58796CD0727D4B01516EBE8AD6D73C71 (void);
+// 0x0000005E System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile::.ctor()
+extern void PICONeo3ControllerProfile__ctor_mC569F2117866D830E21297B8E875836D8C6D2EC1 (void);
+// 0x0000005F UnityEngine.InputSystem.Controls.Vector2Control UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_thumbstick()
+extern void PICONeo3Controller_get_thumbstick_mB146F9E135268488565EF7F05B065A397852B0DD (void);
+// 0x00000060 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_thumbstick(UnityEngine.InputSystem.Controls.Vector2Control)
+extern void PICONeo3Controller_set_thumbstick_m1D14A2991E4F1DB2CA5D0A4C4F4CCADAE7AEE539 (void);
+// 0x00000061 UnityEngine.InputSystem.Controls.AxisControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_grip()
+extern void PICONeo3Controller_get_grip_m67BAC19B12529A803068001DA9C25D40985D5741 (void);
+// 0x00000062 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_grip(UnityEngine.InputSystem.Controls.AxisControl)
+extern void PICONeo3Controller_set_grip_mE5881328EE4224BD2776446EB7AC6A3BE2CB9244 (void);
+// 0x00000063 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_gripPressed()
+extern void PICONeo3Controller_get_gripPressed_m1A76AD6EE830B192EAD5141108C597F717163373 (void);
+// 0x00000064 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_gripPressed(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICONeo3Controller_set_gripPressed_m21E1B5D5F8BCE703C6FBEFD4BD1C93DDEB40CDEB (void);
+// 0x00000065 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_menu()
+extern void PICONeo3Controller_get_menu_mA43B32629D98D4E89FCF605E97892F20043D2DA4 (void);
+// 0x00000066 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_menu(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICONeo3Controller_set_menu_m7A756AE4481DA2239DC42CCB05FF300B6EC3404A (void);
+// 0x00000067 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_system()
+extern void PICONeo3Controller_get_system_mE09955F783857B920986AC81A7A4E16797F91270 (void);
+// 0x00000068 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_system(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICONeo3Controller_set_system_m87D138CA9709EDB1F943713DEF9AC51651A54B33 (void);
+// 0x00000069 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_primaryButton()
+extern void PICONeo3Controller_get_primaryButton_mB7D02FA57D25251C1FBE65E1923EDB2E044F9768 (void);
+// 0x0000006A System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_primaryButton(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICONeo3Controller_set_primaryButton_mBBE4BF6E22E08A4FAB53BC184ABCBFF18037C4BB (void);
+// 0x0000006B UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_primaryTouched()
+extern void PICONeo3Controller_get_primaryTouched_m41B199676436F99F3EF55C15DAC7E39A54E32E66 (void);
+// 0x0000006C System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_primaryTouched(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICONeo3Controller_set_primaryTouched_mAE88A62A1579D53E4AD4CE9749C00333E0C68E76 (void);
+// 0x0000006D UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_secondaryButton()
+extern void PICONeo3Controller_get_secondaryButton_mCBE2C1CD2B0C88C143FE5AC93488917C84BA52A1 (void);
+// 0x0000006E System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_secondaryButton(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICONeo3Controller_set_secondaryButton_mB41714932A2F957F18634A892222123B6854A3B2 (void);
+// 0x0000006F UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_secondaryTouched()
+extern void PICONeo3Controller_get_secondaryTouched_m299F55E6776FAA1CD16067854BFACD18EE96EF8D (void);
+// 0x00000070 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_secondaryTouched(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICONeo3Controller_set_secondaryTouched_mC80B5C0D9EDFD29855A5D9F56800678D16179395 (void);
+// 0x00000071 UnityEngine.InputSystem.Controls.AxisControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_trigger()
+extern void PICONeo3Controller_get_trigger_m064DDBBCAAFE563C5AD26936B74C962F62005FFD (void);
+// 0x00000072 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_trigger(UnityEngine.InputSystem.Controls.AxisControl)
+extern void PICONeo3Controller_set_trigger_m95AEFE44B7D3F4849C613051B033DEE391AF3F09 (void);
+// 0x00000073 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_triggerPressed()
+extern void PICONeo3Controller_get_triggerPressed_m029E9C168A1BF08BCCCBDBF6B11CD50410007E69 (void);
+// 0x00000074 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_triggerPressed(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICONeo3Controller_set_triggerPressed_m147C9BCC6816D3CB05898084208990A73B1810DF (void);
+// 0x00000075 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_triggerTouched()
+extern void PICONeo3Controller_get_triggerTouched_m0490A7F5456841D98DD6777779C720CE356BFDF0 (void);
+// 0x00000076 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_triggerTouched(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICONeo3Controller_set_triggerTouched_m15EF3A536F775D078EC2E24308E76F7177C70A8A (void);
+// 0x00000077 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_thumbstickClicked()
+extern void PICONeo3Controller_get_thumbstickClicked_mC10F8D4D14C98659511567EB18997175452DFD74 (void);
+// 0x00000078 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_thumbstickClicked(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICONeo3Controller_set_thumbstickClicked_m1A101C197124B84369B0421D17DBF98C23C35CC6 (void);
+// 0x00000079 UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_thumbstickTouched()
+extern void PICONeo3Controller_get_thumbstickTouched_m7CE38CD4ED269078574FCC994AC3190AF8B72A3A (void);
+// 0x0000007A System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_thumbstickTouched(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICONeo3Controller_set_thumbstickTouched_mCC0E63D25BF419F89BDE00DFC3B2B8DCA1C8DE9A (void);
+// 0x0000007B UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_devicePose()
+extern void PICONeo3Controller_get_devicePose_m4190C45C010073EB462733FE00D260E2A9D3FE5D (void);
+// 0x0000007C System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_devicePose(UnityEngine.InputSystem.XR.PoseControl)
+extern void PICONeo3Controller_set_devicePose_m4301F8DDD2902F15847C724ACCBA2953EC43658E (void);
+// 0x0000007D UnityEngine.InputSystem.XR.PoseControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_pointer()
+extern void PICONeo3Controller_get_pointer_m745D935945B11326F6327CE9511BF74FAA71AB0A (void);
+// 0x0000007E System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_pointer(UnityEngine.InputSystem.XR.PoseControl)
+extern void PICONeo3Controller_set_pointer_m93F8C20AA85C980AD699CF610443D0068DC9477B (void);
+// 0x0000007F UnityEngine.InputSystem.Controls.ButtonControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_isTracked()
+extern void PICONeo3Controller_get_isTracked_m569937A63D2A538E0BA43DF5B20E2B946A9C0466 (void);
+// 0x00000080 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_isTracked(UnityEngine.InputSystem.Controls.ButtonControl)
+extern void PICONeo3Controller_set_isTracked_mF84F0BE4DAF8D36DF87DB172212DB3AEEC4ED5C0 (void);
+// 0x00000081 UnityEngine.InputSystem.Controls.IntegerControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_trackingState()
+extern void PICONeo3Controller_get_trackingState_m5049E3981D3A141E5A425C54198BF78A8B37D7C6 (void);
+// 0x00000082 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_trackingState(UnityEngine.InputSystem.Controls.IntegerControl)
+extern void PICONeo3Controller_set_trackingState_m35FBDB5A26F769861060E5CBB823737023A200A2 (void);
+// 0x00000083 UnityEngine.InputSystem.Controls.Vector3Control UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_devicePosition()
+extern void PICONeo3Controller_get_devicePosition_m65A468900106F1B5DB7D0869981E0E5E08CD8B3C (void);
+// 0x00000084 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_devicePosition(UnityEngine.InputSystem.Controls.Vector3Control)
+extern void PICONeo3Controller_set_devicePosition_mE1CA7693B90812B491C7CF08C3BD2D9E70994D9E (void);
+// 0x00000085 UnityEngine.InputSystem.Controls.QuaternionControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_deviceRotation()
+extern void PICONeo3Controller_get_deviceRotation_m392441F95A902C606CAAE5A8C07BA7A05C1AF2D2 (void);
+// 0x00000086 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_deviceRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
+extern void PICONeo3Controller_set_deviceRotation_mC74D575AD8FB033E5128995D8D9E9347ABFA5B09 (void);
+// 0x00000087 UnityEngine.InputSystem.Controls.Vector3Control UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_pointerPosition()
+extern void PICONeo3Controller_get_pointerPosition_m59417E9FCBC4DC5CBDC133C77125283D255DD877 (void);
+// 0x00000088 System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_pointerPosition(UnityEngine.InputSystem.Controls.Vector3Control)
+extern void PICONeo3Controller_set_pointerPosition_m78E737676E773BFBEF2DC576F350D2F40D1DF1BC (void);
+// 0x00000089 UnityEngine.InputSystem.Controls.QuaternionControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_pointerRotation()
+extern void PICONeo3Controller_get_pointerRotation_m5E2D02956F21AA48A54E4AEF1A650C4A60488303 (void);
+// 0x0000008A System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_pointerRotation(UnityEngine.InputSystem.Controls.QuaternionControl)
+extern void PICONeo3Controller_set_pointerRotation_m0B4510F05DE1875F33780C2346729C03F8552774 (void);
+// 0x0000008B UnityEngine.XR.OpenXR.Input.HapticControl UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::get_haptic()
+extern void PICONeo3Controller_get_haptic_m06433D4C1A63A9F5C14D2BB432B7CF82B0D59CE2 (void);
+// 0x0000008C System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::set_haptic(UnityEngine.XR.OpenXR.Input.HapticControl)
+extern void PICONeo3Controller_set_haptic_mFA59C70D0B8A306A15C65E1B945F543A5A0914E3 (void);
+// 0x0000008D System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::FinishSetup()
+extern void PICONeo3Controller_FinishSetup_m84E7F7FF13934DE12D6FA4616E9244A5149F5147 (void);
+// 0x0000008E System.Void UnityEngine.XR.OpenXR.Features.Interactions.PICONeo3ControllerProfile/PICONeo3Controller::.ctor()
+extern void PICONeo3Controller__ctor_m1EC8D1920C983DBE8AF5FF62B96791D7E63821FB (void);
+static Il2CppMethodPointer s_methodPointers[142] = 
+{
+	PICO4ControllerProfile_RegisterDeviceLayout_mB49FDE9D4AEA394EBA0B86450D7181A00DD9B55F,
+	PICO4ControllerProfile_UnregisterDeviceLayout_m7197292DE47D6B6549B3F33B1A2D8D45587156B4,
+	PICO4ControllerProfile_RegisterActionMapsWithRuntime_m967D500C259E799A5B52FA871A89AF2956D00941,
+	PICO4ControllerProfile__ctor_m7C6ECB403945D1F563AA0AFCCDF831D858C8B43E,
+	PICO4TouchController_get_thumbstick_m120C3773C2B6A4B409B32C9F07FC4094B4A34FBD,
+	PICO4TouchController_set_thumbstick_mA652E0B64997971EE64A5152AE334B9939E4EB86,
+	PICO4TouchController_get_grip_m762D59DCC5D2539B502AC364251053EF029CA3CE,
+	PICO4TouchController_set_grip_mC5E3961482EE45FE8C890A62B24970EF7CEAAE09,
+	PICO4TouchController_get_gripPressed_m1F78A9AF16C4F82495C75BE18E55B3B2A0AD4C3D,
+	PICO4TouchController_set_gripPressed_mCBE6CBE219E20422C99F98512BBE2CAD1BABB847,
+	PICO4TouchController_get_menu_m66FBF9DC7136EEC73495F7E02354996DCF55A24B,
+	PICO4TouchController_set_menu_mEC9ABC3546BA791F0B67EA3E1C227FA08605D834,
+	PICO4TouchController_get_system_mE698D299D4E54E3D9C3D158CBE506AC1F065423F,
+	PICO4TouchController_set_system_m151376B85E67E6617E47433354D94F4ABD97014F,
+	PICO4TouchController_get_primaryButton_m1D0A2FAA2A2F9627EC9E3CF509F3AD886620C89B,
+	PICO4TouchController_set_primaryButton_mA2E7AC78EA3190CB651099D627EA1C29AA3D77CB,
+	PICO4TouchController_get_primaryTouched_m67843B8D574AD2EDECF9C1226441A2E936B398B9,
+	PICO4TouchController_set_primaryTouched_m99DDA4A65D43042E805AB17E55751187A55C81CA,
+	PICO4TouchController_get_secondaryButton_m68653295F105F2F2D9E9C3E3CF94CC8154A0C6C6,
+	PICO4TouchController_set_secondaryButton_m00749EA0DBE3E42E6E69D1B1AC6EB884C8164158,
+	PICO4TouchController_get_secondaryTouched_mFFA8176C30CBA40B4F4F0A749749A3FCC1F7D598,
+	PICO4TouchController_set_secondaryTouched_m28B704B13BB409F17A4195EACC0C94D28B7C7DB4,
+	PICO4TouchController_get_trigger_m4C605CC408BE638DD3F36596ECB92B5B0D4491E3,
+	PICO4TouchController_set_trigger_mFEF96B465E5CD243EFC31DBE98220403678B3DBE,
+	PICO4TouchController_get_triggerPressed_m50DA86DE0A3CA52629ED767BC93018B9D0808A6A,
+	PICO4TouchController_set_triggerPressed_m3DE061E7B545A2C37F9EAD0BD8EFFDE87D8E4485,
+	PICO4TouchController_get_triggerTouched_m8C9692692604F8A82CD4D0696316F51393EC9DAD,
+	PICO4TouchController_set_triggerTouched_mEC92C55E23C4B76766AA376EAF49DCFE26BF0B3F,
+	PICO4TouchController_get_thumbstickClicked_mA09B5DB164BF54133DACF77F828FFC00A3FB5613,
+	PICO4TouchController_set_thumbstickClicked_m4403E56A4A2546CC046F990F79375918715F3BA6,
+	PICO4TouchController_get_thumbstickTouched_m6577AA54A927CFD31CB13B43ACE99DCF86B37F1E,
+	PICO4TouchController_set_thumbstickTouched_mB7DED6A31B10CD5E6568CD53919451328AC31D60,
+	PICO4TouchController_get_devicePose_m984A417561B1C3D0478510A80AB148F5CE45BDB5,
+	PICO4TouchController_set_devicePose_mEA8E69FDDC53827EDEFD7C0C0ABA385C6BDBE5ED,
+	PICO4TouchController_get_pointer_m028B3254C091FDBB513E72B766F731C74B62360C,
+	PICO4TouchController_set_pointer_m7CE1FA5C2957EA1CC61B385933490C0A3DD37B19,
+	PICO4TouchController_get_isTracked_m05DB70500961B78F09777D7D3D91F2F692533B9A,
+	PICO4TouchController_set_isTracked_m6D54160EECA6C6DE80685618EBCB6D822D1B689D,
+	PICO4TouchController_get_trackingState_mB36F42FA846FD8B8CEC2C376DC3B0C05F2A690EB,
+	PICO4TouchController_set_trackingState_m701D14F9439534DC0DF362EF5CE2AF961319939A,
+	PICO4TouchController_get_devicePosition_mAB98662A61837DF66F7F8C52FEA7EE05B721E611,
+	PICO4TouchController_set_devicePosition_m208C769E7B516CFE6C7396CBDCDEFF70DE4CFD8C,
+	PICO4TouchController_get_deviceRotation_m2197540BEEA02C03C742053A8D60104E605A3B0E,
+	PICO4TouchController_set_deviceRotation_mDD447DDBB467AA1653CAB2297096CDC877165784,
+	PICO4TouchController_get_pointerPosition_m1B071729DED2EC5DE79D24C04E7DCE6576C38A21,
+	PICO4TouchController_set_pointerPosition_mE1A49A6EAEBB4816A514A8E9AFA5CE126C7F78A1,
+	PICO4TouchController_get_pointerRotation_m2E2F0AF5ED53A5408E25076BD043A41834BA5A32,
+	PICO4TouchController_set_pointerRotation_mE1C3B95FC7DBB451E94BEAEC30C81B342AB709D6,
+	PICO4TouchController_get_haptic_mDA28BD225122981DCA0FE38C1AC3B07EC94A2795,
+	PICO4TouchController_set_haptic_m49205EB93ED8E99B3081AC80E3D1263924E779DE,
+	PICO4TouchController_FinishSetup_m9C91CA8F717A64B2EFCAE812A2BA200C2A85F4B0,
+	PICO4TouchController__ctor_m6FCEA8AD50A5D189BC5A39C8F409486F9EEDFAE6,
+	PICOG3ControllerProfile_RegisterDeviceLayout_m8C8A56CC9C37EF0B2B614965F93433CC8C604062,
+	PICOG3ControllerProfile_UnregisterDeviceLayout_m8E64F53259025531D87A171E7A46D01C77B8F021,
+	PICOG3ControllerProfile_RegisterActionMapsWithRuntime_mC9FFC92A05E4C54A33F230F37BD08A04F98F6D75,
+	PICOG3ControllerProfile__ctor_mD87A2A091C8EC041BDFFCDD6A11C33952ED402DF,
+	PICOG3TouchController_get_thumbstick_mA1EED7C4ACDF77971BDA9066BE38A32771855BE7,
+	PICOG3TouchController_set_thumbstick_m9E7F52AEDA7134F9EAC05976421DCC3AD032AF90,
+	PICOG3TouchController_get_menu_m682C65C99AA08D9D78A15A109B8B97031EFCF147,
+	PICOG3TouchController_set_menu_m207AA7C14527AF8F5673604084731BC6838FABB9,
+	PICOG3TouchController_get_system_m6D62E5DAF2D67B412EB473BD7FABB65C952C6B33,
+	PICOG3TouchController_set_system_m53425A504A9A224DF37A65487F76509A09DF4373,
+	PICOG3TouchController_get_trigger_mD898DA0C77F8360838A905B6D0BC0A6317D1EE51,
+	PICOG3TouchController_set_trigger_mE1D616F0D519664EC8E0F2BE2A88D37FEA6F2BA9,
+	PICOG3TouchController_get_triggerPressed_m57DAAB5213002CA8F6ADEDE7E7B1FCFAC0F95EEB,
+	PICOG3TouchController_set_triggerPressed_mDEE8B90566DF74C5220B000D42A78DF2ECAF220A,
+	PICOG3TouchController_get_thumbstickClicked_mEE1632CDB0F41319C7B54CF195F60F2060B45E8E,
+	PICOG3TouchController_set_thumbstickClicked_mBAD6993745C2BF8D0D307719989174457A8478D4,
+	PICOG3TouchController_get_trackpad_mAD089257113ADE89423BD100F81634439A94B118,
+	PICOG3TouchController_set_trackpad_m0157F15F9F8F276602F22CCE7567B2345FCD6D71,
+	PICOG3TouchController_get_trackpadClicked_m2357917346B39D665C49FF1111C02D6B1CCA732A,
+	PICOG3TouchController_set_trackpadClicked_m949066F42153F8AE86BB558B8A67AF810EECF3F2,
+	PICOG3TouchController_get_devicePose_m80BCE1C8AC2C79C3E8A775F37AEE8A654A30DDA7,
+	PICOG3TouchController_set_devicePose_m541135FB78CD5465152D43C364784E7A395DB26E,
+	PICOG3TouchController_get_pointer_m02B0954C6F0DD3C064587036AA90564356271E0C,
+	PICOG3TouchController_set_pointer_mA0B072A22F60FB89B6EE51BFBCB76FBFBED527DF,
+	PICOG3TouchController_get_isTracked_mD03B9560B15FF1C73E4F5DD07C506402B674C34B,
+	PICOG3TouchController_set_isTracked_m8F654909BFFAEFEF9D7E2D10DBC7AAD2A6962EF0,
+	PICOG3TouchController_get_trackingState_mC3742F24F1A293F68E1DA271D916732516722D1F,
+	PICOG3TouchController_set_trackingState_m6F608572E0A741E282CC9480E5C56980A8F41EED,
+	PICOG3TouchController_get_devicePosition_m5064CE8711346057A74A5CA144488DF70C13628A,
+	PICOG3TouchController_set_devicePosition_m6BC5420119A9917DD3230BCCDACF6AD5C42A633F,
+	PICOG3TouchController_get_deviceRotation_mD97F11A85C4C1CB3E3E91A495C13B99903C6C12C,
+	PICOG3TouchController_set_deviceRotation_m460D1B651086C9F172F632C4F5AC0BA7BB01FB0B,
+	PICOG3TouchController_get_pointerPosition_m5ED09177B405FD9CAAC3DAF24D898154D32313E2,
+	PICOG3TouchController_set_pointerPosition_m470F1A1FB8B2EA4550732829CDE91C9FE3AE68CA,
+	PICOG3TouchController_get_pointerRotation_m125B46004AC42B0FA515B5E7BBE72CF5275EA039,
+	PICOG3TouchController_set_pointerRotation_m443BE9B4182EFCB4941063DC1FA2CF758A810327,
+	PICOG3TouchController_FinishSetup_mC72DE42080870CFC64A206A1C7678FD057406C96,
+	PICOG3TouchController__ctor_m78E2B7308551510056A59BC7A802A4CC7CB55875,
+	PICONeo3ControllerProfile_RegisterDeviceLayout_mD4EC0C8687ED99C079FFFBC79017B8C984F34632,
+	PICONeo3ControllerProfile_UnregisterDeviceLayout_mB209C35D312D4C8FE9442E7E4DB04415341C9FD6,
+	PICONeo3ControllerProfile_RegisterActionMapsWithRuntime_m35132FBB58796CD0727D4B01516EBE8AD6D73C71,
+	PICONeo3ControllerProfile__ctor_mC569F2117866D830E21297B8E875836D8C6D2EC1,
+	PICONeo3Controller_get_thumbstick_mB146F9E135268488565EF7F05B065A397852B0DD,
+	PICONeo3Controller_set_thumbstick_m1D14A2991E4F1DB2CA5D0A4C4F4CCADAE7AEE539,
+	PICONeo3Controller_get_grip_m67BAC19B12529A803068001DA9C25D40985D5741,
+	PICONeo3Controller_set_grip_mE5881328EE4224BD2776446EB7AC6A3BE2CB9244,
+	PICONeo3Controller_get_gripPressed_m1A76AD6EE830B192EAD5141108C597F717163373,
+	PICONeo3Controller_set_gripPressed_m21E1B5D5F8BCE703C6FBEFD4BD1C93DDEB40CDEB,
+	PICONeo3Controller_get_menu_mA43B32629D98D4E89FCF605E97892F20043D2DA4,
+	PICONeo3Controller_set_menu_m7A756AE4481DA2239DC42CCB05FF300B6EC3404A,
+	PICONeo3Controller_get_system_mE09955F783857B920986AC81A7A4E16797F91270,
+	PICONeo3Controller_set_system_m87D138CA9709EDB1F943713DEF9AC51651A54B33,
+	PICONeo3Controller_get_primaryButton_mB7D02FA57D25251C1FBE65E1923EDB2E044F9768,
+	PICONeo3Controller_set_primaryButton_mBBE4BF6E22E08A4FAB53BC184ABCBFF18037C4BB,
+	PICONeo3Controller_get_primaryTouched_m41B199676436F99F3EF55C15DAC7E39A54E32E66,
+	PICONeo3Controller_set_primaryTouched_mAE88A62A1579D53E4AD4CE9749C00333E0C68E76,
+	PICONeo3Controller_get_secondaryButton_mCBE2C1CD2B0C88C143FE5AC93488917C84BA52A1,
+	PICONeo3Controller_set_secondaryButton_mB41714932A2F957F18634A892222123B6854A3B2,
+	PICONeo3Controller_get_secondaryTouched_m299F55E6776FAA1CD16067854BFACD18EE96EF8D,
+	PICONeo3Controller_set_secondaryTouched_mC80B5C0D9EDFD29855A5D9F56800678D16179395,
+	PICONeo3Controller_get_trigger_m064DDBBCAAFE563C5AD26936B74C962F62005FFD,
+	PICONeo3Controller_set_trigger_m95AEFE44B7D3F4849C613051B033DEE391AF3F09,
+	PICONeo3Controller_get_triggerPressed_m029E9C168A1BF08BCCCBDBF6B11CD50410007E69,
+	PICONeo3Controller_set_triggerPressed_m147C9BCC6816D3CB05898084208990A73B1810DF,
+	PICONeo3Controller_get_triggerTouched_m0490A7F5456841D98DD6777779C720CE356BFDF0,
+	PICONeo3Controller_set_triggerTouched_m15EF3A536F775D078EC2E24308E76F7177C70A8A,
+	PICONeo3Controller_get_thumbstickClicked_mC10F8D4D14C98659511567EB18997175452DFD74,
+	PICONeo3Controller_set_thumbstickClicked_m1A101C197124B84369B0421D17DBF98C23C35CC6,
+	PICONeo3Controller_get_thumbstickTouched_m7CE38CD4ED269078574FCC994AC3190AF8B72A3A,
+	PICONeo3Controller_set_thumbstickTouched_mCC0E63D25BF419F89BDE00DFC3B2B8DCA1C8DE9A,
+	PICONeo3Controller_get_devicePose_m4190C45C010073EB462733FE00D260E2A9D3FE5D,
+	PICONeo3Controller_set_devicePose_m4301F8DDD2902F15847C724ACCBA2953EC43658E,
+	PICONeo3Controller_get_pointer_m745D935945B11326F6327CE9511BF74FAA71AB0A,
+	PICONeo3Controller_set_pointer_m93F8C20AA85C980AD699CF610443D0068DC9477B,
+	PICONeo3Controller_get_isTracked_m569937A63D2A538E0BA43DF5B20E2B946A9C0466,
+	PICONeo3Controller_set_isTracked_mF84F0BE4DAF8D36DF87DB172212DB3AEEC4ED5C0,
+	PICONeo3Controller_get_trackingState_m5049E3981D3A141E5A425C54198BF78A8B37D7C6,
+	PICONeo3Controller_set_trackingState_m35FBDB5A26F769861060E5CBB823737023A200A2,
+	PICONeo3Controller_get_devicePosition_m65A468900106F1B5DB7D0869981E0E5E08CD8B3C,
+	PICONeo3Controller_set_devicePosition_mE1CA7693B90812B491C7CF08C3BD2D9E70994D9E,
+	PICONeo3Controller_get_deviceRotation_m392441F95A902C606CAAE5A8C07BA7A05C1AF2D2,
+	PICONeo3Controller_set_deviceRotation_mC74D575AD8FB033E5128995D8D9E9347ABFA5B09,
+	PICONeo3Controller_get_pointerPosition_m59417E9FCBC4DC5CBDC133C77125283D255DD877,
+	PICONeo3Controller_set_pointerPosition_m78E737676E773BFBEF2DC576F350D2F40D1DF1BC,
+	PICONeo3Controller_get_pointerRotation_m5E2D02956F21AA48A54E4AEF1A650C4A60488303,
+	PICONeo3Controller_set_pointerRotation_m0B4510F05DE1875F33780C2346729C03F8552774,
+	PICONeo3Controller_get_haptic_m06433D4C1A63A9F5C14D2BB432B7CF82B0D59CE2,
+	PICONeo3Controller_set_haptic_mFA59C70D0B8A306A15C65E1B945F543A5A0914E3,
+	PICONeo3Controller_FinishSetup_m84E7F7FF13934DE12D6FA4616E9244A5149F5147,
+	PICONeo3Controller__ctor_m1EC8D1920C983DBE8AF5FF62B96791D7E63821FB,
+};
+static const int32_t s_InvokerIndices[142] = 
+{
+	6738,
+	6738,
+	6738,
+	6738,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6738,
+	6738,
+	6738,
+	6738,
+	6738,
+	6738,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6738,
+	6738,
+	6738,
+	6738,
+	6738,
+	6738,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6606,
+	5349,
+	6738,
+	6738,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_XR_OpenXRPico_CodeGenModule;
+const Il2CppCodeGenModule g_Unity_XR_OpenXRPico_CodeGenModule = 
+{
+	"Unity.XR.OpenXRPico.dll",
+	142,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

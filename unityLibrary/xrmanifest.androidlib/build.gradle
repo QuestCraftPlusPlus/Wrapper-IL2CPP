@@ -1,0 +1,41 @@
+apply plugin: 'android-library'
+
+dependencies {
+    implementation fileTree(dir: 'bin', include: ['*.jar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+android {
+    signingConfigs {
+        debug {
+            keyAlias 'qcxr'
+            keyPassword '***REMOVED***'
+            storeFile file('C:\\Users\\CADIndie\\Downloads\\qcxr.keystore')
+            storePassword '***REMOVED***'
+        }
+    }
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            //java.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    compileSdkVersion 32
+    buildToolsVersion '30.0.3'
+    defaultConfig {
+        targetSdkVersion 22
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    ndkVersion '26.1.10909125'
+}

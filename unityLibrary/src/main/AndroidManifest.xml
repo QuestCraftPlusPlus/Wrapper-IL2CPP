@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.unity3d.player">
+  <uses-permission android:name="android.permission.RECORD_AUDIO" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <queries>
+    <provider android:authorities="org.khronos.openxr.runtime_broker;org.khronos.openxr.system_runtime_broker" />
+    <intent>
+      <action android:name="org.khronos.openxr.OpenXRRuntimeService" />
+    </intent>
+    <intent>
+      <action android:name="org.khronos.openxr.OpenXRApiLayerService" />
+    </intent>
+  </queries>
+  <application android:allowBackup="false" android:allowNativeHeapPointerTagging="false" android:exported="true" android:extractNativeLibs="true">
+    <activity android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:screenOrientation="landscape" android:configChanges="locale|fontScale|keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode" android:launchMode="singleTask" android:name="pojlib.UnityPlayerActivity" android:excludeFromRecents="true" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+        <category android:name="com.oculus.intent.category.VR" />
+      </intent-filter>
+      <meta-data android:name="android.notch_support" android:value="true" />
+    </activity>
+    <meta-data android:name=" pvr.app.type " android:value="vr" />
+    <meta-data android:name=" pvr.display.orientation " android:value="180" />
+    <meta-data android:name="unity.splash-mode" android:value="0" />
+    <meta-data android:name="unity.splash-enable" android:value="True" />
+    <meta-data android:name="unity.launch-fullscreen" android:value="True" />
+    <meta-data android:name="notch.config" android:value="portrait|landscape" />
+    <meta-data android:name="unity.auto-report-fully-drawn" android:value="true" />
+    <meta-data android:name="pvr.app.id" android:value="67e3d48227ffdfcd964790d528c93811" />
+    <meta-data android:name="use_record_highlight_feature" android:value="True" />
+  </application>
+  <uses-feature android:name="android.hardware.vr.headtracking" android:version="1" android:required="true" />
+  <uses-feature android:name="android.hardware.vulkan.version" />
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+  <uses-feature android:name="android.hardware.microphone" android:required="false" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+  <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
+  <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
+</manifest>
