@@ -10,5 +10,20 @@ pluginManagement {
     }
 }
 
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url = uri("https://repo.u-team.info")
+        }
+        flatDir {
+            dirs("../build/outputs/aar")
+            dirs("unityLibrary/libs")
+        }
+    }
+}
+
 include ':launcher', ':unityLibrary'
 include 'unityLibrary:xrmanifest.androidlib'

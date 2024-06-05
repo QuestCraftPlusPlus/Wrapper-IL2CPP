@@ -7,7 +7,7 @@ dependencies {
 	implementation("commons-io:commons-io:2.11.0")
 	implementation("commons-codec:commons-codec:1.15")
 	implementation("com.microsoft.azure:msal4j:1.13.9")
-    implementation(name: 'Pojlib-release', ext:'aar')
+    //implementation(name: 'Pojlib-release', ext:'aar')
     implementation(name: 'BAuthLib-1.0.0', ext:'aar')
     implementation(name: 'tob_api-release', ext:'aar')
     implementation(name: 'tobservicelib-release', ext:'aar')
