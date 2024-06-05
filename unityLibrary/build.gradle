@@ -95,14 +95,6 @@ def BuildIl2Cpp(String workingDir, String configuration, String architecture, St
 }
 
 android {
-    signingConfigs {
-        debug {
-            keyAlias 'qcxr'
-            keyPassword '***REMOVED***'
-            storeFile file('C:\\Users\\fourr\\.android\\qcxr.keystore')
-            storePassword '***REMOVED***'
-        }
-    }
     tasks.register('BuildIl2CppTask') {
         doLast {
             BuildIl2Cpp(project(':wrapper:unityLibrary').projectDir.toString().replaceAll('\\\\', '/'), 'Release', 'arm64', 'arm64-v8a', [] as String[]);
