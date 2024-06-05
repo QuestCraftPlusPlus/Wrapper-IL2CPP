@@ -19,7 +19,7 @@ dependencyResolutionManagement {
             url = uri("https://repo.u-team.info")
         }
         flatDir {
-            dirs("../build/outputs/aar")
+            dirs("../../build/outputs/aar")
             dirs("unityLibrary/libs")
         }
     }

@@ -6,7 +6,9 @@ dependencies {
 	implementation("commons-io:commons-io:2.11.0")
 	implementation("commons-codec:commons-codec:1.15")
 	implementation("com.microsoft.azure:msal4j:1.13.9")
-    implementation(name: 'Pojlib-release', ext:'aar')
+    implementation(project(':')) {
+        transitive = false
+    }
     implementation(name: 'BAuthLib-1.0.0', ext:'aar')
     implementation(name: 'tob_api-release', ext:'aar')
     implementation(name: 'tobservicelib-release', ext:'aar')
@@ -14,6 +16,7 @@ dependencies {
 }
 
 android {
+    ndkVersion = "21.3.6528147"
     compileSdkVersion 32
     buildToolsVersion '30.0.3'
 
@@ -96,13 +99,13 @@ android {
         debug {
             keyAlias 'qcxr'
             keyPassword '***REMOVED***'
-            storeFile file('C:\\Users\\CADIndie\\Downloads\\qcxr.keystore')
+            storeFile file('C:\\Users\\fourr\\.android\\qcxr.keystore')
             storePassword '***REMOVED***'
         }
     }
-    task BuildIl2CppTask {
+    tasks.register('BuildIl2CppTask') {
         doLast {
-              BuildIl2Cpp(projectDir.toString().replaceAll('\\\\', '/'), 'Release', 'arm64', 'arm64-v8a', [  ] as String[]);
+            BuildIl2Cpp(project(':wrapper:unityLibrary').projectDir.toString().replaceAll('\\\\', '/'), 'Release', 'arm64', 'arm64-v8a', [] as String[]);
         }
     }
     afterEvaluate {

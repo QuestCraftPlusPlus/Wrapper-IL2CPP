@@ -37,11 +37,11 @@ android {
         debug {
             keyAlias 'qcxr'
             keyPassword '***REMOVED***'
-            storeFile file('C:\\Users\\CADIndie\\Downloads\\qcxr.keystore')
+            storeFile file('C:\\Users\\fourr\\.android\\qcxr.keystore')
             storePassword '***REMOVED***'
         }
         release {
-            storeFile file('C:/Users/CADIndie/Downloads/qcxr.keystore')
+            storeFile file('C:/Users/fourr/.android/qcxr.keystore')
             keyAlias 'qcxr'
             keyPassword '***REMOVED***'
             storePassword '***REMOVED***'
@@ -81,4 +81,8 @@ android {
             enableSplit = true
         }
     }
+}
+
+build {
+    dependsOn(':build')
 }
