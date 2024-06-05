@@ -10,6 +10,14 @@ android {
             useLegacyPackaging = true
         }
     }
+    signingConfigs {
+        debug {
+            storeFile file('C:\\Users\\fourr\\.android\\qcxr.keystore')
+            storePassword '***REMOVED***'
+            keyAlias 'qcxr'
+            keyPassword '***REMOVED***'
+        }
+    }
     buildToolsVersion '30.0.3'
 
     compileOptions {
