@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 dependencies {
-    implementation project(':unityLibrary')
-    }
+    implementation project(':wrapper:unityLibrary')
+}
 
 android {
     compileSdkVersion 32

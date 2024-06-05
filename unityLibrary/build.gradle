@@ -1,6 +1,5 @@
 apply plugin: 'com.android.library'
 
-
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 	implementation("com.google.guava:guava:31.0.1-jre")
@@ -11,8 +10,7 @@ dependencies {
     implementation(name: 'BAuthLib-1.0.0', ext:'aar')
     implementation(name: 'tob_api-release', ext:'aar')
     implementation(name: 'tobservicelib-release', ext:'aar')
-    implementation project('xrmanifest.androidlib')
-
+    implementation project(':wrapper:unityLibrary:xrmanifest.androidlib')
 }
 
 android {
@@ -108,10 +106,10 @@ android {
         }
     }
     afterEvaluate {
-        if (project(':unityLibrary').tasks.findByName('mergeDebugJniLibFolders'))
-            project(':unityLibrary').mergeDebugJniLibFolders.dependsOn BuildIl2CppTask
-        if (project(':unityLibrary').tasks.findByName('mergeReleaseJniLibFolders'))
-            project(':unityLibrary').mergeReleaseJniLibFolders.dependsOn BuildIl2CppTask
+        if (project(':wrapper:unityLibrary').tasks.findByName('mergeDebugJniLibFolders'))
+            project(':wrapper:unityLibrary').mergeDebugJniLibFolders.dependsOn BuildIl2CppTask
+        if (project(':wrapper:unityLibrary').tasks.findByName('mergeReleaseJniLibFolders'))
+            project(':wrapper:unityLibrary').mergeReleaseJniLibFolders.dependsOn BuildIl2CppTask
     }
     sourceSets {
         main {
