@@ -934,6 +934,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral25C67F39B02759BF42A4698F57E74B1CCD73D892
 IL2CPP_EXTERN_C String_t* _stringLiteral27C8C03EA57792D71BBC662282EB9A5A512C77D7;
 IL2CPP_EXTERN_C String_t* _stringLiteral2B21B51CDF2412D5491D2A3003260877695726B4;
 IL2CPP_EXTERN_C String_t* _stringLiteral2C1AD22FFDDAB4EE6BC4B21630438CE53426037D;
+IL2CPP_EXTERN_C String_t* _stringLiteral2C462EE6308F1ABA7FC9A262BC85E8F5BDB5D596;
 IL2CPP_EXTERN_C String_t* _stringLiteral30FEB957D5F897DD1EC2B3C65534D211BD04816B;
 IL2CPP_EXTERN_C String_t* _stringLiteral3646441F13E8E3EA50730E8838C681F112813318;
 IL2CPP_EXTERN_C String_t* _stringLiteral36C969C803667AF4FA4F461DF9DD1918FB6AC09C;
@@ -969,7 +970,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral758733BDBED83CBFF4F635AC26CA92AAE477F75D
 IL2CPP_EXTERN_C String_t* _stringLiteral77867FD3B000963C76D94BEC8CB521F2EB905C34;
 IL2CPP_EXTERN_C String_t* _stringLiteral78C6F8A19543069E5C2176B2A411732552490CCB;
 IL2CPP_EXTERN_C String_t* _stringLiteral7CE080003C8F318DBB4B8BD05D9B29AA0AC4EB1E;
-IL2CPP_EXTERN_C String_t* _stringLiteral80AE21D6F6EA69075D8B12BF7910E748000B6451;
 IL2CPP_EXTERN_C String_t* _stringLiteral80DB59D2E44435E5B490207EB0287FB17ABB71B4;
 IL2CPP_EXTERN_C String_t* _stringLiteral8867DE87D58476E6310B70DCF3AA995174F3298A;
 IL2CPP_EXTERN_C String_t* _stringLiteral8A6CC828077377A6397A874E7EE29B4CD92A4B3E;
@@ -8929,8 +8929,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRGeneralSettings_t8F8D096944606B5AD845D01070
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* XRGeneralSettings_get_Manager_m112FEB4E6DFB7B5F5C4A2DEC4E975CF2EBD51B42 (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) ;
 // UnityEngine.XR.Management.XRLoader UnityEngine.XR.Management.XRManagerSettings::get_activeLoader()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Application::Quit()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
+// System.Void UnityEngine.Application::Unload()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Unload_mAC3EDA0BE38D1A2D7C34A20F0547DC63D356900C (const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::CallStatic(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.String TMPro.TMP_InputField::get_text()
@@ -9393,6 +9393,8 @@ inline TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* GameObject_Get
 {
 	return ((  TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
 }
+// System.Void UnityEngine.Application::Quit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
 // System.Void LoginHandler/<<Login>g__LoadingButtonText|7_0>d::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3CLoginU3Eg__LoadingButtonTextU7C7_0U3Ed__ctor_mFE8B5D0981662C40286A9DA8909E94A889759A50 (U3CU3CLoginU3Eg__LoadingButtonTextU7C7_0U3Ed_t43EA3BB7BEE3FEE00FC200DF1886D7FAF36CB92B* __this, const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<LoginHandler/<<Login>g__LoadingButtonText|7_0>d>(TStateMachine&)
@@ -13286,8 +13288,8 @@ IL_006b_1:
 			NullCheck(L_17);
 			bool L_18;
 			L_18 = VirtualFuncInvoker0< bool >::Invoke(7 /* System.Boolean UnityEngine.XR.Management.XRLoader::Deinitialize() */, L_17);
-			// Application.Quit();
-			Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
+			// Application.Unload();
+			Application_Unload_mAC3EDA0BE38D1A2D7C34A20F0547DC63D356900C(NULL);
 			// JNIStorage.apiClass.CallStatic("launchInstance", JNIStorage.activity, JNIStorage.accountObj, instance.raw);
 			AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_19 = ((JNIStorage_t375A1F8724CA5D597A2FE2AD654C0A9059F8851D_StaticFields*)il2cpp_codegen_static_fields_for(JNIStorage_t375A1F8724CA5D597A2FE2AD654C0A9059F8851D_il2cpp_TypeInfo_var))->___apiClass_4;
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_20 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);
@@ -15942,7 +15944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JNIStorage_Start_m8CECCB408D345EE87D469D
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&JNIStorage_t375A1F8724CA5D597A2FE2AD654C0A9059F8851D_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral25C67F39B02759BF42A4698F57E74B1CCD73D892);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral80AE21D6F6EA69075D8B12BF7910E748000B6451);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2C462EE6308F1ABA7FC9A262BC85E8F5BDB5D596);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC5E33FC7943ED6D31E0F1E3E5830ECAAE2D8F81A);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCB95AC6F5DAF4F3EB9438A7F55847FF126519704);
 		s_Il2CppMethodInitialized = true;
@@ -15976,10 +15978,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void JNIStorage_Start_m8CECCB408D345EE87D469D
 
 IL_002a:
 	{
-		// apiClass = new AndroidJavaClass("pojlib.api.API_V1");
+		// apiClass = new AndroidJavaClass("pojlib.API");
 		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_6 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
 		NullCheck(L_6);
-		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_6, _stringLiteral80AE21D6F6EA69075D8B12BF7910E748000B6451, NULL);
+		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_6, _stringLiteral2C462EE6308F1ABA7FC9A262BC85E8F5BDB5D596, NULL);
 		((JNIStorage_t375A1F8724CA5D597A2FE2AD654C0A9059F8851D_StaticFields*)il2cpp_codegen_static_fields_for(JNIStorage_t375A1F8724CA5D597A2FE2AD654C0A9059F8851D_il2cpp_TypeInfo_var))->___apiClass_4 = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&((JNIStorage_t375A1F8724CA5D597A2FE2AD654C0A9059F8851D_StaticFields*)il2cpp_codegen_static_fields_for(JNIStorage_t375A1F8724CA5D597A2FE2AD654C0A9059F8851D_il2cpp_TypeInfo_var))->___apiClass_4), (void*)L_6);
 		// instancesObj = apiClass.CallStatic<AndroidJavaObject>("loadAll");

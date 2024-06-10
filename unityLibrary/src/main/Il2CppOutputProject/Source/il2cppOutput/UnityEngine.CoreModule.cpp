@@ -19575,6 +19575,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C
 		return;
 	}
 }
+// System.Void UnityEngine.Application::Unload()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Unload_mAC3EDA0BE38D1A2D7C34A20F0547DC63D356900C (const RuntimeMethod* method) 
+{
+	typedef void (*Application_Unload_mAC3EDA0BE38D1A2D7C34A20F0547DC63D356900C_ftn) ();
+	static Application_Unload_mAC3EDA0BE38D1A2D7C34A20F0547DC63D356900C_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_Unload_mAC3EDA0BE38D1A2D7C34A20F0547DC63D356900C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::Unload()");
+	_il2cpp_icall_func();
+}
 // System.Boolean UnityEngine.Application::get_isPlaying()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34 (const RuntimeMethod* method) 
 {
