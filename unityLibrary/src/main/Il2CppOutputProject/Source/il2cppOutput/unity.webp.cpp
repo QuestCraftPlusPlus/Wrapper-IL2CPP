@@ -1024,7 +1024,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibwebp_WebPGetFeaturesInternal
 // unity.libwebp.Interop.VP8StatusCode unity.libwebp.NativeLibwebp::WebPGetFeatures(System.Byte*,System.UIntPtr,unity.libwebp.Interop.WebPBitstreamFeatures*)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibwebp_WebPGetFeatures_m39884CA49534BCF6568CE3E49CCB99C95DA32786 (uint8_t* ___0_data, uintptr_t ___1_data_size, WebPBitstreamFeatures_tF9A5B6D765AEB88F82BE8D52269DE63F04DF0E06* ___2_features, const RuntimeMethod* method) 
 {
-	int32_t V_0 = 0;
 	{
 		// return WebPGetFeaturesInternal(data, data_size, features, 0x0209);
 		uint8_t* L_0 = ___0_data;
@@ -1032,15 +1031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibwebp_WebPGetFeatures_m39884C
 		WebPBitstreamFeatures_tF9A5B6D765AEB88F82BE8D52269DE63F04DF0E06* L_2 = ___2_features;
 		int32_t L_3;
 		L_3 = NativeLibwebp_WebPGetFeaturesInternal_m354BBE8EF07C34F2B222D9661F39012F0D389CA7(L_0, L_1, L_2, ((int32_t)521), NULL);
-		V_0 = L_3;
-		goto IL_0011;
-	}
-
-IL_0011:
-	{
-		// }
-		int32_t L_4 = V_0;
-		return L_4;
+		return L_3;
 	}
 }
 // System.Int32 unity.libwebp.NativeLibwebp::WebPInitDecoderConfigInternal(unity.libwebp.Interop.WebPDecoderConfig*,System.Int32)
@@ -1069,21 +1060,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibwebp_WebPInitDecoderConfigIn
 // System.Int32 unity.libwebp.NativeLibwebp::WebPInitDecoderConfig(unity.libwebp.Interop.WebPDecoderConfig*)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeLibwebp_WebPInitDecoderConfig_m9976305FF94CDE857404F529FC97903451BAFE75 (WebPDecoderConfig_t200F3A6A3B99C51064A8102F7103FD597A72F2AB* ___0_config, const RuntimeMethod* method) 
 {
-	int32_t V_0 = 0;
 	{
 		// return WebPInitDecoderConfigInternal(config, 0x0209);
 		WebPDecoderConfig_t200F3A6A3B99C51064A8102F7103FD597A72F2AB* L_0 = ___0_config;
 		int32_t L_1;
 		L_1 = NativeLibwebp_WebPInitDecoderConfigInternal_m7BA81262A67DE25D4142D5CCB755926F218879E6(L_0, ((int32_t)521), NULL);
-		V_0 = L_1;
-		goto IL_000f;
-	}
-
-IL_000f:
-	{
-		// }
-		int32_t L_2 = V_0;
-		return L_2;
+		return L_1;
 	}
 }
 // unity.libwebp.Interop.VP8StatusCode unity.libwebp.NativeLibwebp::WebPDecode(System.Byte*,System.UIntPtr,unity.libwebp.Interop.WebPDecoderConfig*)
@@ -1252,7 +1234,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2DExt_GetWebPDimensions_mFEDCA454
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_1 = NULL;
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
-	bool V_4 = false;
 	{
 		// fixed (byte* lDataPtr = lData)
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_lData;
@@ -1260,7 +1241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2DExt_GetWebPDimensions_mFEDCA454
 		V_1 = L_1;
 		if (!L_1)
 		{
-			goto IL_000b;
+			goto IL_000a;
 		}
 	}
 	{
@@ -1268,24 +1249,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2DExt_GetWebPDimensions_mFEDCA454
 		NullCheck(L_2);
 		if (((int32_t)(((RuntimeArray*)L_2)->max_length)))
 		{
-			goto IL_0010;
+			goto IL_000f;
 		}
 	}
 
-IL_000b:
+IL_000a:
 	{
 		V_0 = (uint8_t*)((uintptr_t)0);
-		goto IL_0019;
+		goto IL_0018;
 	}
 
-IL_0010:
+IL_000f:
 	{
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = V_1;
 		NullCheck(L_3);
 		V_0 = (uint8_t*)((uintptr_t)((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))));
 	}
 
-IL_0019:
+IL_0018:
 	{
 		// lWidth = 0;
 		int32_t* L_4 = ___1_lWidth;
@@ -1302,31 +1283,29 @@ IL_0019:
 		L_8 = UIntPtr_op_Explicit_mF1E7911DD5AC13B5E59EE8C7903469D12A3861E8(((int64_t)((int32_t)(((RuntimeArray*)L_7)->max_length))), NULL);
 		int32_t L_9;
 		L_9 = NativeLibwebp_WebPGetInfo_m696555436BA98E3DB6A7924BC36E1C5E9C928BE8(L_6, L_8, (int32_t*)((uintptr_t)(&V_2)), (int32_t*)((uintptr_t)(&V_3)), NULL);
-		V_4 = (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
-		bool L_10 = V_4;
-		if (!L_10)
+		if (L_9)
 		{
-			goto IL_004a;
+			goto IL_0040;
 		}
 	}
 	{
 		// throw new Exception("Invalid WebP header detected");
-		Exception_t* L_11 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
-		NullCheck(L_11);
-		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_11, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral18BBD9FF95EF433922AAA6EC8DAB73350575E33A)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Texture2DExt_GetWebPDimensions_mFEDCA454D7C7435D3E9447EBA833167DED5F69A3_RuntimeMethod_var)));
+		Exception_t* L_10 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
+		NullCheck(L_10);
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_10, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral18BBD9FF95EF433922AAA6EC8DAB73350575E33A)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Texture2DExt_GetWebPDimensions_mFEDCA454D7C7435D3E9447EBA833167DED5F69A3_RuntimeMethod_var)));
 	}
 
-IL_004a:
+IL_0040:
 	{
 		// lWidth = w;
-		int32_t* L_12 = ___1_lWidth;
-		int32_t L_13 = V_2;
-		*((int32_t*)L_12) = (int32_t)L_13;
+		int32_t* L_11 = ___1_lWidth;
+		int32_t L_12 = V_2;
+		*((int32_t*)L_11) = (int32_t)L_12;
 		// lHeight = h;
-		int32_t* L_14 = ___2_lHeight;
-		int32_t L_15 = V_3;
-		*((int32_t*)L_14) = (int32_t)L_15;
+		int32_t* L_13 = ___2_lHeight;
+		int32_t L_14 = V_3;
+		*((int32_t*)L_13) = (int32_t)L_14;
 		V_1 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
 		// }
 		return;
@@ -1342,79 +1321,77 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIntPtr_t_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
-	int32_t V_1 = 0;
-	uint8_t* V_2 = NULL;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_3 = NULL;
-	int32_t V_4 = 0;
-	bool V_5 = false;
-	uint8_t* V_6 = NULL;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_7 = NULL;
-	int32_t V_8 = 0;
-	uint8_t* V_9 = NULL;
-	WebPDecoderConfig_t200F3A6A3B99C51064A8102F7103FD597A72F2AB V_10;
-	memset((&V_10), 0, sizeof(V_10));
-	int32_t V_11 = 0;
-	bool V_12 = false;
-	bool V_13 = false;
-	bool V_14 = false;
-	bool V_15 = false;
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_16 = NULL;
+	int32_t V_0 = 0;
+	uint8_t* V_1 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_2 = NULL;
+	int32_t V_3 = 0;
+	uint8_t* V_4 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_5 = NULL;
+	int32_t V_6 = 0;
+	uint8_t* V_7 = NULL;
+	WebPDecoderConfig_t200F3A6A3B99C51064A8102F7103FD597A72F2AB V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	int32_t V_9 = 0;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B10_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B9_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B11_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B12_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B14_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B13_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B16_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B15_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B18_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B17_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B20_0 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* G_B19_0 = NULL;
 	{
 		// lError = 0;
 		int32_t* L_0 = ___4_lError;
 		*((int32_t*)L_0) = (int32_t)0;
-		// byte[] lRawData = null;
-		V_0 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
 		// int lLength = lData.Length;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_lData;
 		NullCheck(L_1);
-		V_1 = ((int32_t)(((RuntimeArray*)L_1)->max_length));
+		V_0 = ((int32_t)(((RuntimeArray*)L_1)->max_length));
 		// fixed (byte* lDataPtr = lData)
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___0_lData;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_3 = L_2;
-		V_3 = L_3;
+		V_2 = L_3;
 		if (!L_3)
 		{
-			goto IL_0015;
+			goto IL_0012;
 		}
 	}
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_3;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_4 = V_2;
 		NullCheck(L_4);
 		if (((int32_t)(((RuntimeArray*)L_4)->max_length)))
 		{
-			goto IL_001a;
+			goto IL_0017;
 		}
 	}
 
-IL_0015:
+IL_0012:
 	{
-		V_2 = (uint8_t*)((uintptr_t)0);
-		goto IL_0023;
+		V_1 = (uint8_t*)((uintptr_t)0);
+		goto IL_0020;
 	}
 
-IL_001a:
+IL_0017:
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = V_3;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = V_2;
 		NullCheck(L_5);
-		V_2 = (uint8_t*)((uintptr_t)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))));
+		V_1 = (uint8_t*)((uintptr_t)((L_5)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))));
 	}
 
-IL_0023:
+IL_0020:
 	{
 		// scalingFunction?.Invoke(ref lWidth, ref lHeight);
 		ScalingFunction_t1D0FC4CAF370AADB695D32F2A2FED84C4882CB40* L_6 = ___5_scalingFunction;
-		if (L_6)
+		if (!L_6)
 		{
-			goto IL_002a;
+			goto IL_002d;
 		}
 	}
-	{
-		goto IL_0034;
-	}
-
-IL_002a:
 	{
 		ScalingFunction_t1D0FC4CAF370AADB695D32F2A2FED84C4882CB40* L_7 = ___5_scalingFunction;
 		int32_t* L_8 = ___1_lWidth;
@@ -1423,253 +1400,248 @@ IL_002a:
 		ScalingFunction_Invoke_mE17AC87523B58DA6B517DE9E5CF7FC5561CFA799_inline(L_7, L_8, L_9, NULL);
 	}
 
-IL_0034:
+IL_002d:
 	{
 		// int numBytesRequired = lWidth * lHeight * 4;
 		int32_t* L_10 = ___1_lWidth;
 		int32_t L_11 = *((int32_t*)L_10);
 		int32_t* L_12 = ___2_lHeight;
 		int32_t L_13 = *((int32_t*)L_12);
-		V_4 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_11, L_13)), 4));
+		V_3 = ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_multiply(L_11, L_13)), 4));
 		// if (lMipmaps)
 		bool L_14 = ___3_lMipmaps;
-		V_5 = L_14;
-		bool L_15 = V_5;
-		if (!L_15)
+		if (!L_14)
 		{
-			goto IL_005c;
+			goto IL_004c;
 		}
 	}
 	{
 		// numBytesRequired = Mathf.CeilToInt((numBytesRequired * 4.0f) / 3.0f);
-		int32_t L_16 = V_4;
-		int32_t L_17;
-		L_17 = Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline(((float)(((float)il2cpp_codegen_multiply(((float)L_16), (4.0f)))/(3.0f))), NULL);
-		V_4 = L_17;
+		int32_t L_15 = V_3;
+		int32_t L_16;
+		L_16 = Mathf_CeilToInt_mF2BF9F4261B3431DC20E10A46CFEEED103C48963_inline(((float)(((float)il2cpp_codegen_multiply(((float)L_15), (4.0f)))/(3.0f))), NULL);
+		V_3 = L_16;
 	}
 
-IL_005c:
+IL_004c:
 	{
 		// lRawData = new byte[numBytesRequired];
-		int32_t L_18 = V_4;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_18);
-		V_0 = L_19;
+		int32_t L_17 = V_3;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_18 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_17);
 		// fixed (byte* lRawDataPtr = lRawData)
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_20 = V_0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_21 = L_20;
-		V_7 = L_21;
-		if (!L_21)
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_19 = L_18;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_20 = L_19;
+		V_5 = L_20;
+		G_B9_0 = L_19;
+		if (!L_20)
 		{
-			goto IL_0070;
+			G_B10_0 = L_19;
+			goto IL_005e;
 		}
 	}
 	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_22 = V_7;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_21 = V_5;
+		NullCheck(L_21);
+		G_B10_0 = G_B9_0;
+		if (((int32_t)(((RuntimeArray*)L_21)->max_length)))
+		{
+			G_B11_0 = G_B9_0;
+			goto IL_0064;
+		}
+	}
+
+IL_005e:
+	{
+		V_4 = (uint8_t*)((uintptr_t)0);
+		G_B12_0 = G_B10_0;
+		goto IL_006f;
+	}
+
+IL_0064:
+	{
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_22 = V_5;
 		NullCheck(L_22);
-		if (((int32_t)(((RuntimeArray*)L_22)->max_length)))
-		{
-			goto IL_0076;
-		}
+		V_4 = (uint8_t*)((uintptr_t)((L_22)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))));
+		G_B12_0 = G_B11_0;
 	}
 
-IL_0070:
-	{
-		V_6 = (uint8_t*)((uintptr_t)0);
-		goto IL_0081;
-	}
-
-IL_0076:
-	{
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = V_7;
-		NullCheck(L_23);
-		V_6 = (uint8_t*)((uintptr_t)((L_23)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))));
-	}
-
-IL_0081:
+IL_006f:
 	{
 		// int lStride = 4 * lWidth;
-		int32_t* L_24 = ___1_lWidth;
-		int32_t L_25 = *((int32_t*)L_24);
-		V_8 = ((int32_t)il2cpp_codegen_multiply(4, L_25));
+		int32_t* L_23 = ___1_lWidth;
+		int32_t L_24 = *((int32_t*)L_23);
+		V_6 = ((int32_t)il2cpp_codegen_multiply(4, L_24));
 		// byte* lTmpDataPtr = lRawDataPtr + (lHeight - 1) * lStride;
-		uint8_t* L_26 = V_6;
-		int32_t* L_27 = ___2_lHeight;
-		int32_t L_28 = *((int32_t*)L_27);
-		int32_t L_29 = V_8;
-		V_9 = ((uint8_t*)il2cpp_codegen_add((intptr_t)L_26, ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_subtract(L_28, 1)), L_29))));
+		uint8_t* L_25 = V_4;
+		int32_t* L_26 = ___2_lHeight;
+		int32_t L_27 = *((int32_t*)L_26);
+		int32_t L_28 = V_6;
+		V_7 = ((uint8_t*)il2cpp_codegen_add((intptr_t)L_25, ((int32_t)il2cpp_codegen_multiply(((int32_t)il2cpp_codegen_subtract(L_27, 1)), L_28))));
 		// WebPDecoderConfig config = new WebPDecoderConfig();
-		il2cpp_codegen_initobj((&V_10), sizeof(WebPDecoderConfig_t200F3A6A3B99C51064A8102F7103FD597A72F2AB));
+		il2cpp_codegen_initobj((&V_8), sizeof(WebPDecoderConfig_t200F3A6A3B99C51064A8102F7103FD597A72F2AB));
 		// if (NativeLibwebp.WebPInitDecoderConfig(&config) == 0)
-		int32_t L_30;
-		L_30 = NativeLibwebp_WebPInitDecoderConfig_m9976305FF94CDE857404F529FC97903451BAFE75((WebPDecoderConfig_t200F3A6A3B99C51064A8102F7103FD597A72F2AB*)((uintptr_t)(&V_10)), NULL);
-		V_12 = (bool)((((int32_t)L_30) == ((int32_t)0))? 1 : 0);
-		bool L_31 = V_12;
-		if (!L_31)
+		int32_t L_29;
+		L_29 = NativeLibwebp_WebPInitDecoderConfig_m9976305FF94CDE857404F529FC97903451BAFE75((WebPDecoderConfig_t200F3A6A3B99C51064A8102F7103FD597A72F2AB*)((uintptr_t)(&V_8)), NULL);
+		G_B13_0 = G_B12_0;
+		if (L_29)
 		{
-			goto IL_00b9;
+			G_B14_0 = G_B12_0;
+			goto IL_009e;
 		}
 	}
 	{
 		// throw new Exception("WebPInitDecoderConfig failed. Wrong version?");
-		Exception_t* L_32 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
-		NullCheck(L_32);
-		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_32, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF7E7326BEE3CECC4D134714BC2BD923677047CC1)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_32, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Texture2DExt_LoadRGBAFromWebP_m150314BA100E346FCCD25E882EDCAAB5005D3B36_RuntimeMethod_var)));
+		Exception_t* L_30 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
+		NullCheck(L_30);
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_30, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF7E7326BEE3CECC4D134714BC2BD923677047CC1)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_30, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Texture2DExt_LoadRGBAFromWebP_m150314BA100E346FCCD25E882EDCAAB5005D3B36_RuntimeMethod_var)));
 	}
 
-IL_00b9:
+IL_009e:
 	{
 		// config.options.use_threads = 1;
-		WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C* L_33 = (WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C*)(&(&V_10)->___options_2);
-		L_33->___use_threads_10 = 1;
+		WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C* L_31 = (WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C*)(&(&V_8)->___options_2);
+		L_31->___use_threads_10 = 1;
 		// if (scalingFunction != null)
-		ScalingFunction_t1D0FC4CAF370AADB695D32F2A2FED84C4882CB40* L_34 = ___5_scalingFunction;
-		V_13 = (bool)((!(((RuntimeObject*)(ScalingFunction_t1D0FC4CAF370AADB695D32F2A2FED84C4882CB40*)L_34) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_35 = V_13;
-		if (!L_35)
+		ScalingFunction_t1D0FC4CAF370AADB695D32F2A2FED84C4882CB40* L_32 = ___5_scalingFunction;
+		G_B15_0 = G_B14_0;
+		if (!L_32)
 		{
-			goto IL_00e0;
+			G_B16_0 = G_B14_0;
+			goto IL_00bc;
 		}
 	}
 	{
 		// config.options.use_scaling = 1;
-		WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C* L_36 = (WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C*)(&(&V_10)->___options_2);
-		L_36->___use_scaling_7 = 1;
+		WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C* L_33 = (WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C*)(&(&V_8)->___options_2);
+		L_33->___use_scaling_7 = 1;
+		G_B16_0 = G_B15_0;
 	}
 
-IL_00e0:
+IL_00bc:
 	{
 		// config.options.scaled_width = lWidth;
-		WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C* L_37 = (WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C*)(&(&V_10)->___options_2);
-		int32_t* L_38 = ___1_lWidth;
-		int32_t L_39 = *((int32_t*)L_38);
-		L_37->___scaled_width_8 = L_39;
+		WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C* L_34 = (WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C*)(&(&V_8)->___options_2);
+		int32_t* L_35 = ___1_lWidth;
+		int32_t L_36 = *((int32_t*)L_35);
+		L_34->___scaled_width_8 = L_36;
 		// config.options.scaled_height = lHeight;
-		WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C* L_40 = (WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C*)(&(&V_10)->___options_2);
-		int32_t* L_41 = ___2_lHeight;
-		int32_t L_42 = *((int32_t*)L_41);
-		L_40->___scaled_height_9 = L_42;
+		WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C* L_37 = (WebPDecoderOptions_tCBC5B4D729CD4ECFE22655E4C917DA46C8F3355C*)(&(&V_8)->___options_2);
+		int32_t* L_38 = ___2_lHeight;
+		int32_t L_39 = *((int32_t*)L_38);
+		L_37->___scaled_height_9 = L_39;
 		// VP8StatusCode result = NativeLibwebp.WebPGetFeatures(lDataPtr, (UIntPtr)lLength, &config.input);
-		uint8_t* L_43 = V_2;
-		int32_t L_44 = V_1;
+		uint8_t* L_40 = V_1;
+		int32_t L_41 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(UIntPtr_t_il2cpp_TypeInfo_var);
-		uintptr_t L_45;
-		L_45 = UIntPtr_op_Explicit_mF1E7911DD5AC13B5E59EE8C7903469D12A3861E8(((int64_t)L_44), NULL);
-		WebPBitstreamFeatures_tF9A5B6D765AEB88F82BE8D52269DE63F04DF0E06* L_46 = (WebPBitstreamFeatures_tF9A5B6D765AEB88F82BE8D52269DE63F04DF0E06*)(&(&V_10)->___input_0);
-		int32_t L_47;
-		L_47 = NativeLibwebp_WebPGetFeatures_m39884CA49534BCF6568CE3E49CCB99C95DA32786(L_43, L_45, (WebPBitstreamFeatures_tF9A5B6D765AEB88F82BE8D52269DE63F04DF0E06*)((uintptr_t)L_46), NULL);
-		V_11 = L_47;
+		uintptr_t L_42;
+		L_42 = UIntPtr_op_Explicit_mF1E7911DD5AC13B5E59EE8C7903469D12A3861E8(((int64_t)L_41), NULL);
+		WebPBitstreamFeatures_tF9A5B6D765AEB88F82BE8D52269DE63F04DF0E06* L_43 = (WebPBitstreamFeatures_tF9A5B6D765AEB88F82BE8D52269DE63F04DF0E06*)(&(&V_8)->___input_0);
+		int32_t L_44;
+		L_44 = NativeLibwebp_WebPGetFeatures_m39884CA49534BCF6568CE3E49CCB99C95DA32786(L_40, L_42, (WebPBitstreamFeatures_tF9A5B6D765AEB88F82BE8D52269DE63F04DF0E06*)((uintptr_t)L_43), NULL);
+		V_9 = L_44;
 		// if (result != VP8StatusCode.VP8_STATUS_OK)
-		int32_t L_48 = V_11;
-		V_14 = (bool)((!(((uint32_t)L_48) <= ((uint32_t)0)))? 1 : 0);
-		bool L_49 = V_14;
-		if (!L_49)
+		int32_t L_45 = V_9;
+		G_B17_0 = G_B16_0;
+		if (!L_45)
 		{
-			goto IL_013c;
+			G_B18_0 = G_B16_0;
+			goto IL_0110;
 		}
 	}
 	{
 		// throw new Exception(string.Format("Failed WebPGetFeatures with error {0}.", result.ToString()));
-		Il2CppFakeBox<int32_t> L_50(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&VP8StatusCode_t696A07C6E19C1232322C933B41947D7DE5DD4AAF_il2cpp_TypeInfo_var)), (&V_11));
-		String_t* L_51;
-		L_51 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_50), NULL);
-		String_t* L_52;
-		L_52 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral68E9D0200D63EB16B9247F1DF95AEA1449C358C5)), L_51, NULL);
-		Exception_t* L_53 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
-		NullCheck(L_53);
-		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_53, L_52, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_53, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Texture2DExt_LoadRGBAFromWebP_m150314BA100E346FCCD25E882EDCAAB5005D3B36_RuntimeMethod_var)));
+		Il2CppFakeBox<int32_t> L_46(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&VP8StatusCode_t696A07C6E19C1232322C933B41947D7DE5DD4AAF_il2cpp_TypeInfo_var)), (&V_9));
+		String_t* L_47;
+		L_47 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_46), NULL);
+		String_t* L_48;
+		L_48 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral68E9D0200D63EB16B9247F1DF95AEA1449C358C5)), L_47, NULL);
+		Exception_t* L_49 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
+		NullCheck(L_49);
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_49, L_48, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_49, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Texture2DExt_LoadRGBAFromWebP_m150314BA100E346FCCD25E882EDCAAB5005D3B36_RuntimeMethod_var)));
 	}
 
-IL_013c:
+IL_0110:
 	{
 		// config.output.colorspace = WEBP_CSP_MODE.MODE_RGBA;
-		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_54 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_10)->___output_1);
-		L_54->___colorspace_0 = 1;
+		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_50 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_8)->___output_1);
+		L_50->___colorspace_0 = 1;
 		// config.output.u.RGBA.rgba = lTmpDataPtr;
-		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_55 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_10)->___output_1);
+		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_51 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_8)->___output_1);
+		_u_e__Union_t89F42D82660AE0DF7ACA5E40B897094EBC44306A* L_52 = (_u_e__Union_t89F42D82660AE0DF7ACA5E40B897094EBC44306A*)(&L_51->___u_4);
+		WebPRGBABuffer_t303C8D4AE7BDA5D322CB344EDDF809A1F9B847F7* L_53 = (WebPRGBABuffer_t303C8D4AE7BDA5D322CB344EDDF809A1F9B847F7*)(&L_52->___RGBA_0);
+		uint8_t* L_54 = V_7;
+		L_53->___rgba_0 = L_54;
+		// config.output.u.RGBA.stride = -lStride;
+		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_55 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_8)->___output_1);
 		_u_e__Union_t89F42D82660AE0DF7ACA5E40B897094EBC44306A* L_56 = (_u_e__Union_t89F42D82660AE0DF7ACA5E40B897094EBC44306A*)(&L_55->___u_4);
 		WebPRGBABuffer_t303C8D4AE7BDA5D322CB344EDDF809A1F9B847F7* L_57 = (WebPRGBABuffer_t303C8D4AE7BDA5D322CB344EDDF809A1F9B847F7*)(&L_56->___RGBA_0);
-		uint8_t* L_58 = V_9;
-		L_57->___rgba_0 = L_58;
-		// config.output.u.RGBA.stride = -lStride;
-		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_59 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_10)->___output_1);
+		int32_t L_58 = V_6;
+		L_57->___stride_1 = ((-L_58));
+		// config.output.u.RGBA.size = (UIntPtr)(lHeight * lStride);
+		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_59 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_8)->___output_1);
 		_u_e__Union_t89F42D82660AE0DF7ACA5E40B897094EBC44306A* L_60 = (_u_e__Union_t89F42D82660AE0DF7ACA5E40B897094EBC44306A*)(&L_59->___u_4);
 		WebPRGBABuffer_t303C8D4AE7BDA5D322CB344EDDF809A1F9B847F7* L_61 = (WebPRGBABuffer_t303C8D4AE7BDA5D322CB344EDDF809A1F9B847F7*)(&L_60->___RGBA_0);
-		int32_t L_62 = V_8;
-		L_61->___stride_1 = ((-L_62));
-		// config.output.u.RGBA.size = (UIntPtr)(lHeight * lStride);
-		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_63 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_10)->___output_1);
-		_u_e__Union_t89F42D82660AE0DF7ACA5E40B897094EBC44306A* L_64 = (_u_e__Union_t89F42D82660AE0DF7ACA5E40B897094EBC44306A*)(&L_63->___u_4);
-		WebPRGBABuffer_t303C8D4AE7BDA5D322CB344EDDF809A1F9B847F7* L_65 = (WebPRGBABuffer_t303C8D4AE7BDA5D322CB344EDDF809A1F9B847F7*)(&L_64->___RGBA_0);
-		int32_t* L_66 = ___2_lHeight;
-		int32_t L_67 = *((int32_t*)L_66);
-		int32_t L_68 = V_8;
+		int32_t* L_62 = ___2_lHeight;
+		int32_t L_63 = *((int32_t*)L_62);
+		int32_t L_64 = V_6;
 		il2cpp_codegen_runtime_class_init_inline(UIntPtr_t_il2cpp_TypeInfo_var);
-		uintptr_t L_69;
-		L_69 = UIntPtr_op_Explicit_mF1E7911DD5AC13B5E59EE8C7903469D12A3861E8(((int64_t)((int32_t)il2cpp_codegen_multiply(L_67, L_68))), NULL);
-		L_65->___size_2 = L_69;
+		uintptr_t L_65;
+		L_65 = UIntPtr_op_Explicit_mF1E7911DD5AC13B5E59EE8C7903469D12A3861E8(((int64_t)((int32_t)il2cpp_codegen_multiply(L_63, L_64))), NULL);
+		L_61->___size_2 = L_65;
 		// config.output.height = lHeight;
-		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_70 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_10)->___output_1);
-		int32_t* L_71 = ___2_lHeight;
-		int32_t L_72 = *((int32_t*)L_71);
-		L_70->___height_2 = L_72;
+		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_66 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_8)->___output_1);
+		int32_t* L_67 = ___2_lHeight;
+		int32_t L_68 = *((int32_t*)L_67);
+		L_66->___height_2 = L_68;
 		// config.output.width = lWidth;
-		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_73 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_10)->___output_1);
-		int32_t* L_74 = ___1_lWidth;
-		int32_t L_75 = *((int32_t*)L_74);
-		L_73->___width_1 = L_75;
+		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_69 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_8)->___output_1);
+		int32_t* L_70 = ___1_lWidth;
+		int32_t L_71 = *((int32_t*)L_70);
+		L_69->___width_1 = L_71;
 		// config.output.is_external_memory = 1;
-		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_76 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_10)->___output_1);
-		L_76->___is_external_memory_3 = 1;
+		WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F* L_72 = (WebPDecBuffer_t8052DC32BDD5A183F35B244855142168A176582F*)(&(&V_8)->___output_1);
+		L_72->___is_external_memory_3 = 1;
 		// result = NativeLibwebp.WebPDecode(lDataPtr, (UIntPtr)lLength, &config);
-		uint8_t* L_77 = V_2;
-		int32_t L_78 = V_1;
-		uintptr_t L_79;
-		L_79 = UIntPtr_op_Explicit_mF1E7911DD5AC13B5E59EE8C7903469D12A3861E8(((int64_t)L_78), NULL);
-		int32_t L_80;
-		L_80 = NativeLibwebp_WebPDecode_mC0EAA4E6F850FDE91496C78958574071CF090A8D(L_77, L_79, (WebPDecoderConfig_t200F3A6A3B99C51064A8102F7103FD597A72F2AB*)((uintptr_t)(&V_10)), NULL);
-		V_11 = L_80;
+		uint8_t* L_73 = V_1;
+		int32_t L_74 = V_0;
+		uintptr_t L_75;
+		L_75 = UIntPtr_op_Explicit_mF1E7911DD5AC13B5E59EE8C7903469D12A3861E8(((int64_t)L_74), NULL);
+		int32_t L_76;
+		L_76 = NativeLibwebp_WebPDecode_mC0EAA4E6F850FDE91496C78958574071CF090A8D(L_73, L_75, (WebPDecoderConfig_t200F3A6A3B99C51064A8102F7103FD597A72F2AB*)((uintptr_t)(&V_8)), NULL);
+		V_9 = L_76;
 		// if (result != VP8StatusCode.VP8_STATUS_OK)
-		int32_t L_81 = V_11;
-		V_15 = (bool)((!(((uint32_t)L_81) <= ((uint32_t)0)))? 1 : 0);
-		bool L_82 = V_15;
-		if (!L_82)
+		int32_t L_77 = V_9;
+		G_B19_0 = G_B18_0;
+		if (!L_77)
 		{
-			goto IL_01ff;
+			G_B20_0 = G_B18_0;
+			goto IL_01cb;
 		}
 	}
 	{
 		// throw new Exception(string.Format("Failed WebPDecode with error {0}.", result.ToString()));
-		Il2CppFakeBox<int32_t> L_83(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&VP8StatusCode_t696A07C6E19C1232322C933B41947D7DE5DD4AAF_il2cpp_TypeInfo_var)), (&V_11));
-		String_t* L_84;
-		L_84 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_83), NULL);
-		String_t* L_85;
-		L_85 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6E895C5929F24EA7F5357BAB0B0C22B9F9801614)), L_84, NULL);
-		Exception_t* L_86 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
-		NullCheck(L_86);
-		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_86, L_85, NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_86, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Texture2DExt_LoadRGBAFromWebP_m150314BA100E346FCCD25E882EDCAAB5005D3B36_RuntimeMethod_var)));
+		Il2CppFakeBox<int32_t> L_78(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&VP8StatusCode_t696A07C6E19C1232322C933B41947D7DE5DD4AAF_il2cpp_TypeInfo_var)), (&V_9));
+		String_t* L_79;
+		L_79 = Enum_ToString_m946B0B83C4470457D0FF555D862022C72BB55741((Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2*)(&L_78), NULL);
+		String_t* L_80;
+		L_80 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6E895C5929F24EA7F5357BAB0B0C22B9F9801614)), L_79, NULL);
+		Exception_t* L_81 = (Exception_t*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)));
+		NullCheck(L_81);
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(L_81, L_80, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_81, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Texture2DExt_LoadRGBAFromWebP_m150314BA100E346FCCD25E882EDCAAB5005D3B36_RuntimeMethod_var)));
 	}
 
-IL_01ff:
+IL_01cb:
 	{
-		V_7 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
+		V_5 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
 		// lError = Error.Success;
-		int32_t* L_87 = ___4_lError;
-		*((int32_t*)L_87) = (int32_t)0;
-		V_3 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
+		int32_t* L_82 = ___4_lError;
+		*((int32_t*)L_82) = (int32_t)0;
+		V_2 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL;
 		// return lRawData;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_88 = V_0;
-		V_16 = L_88;
-		goto IL_020f;
-	}
-
-IL_020f:
-	{
-		// }
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_89 = V_16;
-		return L_89;
+		return G_B20_0;
 	}
 }
 // UnityEngine.Texture2D WebP.Texture2DExt::CreateWebpTexture2D(System.Int32,System.Int32,System.Boolean,System.Boolean)
@@ -1682,69 +1654,53 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	bool V_0 = false;
+	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	uint32_t V_2 = 0;
-	int32_t V_3 = 0;
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* V_4 = NULL;
 	{
 		// if (isUseMipmap)
 		bool L_0 = ___2_isUseMipmap;
-		V_0 = L_0;
-		bool L_1 = V_0;
-		if (!L_1)
+		if (!L_0)
 		{
-			goto IL_002c;
+			goto IL_0023;
 		}
 	}
 	{
 		// UnityEngine.Experimental.Rendering.GraphicsFormat graphicsFormat = UnityEngine.Experimental.Rendering.GraphicsFormatUtility.GetGraphicsFormat(TextureFormat.RGBA32, false);
 		il2cpp_codegen_runtime_class_init_inline(GraphicsFormatUtility_t3DAD8CAC84EA38F28613F98184F871773CB282FD_il2cpp_TypeInfo_var);
-		int32_t L_2;
-		L_2 = GraphicsFormatUtility_GetGraphicsFormat_mE38154E9B9C810EDAF2FAD3E1F1CD856FFC13F3C(4, (bool)0, NULL);
-		V_1 = L_2;
+		int32_t L_1;
+		L_1 = GraphicsFormatUtility_GetGraphicsFormat_mE38154E9B9C810EDAF2FAD3E1F1CD856FFC13F3C(4, (bool)0, NULL);
+		V_0 = L_1;
 		// uint mipmapSize = UnityEngine.Experimental.Rendering.GraphicsFormatUtility.ComputeMipmapSize(width, height, graphicsFormat);
-		int32_t L_3 = ___0_width;
-		int32_t L_4 = ___1_height;
-		int32_t L_5 = V_1;
-		uint32_t L_6;
-		L_6 = GraphicsFormatUtility_ComputeMipmapSize_m34883B0890B84D62E41BAE90A33CABBFBE905DD6(L_3, L_4, L_5, NULL);
-		V_2 = L_6;
+		int32_t L_2 = ___0_width;
+		int32_t L_3 = ___1_height;
+		int32_t L_4 = V_0;
+		uint32_t L_5;
+		L_5 = GraphicsFormatUtility_ComputeMipmapSize_m34883B0890B84D62E41BAE90A33CABBFBE905DD6(L_2, L_3, L_4, NULL);
 		// int mipmapCount = (int)mipmapSize / (width * height);
-		uint32_t L_7 = V_2;
+		int32_t L_6 = ___0_width;
+		int32_t L_7 = ___1_height;
+		V_1 = ((int32_t)((int32_t)L_5/((int32_t)il2cpp_codegen_multiply(L_6, L_7))));
+		// return new Texture2D(width, height, TextureFormat.RGBA32, mipCount: mipmapCount, isLinear);
 		int32_t L_8 = ___0_width;
 		int32_t L_9 = ___1_height;
-		V_3 = ((int32_t)((int32_t)L_7/((int32_t)il2cpp_codegen_multiply(L_8, L_9))));
-		// return new Texture2D(width, height, TextureFormat.RGBA32, mipCount: mipmapCount, isLinear);
-		int32_t L_10 = ___0_width;
-		int32_t L_11 = ___1_height;
-		int32_t L_12 = V_3;
-		bool L_13 = ___3_isLinear;
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_14 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
-		NullCheck(L_14);
-		Texture2D__ctor_mB1445796B2A76B3D867B2603205F513AF494B9F3(L_14, L_10, L_11, 4, L_12, L_13, NULL);
-		V_4 = L_14;
-		goto IL_003b;
+		int32_t L_10 = V_1;
+		bool L_11 = ___3_isLinear;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_12 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
+		NullCheck(L_12);
+		Texture2D__ctor_mB1445796B2A76B3D867B2603205F513AF494B9F3(L_12, L_8, L_9, 4, L_10, L_11, NULL);
+		return L_12;
 	}
 
-IL_002c:
+IL_0023:
 	{
 		// return new Texture2D(width, height, TextureFormat.RGBA32, mipChain: false, isLinear);
-		int32_t L_15 = ___0_width;
-		int32_t L_16 = ___1_height;
-		bool L_17 = ___3_isLinear;
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_18 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
-		NullCheck(L_18);
-		Texture2D__ctor_mC3F84195D1DCEFC0536B3FBD40A8F8E865A4F32A(L_18, L_15, L_16, 4, (bool)0, L_17, NULL);
-		V_4 = L_18;
-		goto IL_003b;
-	}
-
-IL_003b:
-	{
-		// }
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_19 = V_4;
-		return L_19;
+		int32_t L_13 = ___0_width;
+		int32_t L_14 = ___1_height;
+		bool L_15 = ___3_isLinear;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_16 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)il2cpp_codegen_object_new(Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var);
+		NullCheck(L_16);
+		Texture2D__ctor_mC3F84195D1DCEFC0536B3FBD40A8F8E865A4F32A(L_16, L_13, L_14, 4, (bool)0, L_15, NULL);
+		return L_16;
 	}
 }
 // UnityEngine.Texture2D WebP.Texture2DExt::CreateTexture2DFromWebP(System.Byte[],System.Boolean,System.Boolean,WebP.Error&,WebP.Texture2DExt/ScalingFunction,System.Boolean)
@@ -1754,8 +1710,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_3 = NULL;
-	bool V_4 = false;
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* V_5 = NULL;
 	{
 		// Texture2D lTexture2D = null;
 		V_0 = (Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4*)NULL;
@@ -1773,48 +1727,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11
 		// if (lError == Error.Success)
 		int32_t* L_6 = ___3_lError;
 		int32_t L_7 = *((int32_t*)L_6);
-		V_4 = (bool)((((int32_t)L_7) == ((int32_t)0))? 1 : 0);
-		bool L_8 = V_4;
-		if (!L_8)
+		if (L_7)
 		{
-			goto IL_0046;
+			goto IL_0039;
 		}
 	}
 	{
 		// lTexture2D = CreateWebpTexture2D(lWidth, lHeight, lMipmaps, lLinear);
-		int32_t L_9 = V_1;
-		int32_t L_10 = V_2;
-		bool L_11 = ___1_lMipmaps;
-		bool L_12 = ___2_lLinear;
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_13;
-		L_13 = Texture2DExt_CreateWebpTexture2D_m848D661BA72CA0BD079F557592F4098C48810EE4(L_9, L_10, L_11, L_12, NULL);
-		V_0 = L_13;
+		int32_t L_8 = V_1;
+		int32_t L_9 = V_2;
+		bool L_10 = ___1_lMipmaps;
+		bool L_11 = ___2_lLinear;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_12;
+		L_12 = Texture2DExt_CreateWebpTexture2D_m848D661BA72CA0BD079F557592F4098C48810EE4(L_8, L_9, L_10, L_11, NULL);
+		V_0 = L_12;
 		// lTexture2D.LoadRawTextureData(lRawData);
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_14 = V_0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_15 = V_3;
-		NullCheck(L_14);
-		Texture2D_LoadRawTextureData_mB8D1DEB5FF8715A871D8043D48C9054FCFF4ED1B(L_14, L_15, NULL);
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_13 = V_0;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = V_3;
+		NullCheck(L_13);
+		Texture2D_LoadRawTextureData_mB8D1DEB5FF8715A871D8043D48C9054FCFF4ED1B(L_13, L_14, NULL);
 		// lTexture2D.Apply(lMipmaps, makeNoLongerReadable);
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_16 = V_0;
-		bool L_17 = ___1_lMipmaps;
-		bool L_18 = ___5_makeNoLongerReadable;
-		NullCheck(L_16);
-		Texture2D_Apply_m36EE27E6F1BF7FB8C70A1D749DC4EE249810AA3A(L_16, L_17, L_18, NULL);
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_15 = V_0;
+		bool L_16 = ___1_lMipmaps;
+		bool L_17 = ___5_makeNoLongerReadable;
+		NullCheck(L_15);
+		Texture2D_Apply_m36EE27E6F1BF7FB8C70A1D749DC4EE249810AA3A(L_15, L_16, L_17, NULL);
 	}
 
-IL_0046:
+IL_0039:
 	{
 		// return lTexture2D;
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_19 = V_0;
-		V_5 = L_19;
-		goto IL_004b;
-	}
-
-IL_004b:
-	{
-		// }
-		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_20 = V_5;
-		return L_20;
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_18 = V_0;
+		return L_18;
 	}
 }
 #ifdef __clang__
