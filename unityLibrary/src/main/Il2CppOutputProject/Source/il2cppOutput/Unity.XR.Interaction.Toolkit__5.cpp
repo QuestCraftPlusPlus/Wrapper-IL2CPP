@@ -535,6 +535,22 @@ struct ParameterOverrideU5BU5D_tC408277D7E98D32E4B0AEFA1E2EDDB74790897EE;
 struct ControlBitRangeNodeU5BU5D_t912A404149DE6D350D1735A026182C409C510F27;
 // UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulator/SimulatedHandExpression[]
 struct SimulatedHandExpressionU5BU5D_tFECE5AA3AADD0E25D7EF4FA227DEF76BF28F3D6F;
+// UnityEngine.XR.Interaction.Toolkit.AR.ARAnnotationInteractable
+struct ARAnnotationInteractable_t45334D0F169259BE42926A3868B79BF2068560E6;
+// UnityEngine.XR.Interaction.Toolkit.AR.ARBaseGestureInteractable
+struct ARBaseGestureInteractable_t7FF715FA0E5BE6C9F48E9869A7B0F4819913832D;
+// UnityEngine.XR.Interaction.Toolkit.AR.ARGestureInteractor
+struct ARGestureInteractor_t5F50A16286B9051118C926B6C44BAECE78F81745;
+// UnityEngine.XR.Interaction.Toolkit.AR.ARPlacementInteractable
+struct ARPlacementInteractable_t9EFF45579CF20DF6382D200DF41970F801FA009A;
+// UnityEngine.XR.Interaction.Toolkit.AR.ARRotationInteractable
+struct ARRotationInteractable_t48B10232F6C4985088C8EC46E393ECBAA06F578F;
+// UnityEngine.XR.Interaction.Toolkit.AR.ARScaleInteractable
+struct ARScaleInteractable_t1DA3CB6FB71267B2C80885F216AE8A4EC7A6B0FC;
+// UnityEngine.XR.Interaction.Toolkit.AR.ARSelectionInteractable
+struct ARSelectionInteractable_t2B692035286A6C59F91B86BBF525780B113CC96E;
+// UnityEngine.XR.Interaction.Toolkit.AR.ARTranslationInteractable
+struct ARTranslationInteractable_t340F96917FC22210F61D564D36B90A04452159C4;
 // System.Action
 struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
 // UnityEngine.XR.Interaction.Toolkit.ActionBasedController
@@ -1514,6 +1530,46 @@ struct List_1_tC5D2825C62051A5FA567CE68202ACEE33C59D2FB  : public RuntimeObject
 	int32_t ____version_3;
 	// System.Object System.Collections.Generic.List`1::_syncRoot
 	RuntimeObject* ____syncRoot_4;
+};
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARAnnotationInteractable
+struct ARAnnotationInteractable_t45334D0F169259BE42926A3868B79BF2068560E6  : public RuntimeObject
+{
+};
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARBaseGestureInteractable
+struct ARBaseGestureInteractable_t7FF715FA0E5BE6C9F48E9869A7B0F4819913832D  : public RuntimeObject
+{
+};
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARGestureInteractor
+struct ARGestureInteractor_t5F50A16286B9051118C926B6C44BAECE78F81745  : public RuntimeObject
+{
+};
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARPlacementInteractable
+struct ARPlacementInteractable_t9EFF45579CF20DF6382D200DF41970F801FA009A  : public RuntimeObject
+{
+};
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARRotationInteractable
+struct ARRotationInteractable_t48B10232F6C4985088C8EC46E393ECBAA06F578F  : public RuntimeObject
+{
+};
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARScaleInteractable
+struct ARScaleInteractable_t1DA3CB6FB71267B2C80885F216AE8A4EC7A6B0FC  : public RuntimeObject
+{
+};
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARSelectionInteractable
+struct ARSelectionInteractable_t2B692035286A6C59F91B86BBF525780B113CC96E  : public RuntimeObject
+{
+};
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARTranslationInteractable
+struct ARTranslationInteractable_t340F96917FC22210F61D564D36B90A04452159C4  : public RuntimeObject
+{
 };
 
 // UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.State.AffordanceStateShortcuts
@@ -7505,6 +7561,38 @@ struct List_1_tC5D2825C62051A5FA567CE68202ACEE33C59D2FB_StaticFields
 };
 
 // System.Collections.Generic.List`1<UnityEngine.XR.Interaction.Toolkit.Inputs.Simulation.XRDeviceSimulator/SimulatedHandExpression>
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARAnnotationInteractable
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARAnnotationInteractable
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARBaseGestureInteractable
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARBaseGestureInteractable
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARGestureInteractor
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARGestureInteractor
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARPlacementInteractable
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARPlacementInteractable
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARRotationInteractable
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARRotationInteractable
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARScaleInteractable
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARScaleInteractable
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARSelectionInteractable
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARSelectionInteractable
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARTranslationInteractable
+
+// UnityEngine.XR.Interaction.Toolkit.AR.ARTranslationInteractable
 
 // UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.State.AffordanceStateShortcuts
 struct AffordanceStateShortcuts_t7A59ACF9B6B40EBA55C1B04AB596C869777F496D_StaticFields
@@ -28354,6 +28442,134 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ButtonFallbackComposite__ctor_mFE078522A
 	}
 	{
 		FallbackComposite_1__ctor_m0FAE490BA7B9824A03C4DAF21896756820E0F45F(__this, FallbackComposite_1__ctor_m0FAE490BA7B9824A03C4DAF21896756820E0F45F_RuntimeMethod_var);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.XR.Interaction.Toolkit.AR.ARAnnotationInteractable::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARAnnotationInteractable__ctor_mBF4CBD033270A86CA19BF97BF0E551015DB218A3 (ARAnnotationInteractable_t45334D0F169259BE42926A3868B79BF2068560E6* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.XR.Interaction.Toolkit.AR.ARBaseGestureInteractable::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARBaseGestureInteractable__ctor_m7D7701B9E98DDBEF1B8DE65810A1CB5DA566B630 (ARBaseGestureInteractable_t7FF715FA0E5BE6C9F48E9869A7B0F4819913832D* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.XR.Interaction.Toolkit.AR.ARPlacementInteractable::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARPlacementInteractable__ctor_m4EAD0538822BFBBDA0E901E8DC336C3A1F0FA525 (ARPlacementInteractable_t9EFF45579CF20DF6382D200DF41970F801FA009A* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.XR.Interaction.Toolkit.AR.ARRotationInteractable::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARRotationInteractable__ctor_mA72FB121E2FCBD152D18E022DEDF50CB220DF7E8 (ARRotationInteractable_t48B10232F6C4985088C8EC46E393ECBAA06F578F* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.XR.Interaction.Toolkit.AR.ARScaleInteractable::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARScaleInteractable__ctor_mAD014E0F828B208D2862EF42FF30AD80F73FA976 (ARScaleInteractable_t1DA3CB6FB71267B2C80885F216AE8A4EC7A6B0FC* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.XR.Interaction.Toolkit.AR.ARSelectionInteractable::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARSelectionInteractable__ctor_m01B8BFEA185D36AF5CF566282B1C186A2F6DF578 (ARSelectionInteractable_t2B692035286A6C59F91B86BBF525780B113CC96E* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.XR.Interaction.Toolkit.AR.ARTranslationInteractable::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARTranslationInteractable__ctor_m830DC66E9B418617FD0BC6844D1D4C332F8103A7 (ARTranslationInteractable_t340F96917FC22210F61D564D36B90A04452159C4* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.XR.Interaction.Toolkit.AR.ARGestureInteractor::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ARGestureInteractor__ctor_mBDE13EF9AE00A65ABC1FF3E2726FDEE57FDFB7DD (ARGestureInteractor_t5F50A16286B9051118C926B6C44BAECE78F81745* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
 }

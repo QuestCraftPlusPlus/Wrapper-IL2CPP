@@ -7494,24 +7494,24 @@ extern void QueryEnabledStateCommand_get_Type_m5A6F1768EA6D487A118F2861AE4ED9485
 extern void QueryEnabledStateCommand_get_typeStatic_m4CE8116E064CBD6A470B8F043F1869E362216744 (void);
 // 0x00000F03 UnityEngine.InputSystem.LowLevel.QueryEnabledStateCommand UnityEngine.InputSystem.LowLevel.QueryEnabledStateCommand::Create()
 extern void QueryEnabledStateCommand_Create_m35BA66068A3B4897154F829D338C4CA6FF469107 (void);
-// 0x00000F04 UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::get_Type()
-extern void QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089 (void);
-// 0x00000F05 System.String UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::ReadKeyName()
-extern void QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E (void);
-// 0x00000F06 UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::get_typeStatic()
-extern void QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3 (void);
-// 0x00000F07 UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::Create(UnityEngine.InputSystem.Key)
-extern void QueryKeyNameCommand_Create_m2FD778848D7D9617D247F73C8B61A032F7D52E5D (void);
-// 0x00000F08 UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::get_Type()
+// 0x00000F04 UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::get_Type()
 extern void QueryKeyboardLayoutCommand_get_Type_mD6B795EB9B588A1F1A3D3147A3D2CF67EFE37857 (void);
-// 0x00000F09 System.String UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::ReadLayoutName()
+// 0x00000F05 System.String UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::ReadLayoutName()
 extern void QueryKeyboardLayoutCommand_ReadLayoutName_m69F50E3BC9B964A8EE56924846F0292AD4330FDE (void);
-// 0x00000F0A System.Void UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::WriteLayoutName(System.String)
+// 0x00000F06 System.Void UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::WriteLayoutName(System.String)
 extern void QueryKeyboardLayoutCommand_WriteLayoutName_mBB1067A2E35ED994C8AAF1E8C250FADBAA4AD6AE (void);
-// 0x00000F0B UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::get_typeStatic()
+// 0x00000F07 UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::get_typeStatic()
 extern void QueryKeyboardLayoutCommand_get_typeStatic_mF9D6B9C2C598C7AA595CFC38B830112CF6389C0F (void);
-// 0x00000F0C UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::Create()
+// 0x00000F08 UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::Create()
 extern void QueryKeyboardLayoutCommand_Create_m03C609EDFB9066507281CCF36EB8961EA5D6F6F9 (void);
+// 0x00000F09 UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::get_Type()
+extern void QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089 (void);
+// 0x00000F0A System.String UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::ReadKeyName()
+extern void QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E (void);
+// 0x00000F0B UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::get_typeStatic()
+extern void QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3 (void);
+// 0x00000F0C UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::Create(UnityEngine.InputSystem.Key)
+extern void QueryKeyNameCommand_Create_m2FD778848D7D9617D247F73C8B61A032F7D52E5D (void);
 // 0x00000F0D UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryPairedUserAccountCommand::get_Type()
 extern void QueryPairedUserAccountCommand_get_Type_m44803FA194663CC41EEE3C7EF7498C07992AFED5 (void);
 // 0x00000F0E System.String UnityEngine.InputSystem.LowLevel.QueryPairedUserAccountCommand::get_id()
@@ -9984,27 +9984,27 @@ extern void Enumerator_System_Collections_IEnumerator_get_Current_mEB1C895F1A42B
 // 0x00001429 System.Void UnityEngine.InputSystem.Utilities.ArrayHelpers/<>c__DisplayClass34_0`1::.ctor()
 // 0x0000142A System.Void UnityEngine.InputSystem.Utilities.ArrayHelpers/<>c__DisplayClass34_1`1::.ctor()
 // 0x0000142B System.Boolean UnityEngine.InputSystem.Utilities.ArrayHelpers/<>c__DisplayClass34_1`1::<Merge>b__0(TValue)
-// 0x0000142C System.Boolean UnityEngine.InputSystem.Utilities.CSharpCodeHelpers::IsProperIdentifier(System.String)
-extern void CSharpCodeHelpers_IsProperIdentifier_mE942369074F56C175A61D324E9DF4CC483EDC475 (void);
-// 0x0000142D System.Boolean UnityEngine.InputSystem.Utilities.CSharpCodeHelpers::IsEmptyOrProperIdentifier(System.String)
-extern void CSharpCodeHelpers_IsEmptyOrProperIdentifier_mA791F7D44274DFFDFDC544EF02532A419297D439 (void);
-// 0x0000142E System.Boolean UnityEngine.InputSystem.Utilities.CSharpCodeHelpers::IsEmptyOrProperNamespaceName(System.String)
-extern void CSharpCodeHelpers_IsEmptyOrProperNamespaceName_mEBCBC076801E7F04625DC8725427914BC1B057D5 (void);
-// 0x0000142F System.String UnityEngine.InputSystem.Utilities.CSharpCodeHelpers::MakeIdentifier(System.String,System.String)
-extern void CSharpCodeHelpers_MakeIdentifier_mEE275A2689F0DF5DB195F4673DDE66EE976C1B7E (void);
-// 0x00001430 System.String UnityEngine.InputSystem.Utilities.CSharpCodeHelpers::MakeTypeName(System.String,System.String)
-extern void CSharpCodeHelpers_MakeTypeName_m4863427D5FC958F35163D8BCCEA2B003F07F72FA (void);
-// 0x00001431 System.Int32 UnityEngine.InputSystem.Utilities.CallbackArray`1::get_length()
-// 0x00001432 TDelegate UnityEngine.InputSystem.Utilities.CallbackArray`1::get_Item(System.Int32)
-// 0x00001433 System.Void UnityEngine.InputSystem.Utilities.CallbackArray`1::Clear()
-// 0x00001434 System.Void UnityEngine.InputSystem.Utilities.CallbackArray`1::AddCallback(TDelegate)
-// 0x00001435 System.Void UnityEngine.InputSystem.Utilities.CallbackArray`1::RemoveCallback(TDelegate)
-// 0x00001436 System.Void UnityEngine.InputSystem.Utilities.CallbackArray`1::LockForChanges()
-// 0x00001437 System.Void UnityEngine.InputSystem.Utilities.CallbackArray`1::UnlockForChanges()
-// 0x00001438 System.Int32 UnityEngine.InputSystem.Utilities.Vector2MagnitudeComparer::Compare(UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x0000142C System.Int32 UnityEngine.InputSystem.Utilities.CallbackArray`1::get_length()
+// 0x0000142D TDelegate UnityEngine.InputSystem.Utilities.CallbackArray`1::get_Item(System.Int32)
+// 0x0000142E System.Void UnityEngine.InputSystem.Utilities.CallbackArray`1::Clear()
+// 0x0000142F System.Void UnityEngine.InputSystem.Utilities.CallbackArray`1::AddCallback(TDelegate)
+// 0x00001430 System.Void UnityEngine.InputSystem.Utilities.CallbackArray`1::RemoveCallback(TDelegate)
+// 0x00001431 System.Void UnityEngine.InputSystem.Utilities.CallbackArray`1::LockForChanges()
+// 0x00001432 System.Void UnityEngine.InputSystem.Utilities.CallbackArray`1::UnlockForChanges()
+// 0x00001433 System.Int32 UnityEngine.InputSystem.Utilities.Vector2MagnitudeComparer::Compare(UnityEngine.Vector2,UnityEngine.Vector2)
 extern void Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1 (void);
-// 0x00001439 System.Int32 UnityEngine.InputSystem.Utilities.Vector3MagnitudeComparer::Compare(UnityEngine.Vector3,UnityEngine.Vector3)
+// 0x00001434 System.Int32 UnityEngine.InputSystem.Utilities.Vector3MagnitudeComparer::Compare(UnityEngine.Vector3,UnityEngine.Vector3)
 extern void Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39 (void);
+// 0x00001435 System.Boolean UnityEngine.InputSystem.Utilities.CSharpCodeHelpers::IsProperIdentifier(System.String)
+extern void CSharpCodeHelpers_IsProperIdentifier_mE942369074F56C175A61D324E9DF4CC483EDC475 (void);
+// 0x00001436 System.Boolean UnityEngine.InputSystem.Utilities.CSharpCodeHelpers::IsEmptyOrProperIdentifier(System.String)
+extern void CSharpCodeHelpers_IsEmptyOrProperIdentifier_mA791F7D44274DFFDFDC544EF02532A419297D439 (void);
+// 0x00001437 System.Boolean UnityEngine.InputSystem.Utilities.CSharpCodeHelpers::IsEmptyOrProperNamespaceName(System.String)
+extern void CSharpCodeHelpers_IsEmptyOrProperNamespaceName_mEBCBC076801E7F04625DC8725427914BC1B057D5 (void);
+// 0x00001438 System.String UnityEngine.InputSystem.Utilities.CSharpCodeHelpers::MakeIdentifier(System.String,System.String)
+extern void CSharpCodeHelpers_MakeIdentifier_mEE275A2689F0DF5DB195F4673DDE66EE976C1B7E (void);
+// 0x00001439 System.String UnityEngine.InputSystem.Utilities.CSharpCodeHelpers::MakeTypeName(System.String,System.String)
+extern void CSharpCodeHelpers_MakeTypeName_m4863427D5FC958F35163D8BCCEA2B003F07F72FA (void);
 // 0x0000143A System.Void UnityEngine.InputSystem.Utilities.DelegateHelpers::InvokeCallbacksSafe(UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action>&,System.String,System.Object)
 extern void DelegateHelpers_InvokeCallbacksSafe_mC518554BC374AB5E3CE4EF06686D91D8E497E029 (void);
 // 0x0000143B System.Void UnityEngine.InputSystem.Utilities.DelegateHelpers::InvokeCallbacksSafe(UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action`1<TValue>>&,TValue,System.String,System.Object)
@@ -14647,15 +14647,15 @@ static Il2CppMethodPointer s_methodPointers[5642] =
 	QueryEnabledStateCommand_get_Type_m5A6F1768EA6D487A118F2861AE4ED9485F62ABD5,
 	QueryEnabledStateCommand_get_typeStatic_m4CE8116E064CBD6A470B8F043F1869E362216744,
 	QueryEnabledStateCommand_Create_m35BA66068A3B4897154F829D338C4CA6FF469107,
-	QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089,
-	QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E,
-	QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3,
-	QueryKeyNameCommand_Create_m2FD778848D7D9617D247F73C8B61A032F7D52E5D,
 	QueryKeyboardLayoutCommand_get_Type_mD6B795EB9B588A1F1A3D3147A3D2CF67EFE37857,
 	QueryKeyboardLayoutCommand_ReadLayoutName_m69F50E3BC9B964A8EE56924846F0292AD4330FDE,
 	QueryKeyboardLayoutCommand_WriteLayoutName_mBB1067A2E35ED994C8AAF1E8C250FADBAA4AD6AE,
 	QueryKeyboardLayoutCommand_get_typeStatic_mF9D6B9C2C598C7AA595CFC38B830112CF6389C0F,
 	QueryKeyboardLayoutCommand_Create_m03C609EDFB9066507281CCF36EB8961EA5D6F6F9,
+	QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089,
+	QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E,
+	QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3,
+	QueryKeyNameCommand_Create_m2FD778848D7D9617D247F73C8B61A032F7D52E5D,
 	QueryPairedUserAccountCommand_get_Type_m44803FA194663CC41EEE3C7EF7498C07992AFED5,
 	QueryPairedUserAccountCommand_get_id_mB52BF2DC2C2B3C63661056A1F9AAB47C0E7CDFCB,
 	QueryPairedUserAccountCommand_set_id_mCA44A798D70E7F0EB7BA347652F4341221A5BDAE,
@@ -15967,11 +15967,6 @@ static Il2CppMethodPointer s_methodPointers[5642] =
 	NULL,
 	NULL,
 	NULL,
-	CSharpCodeHelpers_IsProperIdentifier_mE942369074F56C175A61D324E9DF4CC483EDC475,
-	CSharpCodeHelpers_IsEmptyOrProperIdentifier_mA791F7D44274DFFDFDC544EF02532A419297D439,
-	CSharpCodeHelpers_IsEmptyOrProperNamespaceName_mEBCBC076801E7F04625DC8725427914BC1B057D5,
-	CSharpCodeHelpers_MakeIdentifier_mEE275A2689F0DF5DB195F4673DDE66EE976C1B7E,
-	CSharpCodeHelpers_MakeTypeName_m4863427D5FC958F35163D8BCCEA2B003F07F72FA,
 	NULL,
 	NULL,
 	NULL,
@@ -15981,6 +15976,11 @@ static Il2CppMethodPointer s_methodPointers[5642] =
 	NULL,
 	Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1,
 	Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39,
+	CSharpCodeHelpers_IsProperIdentifier_mE942369074F56C175A61D324E9DF4CC483EDC475,
+	CSharpCodeHelpers_IsEmptyOrProperIdentifier_mA791F7D44274DFFDFDC544EF02532A419297D439,
+	CSharpCodeHelpers_IsEmptyOrProperNamespaceName_mEBCBC076801E7F04625DC8725427914BC1B057D5,
+	CSharpCodeHelpers_MakeIdentifier_mEE275A2689F0DF5DB195F4673DDE66EE976C1B7E,
+	CSharpCodeHelpers_MakeTypeName_m4863427D5FC958F35163D8BCCEA2B003F07F72FA,
 	DelegateHelpers_InvokeCallbacksSafe_mC518554BC374AB5E3CE4EF06686D91D8E497E029,
 	NULL,
 	NULL,
@@ -17101,11 +17101,11 @@ extern void InputDeviceCommand_get_typeStatic_m50C7C954EE7CA7B20757F2874C08D0FFF
 extern void QueryCanRunInBackground_get_typeStatic_m18F466F00C744F3136183AD33D6E562F161A594D_AdjustorThunk (void);
 extern void QueryDimensionsCommand_get_typeStatic_mDCF9B62F3BF35868211DAC4674B20B649F199141_AdjustorThunk (void);
 extern void QueryEnabledStateCommand_get_typeStatic_m4CE8116E064CBD6A470B8F043F1869E362216744_AdjustorThunk (void);
-extern void QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E_AdjustorThunk (void);
-extern void QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3_AdjustorThunk (void);
 extern void QueryKeyboardLayoutCommand_ReadLayoutName_m69F50E3BC9B964A8EE56924846F0292AD4330FDE_AdjustorThunk (void);
 extern void QueryKeyboardLayoutCommand_WriteLayoutName_mBB1067A2E35ED994C8AAF1E8C250FADBAA4AD6AE_AdjustorThunk (void);
 extern void QueryKeyboardLayoutCommand_get_typeStatic_mF9D6B9C2C598C7AA595CFC38B830112CF6389C0F_AdjustorThunk (void);
+extern void QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E_AdjustorThunk (void);
+extern void QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3_AdjustorThunk (void);
 extern void QueryPairedUserAccountCommand_get_id_mB52BF2DC2C2B3C63661056A1F9AAB47C0E7CDFCB_AdjustorThunk (void);
 extern void QueryPairedUserAccountCommand_set_id_mCA44A798D70E7F0EB7BA347652F4341221A5BDAE_AdjustorThunk (void);
 extern void QueryPairedUserAccountCommand_get_name_m405A615F44272337724373D19F46B1258C18C856_AdjustorThunk (void);
@@ -18329,11 +18329,11 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1226] =
 	{ 0x06000EFC, QueryCanRunInBackground_get_typeStatic_m18F466F00C744F3136183AD33D6E562F161A594D_AdjustorThunk },
 	{ 0x06000EFF, QueryDimensionsCommand_get_typeStatic_mDCF9B62F3BF35868211DAC4674B20B649F199141_AdjustorThunk },
 	{ 0x06000F02, QueryEnabledStateCommand_get_typeStatic_m4CE8116E064CBD6A470B8F043F1869E362216744_AdjustorThunk },
-	{ 0x06000F05, QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E_AdjustorThunk },
-	{ 0x06000F06, QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3_AdjustorThunk },
-	{ 0x06000F09, QueryKeyboardLayoutCommand_ReadLayoutName_m69F50E3BC9B964A8EE56924846F0292AD4330FDE_AdjustorThunk },
-	{ 0x06000F0A, QueryKeyboardLayoutCommand_WriteLayoutName_mBB1067A2E35ED994C8AAF1E8C250FADBAA4AD6AE_AdjustorThunk },
-	{ 0x06000F0B, QueryKeyboardLayoutCommand_get_typeStatic_mF9D6B9C2C598C7AA595CFC38B830112CF6389C0F_AdjustorThunk },
+	{ 0x06000F05, QueryKeyboardLayoutCommand_ReadLayoutName_m69F50E3BC9B964A8EE56924846F0292AD4330FDE_AdjustorThunk },
+	{ 0x06000F06, QueryKeyboardLayoutCommand_WriteLayoutName_mBB1067A2E35ED994C8AAF1E8C250FADBAA4AD6AE_AdjustorThunk },
+	{ 0x06000F07, QueryKeyboardLayoutCommand_get_typeStatic_mF9D6B9C2C598C7AA595CFC38B830112CF6389C0F_AdjustorThunk },
+	{ 0x06000F0A, QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E_AdjustorThunk },
+	{ 0x06000F0B, QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3_AdjustorThunk },
 	{ 0x06000F0E, QueryPairedUserAccountCommand_get_id_mB52BF2DC2C2B3C63661056A1F9AAB47C0E7CDFCB_AdjustorThunk },
 	{ 0x06000F0F, QueryPairedUserAccountCommand_set_id_mCA44A798D70E7F0EB7BA347652F4341221A5BDAE_AdjustorThunk },
 	{ 0x06000F10, QueryPairedUserAccountCommand_get_name_m405A615F44272337724373D19F46B1258C18C856_AdjustorThunk },
@@ -18768,8 +18768,8 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1226] =
 	{ 0x060013F4, Enumerator_Dispose_m9790CF196DD2B4BA2BE0D22193A856CC91BD4A65_AdjustorThunk },
 	{ 0x060013F5, Enumerator_get_Current_m72460218A339059A12B275819928F3867FA1409E_AdjustorThunk },
 	{ 0x060013F6, Enumerator_System_Collections_IEnumerator_get_Current_mEB1C895F1A42B12278CA02B62403E00B08BA06CC_AdjustorThunk },
-	{ 0x06001438, Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1_AdjustorThunk },
-	{ 0x06001439, Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39_AdjustorThunk },
+	{ 0x06001433, Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1_AdjustorThunk },
+	{ 0x06001434, Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39_AdjustorThunk },
 	{ 0x06001444, FourCC__ctor_mE761C8779BB6DC85BA1662DC9ECEC39D62ED9A56_AdjustorThunk },
 	{ 0x06001445, FourCC__ctor_mFE3A3F80C6900CD18CB9BDD3C9B604823F2E791F_AdjustorThunk },
 	{ 0x06001446, FourCC__ctor_m305163ED105CA8143DBB6D7D31A77124105B8201_AdjustorThunk },
@@ -22749,13 +22749,13 @@ static const int32_t s_InvokerIndices[5642] =
 	10320,
 	10290,
 	6544,
-	6469,
-	9891,
-	10290,
-	6544,
 	5314,
 	6469,
 	10321,
+	10290,
+	6544,
+	6469,
+	9891,
 	10290,
 	6544,
 	5314,
@@ -24067,11 +24067,6 @@ static const int32_t s_InvokerIndices[5642] =
 	0,
 	0,
 	0,
-	9578,
-	9578,
-	9578,
-	9037,
-	9037,
 	0,
 	0,
 	0,
@@ -24081,6 +24076,11 @@ static const int32_t s_InvokerIndices[5642] =
 	0,
 	2170,
 	2173,
+	9578,
+	9578,
+	9578,
+	9037,
+	9037,
 	8481,
 	0,
 	0,
@@ -24563,7 +24563,7 @@ static const Il2CppTokenRangePair s_rgctxIndices[189] =
 	{ 0x020001DD, { 280, 4 } },
 	{ 0x0200022B, { 410, 3 } },
 	{ 0x0200022D, { 413, 1 } },
-	{ 0x0200022F, { 414, 11 } },
+	{ 0x0200022E, { 414, 11 } },
 	{ 0x02000236, { 461, 29 } },
 	{ 0x02000237, { 493, 5 } },
 	{ 0x02000242, { 518, 10 } },

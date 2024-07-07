@@ -6008,62 +6008,62 @@ struct XRSocketInteractor_t955B5778E5057E61463018DC1817B84363C54591  : public XR
 // UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule
 struct UIInputModule_t9F252B720B55B1976F4B2A1D2726E3D3D46781F7  : public BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1
 {
-	// System.Action`2<UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::finalizeRaycastResults
-	Action_2_t9E025178EB6D8AD3F860F1304281C956B2557DA5* ___finalizeRaycastResults_11;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::pointerEnter
-	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___pointerEnter_12;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::pointerExit
-	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___pointerExit_13;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::pointerDown
-	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___pointerDown_14;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::pointerUp
-	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___pointerUp_15;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::pointerClick
-	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___pointerClick_16;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::pointerMove
-	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___pointerMove_17;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::initializePotentialDrag
-	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___initializePotentialDrag_18;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::beginDrag
-	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___beginDrag_19;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::drag
-	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___drag_20;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::endDrag
-	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___endDrag_21;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::drop
-	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___drop_22;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::scroll
-	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___scroll_23;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::updateSelected
-	Action_2_t008DEBCCE93B9AFB6B534C4A74014AACF6C3CA3F* ___updateSelected_24;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.AxisEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::move
-	Action_2_t76F365045FBA8EFD9F827E97E72AD60870E43A5B* ___move_25;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::submit
-	Action_2_t008DEBCCE93B9AFB6B534C4A74014AACF6C3CA3F* ___submit_26;
-	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::cancel
-	Action_2_t008DEBCCE93B9AFB6B534C4A74014AACF6C3CA3F* ___cancel_27;
 	// System.Single UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::m_ClickSpeed
-	float ___m_ClickSpeed_28;
+	float ___m_ClickSpeed_11;
 	// System.Single UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::m_MoveDeadzone
-	float ___m_MoveDeadzone_29;
+	float ___m_MoveDeadzone_12;
 	// System.Single UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::m_RepeatDelay
-	float ___m_RepeatDelay_30;
+	float ___m_RepeatDelay_13;
 	// System.Single UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::m_RepeatRate
-	float ___m_RepeatRate_31;
+	float ___m_RepeatRate_14;
 	// System.Single UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::m_TrackedDeviceDragThresholdMultiplier
-	float ___m_TrackedDeviceDragThresholdMultiplier_32;
+	float ___m_TrackedDeviceDragThresholdMultiplier_15;
 	// System.Single UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::m_TrackedScrollDeltaMultiplier
-	float ___m_TrackedScrollDeltaMultiplier_33;
+	float ___m_TrackedScrollDeltaMultiplier_16;
 	// UnityEngine.Camera UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::m_UICamera
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___m_UICamera_34;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___m_UICamera_17;
 	// UnityEngine.Camera UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::m_MainCameraCache
-	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___m_MainCameraCache_35;
+	Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* ___m_MainCameraCache_18;
 	// UnityEngine.EventSystems.AxisEventData UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::m_CachedAxisEvent
-	AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* ___m_CachedAxisEvent_36;
+	AxisEventData_t4AA742BC101B1AA300B16EE7F19E31B91F37A938* ___m_CachedAxisEvent_19;
 	// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::m_PointerEventByPointerId
-	Dictionary_2_t489B023479196B8FC9709A9F834FC38729BD9493* ___m_PointerEventByPointerId_37;
+	Dictionary_2_t489B023479196B8FC9709A9F834FC38729BD9493* ___m_PointerEventByPointerId_20;
 	// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::m_TrackedDeviceEventByPointerId
-	Dictionary_2_t4003FE92106CBCA42529AD4D4999203963E3C73F* ___m_TrackedDeviceEventByPointerId_38;
+	Dictionary_2_t4003FE92106CBCA42529AD4D4999203963E3C73F* ___m_TrackedDeviceEventByPointerId_21;
+	// System.Action`2<UnityEngine.EventSystems.PointerEventData,System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::finalizeRaycastResults
+	Action_2_t9E025178EB6D8AD3F860F1304281C956B2557DA5* ___finalizeRaycastResults_22;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::pointerEnter
+	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___pointerEnter_23;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::pointerExit
+	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___pointerExit_24;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::pointerDown
+	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___pointerDown_25;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::pointerUp
+	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___pointerUp_26;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::pointerClick
+	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___pointerClick_27;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::pointerMove
+	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___pointerMove_28;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::initializePotentialDrag
+	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___initializePotentialDrag_29;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::beginDrag
+	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___beginDrag_30;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::drag
+	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___drag_31;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::endDrag
+	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___endDrag_32;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::drop
+	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___drop_33;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.PointerEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::scroll
+	Action_2_t68DB8CF5EE5650D5F916A1411E3969BE1227C1E1* ___scroll_34;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::updateSelected
+	Action_2_t008DEBCCE93B9AFB6B534C4A74014AACF6C3CA3F* ___updateSelected_35;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.AxisEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::move
+	Action_2_t76F365045FBA8EFD9F827E97E72AD60870E43A5B* ___move_36;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::submit
+	Action_2_t008DEBCCE93B9AFB6B534C4A74014AACF6C3CA3F* ___submit_37;
+	// System.Action`2<UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData> UnityEngine.XR.Interaction.Toolkit.UI.UIInputModule::cancel
+	Action_2_t008DEBCCE93B9AFB6B534C4A74014AACF6C3CA3F* ___cancel_38;
 };
 
 // UnityEngine.InputSystem.XR.XRControllerWithRumble

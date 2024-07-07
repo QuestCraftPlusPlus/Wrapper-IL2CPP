@@ -11870,12 +11870,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C99
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void IntPtr__ctor_m4F9A9B80F01996B610D5AE4797F20B98ECD0A3D9_inline (intptr_t* __this, void* ___0_value, const RuntimeMethod* method) ;
 // System.String UnityEngine.InputSystem.Utilities.StringHelpers::ReadStringFromBuffer(System.IntPtr,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StringHelpers_ReadStringFromBuffer_m2D73BEC46047561991586041C6195B9CC776DA0D (intptr_t ___0_buffer, int32_t ___1_bufferSize, const RuntimeMethod* method) ;
-// System.String UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::ReadKeyName()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E (QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* __this, const RuntimeMethod* method) ;
-// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::get_Type()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089 (const RuntimeMethod* method) ;
-// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::get_typeStatic()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3 (QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* __this, const RuntimeMethod* method) ;
 // System.String UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::ReadLayoutName()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* QueryKeyboardLayoutCommand_ReadLayoutName_m69F50E3BC9B964A8EE56924846F0292AD4330FDE (QueryKeyboardLayoutCommand_tFC7F5A66A40C43E85CE0374D9845F342ECBD019F* __this, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.InputSystem.Utilities.StringHelpers::WriteStringToBuffer(System.String,System.IntPtr,System.Int32)
@@ -11886,6 +11880,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QueryKeyboardLayoutCommand_WriteLayoutNa
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED QueryKeyboardLayoutCommand_get_Type_mD6B795EB9B588A1F1A3D3147A3D2CF67EFE37857 (const RuntimeMethod* method) ;
 // UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::get_typeStatic()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED QueryKeyboardLayoutCommand_get_typeStatic_mF9D6B9C2C598C7AA595CFC38B830112CF6389C0F (QueryKeyboardLayoutCommand_tFC7F5A66A40C43E85CE0374D9845F342ECBD019F* __this, const RuntimeMethod* method) ;
+// System.String UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::ReadKeyName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E (QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* __this, const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::get_Type()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089 (const RuntimeMethod* method) ;
+// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::get_typeStatic()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3 (QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* __this, const RuntimeMethod* method) ;
 // System.String UnityEngine.InputSystem.LowLevel.QueryPairedUserAccountCommand::get_id()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* QueryPairedUserAccountCommand_get_id_mB52BF2DC2C2B3C63661056A1F9AAB47C0E7CDFCB (QueryPairedUserAccountCommand_t0E05ACE98295E34BA26542A994F2F66027E09582* __this, const RuntimeMethod* method) ;
 // System.Int32 System.String::get_Length()
@@ -23960,105 +23960,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QueryEnabledStateCommand_t32FB8F3C31DD9250FCE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::get_Type()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089 (const RuntimeMethod* method) 
-{
-	{
-		// public static FourCC Type => new FourCC('K', 'Y', 'C', 'F');
-		FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED L_0;
-		memset((&L_0), 0, sizeof(L_0));
-		FourCC__ctor_mFE3A3F80C6900CD18CB9BDD3C9B604823F2E791F((&L_0), ((int32_t)75), ((int32_t)89), ((int32_t)67), ((int32_t)70), /*hidden argument*/NULL);
-		return L_0;
-	}
-}
-// System.String UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::ReadKeyName()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E (QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* __this, const RuntimeMethod* method) 
-{
-	QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* V_0 = NULL;
-	{
-		// {
-		V_0 = __this;
-		// fixed(QueryKeyNameCommand * thisPtr = &this)
-		QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* L_0 = V_0;
-		// return StringHelpers.ReadStringFromBuffer(new IntPtr(thisPtr->nameBuffer), kMaxNameLength);
-		U3CnameBufferU3Ee__FixedBuffer_tF101426D1EE77D09C5615FAE829F3F32616ED2A4* L_1 = (U3CnameBufferU3Ee__FixedBuffer_tF101426D1EE77D09C5615FAE829F3F32616ED2A4*)(&((QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247*)((uintptr_t)L_0))->___nameBuffer_4);
-		uint8_t* L_2 = (uint8_t*)(&L_1->___FixedElementField_0);
-		intptr_t L_3;
-		memset((&L_3), 0, sizeof(L_3));
-		IntPtr__ctor_m4F9A9B80F01996B610D5AE4797F20B98ECD0A3D9_inline((&L_3), (void*)((uintptr_t)L_2), /*hidden argument*/NULL);
-		String_t* L_4;
-		L_4 = StringHelpers_ReadStringFromBuffer_m2D73BEC46047561991586041C6195B9CC776DA0D(L_3, ((int32_t)256), NULL);
-		return L_4;
-	}
-}
-IL2CPP_EXTERN_C  String_t* QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247*>(__this + _offset);
-	String_t* _returnValue;
-	_returnValue = QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E(_thisAdjusted, method);
-	return _returnValue;
-}
-// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::get_typeStatic()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3 (QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* __this, const RuntimeMethod* method) 
-{
-	{
-		// public FourCC typeStatic => Type;
-		FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED L_0;
-		L_0 = QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089(NULL);
-		return L_0;
-	}
-}
-IL2CPP_EXTERN_C  FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247*>(__this + _offset);
-	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED _returnValue;
-	_returnValue = QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3(_thisAdjusted, method);
-	return _returnValue;
-}
-// UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::Create(UnityEngine.InputSystem.Key)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247 QueryKeyNameCommand_Create_m2FD778848D7D9617D247F73C8B61A032F7D52E5D (int32_t ___0_key, const RuntimeMethod* method) 
-{
-	QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247 V_0;
-	memset((&V_0), 0, sizeof(V_0));
-	{
-		// return new QueryKeyNameCommand
-		// {
-		//     baseCommand = new InputDeviceCommand(Type, kSize),
-		//     scanOrKeyCode = (int)key
-		// };
-		il2cpp_codegen_initobj((&V_0), sizeof(QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247));
-		FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED L_0;
-		L_0 = QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089(NULL);
-		InputDeviceCommand_t219FD4502984D73D423496E4A2ED7FDB6CBE710E L_1;
-		memset((&L_1), 0, sizeof(L_1));
-		InputDeviceCommand__ctor_m2782FEC7CC073D375910E91EBFA992FAD238FC01((&L_1), L_0, ((int32_t)268), /*hidden argument*/NULL);
-		(&V_0)->___baseCommand_2 = L_1;
-		int32_t L_2 = ___0_key;
-		(&V_0)->___scanOrKeyCode_3 = L_2;
-		QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247 L_3 = V_0;
-		return L_3;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::get_Type()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED QueryKeyboardLayoutCommand_get_Type_mD6B795EB9B588A1F1A3D3147A3D2CF67EFE37857 (const RuntimeMethod* method) 
 {
@@ -24171,6 +24072,105 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QueryKeyboardLayoutCommand_tFC7F5A66A40C43E85
 		(&V_0)->___baseCommand_1 = L_1;
 		QueryKeyboardLayoutCommand_tFC7F5A66A40C43E85CE0374D9845F342ECBD019F L_2 = V_0;
 		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::get_Type()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089 (const RuntimeMethod* method) 
+{
+	{
+		// public static FourCC Type => new FourCC('K', 'Y', 'C', 'F');
+		FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		FourCC__ctor_mFE3A3F80C6900CD18CB9BDD3C9B604823F2E791F((&L_0), ((int32_t)75), ((int32_t)89), ((int32_t)67), ((int32_t)70), /*hidden argument*/NULL);
+		return L_0;
+	}
+}
+// System.String UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::ReadKeyName()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E (QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* __this, const RuntimeMethod* method) 
+{
+	QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* V_0 = NULL;
+	{
+		// {
+		V_0 = __this;
+		// fixed(QueryKeyNameCommand * thisPtr = &this)
+		QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* L_0 = V_0;
+		// return StringHelpers.ReadStringFromBuffer(new IntPtr(thisPtr->nameBuffer), kMaxNameLength);
+		U3CnameBufferU3Ee__FixedBuffer_tF101426D1EE77D09C5615FAE829F3F32616ED2A4* L_1 = (U3CnameBufferU3Ee__FixedBuffer_tF101426D1EE77D09C5615FAE829F3F32616ED2A4*)(&((QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247*)((uintptr_t)L_0))->___nameBuffer_4);
+		uint8_t* L_2 = (uint8_t*)(&L_1->___FixedElementField_0);
+		intptr_t L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		IntPtr__ctor_m4F9A9B80F01996B610D5AE4797F20B98ECD0A3D9_inline((&L_3), (void*)((uintptr_t)L_2), /*hidden argument*/NULL);
+		String_t* L_4;
+		L_4 = StringHelpers_ReadStringFromBuffer_m2D73BEC46047561991586041C6195B9CC776DA0D(L_3, ((int32_t)256), NULL);
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C  String_t* QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247*>(__this + _offset);
+	String_t* _returnValue;
+	_returnValue = QueryKeyNameCommand_ReadKeyName_mE3442B7FD9CC5B3889A5908F2F87F215FF70A61E(_thisAdjusted, method);
+	return _returnValue;
+}
+// UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::get_typeStatic()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3 (QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* __this, const RuntimeMethod* method) 
+{
+	{
+		// public FourCC typeStatic => Type;
+		FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED L_0;
+		L_0 = QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089(NULL);
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247*>(__this + _offset);
+	FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED _returnValue;
+	_returnValue = QueryKeyNameCommand_get_typeStatic_mF2D528451EEEC0E93933CF425037F4851EC1ECB3(_thisAdjusted, method);
+	return _returnValue;
+}
+// UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand UnityEngine.InputSystem.LowLevel.QueryKeyNameCommand::Create(UnityEngine.InputSystem.Key)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247 QueryKeyNameCommand_Create_m2FD778848D7D9617D247F73C8B61A032F7D52E5D (int32_t ___0_key, const RuntimeMethod* method) 
+{
+	QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// return new QueryKeyNameCommand
+		// {
+		//     baseCommand = new InputDeviceCommand(Type, kSize),
+		//     scanOrKeyCode = (int)key
+		// };
+		il2cpp_codegen_initobj((&V_0), sizeof(QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247));
+		FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED L_0;
+		L_0 = QueryKeyNameCommand_get_Type_mF39C67F95A7EE638AEA573691AABEF1B38F7E089(NULL);
+		InputDeviceCommand_t219FD4502984D73D423496E4A2ED7FDB6CBE710E L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		InputDeviceCommand__ctor_m2782FEC7CC073D375910E91EBFA992FAD238FC01((&L_1), L_0, ((int32_t)268), /*hidden argument*/NULL);
+		(&V_0)->___baseCommand_2 = L_1;
+		int32_t L_2 = ___0_key;
+		(&V_0)->___scanOrKeyCode_3 = L_2;
+		QueryKeyNameCommand_tCEEA57BE2D12A0FFDCD9FE3F8A5851CC31DBE247 L_3 = V_0;
+		return L_3;
 	}
 }
 #ifdef __clang__

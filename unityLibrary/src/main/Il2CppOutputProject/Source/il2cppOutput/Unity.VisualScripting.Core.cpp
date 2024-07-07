@@ -604,8 +604,6 @@ struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
 struct ExceptionU5BU5D_t99DA4B29FFBFD40F2C926A32586692D433EF291C;
 // System.Linq.Expressions.Expression[]
 struct ExpressionU5BU5D_tA9F782C3F01235FA1BEE94C80141F0CE1CB1BF6F;
-// System.Reflection.FieldInfo[]
-struct FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8;
 // UnityEngine.GradientAlphaKey[]
 struct GradientAlphaKeyU5BU5D_tA5D7ED787780B5C01635C8C59B15B2BC01AEC50E;
 // UnityEngine.GradientColorKey[]
@@ -1237,7 +1235,6 @@ IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* fsConfig_tB8F11CB8B2C89E00C261FD356AD7B68AD0EE0726_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* fsDataTypeU5BU5D_tFDD22C6886404612ACB740276A1DB4E4B45A09CD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* fsDataType_t4DDBD7DB585B530CF852D23D5FF4D9801DDE4A16_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23_il2cpp_TypeInfo_var;
@@ -1383,7 +1380,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralE6DA7234BECA310D05D1CCE085694DCA9517F9A5
 IL2CPP_EXTERN_C String_t* _stringLiteralE900E3A5D86E93CC30D134FE1B28D983C3AB664B;
 IL2CPP_EXTERN_C String_t* _stringLiteralEC3028D001346062202727410843DFE378041C50;
 IL2CPP_EXTERN_C String_t* _stringLiteralED5BBB90D20A2AA8C8C54E3492A16A7B15968FD9;
-IL2CPP_EXTERN_C String_t* _stringLiteralED7E8149CEBF3CFBAC5E88F3F9BDA66E4616B6FC;
 IL2CPP_EXTERN_C String_t* _stringLiteralF003F718677C5410BED50DC895348E4B337F963F;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3511D7082A4B544B1B434F367E282F0348391B0;
 IL2CPP_EXTERN_C String_t* _stringLiteralF3C6C902DBF80139640F6554F0C3392016A8ADF7;
@@ -1753,7 +1749,6 @@ IL2CPP_EXTERN_C const RuntimeType* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 IL2CPP_EXTERN_C const RuntimeType* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Void_t4861ACF8F4594C3437BB48B6E56783494B843915_0_0_0_var;
-IL2CPP_EXTERN_C const RuntimeType* fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* fsReflectedConverter_tFC455C20301AB6ADA591677778897F0AF6BCF8CF_0_0_0_var;
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com;
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_pinvoke;
@@ -3082,11 +3077,6 @@ struct fsContext_t3B227C205D84208E2D8934429C07677542C97B5F  : public RuntimeObje
 {
 	// System.Collections.Generic.Dictionary`2<System.Type,System.Object> Unity.VisualScripting.FullSerializer.fsContext::_contextObjects
 	Dictionary_2_t954AEC357FE7190582B8255D4ACEF81F5E94A6A5* ____contextObjects_0;
-};
-
-// Unity.VisualScripting.FullSerializer.fsConverterRegistrar
-struct fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C  : public RuntimeObject
-{
 };
 
 // Unity.VisualScripting.FullSerializer.fsData
@@ -6104,15 +6094,6 @@ struct UnityThread_tF9B353D2BD29AE999AC8B11E5FF55A3EDD6F783E_StaticFields
 // Unity.VisualScripting.FullSerializer.fsContext
 
 // Unity.VisualScripting.FullSerializer.fsContext
-
-// Unity.VisualScripting.FullSerializer.fsConverterRegistrar
-struct fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_StaticFields
-{
-	// System.Collections.Generic.List`1<System.Type> Unity.VisualScripting.FullSerializer.fsConverterRegistrar::Converters
-	List_1_t4B77DB8D00EC6CC4705EB5F2FCC506472734EA72* ___Converters_0;
-};
-
-// Unity.VisualScripting.FullSerializer.fsConverterRegistrar
 
 // Unity.VisualScripting.FullSerializer.fsData
 struct fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23_StaticFields
@@ -10405,10 +10386,6 @@ inline VariablesSaver_t7BBEA9D2AE4520E74E4F13055C51E92909975573* Singleton_1_Ins
 }
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
-// System.Reflection.FieldInfo[] Unity.VisualScripting.FullSerializer.Internal.fsPortableReflection::GetDeclaredFields(System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8* fsPortableReflection_GetDeclaredFields_m8FCC0F8F72BA45796F5C46E49F74E6187790D89B (Type_t* ___0_type, const RuntimeMethod* method) ;
-// System.Reflection.MethodInfo[] Unity.VisualScripting.FullSerializer.Internal.fsPortableReflection::GetDeclaredMethods(System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* fsPortableReflection_GetDeclaredMethods_mF1E5A4D80A892D0E7E9FED20061B23E39E413DB3 (Type_t* ___0_type, const RuntimeMethod* method) ;
 // Unity.VisualScripting.FullSerializer.fsData Unity.VisualScripting.FullSerializer.fsData::CreateList(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR fsData_t6E144EC58C6E449805AB7BF77BCDAB7230BBFA23* fsData_CreateList_m99EDBD341F412886FD95A18B4AF1E1B763C10E95 (int32_t ___0_capacity, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1<Unity.VisualScripting.FullSerializer.fsData> Unity.VisualScripting.FullSerializer.fsData::get_AsList()
@@ -35272,171 +35249,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VariablesSaver__ctor_m0D71CC9CC4C45098D3
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Unity.VisualScripting.FullSerializer.fsConverterRegistrar::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void fsConverterRegistrar__cctor_m06F8018AD5F3307316F0DC9162EBB268ABA6C868 (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mC8CFB4EB6D53C1BF2C8B48F97B5A741EB576B91E_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mD9035342BE1CF0A3EEEE157D1796DA385C0C3F69_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t4B77DB8D00EC6CC4705EB5F2FCC506472734EA72_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Type_t_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralED7E8149CEBF3CFBAC5E88F3F9BDA66E4616B6FC);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_0_0_0_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8* V_0 = NULL;
-	int32_t V_1 = 0;
-	FieldInfo_t* V_2 = NULL;
-	MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* V_3 = NULL;
-	MethodInfo_t* V_4 = NULL;
-	{
-		// Converters = new List<Type>();
-		List_1_t4B77DB8D00EC6CC4705EB5F2FCC506472734EA72* L_0 = (List_1_t4B77DB8D00EC6CC4705EB5F2FCC506472734EA72*)il2cpp_codegen_object_new(List_1_t4B77DB8D00EC6CC4705EB5F2FCC506472734EA72_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		List_1__ctor_mD9035342BE1CF0A3EEEE157D1796DA385C0C3F69(L_0, List_1__ctor_mD9035342BE1CF0A3EEEE157D1796DA385C0C3F69_RuntimeMethod_var);
-		((fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_StaticFields*)il2cpp_codegen_static_fields_for(fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_il2cpp_TypeInfo_var))->___Converters_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_StaticFields*)il2cpp_codegen_static_fields_for(fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_il2cpp_TypeInfo_var))->___Converters_0), (void*)L_0);
-		// foreach (var field in typeof(fsConverterRegistrar).GetDeclaredFields())
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_0_0_0_var) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_2;
-		L_2 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_1, NULL);
-		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
-		FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8* L_3;
-		L_3 = fsPortableReflection_GetDeclaredFields_m8FCC0F8F72BA45796F5C46E49F74E6187790D89B(L_2, NULL);
-		V_0 = L_3;
-		V_1 = 0;
-		goto IL_0048;
-	}
-
-IL_001e:
-	{
-		// foreach (var field in typeof(fsConverterRegistrar).GetDeclaredFields())
-		FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8* L_4 = V_0;
-		int32_t L_5 = V_1;
-		NullCheck(L_4);
-		int32_t L_6 = L_5;
-		FieldInfo_t* L_7 = (L_4)->GetAt(static_cast<il2cpp_array_size_t>(L_6));
-		V_2 = L_7;
-		// if (field.Name.StartsWith("Register_"))
-		FieldInfo_t* L_8 = V_2;
-		NullCheck(L_8);
-		String_t* L_9;
-		L_9 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_8);
-		NullCheck(L_9);
-		bool L_10;
-		L_10 = String_StartsWith_mF75DBA1EB709811E711B44E26FF919C88A8E65C0(L_9, _stringLiteralED7E8149CEBF3CFBAC5E88F3F9BDA66E4616B6FC, NULL);
-		if (!L_10)
-		{
-			goto IL_0044;
-		}
-	}
-	{
-		// Converters.Add(field.FieldType);
-		List_1_t4B77DB8D00EC6CC4705EB5F2FCC506472734EA72* L_11 = ((fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_StaticFields*)il2cpp_codegen_static_fields_for(fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_il2cpp_TypeInfo_var))->___Converters_0;
-		FieldInfo_t* L_12 = V_2;
-		NullCheck(L_12);
-		Type_t* L_13;
-		L_13 = VirtualFuncInvoker0< Type_t* >::Invoke(17 /* System.Type System.Reflection.FieldInfo::get_FieldType() */, L_12);
-		NullCheck(L_11);
-		List_1_Add_mC8CFB4EB6D53C1BF2C8B48F97B5A741EB576B91E_inline(L_11, L_13, List_1_Add_mC8CFB4EB6D53C1BF2C8B48F97B5A741EB576B91E_RuntimeMethod_var);
-	}
-
-IL_0044:
-	{
-		int32_t L_14 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add(L_14, 1));
-	}
-
-IL_0048:
-	{
-		// foreach (var field in typeof(fsConverterRegistrar).GetDeclaredFields())
-		int32_t L_15 = V_1;
-		FieldInfoU5BU5D_t50D47CBECF1AEB152F555803E3329D9E34DBF8D8* L_16 = V_0;
-		NullCheck(L_16);
-		if ((((int32_t)L_15) < ((int32_t)((int32_t)(((RuntimeArray*)L_16)->max_length)))))
-		{
-			goto IL_001e;
-		}
-	}
-	{
-		// foreach (var method in typeof(fsConverterRegistrar).GetDeclaredMethods())
-		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_17 = { reinterpret_cast<intptr_t> (fsConverterRegistrar_t4868C49640C2AB394473765FBF1F8BBE2571118C_0_0_0_var) };
-		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
-		Type_t* L_18;
-		L_18 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_17, NULL);
-		il2cpp_codegen_runtime_class_init_inline(fsPortableReflection_tA45F2E2021B8A940160FB5D846AF5B9A610C9ED3_il2cpp_TypeInfo_var);
-		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_19;
-		L_19 = fsPortableReflection_GetDeclaredMethods_mF1E5A4D80A892D0E7E9FED20061B23E39E413DB3(L_18, NULL);
-		V_3 = L_19;
-		V_1 = 0;
-		goto IL_0088;
-	}
-
-IL_0062:
-	{
-		// foreach (var method in typeof(fsConverterRegistrar).GetDeclaredMethods())
-		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_20 = V_3;
-		int32_t L_21 = V_1;
-		NullCheck(L_20);
-		int32_t L_22 = L_21;
-		MethodInfo_t* L_23 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_22));
-		V_4 = L_23;
-		// if (method.Name.StartsWith("Register_"))
-		MethodInfo_t* L_24 = V_4;
-		NullCheck(L_24);
-		String_t* L_25;
-		L_25 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Reflection.MemberInfo::get_Name() */, L_24);
-		NullCheck(L_25);
-		bool L_26;
-		L_26 = String_StartsWith_mF75DBA1EB709811E711B44E26FF919C88A8E65C0(L_25, _stringLiteralED7E8149CEBF3CFBAC5E88F3F9BDA66E4616B6FC, NULL);
-		if (!L_26)
-		{
-			goto IL_0084;
-		}
-	}
-	{
-		// method.Invoke(null, null);
-		MethodInfo_t* L_27 = V_4;
-		NullCheck(L_27);
-		RuntimeObject* L_28;
-		L_28 = MethodBase_Invoke_mEEF3218648F111A8C338001A7804091A0747C826(L_27, NULL, (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)NULL, NULL);
-	}
-
-IL_0084:
-	{
-		int32_t L_29 = V_1;
-		V_1 = ((int32_t)il2cpp_codegen_add(L_29, 1));
-	}
-
-IL_0088:
-	{
-		// foreach (var method in typeof(fsConverterRegistrar).GetDeclaredMethods())
-		int32_t L_30 = V_1;
-		MethodInfoU5BU5D_tDF3670604A0AECF814A0B0BA09B91FBF0D6A3265* L_31 = V_3;
-		NullCheck(L_31);
-		if ((((int32_t)L_30) < ((int32_t)((int32_t)(((RuntimeArray*)L_31)->max_length)))))
-		{
-			goto IL_0062;
-		}
-	}
-	{
-		// }
 		return;
 	}
 }

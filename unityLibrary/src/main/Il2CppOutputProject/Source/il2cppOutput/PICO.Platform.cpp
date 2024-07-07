@@ -126,14 +126,10 @@ struct ConcurrentDictionary_2_t8CAA59864D22570766253F4D445B3BFB444CFEC7;
 struct Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Threading.Tasks.Task>
 struct Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55;
-// System.Collections.Generic.Dictionary`2<System.Int32Enum,System.Int32>
-struct Dictionary_2_tFCDE91BDD0207A67521C455FD60B9EAA6E0E6B62;
 // System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
 struct Dictionary_2_t5C96F4B6841710A9013966F76224BAE01FB4B4D1;
 // System.Collections.Generic.Dictionary`2<System.Object,System.Object>
 struct Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA;
-// System.Collections.Generic.Dictionary`2<Pico.Platform.RtcPrivilege,System.Int32>
-struct Dictionary_2_tFA4E3C6BBA632C5BEEBB77A03650502241C2D607;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588;
 // System.Collections.Generic.Dictionary`2<System.String,System.String>
@@ -310,52 +306,12 @@ struct Handler_tD5B53602480F85F0A88081A5EAD02F7C265FAED5;
 struct Handler_t2EB9A4A76E8192ABC1B83F93084DC070D95B3D8C;
 // Pico.Platform.Message`1/Handler<Pico.Platform.GameRequestFailedReason>
 struct Handler_tF5FEE8C34367BB8FC239B2EABC320F19C7C4EB49;
-// Pico.Platform.Message`1/Handler<System.Int32>
-struct Handler_t51AE26B34C94E80FFE0A43298E5E7BCF0085B456;
 // Pico.Platform.Message`1/Handler<Pico.Platform.Models.PresenceJoinIntent>
 struct Handler_t06197F6B27EC5F8B049CBF0DA5E41E22305EFA46;
 // Pico.Platform.Message`1/Handler<Pico.Platform.Models.RecordInfo>
 struct Handler_t1007CCB422D81C3FF18027BB7DF568ACEF73B779;
 // Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>
 struct Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F;
-// Pico.Platform.Message`1/Handler<Pico.Platform.RtcAudioPlaybackDevice>
-struct Handler_t9E74A09C7774D66FE0B94FDFE1DFA6DDEC5859ED;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcBinaryMessageReceived>
-struct Handler_t1549946AE7DD631785DEE828E599E4CC5F232986;
-// Pico.Platform.Message`1/Handler<Pico.Platform.RtcConnectionState>
-struct Handler_t38CC844160733F92880FA63972B403BF586D39B1;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcJoinRoomResult>
-struct Handler_tAFF89B31CBE84C07A66A39AC220981DEC2B648C7;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLeaveRoomResult>
-struct Handler_t53CDA67D66BFBB13CE74EC8B6623D88EB60E6CAE;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLocalAudioPropertiesReport>
-struct Handler_tAC738204727C49FCB4492833A34C3C4A619CEC8E;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMessageSendResult>
-struct Handler_t19833D1404BED864BD881EC7D6947C4BE818F739;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMuteInfo>
-struct Handler_t031AC8F825D5CD006D0F5F9FE16EB538F31C1101;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRemoteAudioPropertiesReport>
-struct Handler_t2765C77EA08935A8D61BD6074F539B8BA92581B9;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomError>
-struct Handler_tAB0E94E2155E2F41351762B712D4F71A3E696890;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomMessageReceived>
-struct Handler_t063B85C34774FF958AF1A957B4854AF1D6B23888;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomStats>
-struct Handler_t75AD0D0BA45ACBB20855ADA2457EB304BF32C5B9;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomWarn>
-struct Handler_tCAF1D3F2723A4B7251F1BC23304D41F30171BA7E;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcStreamSyncInfo>
-struct Handler_t4BEE9C610174E243B1AA20525A10BBD66E21BDF5;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserJoinInfo>
-struct Handler_t560A0AAA9073BD8BEBEA299A0C30C715A673E10D;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserLeaveInfo>
-struct Handler_t163FC6326170437BFF25564AF32923B777FDDE24;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserMessageReceived>
-struct Handler_t32B3FC4A52987EC7404B0AC82BD702C403DB3C40;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserPublishInfo>
-struct Handler_tD0453CC0FF093CB47FCC2768A008B81EA8988C7F;
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserUnPublishInfo>
-struct Handler_t7B5EC3663F375895202BECAC07552A9F3DCD971D;
 // Pico.Platform.Message`1/Handler<System.String>
 struct Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86;
 // System.Collections.Generic.IEnumerable`1<System.IntPtr>
@@ -366,14 +322,10 @@ struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
 struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
 // System.Collections.Generic.IEqualityComparer`1<Pico.Platform.MessageType>
 struct IEqualityComparer_1_t3AE27C7F18808BE866B839038F67D47F8A853830;
-// System.Collections.Generic.IEqualityComparer`1<Pico.Platform.RtcPrivilege>
-struct IEqualityComparer_1_t623CFE53D6DBDDB9514B4C2FD4F24F30B96DB173;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
 struct IEqualityComparer_1_tAE94C8F24AD5B94D4EE85CA9FC59E3409D41CAF7;
 // System.Collections.Generic.IEqualityComparer`1<System.UInt64>
 struct IEqualityComparer_1_t958EAC5D5BD188327B4736D6F82A08EA1476A4C8;
-// System.Collections.Generic.Dictionary`2/KeyCollection<Pico.Platform.RtcPrivilege,System.Int32>
-struct KeyCollection_tD6EC0C8CA3770A4D5AA70DE315028D365F3019B8;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.Int32>
 struct KeyCollection_tCC15D033281A6593E2488FAF5B205812A152AC03;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.String,System.String>
@@ -632,8 +584,12 @@ struct Task_1_t62FACCEFFF8E0E99AF91FD18C1DB3DFDE4669A36;
 struct Task_1_t34B590588780B46F4C9517A024CF86874D008A7B;
 // Pico.Platform.Task`1<Pico.Platform.Models.RecordInfo>
 struct Task_1_t6BE0BC4FC7CE0B437B1F1D4BA540074637CBA185;
+// Pico.Platform.Task`1<Pico.Platform.Models.Room>
+struct Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB;
 // Pico.Platform.Task`1<Pico.Platform.Models.RoomInviteNotificationList>
 struct Task_1_t3ABC421C11EDE2136A2EFE725399C7056B01B991;
+// Pico.Platform.Task`1<Pico.Platform.Models.RoomList>
+struct Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445;
 // Pico.Platform.Task`1<Pico.Platform.Models.SendInvitesResult>
 struct Task_1_t14BB887FC393F9D33D493B21553D5DB010EF783E;
 // Pico.Platform.Task`1<Pico.Platform.Models.SessionMedia>
@@ -648,16 +604,12 @@ struct Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24;
 struct Task_1_t3371DA467FDACB998274F987B36BF5CE4170DEE8;
 // System.Threading.Tasks.Task`1<System.Object>
 struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2;
-// System.Collections.Generic.Dictionary`2/ValueCollection<Pico.Platform.RtcPrivilege,System.Int32>
-struct ValueCollection_tA371BC51BC2CC0CDE0AC89FE7437A896E1AB7A0D;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.Int32>
 struct ValueCollection_tCE6BD704B9571C131E2D8C8CED569DDEC4AE042B;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,System.String>
 struct ValueCollection_t238D0D2427C6B841A01F522A41540165A2C4AE76;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Pico.Platform.UserRelationType>
 struct ValueCollection_t2E5EC2FBD6E6D03DDE2D65650C2A1B69CED77E21;
-// System.Collections.Generic.Dictionary`2/Entry<Pico.Platform.RtcPrivilege,System.Int32>[]
-struct EntryU5BU5D_t38553BE78159FA6CCBEDA290331AC5134E82AE89;
 // System.Collections.Generic.Dictionary`2/Entry<System.String,System.Int32>[]
 struct EntryU5BU5D_tEA0133B78B9FF7045128C508FA50247E525A94D6;
 // System.Collections.Generic.Dictionary`2/Entry<System.String,System.String>[]
@@ -890,14 +842,10 @@ struct Room_tBD64D83E5B1B76A68476651AB2E548F1587A1135;
 struct RoomInviteNotificationList_t1203312F5F6E7E53899A09886C7716CD0C55D9A6;
 // Pico.Platform.Models.RoomList
 struct RoomList_t3B275914D4B281B7FAB5C1AD597F11D664367694;
-// Pico.Platform.Models.RtcAudioFrame
-struct RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59;
-// Pico.Platform.RtcAudioPropertyOptions
-struct RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E;
+// Pico.Platform.RoomOptions
+struct RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7;
 // Pico.Platform.Models.RtcBinaryMessageReceived
 struct RtcBinaryMessageReceived_t27A81B34E30B69FD73D308AEBB3C92201FA00FB2;
-// Pico.Platform.RtcGetTokenOptions
-struct RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0;
 // Pico.Platform.Models.RtcJoinRoomResult
 struct RtcJoinRoomResult_t7B3739D043DA3F0754EA07F27CC81279A5673D3C;
 // Pico.Platform.Models.RtcLeaveRoomResult
@@ -918,16 +866,12 @@ struct RtcRemoteStreamKey_tA69532F8EF7C977014612F775D146C3038C61E0E;
 struct RtcRoomError_t9E2842355A967FB7C0C5170BBAE107B299384383;
 // Pico.Platform.Models.RtcRoomMessageReceived
 struct RtcRoomMessageReceived_t2BDF5904A9D3EEF6D72D964485D208779637F7DD;
-// Pico.Platform.RtcRoomOptions
-struct RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A;
 // Pico.Platform.Models.RtcRoomStats
 struct RtcRoomStats_t82FFF1123D5D67FC8D0027DD78C0BCD933C419CE;
 // Pico.Platform.Models.RtcRoomWarn
 struct RtcRoomWarn_t606796009EEE6543FEC76C7457FB6F8156C06BD4;
 // Pico.Platform.Models.RtcStreamSyncInfo
 struct RtcStreamSyncInfo_tDF6615A963654FDED33B6E427CC2377459A814C8;
-// Pico.Platform.RtcStreamSyncInfoOptions
-struct RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073;
 // Pico.Platform.Models.RtcUserJoinInfo
 struct RtcUserJoinInfo_t2B639AA4EA2CEC3216FF167FA01780A3F6B7B747;
 // Pico.Platform.Models.RtcUserLeaveInfo
@@ -998,8 +942,6 @@ struct Handler_t320FBB759BDEF6D27E8E80B2B6B736DC1C06E5A5;
 struct U3CU3Ec_t56A875C0D4CE20A2521F1B09971E4CFCEAF23C28;
 // Pico.Platform.PtrArray/<>c
 struct U3CU3Ec_tE5765E1E7D87E396299C786E767AFE86201D1B72;
-// Pico.Platform.RtcService/ProcessAudioFrameFunction
-struct ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5;
 // Pico.Platform.Task/<>c__DisplayClass4_0
 struct U3CU3Ec__DisplayClass4_0_tC01CC104F744C355CF37E79CB08DF57349E3E9B0;
 // System.Threading.Tasks.Task/ContingentProperties
@@ -1219,32 +1161,25 @@ IL2CPP_EXTERN_C RuntimeClass* PlatformInitializeResult_t24F044FE2324F44AF83DB194
 IL2CPP_EXTERN_C RuntimeClass* PresenceJoinIntent_t708F6CB20BA715DA328B67F38BFD1376DF6364D3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ProductList_t60557078ACE42730D11C630A551C5ECF6DD48160_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PtrArray_tAB3363A24FF68AE6806F4AE10A730AD3F35CCFF1_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PurchaseList_tE73ABD4A2D17ED67A2A410C78B54519A32A16C03_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Purchase_t4EB26AC15A7E0936D3E6722DA01B1DF84A3D469A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RecordInfo_t391FC28285898D9D06E379287A88F5A4BA4A6019_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RoomInviteNotificationList_t1203312F5F6E7E53899A09886C7716CD0C55D9A6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RoomList_t3B275914D4B281B7FAB5C1AD597F11D664367694_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Room_tBD64D83E5B1B76A68476651AB2E548F1587A1135_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcBinaryMessageReceived_t27A81B34E30B69FD73D308AEBB3C92201FA00FB2_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcJoinRoomResult_t7B3739D043DA3F0754EA07F27CC81279A5673D3C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcLeaveRoomResult_t7FC19B99E6788124464A77D25421776CB62301FF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcLocalAudioPropertiesReport_t0AA9BC3CF8E0B67661E0CF11B68EBEE27C9D9E7D_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcMediaDeviceChangeInfo_tB2715659230514BAEF53E2329D648EC92B790850_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcMessageSendResult_t175C63F675CA721C614F552DAED8AD5CDD8D19D9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcMuteInfo_t42EFA88A13E9A461000A46AEE9B3BD8017AC5416_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* RtcProcessAudioFrameFunction_t91998EE2CD7760356A3A9E75620AEB591C1F2344_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcRemoteAudioPropertiesReport_t575A87A1EE3387315239DA4AF54DAA70B4E5EB78_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcRoomError_t9E2842355A967FB7C0C5170BBAE107B299384383_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcRoomMessageReceived_t2BDF5904A9D3EEF6D72D964485D208779637F7DD_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcRoomStats_t82FFF1123D5D67FC8D0027DD78C0BCD933C419CE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcRoomWarn_t606796009EEE6543FEC76C7457FB6F8156C06BD4_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* RtcService_t22C275834C979544290EE8B61C467477647BD1BF_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcStreamSyncInfo_tDF6615A963654FDED33B6E427CC2377459A814C8_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcUserJoinInfo_t2B639AA4EA2CEC3216FF167FA01780A3F6B7B747_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* RtcUserLeaveInfo_tC24C9CCF5AEE733D5431F5C973C813C2C36C54FE_il2cpp_TypeInfo_var;
@@ -1263,6 +1198,7 @@ IL2CPP_EXTERN_C RuntimeClass* SubscriptionStatus_tB2999CB0297F3E98A32D66E36872B6
 IL2CPP_EXTERN_C RuntimeClass* SystemInfo_t53AF5429861C13B1769EA33EAA762275B333CCA0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TaskCompletionSource_1_tB47C2552475FE6BBC966863229F3E5F2070BBE40_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Task_1_t14BB887FC393F9D33D493B21553D5DB010EF783E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Task_1_t1F8D769F3F6F394AE52BCF37254B7F76BEC23164_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Task_1_t2CC80009A1A656D5B8AF098EA85689A52C917D8B_il2cpp_TypeInfo_var;
@@ -1281,6 +1217,7 @@ IL2CPP_EXTERN_C RuntimeClass* Task_1_t6A9AB2447B4C585DF2B0806CDBDACE1D40AA2EFC_i
 IL2CPP_EXTERN_C RuntimeClass* Task_1_t6BE0BC4FC7CE0B437B1F1D4BA540074637CBA185_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Task_1_t733E89BDEF2E1BD0B822AE037A0F380656723ACE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Task_1_t76847D0C5A721BA4CC3E1239F0F4AE5899A8AD7F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Task_1_t844C4D371B95FA1AEF51F18A77B2C6B602DAD218_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Task_1_t86670FE10EF05760ECD17098FC3A5EE63492B228_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Task_1_t87C629C5EE0D0581AE00C33D23A2FEB9DE7C68C9_il2cpp_TypeInfo_var;
@@ -1324,7 +1261,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral56883B5AE93EC67768C0E47C5BE79170541E4877
 IL2CPP_EXTERN_C String_t* _stringLiteral580B1FA1E34BD873916861061913FA891B66DE12;
 IL2CPP_EXTERN_C String_t* _stringLiteral58FF99A806AF06440A96C923A6146BEDC770C74B;
 IL2CPP_EXTERN_C String_t* _stringLiteral5F19DCF2DDE87DAD4459ED9A2A30C8F362898DCB;
-IL2CPP_EXTERN_C String_t* _stringLiteral6D2C56060B3F7353031AD314517C27945CC39748;
 IL2CPP_EXTERN_C String_t* _stringLiteral7996CEC5CC8CED7723F821C47BEB7A5C0F822234;
 IL2CPP_EXTERN_C String_t* _stringLiteral7A83A12B385F58BCD187139FFE6BB06C60848A93;
 IL2CPP_EXTERN_C String_t* _stringLiteral7F90289E201F746B5A536B52B7003ACF347CC2B7;
@@ -1363,26 +1299,27 @@ IL2CPP_EXTERN_C const RuntimeMethod* ConcurrentDictionary_2_set_Item_m856BCEC706
 IL2CPP_EXTERN_C const RuntimeMethod* CoreService_AsyncInitialize_m8A638C8765E79B40AA6320F400C97845B73DDD39_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CoreService_GetAppID_m2CB1BE155845CA37EAA103881B3B0EA5AD269AE4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CoreService_Initialize_m188D60D285D9A378B766140AF97D433B09073039_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_GetEnumerator_m46EC45F42CA2279D83568CD3F216AAABA8E749F6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_GetEnumerator_m5B4AB9234E9B5AA8776F5A5E98BD96AADD36A445_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_GetEnumerator_mD22822F067AD3D9BCA373A0546FE8615909B0FEC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m768E076F1E804CE4959F4E71D3E6A9ADE2F55052_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Count_m33C34E4F1C77B491E24DCCBF07C43639016B2247_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_get_Count_m65C62C77C355CFCE2CC0ED6D817637E1909E0843_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_set_Item_m9BF625649E96E60C1509898A992A6447E351D1A2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisString_t_TisIntPtr_t_m8114E2EFEC0926F1F230C8196B2282DF1C578A04_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToArray_TisIntPtr_t_m53FD16B186A5FF0E489639334D7548F7EC179680_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m068DDFF5CAFBB15C8A0602DEADA7F10C5BB7ADCD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m9ED4E52C26F04192D41980F154879E9D585E9791_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_mEEE30D933563208EBCF7F651BDC442631A5C6D0B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m424B03CFB200058B8CE11047A5D7B6C0EEF5BE36_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mCB84750BAFE59C7D53C86B28A910BBE68DDE5D33_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_m58E48C7A4B001DD9CC590DEF18D64A3D9E5E6F7B_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_get_Current_mDE9C73F49F1A0AACB90F99DEB8FDC16508F49543_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Key_m371FAFC80DB00656F29F2E3A607A15D8F1A4D9A2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Key_mC9FB52D78F362AE8CD0466E65D0CAFB23CD1C25D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_m49EC6C1CD52DC0ED12D5C9116368BB112EA11917_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_m4E42B1A68B9D4E0CD522118A7CE586CC714A92B6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_m7345512A32CB4DCAA0643050B18DC8DCD71B927A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MessageArray_1_get_HasNextPage_m0E7329949AD19E156D18E959EC60AEAAED78F7F5_RuntimeMethod_var;
@@ -1467,7 +1404,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Message_1__ctor_mF17A2A610EB5317C23C0E1FF9B
 IL2CPP_EXTERN_C const RuntimeMethod* Message_1__ctor_mF893AA2EE4B9E7F2B5A32A31B3E2428C6CBDAB0F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Resources_Load_TisPXR_PlatformSetting_t689EBD5EFF932584AB6472D3025D95A123200FD7_mFA65C30876DFFC6B4A2E5C6DA54F80597527FEBA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Resources_Load_TisTextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69_m55E770DF81AB6D40763121667DA5E743EF1036B2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RtcService_InnerAudioProcessor_m663C1AC6BC552D87E0EF075932933D89EA182C22_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_SetResult_m0150E699C971416ED640A783858A9946419AEE8F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1__ctor_mD4E0EE822EB24C492080A08AD5D1C39D9E59B3CD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_get_Task_mC3551B9BC4E4F6B483B98609E4FAF8B3DD01DA02_RuntimeMethod_var;
@@ -1479,6 +1415,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m095E837C5110DDE3D4E07BFA8834C
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m0B53F0D50C56C26339F0D3A2FB5FE7F1133D02F7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m148CB272649802E5A6F0FBD7D34D1C8ED82CD8DC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m159ECE8077D013FE608DA9CD7C0F625ECC7F0153_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m15C10526576EE5E927EBDAF810CC53DF9C396F52_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m1CF0C62EAAB2FD4823E55B281F816BE4AD7A46DC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m204FF7F2A5DD94E1FD37F2459E514337C5AF6241_RuntimeMethod_var;
@@ -1496,6 +1433,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m60890FD7DB6305B74AAE1B3275232
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m67D0C0EA2119AB45BEB4F4EDB8737B0B77165C51_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m69A54793A9BC36E7FE1BAF474DC7D19B2AAE8B71_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m740136D4CD59C61B7941C697F9A5523846F2E948_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m76C9FCA50BF130D2B88563A6B41A80908D5CF84C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m77E7B45DF4FA30461245F55556767B9BEF6F7DD6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m937186FBFEFCEE2FCB9B037F2DC48745A8CD267C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Task_1__ctor_m9BE401ACB176447B36901BCD1A9339AE74298FEC_RuntimeMethod_var;
@@ -1671,31 +1609,6 @@ struct ConcurrentDictionary_2_t3E6FB045CA5DC00696D9729A0645E8ADEF90376F  : publi
 	int32_t ____serializationConcurrencyLevel_5;
 	// System.Int32 System.Collections.Concurrent.ConcurrentDictionary`2::_serializationCapacity
 	int32_t ____serializationCapacity_6;
-};
-
-// System.Collections.Generic.Dictionary`2<Pico.Platform.RtcPrivilege,System.Int32>
-struct Dictionary_2_tFA4E3C6BBA632C5BEEBB77A03650502241C2D607  : public RuntimeObject
-{
-	// System.Int32[] System.Collections.Generic.Dictionary`2::_buckets
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____buckets_0;
-	// System.Collections.Generic.Dictionary`2/Entry<TKey,TValue>[] System.Collections.Generic.Dictionary`2::_entries
-	EntryU5BU5D_t38553BE78159FA6CCBEDA290331AC5134E82AE89* ____entries_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2::_count
-	int32_t ____count_2;
-	// System.Int32 System.Collections.Generic.Dictionary`2::_freeList
-	int32_t ____freeList_3;
-	// System.Int32 System.Collections.Generic.Dictionary`2::_freeCount
-	int32_t ____freeCount_4;
-	// System.Int32 System.Collections.Generic.Dictionary`2::_version
-	int32_t ____version_5;
-	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::_comparer
-	RuntimeObject* ____comparer_6;
-	// System.Collections.Generic.Dictionary`2/KeyCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_keys
-	KeyCollection_tD6EC0C8CA3770A4D5AA70DE315028D365F3019B8* ____keys_7;
-	// System.Collections.Generic.Dictionary`2/ValueCollection<TKey,TValue> System.Collections.Generic.Dictionary`2::_values
-	ValueCollection_tA371BC51BC2CC0CDE0AC89FE7437A896E1AB7A0D* ____values_8;
-	// System.Object System.Collections.Generic.Dictionary`2::_syncRoot
-	RuntimeObject* ____syncRoot_9;
 };
 
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
@@ -2391,6 +2304,11 @@ struct RecordInfo_t391FC28285898D9D06E379287A88F5A4BA4A6019  : public RuntimeObj
 	String_t* ___JobId_4;
 };
 
+// Pico.Platform.RoomService
+struct RoomService_t8F46BB8AB008669ABFE91A6BF8EB60CBDCF96C8E  : public RuntimeObject
+{
+};
+
 // Pico.Platform.Models.RtcBinaryMessageReceived
 struct RtcBinaryMessageReceived_t27A81B34E30B69FD73D308AEBB3C92201FA00FB2  : public RuntimeObject
 {
@@ -2474,11 +2392,6 @@ struct RtcRoomWarn_t606796009EEE6543FEC76C7457FB6F8156C06BD4  : public RuntimeOb
 	int32_t ___Code_0;
 	// System.String Pico.Platform.Models.RtcRoomWarn::RoomId
 	String_t* ___RoomId_1;
-};
-
-// Pico.Platform.RtcService
-struct RtcService_t22C275834C979544290EE8B61C467477647BD1BF  : public RuntimeObject
-{
 };
 
 // Pico.Platform.Models.RtcUserJoinInfo
@@ -2668,6 +2581,15 @@ struct KeyValuePair_2_tF11CA6D20F09EC4DAB7CB3C2C394F6F2C394E6B8
 	int32_t ___value_1;
 };
 
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+struct KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	RuntimeObject* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	RuntimeObject* ___value_1;
+};
+
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>
 struct KeyValuePair_2_t203D89707A14A98B3FB295DFFAC0F4D3CF2B1078 
 {
@@ -2675,6 +2597,15 @@ struct KeyValuePair_2_t203D89707A14A98B3FB295DFFAC0F4D3CF2B1078
 	String_t* ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
 	int32_t ___value_1;
+};
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.String>
+struct KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A 
+{
+	// TKey System.Collections.Generic.KeyValuePair`2::key
+	String_t* ___key_0;
+	// TValue System.Collections.Generic.KeyValuePair`2::value
+	String_t* ___value_1;
 };
 
 // Pico.Platform.Models.MessageArray`1<Pico.Platform.Models.AchievementDefinition>
@@ -2971,8 +2902,18 @@ struct Task_1_t6BE0BC4FC7CE0B437B1F1D4BA540074637CBA185  : public Task_t4FEBAE69
 {
 };
 
+// Pico.Platform.Task`1<Pico.Platform.Models.Room>
+struct Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB  : public Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2
+{
+};
+
 // Pico.Platform.Task`1<Pico.Platform.Models.RoomInviteNotificationList>
 struct Task_1_t3ABC421C11EDE2136A2EFE725399C7056B01B991  : public Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2
+{
+};
+
+// Pico.Platform.Task`1<Pico.Platform.Models.RoomList>
+struct Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445  : public Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2
 {
 };
 
@@ -3161,6 +3102,21 @@ struct Enumerator_t2F28D1CFE62CD55B7184C7D9DD43CCC9C03CC5EF
 	int32_t ____getEnumeratorRetType_4;
 };
 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
+struct Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9 
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_dictionary
+	Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* ____dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_version
+	int32_t ____version_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_index
+	int32_t ____index_2;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_current
+	KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 ____current_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_getEnumeratorRetType
+	int32_t ____getEnumeratorRetType_4;
+};
+
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Int32>
 struct Enumerator_tA2BDFFCCD73E0822BD39B8A162012DCD95F9FDCA 
 {
@@ -3172,6 +3128,21 @@ struct Enumerator_tA2BDFFCCD73E0822BD39B8A162012DCD95F9FDCA
 	int32_t ____index_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_current
 	KeyValuePair_2_t203D89707A14A98B3FB295DFFAC0F4D3CF2B1078 ____current_3;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_getEnumeratorRetType
+	int32_t ____getEnumeratorRetType_4;
+};
+
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>
+struct Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562 
+{
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_dictionary
+	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ____dictionary_0;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_version
+	int32_t ____version_1;
+	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_index
+	int32_t ____index_2;
+	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_current
+	KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A ____current_3;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_getEnumeratorRetType
 	int32_t ____getEnumeratorRetType_4;
 };
@@ -3722,6 +3693,13 @@ struct RoomMembershipLockStatus_t5D77A4F22DE86826326037CB56179AEB300216F0
 	int32_t ___value___2;
 };
 
+// Pico.Platform.RoomOptions
+struct RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7  : public RuntimeObject
+{
+	// System.IntPtr Pico.Platform.RoomOptions::Handle
+	intptr_t ___Handle_0;
+};
+
 // Pico.Platform.RoomType
 struct RoomType_tA5B85B262F23E7DA0CFFD3190E04437759FA4986 
 {
@@ -3741,13 +3719,6 @@ struct RtcAudioPlaybackDevice_tDA7F6B0124EA249A9CB7114E16A5144876FA31A9
 {
 	// System.Int32 Pico.Platform.RtcAudioPlaybackDevice::value__
 	int32_t ___value___2;
-};
-
-// Pico.Platform.RtcAudioPropertyOptions
-struct RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E  : public RuntimeObject
-{
-	// System.IntPtr Pico.Platform.RtcAudioPropertyOptions::Handle
-	intptr_t ___Handle_0;
 };
 
 // Pico.Platform.RtcAudioSampleRate
@@ -3797,13 +3768,6 @@ struct RtcEngineInitResult_t43963260B4952A0DF85488C332E7FBA6B49A2DD5
 {
 	// System.Int32 Pico.Platform.RtcEngineInitResult::value__
 	int32_t ___value___2;
-};
-
-// Pico.Platform.RtcGetTokenOptions
-struct RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0  : public RuntimeObject
-{
-	// System.IntPtr Pico.Platform.RtcGetTokenOptions::Handle
-	intptr_t ___Handle_0;
 };
 
 // Pico.Platform.RtcJoinRoomType
@@ -3862,15 +3826,6 @@ struct RtcPrivilege_t14F7BB1AB3E0DAC2BFBEC28F81514E60C35ABCB7
 	int32_t ___value___2;
 };
 
-// Pico.Platform.RtcRoomOptions
-struct RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A  : public RuntimeObject
-{
-	// System.String Pico.Platform.RtcRoomOptions::RoomId
-	String_t* ___RoomId_0;
-	// System.IntPtr Pico.Platform.RtcRoomOptions::Handle
-	intptr_t ___Handle_1;
-};
-
 // Pico.Platform.RtcRoomProfileType
 struct RtcRoomProfileType_t456974D8BF28826965E628D8DF6D0B40796339F0 
 {
@@ -3897,13 +3852,6 @@ struct RtcStreamRemoveReason_tE8A2D29200EAB969983A2C87AFBBEEFC9DBBAF77
 {
 	// System.Int32 Pico.Platform.RtcStreamRemoveReason::value__
 	int32_t ___value___2;
-};
-
-// Pico.Platform.RtcStreamSyncInfoOptions
-struct RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073  : public RuntimeObject
-{
-	// System.IntPtr Pico.Platform.RtcStreamSyncInfoOptions::Handle
-	intptr_t ___Handle_0;
 };
 
 // Pico.Platform.RtcSyncInfoStreamType
@@ -4023,24 +3971,6 @@ struct FileStatusFlags_tB53E2B9A54305CDCEA49884DEEDB8C62C8ACC9C9
 {
 	// System.Int32 Interop/Sys/FileStatusFlags::value__
 	int32_t ___value___2;
-};
-
-// System.Collections.Generic.KeyValuePair`2<System.Int32Enum,System.Int32>
-struct KeyValuePair_2_t8119C4668B01DE5BDC84EDBA81EE010B6CA16C5C 
-{
-	// TKey System.Collections.Generic.KeyValuePair`2::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2::value
-	int32_t ___value_1;
-};
-
-// System.Collections.Generic.KeyValuePair`2<Pico.Platform.RtcPrivilege,System.Int32>
-struct KeyValuePair_2_t3B924E448F08153464BEA8D03A541C9BC936424A 
-{
-	// TKey System.Collections.Generic.KeyValuePair`2::key
-	int32_t ___key_0;
-	// TValue System.Collections.Generic.KeyValuePair`2::value
-	int32_t ___value_1;
 };
 
 // Pico.Platform.Models.AssetFileDownloadUpdate
@@ -4228,21 +4158,6 @@ struct Room_tBD64D83E5B1B76A68476651AB2E548F1587A1135  : public RuntimeObject
 	String_t* ___Name_10;
 	// System.UInt32 Pico.Platform.Models.Room::PlayerNumber
 	uint32_t ___PlayerNumber_11;
-};
-
-// Pico.Platform.Models.RtcAudioFrame
-struct RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59  : public RuntimeObject
-{
-	// Pico.Platform.RtcAudioChannel Pico.Platform.Models.RtcAudioFrame::Channel
-	int32_t ___Channel_0;
-	// System.IntPtr Pico.Platform.Models.RtcAudioFrame::Data
-	intptr_t ___Data_1;
-	// System.Int64 Pico.Platform.Models.RtcAudioFrame::DataSize
-	int64_t ___DataSize_2;
-	// Pico.Platform.RtcAudioSampleRate Pico.Platform.Models.RtcAudioFrame::SampleRate
-	int32_t ___SampleRate_3;
-	// System.Int64 Pico.Platform.Models.RtcAudioFrame::TimeStampInUs
-	int64_t ___TimeStampInUs_4;
 };
 
 // Pico.Platform.Models.RtcJoinRoomResult
@@ -4470,36 +4385,6 @@ struct FileStatus_tCB96EDE0D0F945F685B9BBED6DBF0731207458C2
 	int64_t ___Ino_14;
 	// System.UInt32 Interop/Sys/FileStatus::UserFlags
 	uint32_t ___UserFlags_15;
-};
-
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32Enum,System.Int32>
-struct Enumerator_t628F4A89865D78D3344C93277ACECBDE97BE739A 
-{
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_dictionary
-	Dictionary_2_tFCDE91BDD0207A67521C455FD60B9EAA6E0E6B62* ____dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_version
-	int32_t ____version_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_index
-	int32_t ____index_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_current
-	KeyValuePair_2_t8119C4668B01DE5BDC84EDBA81EE010B6CA16C5C ____current_3;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_getEnumeratorRetType
-	int32_t ____getEnumeratorRetType_4;
-};
-
-// System.Collections.Generic.Dictionary`2/Enumerator<Pico.Platform.RtcPrivilege,System.Int32>
-struct Enumerator_tA829CFCA6EB6821F225A3ADB1DFE03AC172EBA69 
-{
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_dictionary
-	Dictionary_2_tFA4E3C6BBA632C5BEEBB77A03650502241C2D607* ____dictionary_0;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_version
-	int32_t ____version_1;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_index
-	int32_t ____index_2;
-	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::_current
-	KeyValuePair_2_t3B924E448F08153464BEA8D03A541C9BC936424A ____current_3;
-	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::_getEnumeratorRetType
-	int32_t ____getEnumeratorRetType_4;
 };
 
 // System.Func`2<System.String,System.IntPtr>
@@ -4912,11 +4797,6 @@ struct Handler_tF5FEE8C34367BB8FC239B2EABC320F19C7C4EB49  : public MulticastDele
 {
 };
 
-// Pico.Platform.Message`1/Handler<System.Int32>
-struct Handler_t51AE26B34C94E80FFE0A43298E5E7BCF0085B456  : public MulticastDelegate_t
-{
-};
-
 // Pico.Platform.Message`1/Handler<Pico.Platform.Models.PresenceJoinIntent>
 struct Handler_t06197F6B27EC5F8B049CBF0DA5E41E22305EFA46  : public MulticastDelegate_t
 {
@@ -4929,101 +4809,6 @@ struct Handler_t1007CCB422D81C3FF18027BB7DF568ACEF73B779  : public MulticastDele
 
 // Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>
 struct Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.RtcAudioPlaybackDevice>
-struct Handler_t9E74A09C7774D66FE0B94FDFE1DFA6DDEC5859ED  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcBinaryMessageReceived>
-struct Handler_t1549946AE7DD631785DEE828E599E4CC5F232986  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.RtcConnectionState>
-struct Handler_t38CC844160733F92880FA63972B403BF586D39B1  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcJoinRoomResult>
-struct Handler_tAFF89B31CBE84C07A66A39AC220981DEC2B648C7  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLeaveRoomResult>
-struct Handler_t53CDA67D66BFBB13CE74EC8B6623D88EB60E6CAE  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLocalAudioPropertiesReport>
-struct Handler_tAC738204727C49FCB4492833A34C3C4A619CEC8E  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMessageSendResult>
-struct Handler_t19833D1404BED864BD881EC7D6947C4BE818F739  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMuteInfo>
-struct Handler_t031AC8F825D5CD006D0F5F9FE16EB538F31C1101  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRemoteAudioPropertiesReport>
-struct Handler_t2765C77EA08935A8D61BD6074F539B8BA92581B9  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomError>
-struct Handler_tAB0E94E2155E2F41351762B712D4F71A3E696890  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomMessageReceived>
-struct Handler_t063B85C34774FF958AF1A957B4854AF1D6B23888  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomStats>
-struct Handler_t75AD0D0BA45ACBB20855ADA2457EB304BF32C5B9  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomWarn>
-struct Handler_tCAF1D3F2723A4B7251F1BC23304D41F30171BA7E  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcStreamSyncInfo>
-struct Handler_t4BEE9C610174E243B1AA20525A10BBD66E21BDF5  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserJoinInfo>
-struct Handler_t560A0AAA9073BD8BEBEA299A0C30C715A673E10D  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserLeaveInfo>
-struct Handler_t163FC6326170437BFF25564AF32923B777FDDE24  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserMessageReceived>
-struct Handler_t32B3FC4A52987EC7404B0AC82BD702C403DB3C40  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserPublishInfo>
-struct Handler_tD0453CC0FF093CB47FCC2768A008B81EA8988C7F  : public MulticastDelegate_t
-{
-};
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserUnPublishInfo>
-struct Handler_t7B5EC3663F375895202BECAC07552A9F3DCD971D  : public MulticastDelegate_t
 {
 };
 
@@ -5642,11 +5427,6 @@ struct Handler_t320FBB759BDEF6D27E8E80B2B6B736DC1C06E5A5  : public MulticastDele
 {
 };
 
-// Pico.Platform.RtcService/ProcessAudioFrameFunction
-struct ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5  : public MulticastDelegate_t
-{
-};
-
 // System.IO.FileSystemInfo
 struct FileSystemInfo_tE3063B9229F46B05A5F6D018C8C4CA510104E8E9  : public MarshalByRefObject_t8C2F4C5854177FD60439EB1FCCFC1B3CFAFE8DCE
 {
@@ -5695,10 +5475,6 @@ struct ConcurrentDictionary_2_t3E6FB045CA5DC00696D9729A0645E8ADEF90376F_StaticFi
 };
 
 // System.Collections.Concurrent.ConcurrentDictionary`2<System.UInt64,System.Delegate>
-
-// System.Collections.Generic.Dictionary`2<Pico.Platform.RtcPrivilege,System.Int32>
-
-// System.Collections.Generic.Dictionary`2<Pico.Platform.RtcPrivilege,System.Int32>
 
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 
@@ -5950,6 +5726,10 @@ struct Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_StaticFields
 
 // Pico.Platform.Models.RecordInfo
 
+// Pico.Platform.RoomService
+
+// Pico.Platform.RoomService
+
 // Pico.Platform.Models.RtcBinaryMessageReceived
 
 // Pico.Platform.Models.RtcBinaryMessageReceived
@@ -5985,15 +5765,6 @@ struct Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_StaticFields
 // Pico.Platform.Models.RtcRoomWarn
 
 // Pico.Platform.Models.RtcRoomWarn
-
-// Pico.Platform.RtcService
-struct RtcService_t22C275834C979544290EE8B61C467477647BD1BF_StaticFields
-{
-	// Pico.Platform.RtcService/ProcessAudioFrameFunction Pico.Platform.RtcService::audioProcessor
-	ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* ___audioProcessor_0;
-};
-
-// Pico.Platform.RtcService
 
 // Pico.Platform.Models.RtcUserJoinInfo
 
@@ -6253,9 +6024,17 @@ struct U3CU3Ec_tE5765E1E7D87E396299C786E767AFE86201D1B72_StaticFields
 
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Int32>
 
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+
+// System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>
+
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>
 
 // System.Collections.Generic.KeyValuePair`2<System.String,System.Int32>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.String>
+
+// System.Collections.Generic.KeyValuePair`2<System.String,System.String>
 
 // Pico.Platform.Models.MessageArray`1<Pico.Platform.Models.ApplicationInvite>
 
@@ -6397,9 +6176,17 @@ struct U3CU3Ec_tE5765E1E7D87E396299C786E767AFE86201D1B72_StaticFields
 
 // Pico.Platform.Task`1<Pico.Platform.Models.RecordInfo>
 
+// Pico.Platform.Task`1<Pico.Platform.Models.Room>
+
+// Pico.Platform.Task`1<Pico.Platform.Models.Room>
+
 // Pico.Platform.Task`1<Pico.Platform.Models.RoomInviteNotificationList>
 
 // Pico.Platform.Task`1<Pico.Platform.Models.RoomInviteNotificationList>
+
+// Pico.Platform.Task`1<Pico.Platform.Models.RoomList>
+
+// Pico.Platform.Task`1<Pico.Platform.Models.RoomList>
 
 // Pico.Platform.Task`1<Pico.Platform.Models.SendInvitesResult>
 
@@ -6546,9 +6333,17 @@ struct UIntPtr_t_StaticFields
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Int32>
 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
+
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>
+
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Int32>
 
 // System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.Int32>
+
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>
+
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>
 
 // Pico.Platform.Models.AchievementDefinitionList
 
@@ -6792,6 +6587,10 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 
 // Pico.Platform.RoomMembershipLockStatus
 
+// Pico.Platform.RoomOptions
+
+// Pico.Platform.RoomOptions
+
 // Pico.Platform.RoomType
 
 // Pico.Platform.RoomType
@@ -6803,10 +6602,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // Pico.Platform.RtcAudioPlaybackDevice
 
 // Pico.Platform.RtcAudioPlaybackDevice
-
-// Pico.Platform.RtcAudioPropertyOptions
-
-// Pico.Platform.RtcAudioPropertyOptions
 
 // Pico.Platform.RtcAudioSampleRate
 
@@ -6835,10 +6630,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // Pico.Platform.RtcEngineInitResult
 
 // Pico.Platform.RtcEngineInitResult
-
-// Pico.Platform.RtcGetTokenOptions
-
-// Pico.Platform.RtcGetTokenOptions
 
 // Pico.Platform.RtcJoinRoomType
 
@@ -6872,10 +6663,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 
 // Pico.Platform.RtcPrivilege
 
-// Pico.Platform.RtcRoomOptions
-
-// Pico.Platform.RtcRoomOptions
-
 // Pico.Platform.RtcRoomProfileType
 
 // Pico.Platform.RtcRoomProfileType
@@ -6891,10 +6678,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // Pico.Platform.RtcStreamRemoveReason
 
 // Pico.Platform.RtcStreamRemoveReason
-
-// Pico.Platform.RtcStreamSyncInfoOptions
-
-// Pico.Platform.RtcStreamSyncInfoOptions
 
 // Pico.Platform.RtcSyncInfoStreamType
 
@@ -6960,14 +6743,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 
 // Unity.XR.PXR.PXR_PlatformSetting/simulationType
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32Enum,System.Int32>
-
-// System.Collections.Generic.KeyValuePair`2<System.Int32Enum,System.Int32>
-
-// System.Collections.Generic.KeyValuePair`2<Pico.Platform.RtcPrivilege,System.Int32>
-
-// System.Collections.Generic.KeyValuePair`2<Pico.Platform.RtcPrivilege,System.Int32>
-
 // Pico.Platform.Models.AssetFileDownloadUpdate
 
 // Pico.Platform.Models.AssetFileDownloadUpdate
@@ -6999,10 +6774,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // Pico.Platform.Models.Room
 
 // Pico.Platform.Models.Room
-
-// Pico.Platform.Models.RtcAudioFrame
-
-// Pico.Platform.Models.RtcAudioFrame
 
 // Pico.Platform.Models.RtcJoinRoomResult
 
@@ -7055,14 +6826,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // Pico.Platform.Models.User
 
 // Pico.Platform.Models.User
-
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32Enum,System.Int32>
-
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32Enum,System.Int32>
-
-// System.Collections.Generic.Dictionary`2/Enumerator<Pico.Platform.RtcPrivilege,System.Int32>
-
-// System.Collections.Generic.Dictionary`2/Enumerator<Pico.Platform.RtcPrivilege,System.Int32>
 
 // System.Func`2<System.String,System.IntPtr>
 
@@ -7392,10 +7155,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 
 // Pico.Platform.Message`1/Handler<Pico.Platform.GameRequestFailedReason>
 
-// Pico.Platform.Message`1/Handler<System.Int32>
-
-// Pico.Platform.Message`1/Handler<System.Int32>
-
 // Pico.Platform.Message`1/Handler<Pico.Platform.Models.PresenceJoinIntent>
 
 // Pico.Platform.Message`1/Handler<Pico.Platform.Models.PresenceJoinIntent>
@@ -7407,82 +7166,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 // Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>
 
 // Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.RtcAudioPlaybackDevice>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.RtcAudioPlaybackDevice>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcBinaryMessageReceived>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcBinaryMessageReceived>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.RtcConnectionState>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.RtcConnectionState>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcJoinRoomResult>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcJoinRoomResult>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLeaveRoomResult>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLeaveRoomResult>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLocalAudioPropertiesReport>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLocalAudioPropertiesReport>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMessageSendResult>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMessageSendResult>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMuteInfo>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMuteInfo>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRemoteAudioPropertiesReport>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRemoteAudioPropertiesReport>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomError>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomError>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomMessageReceived>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomMessageReceived>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomStats>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomStats>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomWarn>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomWarn>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcStreamSyncInfo>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcStreamSyncInfo>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserJoinInfo>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserJoinInfo>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserLeaveInfo>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserLeaveInfo>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserMessageReceived>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserMessageReceived>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserPublishInfo>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserPublishInfo>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserUnPublishInfo>
-
-// Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserUnPublishInfo>
 
 // Pico.Platform.Message`1/Handler<System.String>
 
@@ -7825,10 +7508,6 @@ struct PXR_PlatformSetting_t689EBD5EFF932584AB6472D3025D95A123200FD7_StaticField
 
 // Pico.Platform.Message/Handler
 
-// Pico.Platform.RtcService/ProcessAudioFrameFunction
-
-// Pico.Platform.RtcService/ProcessAudioFrameFunction
-
 // System.IO.DirectoryInfo
 
 // System.IO.DirectoryInfo
@@ -8100,18 +7779,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_gshared_inline (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Collections.Generic.List`1/Enumerator<System.Object>::MoveNext()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
-// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Int32Enum,System.Int32>::GetEnumerator()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t628F4A89865D78D3344C93277ACECBDE97BE739A Dictionary_2_GetEnumerator_m3F34B328374AAC0B9166EFF8B61DBB8E41250811_gshared (Dictionary_2_tFCDE91BDD0207A67521C455FD60B9EAA6E0E6B62* __this, const RuntimeMethod* method) ;
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Int32Enum,System.Int32>::Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_m80803B80A715D70AB5CF3C6EE6ECAF2A0BEFD876_gshared (Enumerator_t628F4A89865D78D3344C93277ACECBDE97BE739A* __this, const RuntimeMethod* method) ;
-// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Int32Enum,System.Int32>::get_Current()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_t8119C4668B01DE5BDC84EDBA81EE010B6CA16C5C Enumerator_get_Current_m511016491079A010B4344AA4E125147FAF6D679F_gshared_inline (Enumerator_t628F4A89865D78D3344C93277ACECBDE97BE739A* __this, const RuntimeMethod* method) ;
-// TKey System.Collections.Generic.KeyValuePair`2<System.Int32Enum,System.Int32>::get_Key()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t KeyValuePair_2_get_Key_m380DA6E4F786B9C61012C4427405FC5FD48413A1_gshared_inline (KeyValuePair_2_t8119C4668B01DE5BDC84EDBA81EE010B6CA16C5C* __this, const RuntimeMethod* method) ;
-// TValue System.Collections.Generic.KeyValuePair`2<System.Int32Enum,System.Int32>::get_Value()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t KeyValuePair_2_get_Value_m3F5DAA82C39D5EFEAE4B1F8389E1DD38732777CC_gshared_inline (KeyValuePair_2_t8119C4668B01DE5BDC84EDBA81EE010B6CA16C5C* __this, const RuntimeMethod* method) ;
-// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Int32Enum,System.Int32>::MoveNext()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m2B81AF70E031A662ECD2B22E5377190610523770_gshared (Enumerator_t628F4A89865D78D3344C93277ACECBDE97BE739A* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.Object,System.Object>::GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9 Dictionary_2_GetEnumerator_m52AB12790B0B9B46B1DFB1F861C9DBEAB07C1FDA_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mEA5E01B81EB943B7003D87CEC1B6040524F0402C_gshared (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::get_Current()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 Enumerator_get_Current_mE3475384B761E1C7971D3639BD09117FE8363422_gshared_inline (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) ;
+// TKey System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Key()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) ;
+// TValue System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>::get_Value()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Value_mC6BD8075F9C9DDEF7B4D731E5C38EC19103988E7_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.Object,System.Object>::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mCD4950A75FFADD54AF354D48C6C0DB0B5A22A5F4_gshared (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.Generic.Dictionary`2<System.Object,System.Object>::get_Count()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Dictionary_2_get_Count_m4DDA9442C238A443489115E22B026AD366851549_gshared (Dictionary_2_t14FE4A752A83D53771C584E4C8D14E01F2AFD7BA* __this, const RuntimeMethod* method) ;
 
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
@@ -11728,152 +11409,99 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_InviteOptions_AddSuggestedUser_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_InviteOptions_ClearSuggestedUsers_m05DD1EE49437A8611632AB550AAEC725E48F2140 (intptr_t ___0_handle, const RuntimeMethod* method) ;
 // System.Void Pico.Platform.CLIB::ppf_InviteOptions_Destroy(System.IntPtr)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_InviteOptions_Destroy_mC357627BD08F074811189C4189B1C6107ABD44EF (intptr_t ___0_handle, const RuntimeMethod* method) ;
-// System.Int32 Pico.Platform.RtcService::InnerAudioProcessor(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_InnerAudioProcessor_m663C1AC6BC552D87E0EF075932933D89EA182C22 (intptr_t ___0_ptr, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.Android.Permission::HasUserAuthorizedPermission(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B (String_t* ___0_permission, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Android.Permission::RequestUserPermission(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Permission_RequestUserPermission_mF9CF3A21AAF34B311137C4D00B3AD6A6C2694242 (String_t* ___0_permission, const RuntimeMethod* method) ;
-// Pico.Platform.RtcEngineInitResult Pico.Platform.CLIB::ppf_Rtc_InitRtcEngine()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CLIB_ppf_Rtc_InitRtcEngine_m20BB8DD19DDA0DE689AED5FDFCC401E17A2B0DFF (const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcGetTokenOptions::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcGetTokenOptions__ctor_mCA91FB23D9E95538924CA5A36D7A0060A0DA1F12 (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* __this, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcGetTokenOptions::SetRoomId(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcGetTokenOptions_SetRoomId_mEC2981B140C843025675715E718FA4BBBCAF5465 (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* __this, String_t* ___0_value, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcGetTokenOptions::SetUserId(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcGetTokenOptions_SetUserId_mAC8EC85CB4D28EE5124B3DF53DCB4DA5AB3D8A74 (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* __this, String_t* ___0_value, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcGetTokenOptions::SetTtl(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcGetTokenOptions_SetTtl_m4EBA04258BF46009456989FA5C35B0C5E3CA85C0 (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* __this, int32_t ___0_value, const RuntimeMethod* method) ;
-// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<Pico.Platform.RtcPrivilege,System.Int32>::GetEnumerator()
-inline Enumerator_tA829CFCA6EB6821F225A3ADB1DFE03AC172EBA69 Dictionary_2_GetEnumerator_mD22822F067AD3D9BCA373A0546FE8615909B0FEC (Dictionary_2_tFA4E3C6BBA632C5BEEBB77A03650502241C2D607* __this, const RuntimeMethod* method)
+// System.Void Pico.Platform.RoomOptions::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions__ctor_m575ABE0CB642F3A565A1B46995AFD5C7BFF17220 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2<System.String,System.String>::GetEnumerator()
+inline Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562 Dictionary_2_GetEnumerator_m46EC45F42CA2279D83568CD3F216AAABA8E749F6 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, const RuntimeMethod* method)
 {
-	return ((  Enumerator_tA829CFCA6EB6821F225A3ADB1DFE03AC172EBA69 (*) (Dictionary_2_tFA4E3C6BBA632C5BEEBB77A03650502241C2D607*, const RuntimeMethod*))Dictionary_2_GetEnumerator_m3F34B328374AAC0B9166EFF8B61DBB8E41250811_gshared)(__this, method);
+	return ((  Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562 (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, const RuntimeMethod*))Dictionary_2_GetEnumerator_m52AB12790B0B9B46B1DFB1F861C9DBEAB07C1FDA_gshared)(__this, method);
 }
-// System.Void System.Collections.Generic.Dictionary`2/Enumerator<Pico.Platform.RtcPrivilege,System.Int32>::Dispose()
-inline void Enumerator_Dispose_m9ED4E52C26F04192D41980F154879E9D585E9791 (Enumerator_tA829CFCA6EB6821F225A3ADB1DFE03AC172EBA69* __this, const RuntimeMethod* method)
+// System.Void System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>::Dispose()
+inline void Enumerator_Dispose_m068DDFF5CAFBB15C8A0602DEADA7F10C5BB7ADCD (Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562* __this, const RuntimeMethod* method)
 {
-	((  void (*) (Enumerator_tA829CFCA6EB6821F225A3ADB1DFE03AC172EBA69*, const RuntimeMethod*))Enumerator_Dispose_m80803B80A715D70AB5CF3C6EE6ECAF2A0BEFD876_gshared)(__this, method);
+	((  void (*) (Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562*, const RuntimeMethod*))Enumerator_Dispose_mEA5E01B81EB943B7003D87CEC1B6040524F0402C_gshared)(__this, method);
 }
-// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<Pico.Platform.RtcPrivilege,System.Int32>::get_Current()
-inline KeyValuePair_2_t3B924E448F08153464BEA8D03A541C9BC936424A Enumerator_get_Current_mDE9C73F49F1A0AACB90F99DEB8FDC16508F49543_inline (Enumerator_tA829CFCA6EB6821F225A3ADB1DFE03AC172EBA69* __this, const RuntimeMethod* method)
+// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>::get_Current()
+inline KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_inline (Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562* __this, const RuntimeMethod* method)
 {
-	return ((  KeyValuePair_2_t3B924E448F08153464BEA8D03A541C9BC936424A (*) (Enumerator_tA829CFCA6EB6821F225A3ADB1DFE03AC172EBA69*, const RuntimeMethod*))Enumerator_get_Current_m511016491079A010B4344AA4E125147FAF6D679F_gshared_inline)(__this, method);
+	return ((  KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A (*) (Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562*, const RuntimeMethod*))Enumerator_get_Current_mE3475384B761E1C7971D3639BD09117FE8363422_gshared_inline)(__this, method);
 }
-// TKey System.Collections.Generic.KeyValuePair`2<Pico.Platform.RtcPrivilege,System.Int32>::get_Key()
-inline int32_t KeyValuePair_2_get_Key_m371FAFC80DB00656F29F2E3A607A15D8F1A4D9A2_inline (KeyValuePair_2_t3B924E448F08153464BEA8D03A541C9BC936424A* __this, const RuntimeMethod* method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.String,System.String>::get_Key()
+inline String_t* KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_inline (KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A* __this, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (KeyValuePair_2_t3B924E448F08153464BEA8D03A541C9BC936424A*, const RuntimeMethod*))KeyValuePair_2_get_Key_m380DA6E4F786B9C61012C4427405FC5FD48413A1_gshared_inline)(__this, method);
+	return ((  String_t* (*) (KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A*, const RuntimeMethod*))KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_gshared_inline)(__this, method);
 }
-// TValue System.Collections.Generic.KeyValuePair`2<Pico.Platform.RtcPrivilege,System.Int32>::get_Value()
-inline int32_t KeyValuePair_2_get_Value_m4E42B1A68B9D4E0CD522118A7CE586CC714A92B6_inline (KeyValuePair_2_t3B924E448F08153464BEA8D03A541C9BC936424A* __this, const RuntimeMethod* method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.String,System.String>::get_Value()
+inline String_t* KeyValuePair_2_get_Value_m7345512A32CB4DCAA0643050B18DC8DCD71B927A_inline (KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A* __this, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (KeyValuePair_2_t3B924E448F08153464BEA8D03A541C9BC936424A*, const RuntimeMethod*))KeyValuePair_2_get_Value_m3F5DAA82C39D5EFEAE4B1F8389E1DD38732777CC_gshared_inline)(__this, method);
+	return ((  String_t* (*) (KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A*, const RuntimeMethod*))KeyValuePair_2_get_Value_mC6BD8075F9C9DDEF7B4D731E5C38EC19103988E7_gshared_inline)(__this, method);
 }
-// System.Void Pico.Platform.RtcGetTokenOptions::SetPrivileges(Pico.Platform.RtcPrivilege,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcGetTokenOptions_SetPrivileges_m9BA7C7F94C4C7701F1AAF6B8AE73772F589D6F2B (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* __this, int32_t ___0_key, int32_t ___1_value, const RuntimeMethod* method) ;
-// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<Pico.Platform.RtcPrivilege,System.Int32>::MoveNext()
-inline bool Enumerator_MoveNext_m424B03CFB200058B8CE11047A5D7B6C0EEF5BE36 (Enumerator_tA829CFCA6EB6821F225A3ADB1DFE03AC172EBA69* __this, const RuntimeMethod* method)
+// System.Void Pico.Platform.RoomOptions::SetDataStore(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_SetDataStore_mD2918B7E5F7682EF389E24BC7E86620FC2B5ED92 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2/Enumerator<System.String,System.String>::MoveNext()
+inline bool Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438 (Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562* __this, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Enumerator_tA829CFCA6EB6821F225A3ADB1DFE03AC172EBA69*, const RuntimeMethod*))Enumerator_MoveNext_m2B81AF70E031A662ECD2B22E5377190610523770_gshared)(__this, method);
+	return ((  bool (*) (Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562*, const RuntimeMethod*))Enumerator_MoveNext_mCD4950A75FFADD54AF354D48C6C0DB0B5A22A5F4_gshared)(__this, method);
 }
-// System.IntPtr Pico.Platform.RtcGetTokenOptions::op_Explicit(Pico.Platform.RtcGetTokenOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RtcGetTokenOptions_op_Explicit_m6C383C66020E9B97450516BA56A4804EE11AF49E (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* ___0_options, const RuntimeMethod* method) ;
-// System.UInt64 Pico.Platform.CLIB::ppf_Rtc_GetToken(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Rtc_GetToken_m8F52B9679DC5BF49DC30C44678011848F161673A (intptr_t ___0_options, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcRoomOptions::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions__ctor_m753D1C11608C22036A76D99B3C862D89B347E274 (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcRoomOptions::SetRoomId(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions_SetRoomId_m1EC97F209EAB97E51EF3EEAFD8C6D62B6CAD2ED6 (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, String_t* ___0_value, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcRoomOptions::SetUserId(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions_SetUserId_m33FD3B38340AF5C0F0A57BFB514C5DA81BFE10BC (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, String_t* ___0_value, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcRoomOptions::SetToken(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions_SetToken_mE7CAA2DC3B2B75013EDE6C974339572E0CEC7CC0 (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, String_t* ___0_value, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcRoomOptions::SetRoomProfileType(Pico.Platform.RtcRoomProfileType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions_SetRoomProfileType_m45350524D2610FA5CD5C4D5723EEA2A2FCF5E0F2 (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, int32_t ___0_value, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcRoomOptions::SetIsAutoSubscribeAudio(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions_SetIsAutoSubscribeAudio_m0A6C2D07889202383FE2627313F63E081CA25531 (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, bool ___0_value, const RuntimeMethod* method) ;
-// System.IntPtr Pico.Platform.RtcRoomOptions::op_Explicit(Pico.Platform.RtcRoomOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* ___0_options, const RuntimeMethod* method) ;
-// System.Int32 Pico.Platform.CLIB::ppf_Rtc_JoinRoom(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CLIB_ppf_Rtc_JoinRoom_m4E5EC93A0D7A396D28CA13001EF6E6E5A49CF0B2 (intptr_t ___0_roomOptions, const RuntimeMethod* method) ;
-// System.Int32 Pico.Platform.RtcService::LeaveRoom(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_LeaveRoom_m24F28302428DEE9794E878DBA9C441164D93269E (String_t* ___0_roomId, const RuntimeMethod* method) ;
-// System.Int32 Pico.Platform.CLIB::ppf_Rtc_LeaveRoom(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CLIB_ppf_Rtc_LeaveRoom_m97EBB2B10B3323F2917A661B3FC3899C778F0092 (String_t* ___0_roomId, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_SetAudioPlaybackDevice(Pico.Platform.RtcAudioPlaybackDevice)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_SetAudioPlaybackDevice_mD1332D4C61830FC5FA37D79D79B7AAE9A4B29444 (int32_t ___0_device, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_RoomPauseAllSubscribedStream(System.String,Pico.Platform.RtcPauseResumeMediaType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_RoomPauseAllSubscribedStream_m34D0AD40880E89C0C1370213858B61D7D06055E8 (String_t* ___0_roomId, int32_t ___1_mediaType, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_RoomResumeAllSubscribedStream(System.String,Pico.Platform.RtcPauseResumeMediaType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_RoomResumeAllSubscribedStream_m8DAEA8FA957F0E6CCC78DCAD0F482BFAECAECFF5 (String_t* ___0_roomId, int32_t ___1_mediaType, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.Models.RtcAudioFrame::.ctor(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcAudioFrame__ctor_mAF8A3A50316BDC0FFFE39C0FCF28E25F185B5E9A (RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59* __this, intptr_t ___0_o, const RuntimeMethod* method) ;
-// System.Int32 Pico.Platform.RtcService/ProcessAudioFrameFunction::Invoke(Pico.Platform.Models.RtcAudioFrame)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ProcessAudioFrameFunction_Invoke_m5EC2CDFD611F5CDC64BD8A36A025E8C08FF061D6_inline (ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* __this, RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59* ___0_frame, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB/RtcProcessAudioFrameFunction::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcProcessAudioFrameFunction__ctor_m55F453E056A84CA415A7E8B7CF428BF0A7901A50 (RtcProcessAudioFrameFunction_t91998EE2CD7760356A3A9E75620AEB591C1F2344* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_RegisterLocalAudioProcessor(Pico.Platform.CLIB/RtcProcessAudioFrameFunction,Pico.Platform.RtcAudioChannel,Pico.Platform.RtcAudioSampleRate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_RegisterLocalAudioProcessor_mF40BE44B52397C73F3E98736217222546F1FE166 (RtcProcessAudioFrameFunction_t91998EE2CD7760356A3A9E75620AEB591C1F2344* ___0_rtcProcessAudioFrameFunction, int32_t ___1_channel, int32_t ___2_sampleRate, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcAudioPropertyOptions::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcAudioPropertyOptions__ctor_m5D01ABC1098566CAD6A7000775D6CA381D70509F (RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E* __this, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcAudioPropertyOptions::SetInterval(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcAudioPropertyOptions_SetInterval_m8075C50D77C3347FB74433C8D73FBA38E3416005 (RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E* __this, int32_t ___0_value, const RuntimeMethod* method) ;
-// System.IntPtr Pico.Platform.RtcAudioPropertyOptions::op_Explicit(Pico.Platform.RtcAudioPropertyOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RtcAudioPropertyOptions_op_Explicit_mAA54B25B681E9C597F68538D3339153E5748FB9A (RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E* ___0_options, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_EnableAudioPropertiesReport(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_EnableAudioPropertiesReport_m97025C0A2787682A37CEEFC30F7DBB89D5831533 (intptr_t ___0_config, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_RoomPublishStream(System.String,Pico.Platform.RtcMediaStreamType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_RoomPublishStream_m999BF20CA150068F21BB66C40AD84A9768BC2033 (String_t* ___0_roomId, int32_t ___1_streamType, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_RoomUnPublishStream(System.String,Pico.Platform.RtcMediaStreamType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_RoomUnPublishStream_m00FEBEC578FA2194B9E8A8B48FBFB928E5FDB138 (String_t* ___0_roomId, int32_t ___1_streamType, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_DestroyRoom(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_DestroyRoom_m9624553A2D673BC8441668054A0456836613D50D (String_t* ___0_roomId, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_StartAudioCapture()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_StartAudioCapture_m8700CD4674A20317315792FF01A293DC9EE03B5D (const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_StopAudioCapture()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_StopAudioCapture_m9314204AA68DEC851FD5F446DB4E65B1B7DCC67E (const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_SetCaptureVolume(Pico.Platform.RtcStreamIndex,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_SetCaptureVolume_mF57DFC4F22BF53E417A49455A3FB35D4E80CFC73 (int32_t ___0_index, int32_t ___1_volume, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_SetPlaybackVolume(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_SetPlaybackVolume_m5C43C4FF094E1034EA128BF265E10B7055C65A8D (int32_t ___0_volume, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_SetEarMonitorMode(Pico.Platform.RtcEarMonitorMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_SetEarMonitorMode_m3A40312D08EF057E864EC56020773481AB184F0C (int32_t ___0_earMonitorMode, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_SetEarMonitorVolume(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_SetEarMonitorVolume_m18A7BBD03541E7EFF142C6F976D002BBB9D61AE4 (int32_t ___0_volume, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_MuteLocalAudio(Pico.Platform.RtcMuteState)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_MuteLocalAudio_m77706FE3988E9393BACD03870F2641AD938DDA7E (int32_t ___0_muteState, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_UpdateToken(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_UpdateToken_mF6E21D718D5EA93B515E07C2DFFCCFD96985EDBB (String_t* ___0_roomId, String_t* ___1_token, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_SetAudioScenario(Pico.Platform.RtcAudioScenarioType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_SetAudioScenario_mC636AA2606FA3F31BE8BF487B8B05CA8E88B0EA1 (int32_t ___0_scenario, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_RoomSetRemoteAudioPlaybackVolume(System.String,System.String,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_RoomSetRemoteAudioPlaybackVolume_m7433C4EC934EE144B19D75B7AE556CC89EFCF6EB (String_t* ___0_roomId, String_t* ___1_userId, int32_t ___2_volume, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_RoomSubscribeStream(System.String,System.String,Pico.Platform.RtcMediaStreamType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_RoomSubscribeStream_mC7D8349F283518760FF8D7C1068651DF3B7DC779 (String_t* ___0_roomId, String_t* ___1_userId, int32_t ___2_mediaType, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.CLIB::ppf_Rtc_RoomUnsubscribeStream(System.String,System.String,Pico.Platform.RtcMediaStreamType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CLIB_ppf_Rtc_RoomUnsubscribeStream_m3C9352F9B827AC824A03C96E5FFA327C8D8CBF7F (String_t* ___0_roomId, String_t* ___1_userId, int32_t ___2_mediaType, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.PtrManager::.ctor(System.Byte[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PtrManager__ctor_m7BEAACAEBEE05EF15116C986BAB9A1DA2002A478 (PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_a, const RuntimeMethod* method) ;
-// System.Int64 Pico.Platform.CLIB::ppf_Rtc_SendRoomBinaryMessage(System.String,System.IntPtr,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CLIB_ppf_Rtc_SendRoomBinaryMessage_m3ED7D7134269914FE9FC7EB789C89658EB6FDA8F (String_t* ___0_roomId, intptr_t ___1_message, int32_t ___2_length, const RuntimeMethod* method) ;
-// System.Int64 Pico.Platform.CLIB::ppf_Rtc_SendRoomMessage(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CLIB_ppf_Rtc_SendRoomMessage_m9E0EBE88DD65721EFE48D813A74C22860A8A03B5 (String_t* ___0_roomId, String_t* ___1_message, const RuntimeMethod* method) ;
-// System.Int64 Pico.Platform.CLIB::ppf_Rtc_SendUserBinaryMessage(System.String,System.String,System.IntPtr,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CLIB_ppf_Rtc_SendUserBinaryMessage_m822EB94F0C78D74D76EF162C90ADA3F3B56E936F (String_t* ___0_roomId, String_t* ___1_userId, intptr_t ___2_message, int32_t ___3_length, const RuntimeMethod* method) ;
-// System.Int64 Pico.Platform.CLIB::ppf_Rtc_SendUserMessage(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t CLIB_ppf_Rtc_SendUserMessage_mF5F42745A4FEF34004712FB21A340155506CEF01 (String_t* ___0_roomId, String_t* ___1_userId, String_t* ___2_message, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcStreamSyncInfoOptions::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfoOptions__ctor_m9D86B190CCE9ADF893542CCB8FEB7EEF4309CE7E (RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* __this, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcStreamSyncInfoOptions::SetRepeatCount(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfoOptions_SetRepeatCount_mEC362A0008CECC40F6C5B3DE011BC44DBE66256B (RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* __this, int32_t ___0_value, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcStreamSyncInfoOptions::SetStreamIndex(Pico.Platform.RtcStreamIndex)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfoOptions_SetStreamIndex_m76FF4534D8271C81C0263995DC0554961184DA34 (RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* __this, int32_t ___0_value, const RuntimeMethod* method) ;
-// System.Void Pico.Platform.RtcStreamSyncInfoOptions::SetStreamType(Pico.Platform.RtcSyncInfoStreamType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfoOptions_SetStreamType_m75AF0A32A37BC87F68C105FB7DA0E3737C3BF977 (RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* __this, int32_t ___0_value, const RuntimeMethod* method) ;
-// System.IntPtr Pico.Platform.RtcStreamSyncInfoOptions::op_Explicit(Pico.Platform.RtcStreamSyncInfoOptions)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RtcStreamSyncInfoOptions_op_Explicit_m36286E8D49E4A5A299A71C763E9421343B2E71FC (RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* ___0_options, const RuntimeMethod* method) ;
-// System.Int32 Pico.Platform.CLIB::ppf_Rtc_SendStreamSyncInfo(System.IntPtr,System.Int32,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t CLIB_ppf_Rtc_SendStreamSyncInfo_mA91C187D432205B5CE0234D1EB60B7B78A216F69 (intptr_t ___0_data, int32_t ___1_length, intptr_t ___2_config, const RuntimeMethod* method) ;
+// System.Void Pico.Platform.RoomOptions::SetRoomName(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_SetRoomName_mF13CD35EE1D61715C2FB02A9F7CD983D70490D85 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, String_t* ___0_roomName, const RuntimeMethod* method) ;
+// System.Void Pico.Platform.RoomOptions::SetPassword(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_SetPassword_m5323FCDBC642B3161C3B5C58090D0F041F4C19F4 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, String_t* ___0_password, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_GetNamedRooms(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_GetNamedRooms_m076EDA23337E2B7A891F0C9EF58424A1FE664B96 (int32_t ___0_page_idx, int32_t ___1_page_size, const RuntimeMethod* method) ;
+// System.Void Pico.Platform.Task`1<Pico.Platform.Models.RoomList>::.ctor(System.UInt64)
+inline void Task_1__ctor_m76C9FCA50BF130D2B88563A6B41A80908D5CF84C (Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445* __this, uint64_t ___0_taskId, const RuntimeMethod* method)
+{
+	((  void (*) (Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445*, uint64_t, const RuntimeMethod*))Task_1__ctor_mB5EFF6D4F82D6929289AD587B3332A870C2FBFEC_gshared)(__this, ___0_taskId, method);
+}
+// System.IntPtr Pico.Platform.RoomOptions::GetHandle()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t RoomOptions_GetHandle_m0C9DCC01EC26AC5586AC037C2FC3A8A8C389F247_inline (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_JoinNamed(Pico.Platform.RoomJoinPolicy,System.Boolean,System.UInt32,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_JoinNamed_m46A7C6A8C1CD1580B427ECE5959A5155E92940C9 (int32_t ___0_joinPolicy, bool ___1_createIfNotExist, uint32_t ___2_maxUsers, intptr_t ___3_roomOptions, const RuntimeMethod* method) ;
+// System.Void Pico.Platform.Task`1<Pico.Platform.Models.Room>::.ctor(System.UInt64)
+inline void Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* __this, uint64_t ___0_taskId, const RuntimeMethod* method)
+{
+	((  void (*) (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*, uint64_t, const RuntimeMethod*))Task_1__ctor_mB5EFF6D4F82D6929289AD587B3332A870C2FBFEC_gshared)(__this, ___0_taskId, method);
+}
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_LaunchInvitableUserFlow(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_LaunchInvitableUserFlow_m07B68E79850C0DC77B8A40BD1059671A81990EF4 (uint64_t ___0_roomID, const RuntimeMethod* method) ;
+// System.Int32 System.Collections.Generic.Dictionary`2<System.String,System.String>::get_Count()
+inline int32_t Dictionary_2_get_Count_m65C62C77C355CFCE2CC0ED6D817637E1909E0843 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83*, const RuntimeMethod*))Dictionary_2_get_Count_m4DDA9442C238A443489115E22B026AD366851549_gshared)(__this, method);
+}
+// System.Void Pico.Platform.Models.KVPair::SetStringValue(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KVPair_SetStringValue_mECC788009B804AFBA8737D4BB560D8359002C7A8 (KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_UpdateDataStore(System.UInt64,System.IntPtr,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_UpdateDataStore_m2BC647CB7D4E8AC842ECA0DDC4155579D1E484E2 (uint64_t ___0_roomID, intptr_t ___1_data, uint32_t ___2_numItems, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_CreateAndJoinPrivate2(Pico.Platform.RoomJoinPolicy,System.UInt32,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_CreateAndJoinPrivate2_mBCD6A3AF5D5777066DF8E985BDFAE147EAF5607E (int32_t ___0_joinPolicy, uint32_t ___1_maxUsers, intptr_t ___2_roomOptions, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_Get(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_Get_m78F4432727EFD99CB27EC7EC8628D5294E3066AA (uint64_t ___0_roomID, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_GetCurrent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_GetCurrent_mD2393A877281A487C51C92F3918CA5C1611C7240 (const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_GetCurrentForUser(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_GetCurrentForUser_mCE9D7DBE4AC5B5F1E8EAA7B742B0BDB992153020 (String_t* ___0_userID, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_GetInvitableUsers2(System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_GetInvitableUsers2_m190B58B8850FB27569722083BB408003949CD07E (intptr_t ___0_roomOptions, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_GetModeratedRooms(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_GetModeratedRooms_mD33BAE4E2CED720F922B8BD97FA0EABE9D91E4EB (int32_t ___0_page_idx, int32_t ___1_page_size, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_InviteUser(System.UInt64,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_InviteUser_m3CE7108C33EFB5A40F6DAA73996D46215212C2B0 (uint64_t ___0_roomID, String_t* ___1_inviteToken, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_Join2(System.UInt64,System.IntPtr)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_Join2_m3B4E00BF5F65F44B68BA9661A6D16C49128CEB2B (uint64_t ___0_roomID, intptr_t ___1_roomOptions, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_KickUser(System.UInt64,System.String,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_KickUser_mB978F5A32CC5B5EF2DF0E2AD6A430B4F01B8CFF5 (uint64_t ___0_roomID, String_t* ___1_userID, int32_t ___2_kickDurationSeconds, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_Leave(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_Leave_mCF160B03E73765832E2011BE38383455710338A8 (uint64_t ___0_roomID, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_SetDescription(System.UInt64,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_SetDescription_mB3F4A0F82D42EB114B79C58EB2E9300D1CFDF1F6 (uint64_t ___0_roomID, String_t* ___1_description, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_UpdateMembershipLockStatus(System.UInt64,Pico.Platform.RoomMembershipLockStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_UpdateMembershipLockStatus_mA9E686FBF3F49C6C1FA1487E1323D61AD2BC44AC (uint64_t ___0_roomID, int32_t ___1_membershipLockStatus, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_UpdateOwner(System.UInt64,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_UpdateOwner_m13AB8F47C4C556A005804740AE95927CEEFD0FAA (uint64_t ___0_roomID, String_t* ___1_userID, const RuntimeMethod* method) ;
+// System.UInt64 Pico.Platform.CLIB::ppf_Room_UpdatePrivateRoomJoinPolicy(System.UInt64,Pico.Platform.RoomJoinPolicy)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t CLIB_ppf_Room_UpdatePrivateRoomJoinPolicy_mEC675514A3D19B4446D3A40D524EDEBE982BD064 (uint64_t ___0_roomID, int32_t ___1_newJoinPolicy, const RuntimeMethod* method) ;
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_pxrplatformloader_INTERNAL
 IL2CPP_EXTERN_C void CDECL ppf_Rtc_RegisterLocalAudioProcessor(Il2CppMethodPointer, int32_t, int32_t);
 #endif
@@ -64481,79 +64109,212 @@ IL_0014:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern "C" int32_t CDECL ReversePInvokeWrapper_RtcService_InnerAudioProcessor_m663C1AC6BC552D87E0EF075932933D89EA182C22(intptr_t ___0_ptr)
-{
-	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
-
-	// Managed method invocation
-	int32_t returnValue;
-	returnValue = RtcService_InnerAudioProcessor_m663C1AC6BC552D87E0EF075932933D89EA182C22(___0_ptr, NULL);
-
-	return returnValue;
-}
-// Pico.Platform.RtcEngineInitResult Pico.Platform.RtcService::InitRtcEngine()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_InitRtcEngine_m8CFD3447FE5884ADA7E671B54C3474DE6492E5FC (const RuntimeMethod* method) 
+// Pico.Platform.RoomOptions Pico.Platform.RoomService::GetCreatePrivateRoomOptions(System.Collections.Generic.Dictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* RoomService_GetCreatePrivateRoomOptions_mC1B5A30AC945E0D599B5E8B4FCEBFB01106A0587 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___0_dataStore, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6D2C56060B3F7353031AD314517C27945CC39748);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_GetEnumerator_m46EC45F42CA2279D83568CD3F216AAABA8E749F6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m068DDFF5CAFBB15C8A0602DEADA7F10C5BB7ADCD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Value_m7345512A32CB4DCAA0643050B18DC8DCD71B927A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
+	RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* V_0 = NULL;
+	Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A V_2;
+	memset((&V_2), 0, sizeof(V_2));
 	{
-		// if (Application.platform == RuntimePlatform.Android && !Permission.HasUserAuthorizedPermission(Permission.Microphone))
-		int32_t L_0;
-		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
-		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)11)))))
-		{
-			goto IL_001f;
-		}
+		// RoomOptions options = new RoomOptions();
+		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_0 = (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7*)il2cpp_codegen_object_new(RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		RoomOptions__ctor_m575ABE0CB642F3A565A1B46995AFD5C7BFF17220(L_0, NULL);
+		V_0 = L_0;
+		// foreach (var data in dataStore)
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_1 = ___0_dataStore;
+		NullCheck(L_1);
+		Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562 L_2;
+		L_2 = Dictionary_2_GetEnumerator_m46EC45F42CA2279D83568CD3F216AAABA8E749F6(L_1, Dictionary_2_GetEnumerator_m46EC45F42CA2279D83568CD3F216AAABA8E749F6_RuntimeMethod_var);
+		V_1 = L_2;
 	}
 	{
-		bool L_1;
-		L_1 = Permission_HasUserAuthorizedPermission_mF4C90E13124E28F6F672200E489CC25A9B645B8B(_stringLiteral6D2C56060B3F7353031AD314517C27945CC39748, NULL);
-		if (L_1)
+		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
-			goto IL_001f;
+
+FINALLY_0036:
+			{// begin finally (depth: 1)
+				Enumerator_Dispose_m068DDFF5CAFBB15C8A0602DEADA7F10C5BB7ADCD((&V_1), Enumerator_Dispose_m068DDFF5CAFBB15C8A0602DEADA7F10C5BB7ADCD_RuntimeMethod_var);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				goto IL_002b_1;
+			}
+
+IL_000f_1:
+			{
+				// foreach (var data in dataStore)
+				KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A L_3;
+				L_3 = Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_inline((&V_1), Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_RuntimeMethod_var);
+				V_2 = L_3;
+				// options.SetDataStore(data.Key, data.Value);
+				RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_4 = V_0;
+				String_t* L_5;
+				L_5 = KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_inline((&V_2), KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_RuntimeMethod_var);
+				String_t* L_6;
+				L_6 = KeyValuePair_2_get_Value_m7345512A32CB4DCAA0643050B18DC8DCD71B927A_inline((&V_2), KeyValuePair_2_get_Value_m7345512A32CB4DCAA0643050B18DC8DCD71B927A_RuntimeMethod_var);
+				NullCheck(L_4);
+				RoomOptions_SetDataStore_mD2918B7E5F7682EF389E24BC7E86620FC2B5ED92(L_4, L_5, L_6, NULL);
+			}
+
+IL_002b_1:
+			{
+				// foreach (var data in dataStore)
+				bool L_7;
+				L_7 = Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438((&V_1), Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438_RuntimeMethod_var);
+				if (L_7)
+				{
+					goto IL_000f_1;
+				}
+			}
+			{
+				goto IL_0044;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
 		}
-	}
-	{
-		// Permission.RequestUserPermission(Permission.Microphone);
-		Permission_RequestUserPermission_mF9CF3A21AAF34B311137C4D00B3AD6A6C2694242(_stringLiteral6D2C56060B3F7353031AD314517C27945CC39748, NULL);
 	}
 
-IL_001f:
+IL_0044:
 	{
-		// return CLIB.ppf_Rtc_InitRtcEngine();
-		int32_t L_2;
-		L_2 = CLIB_ppf_Rtc_InitRtcEngine_m20BB8DD19DDA0DE689AED5FDFCC401E17A2B0DFF(NULL);
-		return L_2;
+		// return options;
+		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_8 = V_0;
+		return L_8;
 	}
 }
-// Pico.Platform.Task`1<System.String> Pico.Platform.RtcService::GetToken(System.String,System.String,System.Int32,System.Collections.Generic.Dictionary`2<Pico.Platform.RtcPrivilege,System.Int32>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF* RtcService_GetToken_m228DA2D75D8BE8DA4496774D60FD83E05C575A0A (String_t* ___0_roomId, String_t* ___1_userId, int32_t ___2_ttl, Dictionary_2_tFA4E3C6BBA632C5BEEBB77A03650502241C2D607* ___3_privileges, const RuntimeMethod* method) 
+// Pico.Platform.RoomOptions Pico.Platform.RoomService::GetJoinOrCreateNamedRoomOptions(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* RoomService_GetJoinOrCreateNamedRoomOptions_mD57228C1919DA9E68530D50D95D2C97A130C4662 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___0_dataStore, String_t* ___1_name, String_t* ___2_password, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_GetEnumerator_m46EC45F42CA2279D83568CD3F216AAABA8E749F6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m068DDFF5CAFBB15C8A0602DEADA7F10C5BB7ADCD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Value_m7345512A32CB4DCAA0643050B18DC8DCD71B927A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* V_0 = NULL;
+	Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		// RoomOptions options = new RoomOptions();
+		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_0 = (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7*)il2cpp_codegen_object_new(RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		RoomOptions__ctor_m575ABE0CB642F3A565A1B46995AFD5C7BFF17220(L_0, NULL);
+		V_0 = L_0;
+		// foreach (var data in dataStore)
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_1 = ___0_dataStore;
+		NullCheck(L_1);
+		Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562 L_2;
+		L_2 = Dictionary_2_GetEnumerator_m46EC45F42CA2279D83568CD3F216AAABA8E749F6(L_1, Dictionary_2_GetEnumerator_m46EC45F42CA2279D83568CD3F216AAABA8E749F6_RuntimeMethod_var);
+		V_1 = L_2;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_0036:
+			{// begin finally (depth: 1)
+				Enumerator_Dispose_m068DDFF5CAFBB15C8A0602DEADA7F10C5BB7ADCD((&V_1), Enumerator_Dispose_m068DDFF5CAFBB15C8A0602DEADA7F10C5BB7ADCD_RuntimeMethod_var);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				goto IL_002b_1;
+			}
+
+IL_000f_1:
+			{
+				// foreach (var data in dataStore)
+				KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A L_3;
+				L_3 = Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_inline((&V_1), Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_RuntimeMethod_var);
+				V_2 = L_3;
+				// options.SetDataStore(data.Key, data.Value);
+				RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_4 = V_0;
+				String_t* L_5;
+				L_5 = KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_inline((&V_2), KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_RuntimeMethod_var);
+				String_t* L_6;
+				L_6 = KeyValuePair_2_get_Value_m7345512A32CB4DCAA0643050B18DC8DCD71B927A_inline((&V_2), KeyValuePair_2_get_Value_m7345512A32CB4DCAA0643050B18DC8DCD71B927A_RuntimeMethod_var);
+				NullCheck(L_4);
+				RoomOptions_SetDataStore_mD2918B7E5F7682EF389E24BC7E86620FC2B5ED92(L_4, L_5, L_6, NULL);
+			}
+
+IL_002b_1:
+			{
+				// foreach (var data in dataStore)
+				bool L_7;
+				L_7 = Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438((&V_1), Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438_RuntimeMethod_var);
+				if (L_7)
+				{
+					goto IL_000f_1;
+				}
+			}
+			{
+				goto IL_0044;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_0044:
+	{
+		// options.SetRoomName(name);
+		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_8 = V_0;
+		String_t* L_9 = ___1_name;
+		NullCheck(L_8);
+		RoomOptions_SetRoomName_mF13CD35EE1D61715C2FB02A9F7CD983D70490D85(L_8, L_9, NULL);
+		// options.SetPassword(password);
+		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_10 = V_0;
+		String_t* L_11 = ___2_password;
+		NullCheck(L_10);
+		RoomOptions_SetPassword_m5323FCDBC642B3161C3B5C58090D0F041F4C19F4(L_10, L_11, NULL);
+		// return options;
+		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_12 = V_0;
+		return L_12;
+	}
+}
+// Pico.Platform.Task`1<Pico.Platform.Models.RoomList> Pico.Platform.RoomService::GetNamedRooms(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445* RoomService_GetNamedRooms_m1A81709F472FAE518A204486B3EA229AA77CE132 (int32_t ___0_pageIndex, int32_t ___1_pageSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_GetEnumerator_mD22822F067AD3D9BCA373A0546FE8615909B0FEC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m9ED4E52C26F04192D41980F154879E9D585E9791_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_m424B03CFB200058B8CE11047A5D7B6C0EEF5BE36_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_mDE9C73F49F1A0AACB90F99DEB8FDC16508F49543_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Key_m371FAFC80DB00656F29F2E3A607A15D8F1A4D9A2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Value_m4E42B1A68B9D4E0CD522118A7CE586CC714A92B6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m1CF0C62EAAB2FD4823E55B281F816BE4AD7A46DC_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m76C9FCA50BF130D2B88563A6B41A80908D5CF84C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* V_0 = NULL;
-	Enumerator_tA829CFCA6EB6821F225A3ADB1DFE03AC172EBA69 V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	KeyValuePair_2_t3B924E448F08153464BEA8D03A541C9BC936424A V_2;
-	memset((&V_2), 0, sizeof(V_2));
 	{
 		// if (!CoreService.Initialized)
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
@@ -64570,90 +64331,213 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t25E59609375A87704F09DB2AA51B13C8D17A4
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
 		// return null;
-		return (Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF*)NULL;
+		return (Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445*)NULL;
 	}
 
 IL_0013:
 	{
-		// var tokenOption = new RtcGetTokenOptions();
-		RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* L_2 = (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0*)il2cpp_codegen_object_new(RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0_il2cpp_TypeInfo_var);
-		NullCheck(L_2);
-		RtcGetTokenOptions__ctor_mCA91FB23D9E95538924CA5A36D7A0060A0DA1F12(L_2, NULL);
-		V_0 = L_2;
-		// tokenOption.SetRoomId(roomId);
-		RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* L_3 = V_0;
-		String_t* L_4 = ___0_roomId;
-		NullCheck(L_3);
-		RtcGetTokenOptions_SetRoomId_mEC2981B140C843025675715E718FA4BBBCAF5465(L_3, L_4, NULL);
-		// tokenOption.SetUserId(userId);
-		RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* L_5 = V_0;
-		String_t* L_6 = ___1_userId;
+		// return new Task<RoomList>(CLIB.ppf_Room_GetNamedRooms(pageIndex, pageSize));
+		int32_t L_2 = ___0_pageIndex;
+		int32_t L_3 = ___1_pageSize;
+		uint64_t L_4;
+		L_4 = CLIB_ppf_Room_GetNamedRooms_m076EDA23337E2B7A891F0C9EF58424A1FE664B96(L_2, L_3, NULL);
+		Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445* L_5 = (Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445*)il2cpp_codegen_object_new(Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445_il2cpp_TypeInfo_var);
 		NullCheck(L_5);
-		RtcGetTokenOptions_SetUserId_mAC8EC85CB4D28EE5124B3DF53DCB4DA5AB3D8A74(L_5, L_6, NULL);
-		// tokenOption.SetTtl(ttl);
-		RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* L_7 = V_0;
-		int32_t L_8 = ___2_ttl;
-		NullCheck(L_7);
-		RtcGetTokenOptions_SetTtl_m4EBA04258BF46009456989FA5C35B0C5E3CA85C0(L_7, L_8, NULL);
-		// if (privileges != null)
-		Dictionary_2_tFA4E3C6BBA632C5BEEBB77A03650502241C2D607* L_9 = ___3_privileges;
-		if (!L_9)
+		Task_1__ctor_m76C9FCA50BF130D2B88563A6B41A80908D5CF84C(L_5, L_4, Task_1__ctor_m76C9FCA50BF130D2B88563A6B41A80908D5CF84C_RuntimeMethod_var);
+		return L_5;
+	}
+}
+// Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::JoinOrCreateNamedRoom(Pico.Platform.RoomJoinPolicy,System.Boolean,System.UInt32,Pico.Platform.RoomOptions)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_JoinOrCreateNamedRoom_m9CCD8B6F1567227910ABD09F14E1687103E4EDA0 (int32_t ___0_joinPolicy, bool ___1_createIfNotExist, uint32_t ___2_maxUsers, RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* ___3_options, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
 		{
-			goto IL_006f;
+			goto IL_0013;
 		}
 	}
 	{
-		// foreach (var i in privileges)
-		Dictionary_2_tFA4E3C6BBA632C5BEEBB77A03650502241C2D607* L_10 = ___3_privileges;
-		NullCheck(L_10);
-		Enumerator_tA829CFCA6EB6821F225A3ADB1DFE03AC172EBA69 L_11;
-		L_11 = Dictionary_2_GetEnumerator_mD22822F067AD3D9BCA373A0546FE8615909B0FEC(L_10, Dictionary_2_GetEnumerator_mD22822F067AD3D9BCA373A0546FE8615909B0FEC_RuntimeMethod_var);
-		V_1 = L_11;
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task<Room>(CLIB.ppf_Room_JoinNamed(joinPolicy, createIfNotExist, maxUsers, options.GetHandle()));
+		int32_t L_2 = ___0_joinPolicy;
+		bool L_3 = ___1_createIfNotExist;
+		uint32_t L_4 = ___2_maxUsers;
+		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_5 = ___3_options;
+		NullCheck(L_5);
+		intptr_t L_6;
+		L_6 = RoomOptions_GetHandle_m0C9DCC01EC26AC5586AC037C2FC3A8A8C389F247_inline(L_5, NULL);
+		uint64_t L_7;
+		L_7 = CLIB_ppf_Room_JoinNamed_m46A7C6A8C1CD1580B427ECE5959A5155E92940C9(L_2, L_3, L_4, L_6, NULL);
+		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_8 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		NullCheck(L_8);
+		Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B(L_8, L_7, Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		return L_8;
+	}
+}
+// Pico.Platform.Task Pico.Platform.RoomService::LaunchInvitableUserFlow(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2* RoomService_LaunchInvitableUserFlow_m58A81BE30CCE667DC5EA5ABD0240143E7EDDF752 (uint64_t ___0_roomID, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.IsInitialized())
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = CoreService_IsInitialized_m425C6E2D600C2F37C0E507442B95D47CA2E60A19_inline(NULL);
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task(CLIB.ppf_Room_LaunchInvitableUserFlow(roomID));
+		uint64_t L_2 = ___0_roomID;
+		uint64_t L_3;
+		L_3 = CLIB_ppf_Room_LaunchInvitableUserFlow_m07B68E79850C0DC77B8A40BD1059671A81990EF4(L_2, NULL);
+		Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2* L_4 = (Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2*)il2cpp_codegen_object_new(Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Task__ctor_mB58497984A333A9E97FCA9C383CE87CF67FBAD9C(L_4, L_3, NULL);
+		return L_4;
+	}
+}
+// Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::UpdateDataStore(System.UInt64,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_UpdateDataStore_m0230AAF043B61751DE23D4EECADDDE1518E7E231 (uint64_t ___0_roomId, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___1_data, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_GetEnumerator_m46EC45F42CA2279D83568CD3F216AAABA8E749F6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_get_Count_m65C62C77C355CFCE2CC0ED6D817637E1909E0843_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_Dispose_m068DDFF5CAFBB15C8A0602DEADA7F10C5BB7ADCD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&KeyValuePair_2_get_Value_m7345512A32CB4DCAA0643050B18DC8DCD71B927A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* V_0 = NULL;
+	uint32_t V_1 = 0;
+	Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	{
+		// KVPairArray kvarray = new KVPairArray((uint) data.Count);
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___1_data;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = Dictionary_2_get_Count_m65C62C77C355CFCE2CC0ED6D817637E1909E0843(L_0, Dictionary_2_get_Count_m65C62C77C355CFCE2CC0ED6D817637E1909E0843_RuntimeMethod_var);
+		KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* L_2 = (KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F*)il2cpp_codegen_object_new(KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F_il2cpp_TypeInfo_var);
+		NullCheck(L_2);
+		KVPairArray__ctor_m4F6917590761EBFF6B9B805FEE49015DB7768BA1(L_2, L_1, NULL);
+		V_0 = L_2;
+		// uint n = 0;
+		V_1 = 0;
+		// foreach (var d in data)
+		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_3 = ___1_data;
+		NullCheck(L_3);
+		Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562 L_4;
+		L_4 = Dictionary_2_GetEnumerator_m46EC45F42CA2279D83568CD3F216AAABA8E749F6(L_3, Dictionary_2_GetEnumerator_m46EC45F42CA2279D83568CD3F216AAABA8E749F6_RuntimeMethod_var);
+		V_2 = L_4;
 	}
 	{
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_0061:
+FINALLY_004e:
 			{// begin finally (depth: 1)
-				Enumerator_Dispose_m9ED4E52C26F04192D41980F154879E9D585E9791((&V_1), Enumerator_Dispose_m9ED4E52C26F04192D41980F154879E9D585E9791_RuntimeMethod_var);
+				Enumerator_Dispose_m068DDFF5CAFBB15C8A0602DEADA7F10C5BB7ADCD((&V_2), Enumerator_Dispose_m068DDFF5CAFBB15C8A0602DEADA7F10C5BB7ADCD_RuntimeMethod_var);
 				return;
 			}// end finally (depth: 1)
 		});
 		try
 		{// begin try (depth: 1)
 			{
-				goto IL_0056_1;
+				goto IL_0043_1;
 			}
 
-IL_003a_1:
+IL_0017_1:
 			{
-				// foreach (var i in privileges)
-				KeyValuePair_2_t3B924E448F08153464BEA8D03A541C9BC936424A L_12;
-				L_12 = Enumerator_get_Current_mDE9C73F49F1A0AACB90F99DEB8FDC16508F49543_inline((&V_1), Enumerator_get_Current_mDE9C73F49F1A0AACB90F99DEB8FDC16508F49543_RuntimeMethod_var);
-				V_2 = L_12;
-				// tokenOption.SetPrivileges(i.Key, i.Value);
-				RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* L_13 = V_0;
-				int32_t L_14;
-				L_14 = KeyValuePair_2_get_Key_m371FAFC80DB00656F29F2E3A607A15D8F1A4D9A2_inline((&V_2), KeyValuePair_2_get_Key_m371FAFC80DB00656F29F2E3A607A15D8F1A4D9A2_RuntimeMethod_var);
-				int32_t L_15;
-				L_15 = KeyValuePair_2_get_Value_m4E42B1A68B9D4E0CD522118A7CE586CC714A92B6_inline((&V_2), KeyValuePair_2_get_Value_m4E42B1A68B9D4E0CD522118A7CE586CC714A92B6_RuntimeMethod_var);
-				NullCheck(L_13);
-				RtcGetTokenOptions_SetPrivileges_m9BA7C7F94C4C7701F1AAF6B8AE73772F589D6F2B(L_13, L_14, L_15, NULL);
+				// foreach (var d in data)
+				KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A L_5;
+				L_5 = Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_inline((&V_2), Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_RuntimeMethod_var);
+				V_3 = L_5;
+				// var item = kvarray.GetElement(n);
+				KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* L_6 = V_0;
+				uint32_t L_7 = V_1;
+				NullCheck(L_6);
+				KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* L_8;
+				L_8 = KVPairArray_GetElement_mBCB16A773753147C85E56DE455DA4AE059191BDA(L_6, L_7, NULL);
+				// item.SetKey(d.Key);
+				KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* L_9 = L_8;
+				String_t* L_10;
+				L_10 = KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_inline((&V_3), KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_RuntimeMethod_var);
+				NullCheck(L_9);
+				KVPair_SetKey_m1D117E89B96B556874E3E70BAC0AA38789DF5C3C(L_9, L_10, NULL);
+				// item.SetStringValue(d.Value);
+				String_t* L_11;
+				L_11 = KeyValuePair_2_get_Value_m7345512A32CB4DCAA0643050B18DC8DCD71B927A_inline((&V_3), KeyValuePair_2_get_Value_m7345512A32CB4DCAA0643050B18DC8DCD71B927A_RuntimeMethod_var);
+				NullCheck(L_9);
+				KVPair_SetStringValue_mECC788009B804AFBA8737D4BB560D8359002C7A8(L_9, L_11, NULL);
+				// n++;
+				uint32_t L_12 = V_1;
+				V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_12, 1));
 			}
 
-IL_0056_1:
+IL_0043_1:
 			{
-				// foreach (var i in privileges)
-				bool L_16;
-				L_16 = Enumerator_MoveNext_m424B03CFB200058B8CE11047A5D7B6C0EEF5BE36((&V_1), Enumerator_MoveNext_m424B03CFB200058B8CE11047A5D7B6C0EEF5BE36_RuntimeMethod_var);
-				if (L_16)
+				// foreach (var d in data)
+				bool L_13;
+				L_13 = Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438((&V_2), Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438_RuntimeMethod_var);
+				if (L_13)
 				{
-					goto IL_003a_1;
+					goto IL_0017_1;
 				}
 			}
 			{
-				goto IL_006f;
+				goto IL_005c;
 			}
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -64662,648 +64546,669 @@ IL_0056_1:
 		}
 	}
 
-IL_006f:
+IL_005c:
 	{
-		// return new Task<string>(CLIB.ppf_Rtc_GetToken((IntPtr) tokenOption));
-		RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* L_17 = V_0;
-		intptr_t L_18;
-		L_18 = RtcGetTokenOptions_op_Explicit_m6C383C66020E9B97450516BA56A4804EE11AF49E(L_17, NULL);
+		// return new Task<Room>(CLIB.ppf_Room_UpdateDataStore(roomId, kvarray.GetHandle(), kvarray.Size));
+		uint64_t L_14 = ___0_roomId;
+		KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* L_15 = V_0;
+		NullCheck(L_15);
+		intptr_t L_16;
+		L_16 = KVPairArray_GetHandle_m389281C5195EBBD58347A4189B74F7C0A502DDA9_inline(L_15, NULL);
+		KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* L_17 = V_0;
+		NullCheck(L_17);
+		uint32_t L_18;
+		L_18 = KVPairArray_get_Size_m791FA5D137AE74B4A1AA97C39AEDE37A9916EE10_inline(L_17, NULL);
 		uint64_t L_19;
-		L_19 = CLIB_ppf_Rtc_GetToken_m8F52B9679DC5BF49DC30C44678011848F161673A(L_18, NULL);
-		Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF* L_20 = (Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF*)il2cpp_codegen_object_new(Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF_il2cpp_TypeInfo_var);
+		L_19 = CLIB_ppf_Room_UpdateDataStore_m2BC647CB7D4E8AC842ECA0DDC4155579D1E484E2(L_14, L_16, L_18, NULL);
+		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_20 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
 		NullCheck(L_20);
-		Task_1__ctor_m1CF0C62EAAB2FD4823E55B281F816BE4AD7A46DC(L_20, L_19, Task_1__ctor_m1CF0C62EAAB2FD4823E55B281F816BE4AD7A46DC_RuntimeMethod_var);
+		Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B(L_20, L_19, Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
 		return L_20;
 	}
 }
-// System.Int32 Pico.Platform.RtcService::JoinRoom(System.String,System.String,System.String,Pico.Platform.RtcRoomProfileType,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_JoinRoom_m3782263B9253042E21F4A5AF8605338E63532B79 (String_t* ___0_roomId, String_t* ___1_userId, String_t* ___2_token, int32_t ___3_roomProfileType, bool ___4_isAutoSubscribeAudio, const RuntimeMethod* method) 
+// Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::CreateAndJoinPrivate2(Pico.Platform.RoomJoinPolicy,System.UInt32,Pico.Platform.RoomOptions)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_CreateAndJoinPrivate2_m7EC3DA98CBB79FB5B872760FFC902C3E697EB3E3 (int32_t ___0_policy, uint32_t ___1_maxUsers, RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* ___2_roomOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// var roomOption = new RtcRoomOptions();
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_0 = (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A*)il2cpp_codegen_object_new(RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		RtcRoomOptions__ctor_m753D1C11608C22036A76D99B3C862D89B347E274(L_0, NULL);
-		// roomOption.SetRoomId(roomId);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_1 = L_0;
-		String_t* L_2 = ___0_roomId;
-		NullCheck(L_1);
-		RtcRoomOptions_SetRoomId_m1EC97F209EAB97E51EF3EEAFD8C6D62B6CAD2ED6(L_1, L_2, NULL);
-		// roomOption.SetUserId(userId);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_3 = L_1;
-		String_t* L_4 = ___1_userId;
-		NullCheck(L_3);
-		RtcRoomOptions_SetUserId_m33FD3B38340AF5C0F0A57BFB514C5DA81BFE10BC(L_3, L_4, NULL);
-		// roomOption.SetToken(token);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_5 = L_3;
-		String_t* L_6 = ___2_token;
-		NullCheck(L_5);
-		RtcRoomOptions_SetToken_mE7CAA2DC3B2B75013EDE6C974339572E0CEC7CC0(L_5, L_6, NULL);
-		// roomOption.SetRoomProfileType(roomProfileType);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_7 = L_5;
-		int32_t L_8 = ___3_roomProfileType;
-		NullCheck(L_7);
-		RtcRoomOptions_SetRoomProfileType_m45350524D2610FA5CD5C4D5723EEA2A2FCF5E0F2(L_7, L_8, NULL);
-		// roomOption.SetIsAutoSubscribeAudio(isAutoSubscribeAudio);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_9 = L_7;
-		bool L_10 = ___4_isAutoSubscribeAudio;
-		NullCheck(L_9);
-		RtcRoomOptions_SetIsAutoSubscribeAudio_m0A6C2D07889202383FE2627313F63E081CA25531(L_9, L_10, NULL);
-		// return CLIB.ppf_Rtc_JoinRoom((IntPtr) roomOption);
-		intptr_t L_11;
-		L_11 = RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB(L_9, NULL);
-		int32_t L_12;
-		L_12 = CLIB_ppf_Rtc_JoinRoom_m4E5EC93A0D7A396D28CA13001EF6E6E5A49CF0B2(L_11, NULL);
-		return L_12;
-	}
-}
-// System.Int32 Pico.Platform.RtcService::JoinRoom2(Pico.Platform.RtcRoomOptions,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_JoinRoom2_m216395D3F7BD023C56D707C947FF624FAADC4984 (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* ___0_joinRoomOptions, bool ___1_leaveIfInRoom, const RuntimeMethod* method) 
-{
-	int32_t V_0 = 0;
-	{
-		// var res = CLIB.ppf_Rtc_JoinRoom((IntPtr) joinRoomOptions);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_0 = ___0_joinRoomOptions;
-		intptr_t L_1;
-		L_1 = RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB(L_0, NULL);
-		int32_t L_2;
-		L_2 = CLIB_ppf_Rtc_JoinRoom_m4E5EC93A0D7A396D28CA13001EF6E6E5A49CF0B2(L_1, NULL);
-		V_0 = L_2;
-		// if (leaveIfInRoom && res == -2)
-		bool L_3 = ___1_leaveIfInRoom;
-		if (!L_3)
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
 		{
-			goto IL_002c;
+			goto IL_0013;
 		}
 	}
 	{
-		int32_t L_4 = V_0;
-		if ((!(((uint32_t)L_4) == ((uint32_t)((int32_t)-2)))))
-		{
-			goto IL_002c;
-		}
-	}
-	{
-		// LeaveRoom(joinRoomOptions.RoomId);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_5 = ___0_joinRoomOptions;
-		NullCheck(L_5);
-		String_t* L_6 = L_5->___RoomId_0;
-		int32_t L_7;
-		L_7 = RtcService_LeaveRoom_m24F28302428DEE9794E878DBA9C441164D93269E(L_6, NULL);
-		// res = CLIB.ppf_Rtc_JoinRoom((IntPtr) joinRoomOptions);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_8 = ___0_joinRoomOptions;
-		intptr_t L_9;
-		L_9 = RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB(L_8, NULL);
-		int32_t L_10;
-		L_10 = CLIB_ppf_Rtc_JoinRoom_m4E5EC93A0D7A396D28CA13001EF6E6E5A49CF0B2(L_9, NULL);
-		V_0 = L_10;
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
 	}
 
-IL_002c:
+IL_0013:
 	{
-		// return res;
-		int32_t L_11 = V_0;
-		return L_11;
-	}
-}
-// System.Int32 Pico.Platform.RtcService::JoinRoomWithRetry(System.String,System.String,System.String,Pico.Platform.RtcRoomProfileType,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_JoinRoomWithRetry_m8CE086D7FBD84EE07092E134826E2E56A2DCB77D (String_t* ___0_roomId, String_t* ___1_userId, String_t* ___2_token, int32_t ___3_roomProfileType, bool ___4_isAutoSubscribeAudio, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* V_0 = NULL;
-	int32_t V_1 = 0;
-	{
-		// var roomOption = new RtcRoomOptions();
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_0 = (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A*)il2cpp_codegen_object_new(RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		RtcRoomOptions__ctor_m753D1C11608C22036A76D99B3C862D89B347E274(L_0, NULL);
-		V_0 = L_0;
-		// roomOption.SetRoomId(roomId);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_1 = V_0;
-		String_t* L_2 = ___0_roomId;
-		NullCheck(L_1);
-		RtcRoomOptions_SetRoomId_m1EC97F209EAB97E51EF3EEAFD8C6D62B6CAD2ED6(L_1, L_2, NULL);
-		// roomOption.SetUserId(userId);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_3 = V_0;
-		String_t* L_4 = ___1_userId;
-		NullCheck(L_3);
-		RtcRoomOptions_SetUserId_m33FD3B38340AF5C0F0A57BFB514C5DA81BFE10BC(L_3, L_4, NULL);
-		// roomOption.SetToken(token);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_5 = V_0;
-		String_t* L_6 = ___2_token;
-		NullCheck(L_5);
-		RtcRoomOptions_SetToken_mE7CAA2DC3B2B75013EDE6C974339572E0CEC7CC0(L_5, L_6, NULL);
-		// roomOption.SetRoomProfileType(roomProfileType);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_7 = V_0;
-		int32_t L_8 = ___3_roomProfileType;
-		NullCheck(L_7);
-		RtcRoomOptions_SetRoomProfileType_m45350524D2610FA5CD5C4D5723EEA2A2FCF5E0F2(L_7, L_8, NULL);
-		// roomOption.SetIsAutoSubscribeAudio(isAutoSubscribeAudio);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_9 = V_0;
-		bool L_10 = ___4_isAutoSubscribeAudio;
-		NullCheck(L_9);
-		RtcRoomOptions_SetIsAutoSubscribeAudio_m0A6C2D07889202383FE2627313F63E081CA25531(L_9, L_10, NULL);
-		// var res = CLIB.ppf_Rtc_JoinRoom((IntPtr) roomOption);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_11 = V_0;
-		intptr_t L_12;
-		L_12 = RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB(L_11, NULL);
-		int32_t L_13;
-		L_13 = CLIB_ppf_Rtc_JoinRoom_m4E5EC93A0D7A396D28CA13001EF6E6E5A49CF0B2(L_12, NULL);
-		V_1 = L_13;
-		// if (res == -2)
-		int32_t L_14 = V_1;
-		if ((!(((uint32_t)L_14) == ((uint32_t)((int32_t)-2)))))
-		{
-			goto IL_004e;
-		}
-	}
-	{
-		// LeaveRoom(roomId);
-		String_t* L_15 = ___0_roomId;
-		int32_t L_16;
-		L_16 = RtcService_LeaveRoom_m24F28302428DEE9794E878DBA9C441164D93269E(L_15, NULL);
-		// res = CLIB.ppf_Rtc_JoinRoom((IntPtr) roomOption);
-		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_17 = V_0;
-		intptr_t L_18;
-		L_18 = RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB(L_17, NULL);
-		int32_t L_19;
-		L_19 = CLIB_ppf_Rtc_JoinRoom_m4E5EC93A0D7A396D28CA13001EF6E6E5A49CF0B2(L_18, NULL);
-		V_1 = L_19;
-	}
-
-IL_004e:
-	{
-		// return res;
-		int32_t L_20 = V_1;
-		return L_20;
-	}
-}
-// System.Int32 Pico.Platform.RtcService::LeaveRoom(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_LeaveRoom_m24F28302428DEE9794E878DBA9C441164D93269E (String_t* ___0_roomId, const RuntimeMethod* method) 
-{
-	{
-		// return CLIB.ppf_Rtc_LeaveRoom(roomId);
-		String_t* L_0 = ___0_roomId;
-		int32_t L_1;
-		L_1 = CLIB_ppf_Rtc_LeaveRoom_m97EBB2B10B3323F2917A661B3FC3899C778F0092(L_0, NULL);
-		return L_1;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetAudioPlaybackDevice(Pico.Platform.RtcAudioPlaybackDevice)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetAudioPlaybackDevice_m16BCB06A9BD80AE60C9181430DCE925E2458ED24 (int32_t ___0_device, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_SetAudioPlaybackDevice(device);
-		int32_t L_0 = ___0_device;
-		CLIB_ppf_Rtc_SetAudioPlaybackDevice_mD1332D4C61830FC5FA37D79D79B7AAE9A4B29444(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::RoomPauseAllSubscribedStream(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_RoomPauseAllSubscribedStream_mA94FB050D8FC17E8BBDC40153AB89AA22D25662E (String_t* ___0_roomId, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_RoomPauseAllSubscribedStream(roomId, RtcPauseResumeMediaType.Audio);
-		String_t* L_0 = ___0_roomId;
-		CLIB_ppf_Rtc_RoomPauseAllSubscribedStream_m34D0AD40880E89C0C1370213858B61D7D06055E8(L_0, 0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::RoomResumeAllSubscribedStream(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_RoomResumeAllSubscribedStream_m3619DFCD75324DAE2705D69847131F278F5A3EE4 (String_t* ___0_roomId, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_RoomResumeAllSubscribedStream(roomId, RtcPauseResumeMediaType.Audio);
-		String_t* L_0 = ___0_roomId;
-		CLIB_ppf_Rtc_RoomResumeAllSubscribedStream_m8DAEA8FA957F0E6CCC78DCAD0F482BFAECAECFF5(L_0, 0, NULL);
-		// }
-		return;
-	}
-}
-// System.Int32 Pico.Platform.RtcService::InnerAudioProcessor(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_InnerAudioProcessor_m663C1AC6BC552D87E0EF075932933D89EA182C22 (intptr_t ___0_ptr, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RtcService_t22C275834C979544290EE8B61C467477647BD1BF_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (audioProcessor != null)
-		ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* L_0 = ((RtcService_t22C275834C979544290EE8B61C467477647BD1BF_StaticFields*)il2cpp_codegen_static_fields_for(RtcService_t22C275834C979544290EE8B61C467477647BD1BF_il2cpp_TypeInfo_var))->___audioProcessor_0;
-		if (!L_0)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		// return audioProcessor(new RtcAudioFrame(ptr));
-		ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* L_1 = ((RtcService_t22C275834C979544290EE8B61C467477647BD1BF_StaticFields*)il2cpp_codegen_static_fields_for(RtcService_t22C275834C979544290EE8B61C467477647BD1BF_il2cpp_TypeInfo_var))->___audioProcessor_0;
-		intptr_t L_2 = ___0_ptr;
-		RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59* L_3 = (RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59*)il2cpp_codegen_object_new(RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59_il2cpp_TypeInfo_var);
-		NullCheck(L_3);
-		RtcAudioFrame__ctor_mAF8A3A50316BDC0FFFE39C0FCF28E25F185B5E9A(L_3, L_2, NULL);
-		NullCheck(L_1);
-		int32_t L_4;
-		L_4 = ProcessAudioFrameFunction_Invoke_m5EC2CDFD611F5CDC64BD8A36A025E8C08FF061D6_inline(L_1, L_3, NULL);
-		return L_4;
-	}
-
-IL_0018:
-	{
-		// return 0;
-		return 0;
-	}
-}
-// System.Void Pico.Platform.RtcService::RegisterLocalAudioProcessor(Pico.Platform.RtcService/ProcessAudioFrameFunction,Pico.Platform.RtcAudioChannel,Pico.Platform.RtcAudioSampleRate)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_RegisterLocalAudioProcessor_m58CB81757B963E0FC677025F0277A87159AB3D96 (ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* ___0_processor, int32_t ___1_channel, int32_t ___2_sampleRate, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RtcProcessAudioFrameFunction_t91998EE2CD7760356A3A9E75620AEB591C1F2344_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RtcService_InnerAudioProcessor_m663C1AC6BC552D87E0EF075932933D89EA182C22_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RtcService_t22C275834C979544290EE8B61C467477647BD1BF_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// audioProcessor = processor;
-		ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* L_0 = ___0_processor;
-		((RtcService_t22C275834C979544290EE8B61C467477647BD1BF_StaticFields*)il2cpp_codegen_static_fields_for(RtcService_t22C275834C979544290EE8B61C467477647BD1BF_il2cpp_TypeInfo_var))->___audioProcessor_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((RtcService_t22C275834C979544290EE8B61C467477647BD1BF_StaticFields*)il2cpp_codegen_static_fields_for(RtcService_t22C275834C979544290EE8B61C467477647BD1BF_il2cpp_TypeInfo_var))->___audioProcessor_0), (void*)L_0);
-		// CLIB.ppf_Rtc_RegisterLocalAudioProcessor(InnerAudioProcessor, channel, sampleRate);
-		RtcProcessAudioFrameFunction_t91998EE2CD7760356A3A9E75620AEB591C1F2344* L_1 = (RtcProcessAudioFrameFunction_t91998EE2CD7760356A3A9E75620AEB591C1F2344*)il2cpp_codegen_object_new(RtcProcessAudioFrameFunction_t91998EE2CD7760356A3A9E75620AEB591C1F2344_il2cpp_TypeInfo_var);
-		NullCheck(L_1);
-		RtcProcessAudioFrameFunction__ctor_m55F453E056A84CA415A7E8B7CF428BF0A7901A50(L_1, NULL, (intptr_t)((void*)RtcService_InnerAudioProcessor_m663C1AC6BC552D87E0EF075932933D89EA182C22_RuntimeMethod_var), NULL);
-		int32_t L_2 = ___1_channel;
-		int32_t L_3 = ___2_sampleRate;
-		CLIB_ppf_Rtc_RegisterLocalAudioProcessor_mF40BE44B52397C73F3E98736217222546F1FE166(L_1, L_2, L_3, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::EnableAudioPropertiesReport(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_EnableAudioPropertiesReport_m962D3D000DFE783E1EEFE59EF0A84D218C73D8E6 (int32_t ___0_interval, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// var conf = new RtcAudioPropertyOptions();
-		RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E* L_0 = (RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E*)il2cpp_codegen_object_new(RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		RtcAudioPropertyOptions__ctor_m5D01ABC1098566CAD6A7000775D6CA381D70509F(L_0, NULL);
-		// conf.SetInterval(interval);
-		RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E* L_1 = L_0;
-		int32_t L_2 = ___0_interval;
-		NullCheck(L_1);
-		RtcAudioPropertyOptions_SetInterval_m8075C50D77C3347FB74433C8D73FBA38E3416005(L_1, L_2, NULL);
-		// CLIB.ppf_Rtc_EnableAudioPropertiesReport((IntPtr) conf);
-		intptr_t L_3;
-		L_3 = RtcAudioPropertyOptions_op_Explicit_mAA54B25B681E9C597F68538D3339153E5748FB9A(L_1, NULL);
-		CLIB_ppf_Rtc_EnableAudioPropertiesReport_m97025C0A2787682A37CEEFC30F7DBB89D5831533(L_3, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::PublishRoom(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_PublishRoom_mEE5D6786FF2EC07CFD59375E9ADC60E33D2D8E86 (String_t* ___0_roomId, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_RoomPublishStream(roomId, RtcMediaStreamType.Audio);
-		String_t* L_0 = ___0_roomId;
-		CLIB_ppf_Rtc_RoomPublishStream_m999BF20CA150068F21BB66C40AD84A9768BC2033(L_0, 1, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::UnPublishRoom(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_UnPublishRoom_m34592A5C3B59C5C1ACAA0BE0C9D7CAFAB3E362F7 (String_t* ___0_roomId, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_RoomUnPublishStream(roomId, RtcMediaStreamType.Audio);
-		String_t* L_0 = ___0_roomId;
-		CLIB_ppf_Rtc_RoomUnPublishStream_m00FEBEC578FA2194B9E8A8B48FBFB928E5FDB138(L_0, 1, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::DestroyRoom(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_DestroyRoom_m6D553521DCD3D2A943F0B1DFF20B9AA4978913B9 (String_t* ___0_roomId, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_DestroyRoom(roomId);
-		String_t* L_0 = ___0_roomId;
-		CLIB_ppf_Rtc_DestroyRoom_m9624553A2D673BC8441668054A0456836613D50D(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::StartAudioCapture()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_StartAudioCapture_mF0DA2F73E5B7E3FBDF12FF883391C4EF15CB852D (const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_StartAudioCapture();
-		CLIB_ppf_Rtc_StartAudioCapture_m8700CD4674A20317315792FF01A293DC9EE03B5D(NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::StopAudioCapture()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_StopAudioCapture_mCBE5DADCBEA31AB76D2BF7E2B2D70929C9D535A7 (const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_StopAudioCapture();
-		CLIB_ppf_Rtc_StopAudioCapture_m9314204AA68DEC851FD5F446DB4E65B1B7DCC67E(NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetCaptureVolume(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetCaptureVolume_mEE326C6BADAE50B581A2C44B44411165A62A71AB (int32_t ___0_volume, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_SetCaptureVolume(RtcStreamIndex.Main, volume);
-		int32_t L_0 = ___0_volume;
-		CLIB_ppf_Rtc_SetCaptureVolume_mF57DFC4F22BF53E417A49455A3FB35D4E80CFC73(0, L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetPlaybackVolume(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetPlaybackVolume_m677C38B515B81C488FA486F7F5D6446D49D07C3A (int32_t ___0_volume, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_SetPlaybackVolume(volume);
-		int32_t L_0 = ___0_volume;
-		CLIB_ppf_Rtc_SetPlaybackVolume_m5C43C4FF094E1034EA128BF265E10B7055C65A8D(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetEarMonitorMode(Pico.Platform.RtcEarMonitorMode)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetEarMonitorMode_mD8D611AF6E8068A2B4F53FC96CEF69ECDBD5AEA1 (int32_t ___0_mode, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_SetEarMonitorMode(mode);
-		int32_t L_0 = ___0_mode;
-		CLIB_ppf_Rtc_SetEarMonitorMode_m3A40312D08EF057E864EC56020773481AB184F0C(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetEarMonitorVolume(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetEarMonitorVolume_mA72A4B6C43B754BDBA6A66FD0F24F4ED0A990575 (int32_t ___0_volume, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_SetEarMonitorVolume(volume);
-		int32_t L_0 = ___0_volume;
-		CLIB_ppf_Rtc_SetEarMonitorVolume_m18A7BBD03541E7EFF142C6F976D002BBB9D61AE4(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::MuteLocalAudio(Pico.Platform.RtcMuteState)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_MuteLocalAudio_m17017BE2D4274302111347DD1B88ADF2C13659E4 (int32_t ___0_rtcMuteState, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_MuteLocalAudio(rtcMuteState);
-		int32_t L_0 = ___0_rtcMuteState;
-		CLIB_ppf_Rtc_MuteLocalAudio_m77706FE3988E9393BACD03870F2641AD938DDA7E(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::UpdateToken(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_UpdateToken_mD860DBD249EF4448F974954FAACF64A18D9B3C11 (String_t* ___0_roomId, String_t* ___1_token, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_UpdateToken(roomId, token);
-		String_t* L_0 = ___0_roomId;
-		String_t* L_1 = ___1_token;
-		CLIB_ppf_Rtc_UpdateToken_mF6E21D718D5EA93B515E07C2DFFCCFD96985EDBB(L_0, L_1, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetAudioScenario(Pico.Platform.RtcAudioScenarioType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetAudioScenario_m8DEFD5F7961B4DEEBF89509DBD6A23A62D75231F (int32_t ___0_scenarioType, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_SetAudioScenario(scenarioType);
-		int32_t L_0 = ___0_scenarioType;
-		CLIB_ppf_Rtc_SetAudioScenario_mC636AA2606FA3F31BE8BF487B8B05CA8E88B0EA1(L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::RoomSetRemoteAudioPlaybackVolume(System.String,System.String,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_RoomSetRemoteAudioPlaybackVolume_m981CA20823E8E0F250AA964F9EB9DB0E26BEBAE0 (String_t* ___0_roomId, String_t* ___1_userId, int32_t ___2_volume, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_RoomSetRemoteAudioPlaybackVolume(roomId, userId, volume);
-		String_t* L_0 = ___0_roomId;
-		String_t* L_1 = ___1_userId;
-		int32_t L_2 = ___2_volume;
-		CLIB_ppf_Rtc_RoomSetRemoteAudioPlaybackVolume_m7433C4EC934EE144B19D75B7AE556CC89EFCF6EB(L_0, L_1, L_2, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::RoomSubscribeStream(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_RoomSubscribeStream_m41B409CF7ECD851EA659A244FBF8A5A4EE3E22E9 (String_t* ___0_roomId, String_t* ___1_userId, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_RoomSubscribeStream(roomId, userId, RtcMediaStreamType.Audio);
-		String_t* L_0 = ___0_roomId;
-		String_t* L_1 = ___1_userId;
-		CLIB_ppf_Rtc_RoomSubscribeStream_mC7D8349F283518760FF8D7C1068651DF3B7DC779(L_0, L_1, 1, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::RoomUnSubscribeStream(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_RoomUnSubscribeStream_m0DE28E1583C633D45193390228BBFF756158F3BC (String_t* ___0_roomId, String_t* ___1_userId, const RuntimeMethod* method) 
-{
-	{
-		// CLIB.ppf_Rtc_RoomUnsubscribeStream(roomId, userId, RtcMediaStreamType.Audio);
-		String_t* L_0 = ___0_roomId;
-		String_t* L_1 = ___1_userId;
-		CLIB_ppf_Rtc_RoomUnsubscribeStream_m3C9352F9B827AC824A03C96E5FFA327C8D8CBF7F(L_0, L_1, 1, NULL);
-		// }
-		return;
-	}
-}
-// System.Int64 Pico.Platform.RtcService::SendRoomBinaryMessage(System.String,System.Byte[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendRoomBinaryMessage_m6B48B971DEB3A71493C99BCFB41A5E379BF32910 (String_t* ___0_roomId, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_message, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* V_0 = NULL;
-	{
-		// var ptr = new PtrManager(message);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___1_message;
-		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_1 = (PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2*)il2cpp_codegen_object_new(PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2_il2cpp_TypeInfo_var);
-		NullCheck(L_1);
-		PtrManager__ctor_m7BEAACAEBEE05EF15116C986BAB9A1DA2002A478(L_1, L_0, NULL);
-		V_0 = L_1;
-		// var ans = CLIB.ppf_Rtc_SendRoomBinaryMessage(roomId, ptr.ptr, message.Length);
-		String_t* L_2 = ___0_roomId;
-		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_3 = V_0;
-		NullCheck(L_3);
-		intptr_t L_4 = L_3->___ptr_0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = ___1_message;
-		NullCheck(L_5);
-		int64_t L_6;
-		L_6 = CLIB_ppf_Rtc_SendRoomBinaryMessage_m3ED7D7134269914FE9FC7EB789C89658EB6FDA8F(L_2, L_4, ((int32_t)(((RuntimeArray*)L_5)->max_length)), NULL);
-		// ptr.Free();
-		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_7 = V_0;
-		NullCheck(L_7);
-		PtrManager_Free_mF57A82180453684532E9C29833A96C28D8BA7D05(L_7, NULL);
-		// return ans;
-		return L_6;
-	}
-}
-// System.Int64 Pico.Platform.RtcService::SendRoomMessage(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendRoomMessage_m0F9CD695740455C83F22DF58630C01BEFD2982B1 (String_t* ___0_roomId, String_t* ___1_message, const RuntimeMethod* method) 
-{
-	{
-		// return CLIB.ppf_Rtc_SendRoomMessage(roomId, message);
-		String_t* L_0 = ___0_roomId;
-		String_t* L_1 = ___1_message;
-		int64_t L_2;
-		L_2 = CLIB_ppf_Rtc_SendRoomMessage_m9E0EBE88DD65721EFE48D813A74C22860A8A03B5(L_0, L_1, NULL);
-		return L_2;
-	}
-}
-// System.Int64 Pico.Platform.RtcService::SendUserBinaryMessage(System.String,System.String,System.Byte[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendUserBinaryMessage_mCB97BBCAF6EB8A7A76CFD407B45A5F956DBC6606 (String_t* ___0_roomId, String_t* ___1_userId, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_message, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* V_0 = NULL;
-	{
-		// var ptr = new PtrManager(message);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___2_message;
-		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_1 = (PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2*)il2cpp_codegen_object_new(PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2_il2cpp_TypeInfo_var);
-		NullCheck(L_1);
-		PtrManager__ctor_m7BEAACAEBEE05EF15116C986BAB9A1DA2002A478(L_1, L_0, NULL);
-		V_0 = L_1;
-		// var ans = CLIB.ppf_Rtc_SendUserBinaryMessage(roomId, userId, ptr.ptr, message.Length);
-		String_t* L_2 = ___0_roomId;
-		String_t* L_3 = ___1_userId;
-		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_4 = V_0;
+		// return new Task<Room>(CLIB.ppf_Room_CreateAndJoinPrivate2(policy, maxUsers, roomOptions.GetHandle()));
+		int32_t L_2 = ___0_policy;
+		uint32_t L_3 = ___1_maxUsers;
+		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_4 = ___2_roomOptions;
 		NullCheck(L_4);
-		intptr_t L_5 = L_4->___ptr_0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = ___2_message;
-		NullCheck(L_6);
-		int64_t L_7;
-		L_7 = CLIB_ppf_Rtc_SendUserBinaryMessage_m822EB94F0C78D74D76EF162C90ADA3F3B56E936F(L_2, L_3, L_5, ((int32_t)(((RuntimeArray*)L_6)->max_length)), NULL);
-		// ptr.Free();
-		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_8 = V_0;
-		NullCheck(L_8);
-		PtrManager_Free_mF57A82180453684532E9C29833A96C28D8BA7D05(L_8, NULL);
-		// return ans;
+		intptr_t L_5;
+		L_5 = RoomOptions_GetHandle_m0C9DCC01EC26AC5586AC037C2FC3A8A8C389F247_inline(L_4, NULL);
+		uint64_t L_6;
+		L_6 = CLIB_ppf_Room_CreateAndJoinPrivate2_mBCD6A3AF5D5777066DF8E985BDFAE147EAF5607E(L_2, L_3, L_5, NULL);
+		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_7 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		NullCheck(L_7);
+		Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B(L_7, L_6, Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
 		return L_7;
 	}
 }
-// System.Int64 Pico.Platform.RtcService::SendUserMessage(System.String,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendUserMessage_mF5F9172924B7BD1084FEBA1582271B8D6EB53AB3 (String_t* ___0_roomId, String_t* ___1_userId, String_t* ___2_message, const RuntimeMethod* method) 
+// Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::Get(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_Get_m9B95E74A7780AF31ADC0BCF8A45B86A3AA82C727 (uint64_t ___0_roomId, const RuntimeMethod* method) 
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
-		// return CLIB.ppf_Rtc_SendUserMessage(roomId, userId, message);
-		String_t* L_0 = ___0_roomId;
-		String_t* L_1 = ___1_userId;
-		String_t* L_2 = ___2_message;
-		int64_t L_3;
-		L_3 = CLIB_ppf_Rtc_SendUserMessage_mF5F42745A4FEF34004712FB21A340155506CEF01(L_0, L_1, L_2, NULL);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task<Room>(CLIB.ppf_Room_Get(roomId));
+		uint64_t L_2 = ___0_roomId;
+		uint64_t L_3;
+		L_3 = CLIB_ppf_Room_Get_m78F4432727EFD99CB27EC7EC8628D5294E3066AA(L_2, NULL);
+		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_4 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B(L_4, L_3, Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		return L_4;
+	}
+}
+// Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::GetCurrent()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_GetCurrent_m5AFB79C4E773F85A531CD2327CDBCE5480A80B49 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task<Room>(CLIB.ppf_Room_GetCurrent());
+		uint64_t L_2;
+		L_2 = CLIB_ppf_Room_GetCurrent_mD2393A877281A487C51C92F3918CA5C1611C7240(NULL);
+		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_3 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B(L_3, L_2, Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
 		return L_3;
 	}
 }
-// System.Int32 Pico.Platform.RtcService::SendStreamSyncInfo(System.Byte[],System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_SendStreamSyncInfo_mB9BAEBCD9D9DA8646BD489926006E0DE1FA1EBBF (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, int32_t ___1_repeatCount, const RuntimeMethod* method) 
+// Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::GetCurrentForUser(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_GetCurrentForUser_m3C0CAC6E0F3C10B73039401CF5A77633CD08461B (String_t* ___0_userId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* V_0 = NULL;
-	PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* V_1 = NULL;
 	{
-		// var config = new RtcStreamSyncInfoOptions();
-		RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* L_0 = (RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073*)il2cpp_codegen_object_new(RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		RtcStreamSyncInfoOptions__ctor_m9D86B190CCE9ADF893542CCB8FEB7EEF4309CE7E(L_0, NULL);
-		V_0 = L_0;
-		// config.SetRepeatCount(repeatCount);
-		RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* L_1 = V_0;
-		int32_t L_2 = ___1_repeatCount;
-		NullCheck(L_1);
-		RtcStreamSyncInfoOptions_SetRepeatCount_mEC362A0008CECC40F6C5B3DE011BC44DBE66256B(L_1, L_2, NULL);
-		// config.SetStreamIndex(RtcStreamIndex.Main);
-		RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* L_3 = V_0;
-		NullCheck(L_3);
-		RtcStreamSyncInfoOptions_SetStreamIndex_m76FF4534D8271C81C0263995DC0554961184DA34(L_3, 0, NULL);
-		// config.SetStreamType(RtcSyncInfoStreamType.Audio);
-		RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* L_4 = V_0;
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task<Room>(CLIB.ppf_Room_GetCurrentForUser(userId));
+		String_t* L_2 = ___0_userId;
+		uint64_t L_3;
+		L_3 = CLIB_ppf_Room_GetCurrentForUser_mCE9D7DBE4AC5B5F1E8EAA7B742B0BDB992153020(L_2, NULL);
+		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_4 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
 		NullCheck(L_4);
-		RtcStreamSyncInfoOptions_SetStreamType_m75AF0A32A37BC87F68C105FB7DA0E3737C3BF977(L_4, 0, NULL);
-		// var ptr = new PtrManager(data);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = ___0_data;
-		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_6 = (PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2*)il2cpp_codegen_object_new(PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2_il2cpp_TypeInfo_var);
+		Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B(L_4, L_3, Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		return L_4;
+	}
+}
+// Pico.Platform.Task`1<Pico.Platform.Models.UserList> Pico.Platform.RoomService::GetInvitableUsers2(Pico.Platform.RoomOptions)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24* RoomService_GetInvitableUsers2_m3070B68799CDCFA04B64FD177F4CC8E5942E9E86 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* ___0_roomOptions, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntPtr_t_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m50BEB35518BC513A0C8F5CAE163C038761DDEBD7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24*)NULL;
+	}
+
+IL_0013:
+	{
+		// if (roomOptions == null)
+		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_2 = ___0_roomOptions;
+		if (L_2)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		// return new Task<UserList>(CLIB.ppf_Room_GetInvitableUsers2(IntPtr.Zero));
+		intptr_t L_3 = ((IntPtr_t_StaticFields*)il2cpp_codegen_static_fields_for(IntPtr_t_il2cpp_TypeInfo_var))->___Zero_1;
+		uint64_t L_4;
+		L_4 = CLIB_ppf_Room_GetInvitableUsers2_m190B58B8850FB27569722083BB408003949CD07E(L_3, NULL);
+		Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24* L_5 = (Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24*)il2cpp_codegen_object_new(Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Task_1__ctor_m50BEB35518BC513A0C8F5CAE163C038761DDEBD7(L_5, L_4, Task_1__ctor_m50BEB35518BC513A0C8F5CAE163C038761DDEBD7_RuntimeMethod_var);
+		return L_5;
+	}
+
+IL_0026:
+	{
+		// return new Task<UserList>(CLIB.ppf_Room_GetInvitableUsers2(roomOptions.GetHandle()));
+		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_6 = ___0_roomOptions;
 		NullCheck(L_6);
-		PtrManager__ctor_m7BEAACAEBEE05EF15116C986BAB9A1DA2002A478(L_6, L_5, NULL);
-		V_1 = L_6;
-		// var ans = CLIB.ppf_Rtc_SendStreamSyncInfo(ptr.ptr, data.Length, (IntPtr) config);
-		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_7 = V_1;
-		NullCheck(L_7);
-		intptr_t L_8 = L_7->___ptr_0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_9 = ___0_data;
+		intptr_t L_7;
+		L_7 = RoomOptions_GetHandle_m0C9DCC01EC26AC5586AC037C2FC3A8A8C389F247_inline(L_6, NULL);
+		uint64_t L_8;
+		L_8 = CLIB_ppf_Room_GetInvitableUsers2_m190B58B8850FB27569722083BB408003949CD07E(L_7, NULL);
+		Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24* L_9 = (Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24*)il2cpp_codegen_object_new(Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24_il2cpp_TypeInfo_var);
 		NullCheck(L_9);
-		RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* L_10 = V_0;
-		intptr_t L_11;
-		L_11 = RtcStreamSyncInfoOptions_op_Explicit_m36286E8D49E4A5A299A71C763E9421343B2E71FC(L_10, NULL);
-		int32_t L_12;
-		L_12 = CLIB_ppf_Rtc_SendStreamSyncInfo_mA91C187D432205B5CE0234D1EB60B7B78A216F69(L_8, ((int32_t)(((RuntimeArray*)L_9)->max_length)), L_11, NULL);
-		// ptr.Free();
-		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_13 = V_1;
-		NullCheck(L_13);
-		PtrManager_Free_mF57A82180453684532E9C29833A96C28D8BA7D05(L_13, NULL);
-		// return ans;
-		return L_12;
+		Task_1__ctor_m50BEB35518BC513A0C8F5CAE163C038761DDEBD7(L_9, L_8, Task_1__ctor_m50BEB35518BC513A0C8F5CAE163C038761DDEBD7_RuntimeMethod_var);
+		return L_9;
 	}
 }
-// System.Void Pico.Platform.RtcService::SetOnTokenWillExpire(Pico.Platform.Message`1/Handler<System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnTokenWillExpire_m62284B70EA146FC1268F6E0243E124A3FA4BE2C2 (Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* ___0_handler, const RuntimeMethod* method) 
+// Pico.Platform.Task`1<Pico.Platform.Models.RoomList> Pico.Platform.RoomService::GetModeratedRooms(System.Int32,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445* RoomService_GetModeratedRooms_m75E752734FD5ADFD7F61B2D1D53F006EDBEA7F25 (int32_t ___0_index, int32_t ___1_size, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m76C9FCA50BF130D2B88563A6B41A80908D5CF84C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task<RoomList>(CLIB.ppf_Room_GetModeratedRooms(index, size));
+		int32_t L_2 = ___0_index;
+		int32_t L_3 = ___1_size;
+		uint64_t L_4;
+		L_4 = CLIB_ppf_Room_GetModeratedRooms_mD33BAE4E2CED720F922B8BD97FA0EABE9D91E4EB(L_2, L_3, NULL);
+		Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445* L_5 = (Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445*)il2cpp_codegen_object_new(Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Task_1__ctor_m76C9FCA50BF130D2B88563A6B41A80908D5CF84C(L_5, L_4, Task_1__ctor_m76C9FCA50BF130D2B88563A6B41A80908D5CF84C_RuntimeMethod_var);
+		return L_5;
+	}
+}
+// Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::InviteUser(System.UInt64,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_InviteUser_mB9B29239A6E42A0D703EB7CE6FAE73E67F14C99C (uint64_t ___0_roomId, String_t* ___1_token, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task<Room>(CLIB.ppf_Room_InviteUser(roomId, token));
+		uint64_t L_2 = ___0_roomId;
+		String_t* L_3 = ___1_token;
+		uint64_t L_4;
+		L_4 = CLIB_ppf_Room_InviteUser_m3CE7108C33EFB5A40F6DAA73996D46215212C2B0(L_2, L_3, NULL);
+		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_5 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B(L_5, L_4, Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		return L_5;
+	}
+}
+// Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::Join2(System.UInt64,Pico.Platform.RoomOptions)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_Join2_m375B784ED7172A1270E2A8FD999BD4318B665534 (uint64_t ___0_roomId, RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* ___1_options, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task<Room>(CLIB.ppf_Room_Join2(roomId, options.GetHandle()));
+		uint64_t L_2 = ___0_roomId;
+		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_3 = ___1_options;
+		NullCheck(L_3);
+		intptr_t L_4;
+		L_4 = RoomOptions_GetHandle_m0C9DCC01EC26AC5586AC037C2FC3A8A8C389F247_inline(L_3, NULL);
+		uint64_t L_5;
+		L_5 = CLIB_ppf_Room_Join2_m3B4E00BF5F65F44B68BA9661A6D16C49128CEB2B(L_2, L_4, NULL);
+		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_6 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B(L_6, L_5, Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		return L_6;
+	}
+}
+// Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::KickUser(System.UInt64,System.String,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_KickUser_m0E8E1B68A47B6D7CF4D1C98FDF549F6413109791 (uint64_t ___0_roomId, String_t* ___1_userId, int32_t ___2_kickDuration, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task<Room>(CLIB.ppf_Room_KickUser(roomId, userId, kickDuration));
+		uint64_t L_2 = ___0_roomId;
+		String_t* L_3 = ___1_userId;
+		int32_t L_4 = ___2_kickDuration;
+		uint64_t L_5;
+		L_5 = CLIB_ppf_Room_KickUser_mB978F5A32CC5B5EF2DF0E2AD6A430B4F01B8CFF5(L_2, L_3, L_4, NULL);
+		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_6 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		NullCheck(L_6);
+		Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B(L_6, L_5, Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		return L_6;
+	}
+}
+// Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::Leave(System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_Leave_m25C11A2D91A738A91D21AEA0072F1D704D460DD2 (uint64_t ___0_roomId, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task<Room>(CLIB.ppf_Room_Leave(roomId));
+		uint64_t L_2 = ___0_roomId;
+		uint64_t L_3;
+		L_3 = CLIB_ppf_Room_Leave_mCF160B03E73765832E2011BE38383455710338A8(L_2, NULL);
+		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_4 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		NullCheck(L_4);
+		Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B(L_4, L_3, Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		return L_4;
+	}
+}
+// Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::SetDescription(System.UInt64,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_SetDescription_mF1FA0508A2198DE9CA187BC77C68D369A1DA36CE (uint64_t ___0_roomId, String_t* ___1_description, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task<Room>(CLIB.ppf_Room_SetDescription(roomId, description));
+		uint64_t L_2 = ___0_roomId;
+		String_t* L_3 = ___1_description;
+		uint64_t L_4;
+		L_4 = CLIB_ppf_Room_SetDescription_mB3F4A0F82D42EB114B79C58EB2E9300D1CFDF1F6(L_2, L_3, NULL);
+		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_5 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B(L_5, L_4, Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		return L_5;
+	}
+}
+// Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::UpdateMembershipLockStatus(System.UInt64,Pico.Platform.RoomMembershipLockStatus)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_UpdateMembershipLockStatus_mDCFB7BB641C3359FB46AFF25C3EF3F158271FD9F (uint64_t ___0_roomId, int32_t ___1_membershipLockStatus, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task<Room>(CLIB.ppf_Room_UpdateMembershipLockStatus(roomId, membershipLockStatus));
+		uint64_t L_2 = ___0_roomId;
+		int32_t L_3 = ___1_membershipLockStatus;
+		uint64_t L_4;
+		L_4 = CLIB_ppf_Room_UpdateMembershipLockStatus_mA9E686FBF3F49C6C1FA1487E1323D61AD2BC44AC(L_2, L_3, NULL);
+		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_5 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B(L_5, L_4, Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		return L_5;
+	}
+}
+// Pico.Platform.Task Pico.Platform.RoomService::UpdateOwner(System.UInt64,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2* RoomService_UpdateOwner_mEFA447F88BC01098DEC381EED6E2224241F08E63 (uint64_t ___0_roomId, String_t* ___1_userId, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task(CLIB.ppf_Room_UpdateOwner(roomId, userId));
+		uint64_t L_2 = ___0_roomId;
+		String_t* L_3 = ___1_userId;
+		uint64_t L_4;
+		L_4 = CLIB_ppf_Room_UpdateOwner_m13AB8F47C4C556A005804740AE95927CEEFD0FAA(L_2, L_3, NULL);
+		Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2* L_5 = (Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2*)il2cpp_codegen_object_new(Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Task__ctor_mB58497984A333A9E97FCA9C383CE87CF67FBAD9C(L_5, L_4, NULL);
+		return L_5;
+	}
+}
+// Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::UpdatePrivateRoomJoinPolicy(System.UInt64,Pico.Platform.RoomJoinPolicy)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_UpdatePrivateRoomJoinPolicy_m0C571120380F718555680A9845D6B26B71A13405 (uint64_t ___0_roomId, int32_t ___1_policy, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// if (!CoreService.Initialized)
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized_0;
+		if (L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		// Debug.LogError(CoreService.NotInitializedError);
+		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
+		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError_1;
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
+		// return null;
+		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
+	}
+
+IL_0013:
+	{
+		// return new Task<Room>(CLIB.ppf_Room_UpdatePrivateRoomJoinPolicy(roomId, policy));
+		uint64_t L_2 = ___0_roomId;
+		int32_t L_3 = ___1_policy;
+		uint64_t L_4;
+		L_4 = CLIB_ppf_Room_UpdatePrivateRoomJoinPolicy_mEC675514A3D19B4446D3A40D524EDEBE982BD064(L_2, L_3, NULL);
+		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_5 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
+		NullCheck(L_5);
+		Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B(L_5, L_4, Task_1__ctor_m15A0D32136173460F7B74E9640B748704D7EC50B_RuntimeMethod_var);
+		return L_5;
+	}
+}
+// System.Void Pico.Platform.RoomService::SetRoomInviteAcceptedNotificationCallback(Pico.Platform.Message`1/Handler<System.String>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetRoomInviteAcceptedNotificationCallback_m1FEA73073355D81B602D2A09C15727C81CCD9914 (Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -65312,16 +65217,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnTokenWillExpire_m62284B7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnTokenWillExpire, handler);
+		// Looper.RegisterNotifyHandler(MessageType.Notification_Room_InviteAccepted, handler);
 		Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10219), L_0, NULL);
+		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10601), L_0, NULL);
 		// }
 		return;
 	}
 }
-// System.Void Pico.Platform.RtcService::SetOnRoomMessageReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomMessageReceived>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomMessageReceived_mEE234847995A8A3C887B54A99AAFDD4F4829726A (Handler_t063B85C34774FF958AF1A957B4854AF1D6B23888* ___0_handler, const RuntimeMethod* method) 
+// System.Void Pico.Platform.RoomService::SetUpdateNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetUpdateNotificationCallback_m9D04D587F59B6B6D115097E54F5F1A44F3E1CF3F (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -65330,16 +65235,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomMessageReceived_mEE2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnRoomMessageReceived, handler);
-		Handler_t063B85C34774FF958AF1A957B4854AF1D6B23888* L_0 = ___0_handler;
+		// Looper.RegisterNotifyHandler(MessageType.Notification_Room_RoomUpdate, handler);
+		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10217), L_0, NULL);
+		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10603), L_0, NULL);
 		// }
 		return;
 	}
 }
-// System.Void Pico.Platform.RtcService::SetOnRoomBinaryMessageReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcBinaryMessageReceived>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomBinaryMessageReceived_m8C37D1A4BB4B2077B0E81EE85A6979972DA3E3B3 (Handler_t1549946AE7DD631785DEE828E599E4CC5F232986* ___0_handler, const RuntimeMethod* method) 
+// System.Void Pico.Platform.RoomService::SetKickUserNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetKickUserNotificationCallback_mCF2E455DF51FB997EDF92649B5D617E1593629D2 (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -65348,16 +65253,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomBinaryMessageReceive
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnRoomBinaryMessageReceived, handler);
-		Handler_t1549946AE7DD631785DEE828E599E4CC5F232986* L_0 = ___0_handler;
+		// Looper.RegisterNotifyHandler(MessageType.Room_KickUser, handler);
+		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10223), L_0, NULL);
+		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10512), L_0, NULL);
 		// }
 		return;
 	}
 }
-// System.Void Pico.Platform.RtcService::SetOnUserMessageReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserMessageReceived>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserMessageReceived_mFAFA95CA10E70EEB1C25B601A057639160BB4725 (Handler_t32B3FC4A52987EC7404B0AC82BD702C403DB3C40* ___0_handler, const RuntimeMethod* method) 
+// System.Void Pico.Platform.RoomService::SetSetDescriptionNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetSetDescriptionNotificationCallback_mFAC7E399FBC5899F2A6E51EE34D083580B5A647D (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -65366,16 +65271,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserMessageReceived_mFAF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnUserMessageReceived, handler);
-		Handler_t32B3FC4A52987EC7404B0AC82BD702C403DB3C40* L_0 = ___0_handler;
+		// Looper.RegisterNotifyHandler(MessageType.Room_SetDescription, handler);
+		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10218), L_0, NULL);
+		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10515), L_0, NULL);
 		// }
 		return;
 	}
 }
-// System.Void Pico.Platform.RtcService::SetOnUserBinaryMessageReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcBinaryMessageReceived>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserBinaryMessageReceived_mAEC374611130A9795BDADB88687F21FCACB6033D (Handler_t1549946AE7DD631785DEE828E599E4CC5F232986* ___0_handler, const RuntimeMethod* method) 
+// System.Void Pico.Platform.RoomService::SetUpdateDataStoreNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetUpdateDataStoreNotificationCallback_m7A3B169D9FDA95C3BD16B60A33A21EDEA1042790 (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -65384,16 +65289,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserBinaryMessageReceive
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnUserBinaryMessageReceived, handler);
-		Handler_t1549946AE7DD631785DEE828E599E4CC5F232986* L_0 = ___0_handler;
+		// Looper.RegisterNotifyHandler(MessageType.Room_UpdateDataStore, handler);
+		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10226), L_0, NULL);
+		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10516), L_0, NULL);
 		// }
 		return;
 	}
 }
-// System.Void Pico.Platform.RtcService::SetOnRoomMessageSendResult(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMessageSendResult>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomMessageSendResult_m3103B58648CC5E3B2A647D4BA6A1B458AED9D734 (Handler_t19833D1404BED864BD881EC7D6947C4BE818F739* ___0_handler, const RuntimeMethod* method) 
+// System.Void Pico.Platform.RoomService::SetLeaveNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetLeaveNotificationCallback_mC366E2B6903FBD02A9A9E9F08876802EC28A0246 (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -65402,16 +65307,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomMessageSendResult_m3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnRoomMessageSendResult, handler);
-		Handler_t19833D1404BED864BD881EC7D6947C4BE818F739* L_0 = ___0_handler;
+		// Looper.RegisterNotifyHandler(MessageType.Room_Leave, handler);
+		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10230), L_0, NULL);
+		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10514), L_0, NULL);
 		// }
 		return;
 	}
 }
-// System.Void Pico.Platform.RtcService::SetOnUserMessageSendResult(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMessageSendResult>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserMessageSendResult_mEA4292387F7F798D1666C9F86445A62AF4DC2872 (Handler_t19833D1404BED864BD881EC7D6947C4BE818F739* ___0_handler, const RuntimeMethod* method) 
+// System.Void Pico.Platform.RoomService::SetJoin2NotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetJoin2NotificationCallback_mDFE1168E89195B4DABF7F71D771C80471119A4FC (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -65420,16 +65325,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserMessageSendResult_mE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnUserMessageSendResult, handler);
-		Handler_t19833D1404BED864BD881EC7D6947C4BE818F739* L_0 = ___0_handler;
+		// Looper.RegisterNotifyHandler(MessageType.Room_Join2, handler);
+		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10228), L_0, NULL);
+		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10511), L_0, NULL);
 		// }
 		return;
 	}
 }
-// System.Void Pico.Platform.RtcService::SetOnUserPublishStream(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserPublishInfo>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserPublishStream_m908893F7D093DD75C6CDE3E9AFF3674D4A89F5B1 (Handler_tD0453CC0FF093CB47FCC2768A008B81EA8988C7F* ___0_handler, const RuntimeMethod* method) 
+// System.Void Pico.Platform.RoomService::SetUpdateOwnerNotificationCallback(Pico.Platform.Message/Handler)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetUpdateOwnerNotificationCallback_m86C7EA617AE5F7B9892AD77F0ABCC71D80FD322E (Handler_t320FBB759BDEF6D27E8E80B2B6B736DC1C06E5A5* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -65438,16 +65343,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserPublishStream_m90889
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnUserPublishStream, handler);
-		Handler_tD0453CC0FF093CB47FCC2768A008B81EA8988C7F* L_0 = ___0_handler;
+		// Looper.RegisterNotifyHandler(MessageType.Room_UpdateOwner, handler);
+		Handler_t320FBB759BDEF6D27E8E80B2B6B736DC1C06E5A5* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10231), L_0, NULL);
+		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10518), L_0, NULL);
 		// }
 		return;
 	}
 }
-// System.Void Pico.Platform.RtcService::SetOnUserUnPublishStream(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserUnPublishInfo>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserUnPublishStream_m6980E54D537145F7C13FB389F0A937607FB84236 (Handler_t7B5EC3663F375895202BECAC07552A9F3DCD971D* ___0_handler, const RuntimeMethod* method) 
+// System.Void Pico.Platform.RoomService::SetUpdateMembershipLockStatusNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetUpdateMembershipLockStatusNotificationCallback_m5320349D7520799E01C7CCEFA68CF3861A3C0D06 (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -65456,316 +65361,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserUnPublishStream_m698
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnUserUnPublishStream, handler);
-		Handler_t7B5EC3663F375895202BECAC07552A9F3DCD971D* L_0 = ___0_handler;
+		// Looper.RegisterNotifyHandler(MessageType.Room_UpdateMembershipLockStatus, handler);
+		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10232), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnStreamSyncInfoReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcStreamSyncInfo>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnStreamSyncInfoReceived_m9E62FAF704FE413C97F03895963B9CC279A52CFB (Handler_t4BEE9C610174E243B1AA20525A10BBD66E21BDF5* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnStreamSyncInfoReceived, handler);
-		Handler_t4BEE9C610174E243B1AA20525A10BBD66E21BDF5* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10220), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnJoinRoomResultCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcJoinRoomResult>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnJoinRoomResultCallback_mA19906E0C26C51CBBC166A1C232E1F6DBCE01238 (Handler_tAFF89B31CBE84C07A66A39AC220981DEC2B648C7* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnJoinRoom, handler);
-		Handler_tAFF89B31CBE84C07A66A39AC220981DEC2B648C7* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10201), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnLeaveRoomResultCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLeaveRoomResult>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnLeaveRoomResultCallback_m19E57F1CC4F83730B63EBCC0DF1D1EBAEB891813 (Handler_t53CDA67D66BFBB13CE74EC8B6623D88EB60E6CAE* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnLeaveRoom, handler);
-		Handler_t53CDA67D66BFBB13CE74EC8B6623D88EB60E6CAE* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10202), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnUserJoinRoomResultCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserJoinInfo>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserJoinRoomResultCallback_m1EA0B7C739EC23115E11B223D0C3D81B31953D34 (Handler_t560A0AAA9073BD8BEBEA299A0C30C715A673E10D* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnUserJoinRoom, handler);
-		Handler_t560A0AAA9073BD8BEBEA299A0C30C715A673E10D* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10204), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnUserLeaveRoomResultCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserLeaveInfo>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserLeaveRoomResultCallback_m8DA5A2E2CDD523B29E2CED9FC32794ACD350C6B7 (Handler_t163FC6326170437BFF25564AF32923B777FDDE24* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnUserLeaveRoom, handler);
-		Handler_t163FC6326170437BFF25564AF32923B777FDDE24* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10203), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnRoomStatsCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomStats>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomStatsCallback_m186B41016E002BFA46E347E778091F95EF732E41 (Handler_t75AD0D0BA45ACBB20855ADA2457EB304BF32C5B9* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnRoomStats, handler);
-		Handler_t75AD0D0BA45ACBB20855ADA2457EB304BF32C5B9* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10200), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnWarnCallback(Pico.Platform.Message`1/Handler<System.Int32>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnWarnCallback_m43D4E89F6FE8D46AF1A682AC9B947E7DBA694687 (Handler_t51AE26B34C94E80FFE0A43298E5E7BCF0085B456* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnWarn, handler);
-		Handler_t51AE26B34C94E80FFE0A43298E5E7BCF0085B456* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10206), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnErrorCallback(Pico.Platform.Message`1/Handler<System.Int32>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnErrorCallback_m9F08039B1416D6169430DE08694E9C4FEC4928ED (Handler_t51AE26B34C94E80FFE0A43298E5E7BCF0085B456* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnError, handler);
-		Handler_t51AE26B34C94E80FFE0A43298E5E7BCF0085B456* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10209), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnRoomWarnCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomWarn>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomWarnCallback_m400F490F0DABB37F9ED61E126569823FF2D6FE41 (Handler_tCAF1D3F2723A4B7251F1BC23304D41F30171BA7E* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnRoomWarn, handler);
-		Handler_tCAF1D3F2723A4B7251F1BC23304D41F30171BA7E* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10207), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnRoomErrorCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomError>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomErrorCallback_mD906D67149802F5ED99045D3B6B0A18B60372E0F (Handler_tAB0E94E2155E2F41351762B712D4F71A3E696890* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnRoomError, handler);
-		Handler_tAB0E94E2155E2F41351762B712D4F71A3E696890* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10208), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnConnectionStateChangeCallback(Pico.Platform.Message`1/Handler<Pico.Platform.RtcConnectionState>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnConnectionStateChangeCallback_m950EAA7B5E413BEFF5DAC4F898CD8066E5673A24 (Handler_t38CC844160733F92880FA63972B403BF586D39B1* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnConnectionStateChange, handler);
-		Handler_t38CC844160733F92880FA63972B403BF586D39B1* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10205), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnUserMuteAudio(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMuteInfo>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserMuteAudio_m8842D05F8B89D9A401E79ABABE6E477977C34679 (Handler_t031AC8F825D5CD006D0F5F9FE16EB538F31C1101* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnUserMuteAudio, handler);
-		Handler_t031AC8F825D5CD006D0F5F9FE16EB538F31C1101* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10215), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnUserStartAudioCapture(Pico.Platform.Message`1/Handler<System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserStartAudioCapture_mB0F6F207058DD34493019BAF3062FF7FCB8DD40C (Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnUserStartAudioCapture, handler);
-		Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10210), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnUserStopAudioCapture(Pico.Platform.Message`1/Handler<System.String>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserStopAudioCapture_m37BB90937CF2D79B415CE2B1AE45959CAFA3EDA8 (Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnUserStopAudioCapture, handler);
-		Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10214), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnAudioPlaybackDeviceChange(Pico.Platform.Message`1/Handler<Pico.Platform.RtcAudioPlaybackDevice>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnAudioPlaybackDeviceChange_mD5EDABCFA996E8CB520E7D16BB23206C104AC7D0 (Handler_t9E74A09C7774D66FE0B94FDFE1DFA6DDEC5859ED* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnAudioPlaybackDeviceChanged, handler);
-		Handler_t9E74A09C7774D66FE0B94FDFE1DFA6DDEC5859ED* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10211), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnLocalAudioPropertiesReport(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLocalAudioPropertiesReport>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnLocalAudioPropertiesReport_mD647E749A414A483896817C4C530F09E34EB8000 (Handler_tAC738204727C49FCB4492833A34C3C4A619CEC8E* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnLocalAudioPropertiesReport, handler);
-		Handler_tAC738204727C49FCB4492833A34C3C4A619CEC8E* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10213), L_0, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Pico.Platform.RtcService::SetOnRemoteAudioPropertiesReport(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRemoteAudioPropertiesReport>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRemoteAudioPropertiesReport_m07BF3E4B2DB1008AA02CC3CC682B211616506BCF (Handler_t2765C77EA08935A8D61BD6074F539B8BA92581B9* ___0_handler, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// Looper.RegisterNotifyHandler(MessageType.Notification_Rtc_OnRemoteAudioPropertiesReport, handler);
-		Handler_t2765C77EA08935A8D61BD6074F539B8BA92581B9* L_0 = ___0_handler;
-		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
-		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10212), L_0, NULL);
+		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10517), L_0, NULL);
 		// }
 		return;
 	}
@@ -65817,10 +65416,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CoreService_IsInitialized_m4
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ProcessAudioFrameFunction_Invoke_m5EC2CDFD611F5CDC64BD8A36A025E8C08FF061D6_inline (ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* __this, RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59* ___0_frame, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t RoomOptions_GetHandle_m0C9DCC01EC26AC5586AC037C2FC3A8A8C389F247_inline (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, const RuntimeMethod* method) 
 {
-	typedef int32_t (*FunctionPointerType) (RuntimeObject*, RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59*, const RuntimeMethod*);
-	return ((FunctionPointerType)__this->___invoke_impl_1)((Il2CppObject*)__this->___method_code_6, ___0_frame, reinterpret_cast<RuntimeMethod*>(__this->___method_3));
+	{
+		// return Handle;
+		intptr_t L_0 = __this->___Handle_0;
+		return L_0;
+	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) 
 {
@@ -65865,24 +65467,24 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_get_Cur
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_t8119C4668B01DE5BDC84EDBA81EE010B6CA16C5C Enumerator_get_Current_m511016491079A010B4344AA4E125147FAF6D679F_gshared_inline (Enumerator_t628F4A89865D78D3344C93277ACECBDE97BE739A* __this, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 Enumerator_get_Current_mE3475384B761E1C7971D3639BD09117FE8363422_gshared_inline (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) 
 {
 	{
-		KeyValuePair_2_t8119C4668B01DE5BDC84EDBA81EE010B6CA16C5C L_0 = __this->____current_3;
+		KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 L_0 = __this->____current_3;
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t KeyValuePair_2_get_Key_m380DA6E4F786B9C61012C4427405FC5FD48413A1_gshared_inline (KeyValuePair_2_t8119C4668B01DE5BDC84EDBA81EE010B6CA16C5C* __this, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = __this->___key_0;
+		RuntimeObject* L_0 = __this->___key_0;
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t KeyValuePair_2_get_Value_m3F5DAA82C39D5EFEAE4B1F8389E1DD38732777CC_gshared_inline (KeyValuePair_2_t8119C4668B01DE5BDC84EDBA81EE010B6CA16C5C* __this, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Value_mC6BD8075F9C9DDEF7B4D731E5C38EC19103988E7_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = __this->___value_1;
+		RuntimeObject* L_0 = __this->___value_1;
 		return L_0;
 	}
 }

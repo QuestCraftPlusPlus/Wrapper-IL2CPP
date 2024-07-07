@@ -7732,6 +7732,14 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ActionEvent_get_stateInde
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ActionEventPtr_t73A827F31E342D0649AFFDD93F489AC4F88DFB74 Enumerator_get_Current_m72460218A339059A12B275819928F3867FA1409E (Enumerator_tC0F792D149DF8552C0B6721D81AA1D51AF62EEC6* __this, const RuntimeMethod* method) ;
 // System.Object UnityEngine.InputSystem.Utilities.InputActionTrace/Enumerator::System.Collections.IEnumerator.get_Current()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_System_Collections_IEnumerator_get_Current_mEB1C895F1A42B12278CA02B62403E00B08BA06CC (Enumerator_tC0F792D149DF8552C0B6721D81AA1D51AF62EEC6* __this, const RuntimeMethod* method) ;
+// System.Single UnityEngine.Vector2::get_sqrMagnitude()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.InputSystem.Utilities.Vector2MagnitudeComparer::Compare(UnityEngine.Vector2,UnityEngine.Vector2)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1 (Vector2MagnitudeComparer_tA43FC290103781CBCFFC2636F73C7B7922BDE79A* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_y, const RuntimeMethod* method) ;
+// System.Single UnityEngine.Vector3::get_sqrMagnitude()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.InputSystem.Utilities.Vector3MagnitudeComparer::Compare(UnityEngine.Vector3,UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39 (Vector3MagnitudeComparer_t90E18878C78659AA821D3CA0375E7D844AF0DAFE* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_y, const RuntimeMethod* method) ;
 // System.Char System.String::get_Chars(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar String_get_Chars_mC49DF0CD2D3BE7BE97B3AD9C995BE3094F8E36D3 (String_t* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 // System.Boolean System.Char::IsDigit(System.Char)
@@ -7760,14 +7768,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar Char_ToUpper_m7DB51DD07EE52F4CA897
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Char_ToString_m2A308731F9577C06AF3C0901234E2EAC8327410C (Il2CppChar* __this, const RuntimeMethod* method) ;
 // System.String System.String::Substring(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Substring_m6BA4A3FA3800FE92662D0847CC8E1EEF940DF472 (String_t* __this, int32_t ___0_startIndex, const RuntimeMethod* method) ;
-// System.Single UnityEngine.Vector2::get_sqrMagnitude()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.InputSystem.Utilities.Vector2MagnitudeComparer::Compare(UnityEngine.Vector2,UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1 (Vector2MagnitudeComparer_tA43FC290103781CBCFFC2636F73C7B7922BDE79A* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_y, const RuntimeMethod* method) ;
-// System.Single UnityEngine.Vector3::get_sqrMagnitude()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
-// System.Int32 UnityEngine.InputSystem.Utilities.Vector3MagnitudeComparer::Compare(UnityEngine.Vector3,UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39 (Vector3MagnitudeComparer_t90E18878C78659AA821D3CA0375E7D844AF0DAFE* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_y, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.InputSystem.Utilities.CallbackArray`1<System.Action>::get_length()
 inline int32_t CallbackArray_1_get_length_m270F067D47E83B3315AD0E53E82AAEBB9138C3B7 (CallbackArray_1_t346DB7B424423D4F14A14CFE2C0734F62447A529* __this, const RuntimeMethod* method)
 {
@@ -19526,6 +19526,136 @@ IL2CPP_EXTERN_C  RuntimeObject* Enumerator_System_Collections_IEnumerator_get_Cu
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Int32 UnityEngine.InputSystem.Utilities.Vector2MagnitudeComparer::Compare(UnityEngine.Vector2,UnityEngine.Vector2)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1 (Vector2MagnitudeComparer_tA43FC290103781CBCFFC2636F73C7B7922BDE79A* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_y, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		// var lenx = x.sqrMagnitude;
+		float L_0;
+		L_0 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&___0_x), NULL);
+		V_0 = L_0;
+		// var leny = y.sqrMagnitude;
+		float L_1;
+		L_1 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&___1_y), NULL);
+		V_1 = L_1;
+		// if (lenx < leny)
+		float L_2 = V_0;
+		float L_3 = V_1;
+		if ((!(((float)L_2) < ((float)L_3))))
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		// return -1;
+		return (-1);
+	}
+
+IL_0016:
+	{
+		// if (lenx > leny)
+		float L_4 = V_0;
+		float L_5 = V_1;
+		if ((!(((float)L_4) > ((float)L_5))))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		// return 1;
+		return 1;
+	}
+
+IL_001c:
+	{
+		// return 0;
+		return 0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1_AdjustorThunk (RuntimeObject* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_y, const RuntimeMethod* method)
+{
+	Vector2MagnitudeComparer_tA43FC290103781CBCFFC2636F73C7B7922BDE79A* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<Vector2MagnitudeComparer_tA43FC290103781CBCFFC2636F73C7B7922BDE79A*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1(_thisAdjusted, ___0_x, ___1_y, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int32 UnityEngine.InputSystem.Utilities.Vector3MagnitudeComparer::Compare(UnityEngine.Vector3,UnityEngine.Vector3)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39 (Vector3MagnitudeComparer_t90E18878C78659AA821D3CA0375E7D844AF0DAFE* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_y, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	{
+		// var lenx = x.sqrMagnitude;
+		float L_0;
+		L_0 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&___0_x), NULL);
+		V_0 = L_0;
+		// var leny = y.sqrMagnitude;
+		float L_1;
+		L_1 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&___1_y), NULL);
+		V_1 = L_1;
+		// if (lenx < leny)
+		float L_2 = V_0;
+		float L_3 = V_1;
+		if ((!(((float)L_2) < ((float)L_3))))
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		// return -1;
+		return (-1);
+	}
+
+IL_0016:
+	{
+		// if (lenx > leny)
+		float L_4 = V_0;
+		float L_5 = V_1;
+		if ((!(((float)L_4) > ((float)L_5))))
+		{
+			goto IL_001c;
+		}
+	}
+	{
+		// return 1;
+		return 1;
+	}
+
+IL_001c:
+	{
+		// return 0;
+		return 0;
+	}
+}
+IL2CPP_EXTERN_C  int32_t Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39_AdjustorThunk (RuntimeObject* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_y, const RuntimeMethod* method)
+{
+	Vector3MagnitudeComparer_t90E18878C78659AA821D3CA0375E7D844AF0DAFE* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<Vector3MagnitudeComparer_t90E18878C78659AA821D3CA0375E7D844AF0DAFE*>(__this + _offset);
+	int32_t _returnValue;
+	_returnValue = Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39(_thisAdjusted, ___0_x, ___1_y, method);
+	return _returnValue;
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 // System.Boolean UnityEngine.InputSystem.Utilities.CSharpCodeHelpers::IsProperIdentifier(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool CSharpCodeHelpers_IsProperIdentifier_mE942369074F56C175A61D324E9DF4CC483EDC475 (String_t* ___0_name, const RuntimeMethod* method) 
 {
@@ -19978,136 +20108,6 @@ IL_0037:
 		String_t* L_13 = V_0;
 		return L_13;
 	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Int32 UnityEngine.InputSystem.Utilities.Vector2MagnitudeComparer::Compare(UnityEngine.Vector2,UnityEngine.Vector2)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1 (Vector2MagnitudeComparer_tA43FC290103781CBCFFC2636F73C7B7922BDE79A* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_y, const RuntimeMethod* method) 
-{
-	float V_0 = 0.0f;
-	float V_1 = 0.0f;
-	{
-		// var lenx = x.sqrMagnitude;
-		float L_0;
-		L_0 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&___0_x), NULL);
-		V_0 = L_0;
-		// var leny = y.sqrMagnitude;
-		float L_1;
-		L_1 = Vector2_get_sqrMagnitude_mA16336720C14EEF8BA9B55AE33B98C9EE2082BDC_inline((&___1_y), NULL);
-		V_1 = L_1;
-		// if (lenx < leny)
-		float L_2 = V_0;
-		float L_3 = V_1;
-		if ((!(((float)L_2) < ((float)L_3))))
-		{
-			goto IL_0016;
-		}
-	}
-	{
-		// return -1;
-		return (-1);
-	}
-
-IL_0016:
-	{
-		// if (lenx > leny)
-		float L_4 = V_0;
-		float L_5 = V_1;
-		if ((!(((float)L_4) > ((float)L_5))))
-		{
-			goto IL_001c;
-		}
-	}
-	{
-		// return 1;
-		return 1;
-	}
-
-IL_001c:
-	{
-		// return 0;
-		return 0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1_AdjustorThunk (RuntimeObject* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_x, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_y, const RuntimeMethod* method)
-{
-	Vector2MagnitudeComparer_tA43FC290103781CBCFFC2636F73C7B7922BDE79A* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Vector2MagnitudeComparer_tA43FC290103781CBCFFC2636F73C7B7922BDE79A*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = Vector2MagnitudeComparer_Compare_m00A47ECC67D2312D94F75CD0F12C518A256B0EE1(_thisAdjusted, ___0_x, ___1_y, method);
-	return _returnValue;
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Int32 UnityEngine.InputSystem.Utilities.Vector3MagnitudeComparer::Compare(UnityEngine.Vector3,UnityEngine.Vector3)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39 (Vector3MagnitudeComparer_t90E18878C78659AA821D3CA0375E7D844AF0DAFE* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_y, const RuntimeMethod* method) 
-{
-	float V_0 = 0.0f;
-	float V_1 = 0.0f;
-	{
-		// var lenx = x.sqrMagnitude;
-		float L_0;
-		L_0 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&___0_x), NULL);
-		V_0 = L_0;
-		// var leny = y.sqrMagnitude;
-		float L_1;
-		L_1 = Vector3_get_sqrMagnitude_m43C27DEC47C4811FB30AB474FF2131A963B66FC8_inline((&___1_y), NULL);
-		V_1 = L_1;
-		// if (lenx < leny)
-		float L_2 = V_0;
-		float L_3 = V_1;
-		if ((!(((float)L_2) < ((float)L_3))))
-		{
-			goto IL_0016;
-		}
-	}
-	{
-		// return -1;
-		return (-1);
-	}
-
-IL_0016:
-	{
-		// if (lenx > leny)
-		float L_4 = V_0;
-		float L_5 = V_1;
-		if ((!(((float)L_4) > ((float)L_5))))
-		{
-			goto IL_001c;
-		}
-	}
-	{
-		// return 1;
-		return 1;
-	}
-
-IL_001c:
-	{
-		// return 0;
-		return 0;
-	}
-}
-IL2CPP_EXTERN_C  int32_t Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39_AdjustorThunk (RuntimeObject* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_x, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_y, const RuntimeMethod* method)
-{
-	Vector3MagnitudeComparer_t90E18878C78659AA821D3CA0375E7D844AF0DAFE* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Vector3MagnitudeComparer_t90E18878C78659AA821D3CA0375E7D844AF0DAFE*>(__this + _offset);
-	int32_t _returnValue;
-	_returnValue = Vector3MagnitudeComparer_Compare_m69190BF9C5DF909429B8AB7D535AC1A33E4A9A39(_thisAdjusted, ___0_x, ___1_y, method);
-	return _returnValue;
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

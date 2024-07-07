@@ -4025,266 +4025,266 @@ extern void InviteOptions_ClearSuggestedUsers_mD71C7C4A91F1E7EFF94D1F7C5BFAAFDF1
 extern void InviteOptions_op_Explicit_m3837D7527DBAF736AC307065EBCEC72367A58BB3 (void);
 // 0x000007DD System.Void Pico.Platform.InviteOptions::Finalize()
 extern void InviteOptions_Finalize_mFBFDDFE8346B8177C74CB9B9422B18B50DCC7CE3 (void);
-// 0x000007DE Pico.Platform.RtcEngineInitResult Pico.Platform.RtcService::InitRtcEngine()
-extern void RtcService_InitRtcEngine_m8CFD3447FE5884ADA7E671B54C3474DE6492E5FC (void);
-// 0x000007DF Pico.Platform.Task`1<System.String> Pico.Platform.RtcService::GetToken(System.String,System.String,System.Int32,System.Collections.Generic.Dictionary`2<Pico.Platform.RtcPrivilege,System.Int32>)
-extern void RtcService_GetToken_m228DA2D75D8BE8DA4496774D60FD83E05C575A0A (void);
-// 0x000007E0 System.Int32 Pico.Platform.RtcService::JoinRoom(System.String,System.String,System.String,Pico.Platform.RtcRoomProfileType,System.Boolean)
-extern void RtcService_JoinRoom_m3782263B9253042E21F4A5AF8605338E63532B79 (void);
-// 0x000007E1 System.Int32 Pico.Platform.RtcService::JoinRoom2(Pico.Platform.RtcRoomOptions,System.Boolean)
-extern void RtcService_JoinRoom2_m216395D3F7BD023C56D707C947FF624FAADC4984 (void);
-// 0x000007E2 System.Int32 Pico.Platform.RtcService::JoinRoomWithRetry(System.String,System.String,System.String,Pico.Platform.RtcRoomProfileType,System.Boolean)
-extern void RtcService_JoinRoomWithRetry_m8CE086D7FBD84EE07092E134826E2E56A2DCB77D (void);
-// 0x000007E3 System.Int32 Pico.Platform.RtcService::LeaveRoom(System.String)
-extern void RtcService_LeaveRoom_m24F28302428DEE9794E878DBA9C441164D93269E (void);
-// 0x000007E4 System.Void Pico.Platform.RtcService::SetAudioPlaybackDevice(Pico.Platform.RtcAudioPlaybackDevice)
-extern void RtcService_SetAudioPlaybackDevice_m16BCB06A9BD80AE60C9181430DCE925E2458ED24 (void);
-// 0x000007E5 System.Void Pico.Platform.RtcService::RoomPauseAllSubscribedStream(System.String)
-extern void RtcService_RoomPauseAllSubscribedStream_mA94FB050D8FC17E8BBDC40153AB89AA22D25662E (void);
-// 0x000007E6 System.Void Pico.Platform.RtcService::RoomResumeAllSubscribedStream(System.String)
-extern void RtcService_RoomResumeAllSubscribedStream_m3619DFCD75324DAE2705D69847131F278F5A3EE4 (void);
-// 0x000007E7 System.Int32 Pico.Platform.RtcService::InnerAudioProcessor(System.IntPtr)
-extern void RtcService_InnerAudioProcessor_m663C1AC6BC552D87E0EF075932933D89EA182C22 (void);
-// 0x000007E8 System.Void Pico.Platform.RtcService::RegisterLocalAudioProcessor(Pico.Platform.RtcService/ProcessAudioFrameFunction,Pico.Platform.RtcAudioChannel,Pico.Platform.RtcAudioSampleRate)
-extern void RtcService_RegisterLocalAudioProcessor_m58CB81757B963E0FC677025F0277A87159AB3D96 (void);
-// 0x000007E9 System.Void Pico.Platform.RtcService::EnableAudioPropertiesReport(System.Int32)
-extern void RtcService_EnableAudioPropertiesReport_m962D3D000DFE783E1EEFE59EF0A84D218C73D8E6 (void);
-// 0x000007EA System.Void Pico.Platform.RtcService::PublishRoom(System.String)
-extern void RtcService_PublishRoom_mEE5D6786FF2EC07CFD59375E9ADC60E33D2D8E86 (void);
-// 0x000007EB System.Void Pico.Platform.RtcService::UnPublishRoom(System.String)
-extern void RtcService_UnPublishRoom_m34592A5C3B59C5C1ACAA0BE0C9D7CAFAB3E362F7 (void);
-// 0x000007EC System.Void Pico.Platform.RtcService::DestroyRoom(System.String)
-extern void RtcService_DestroyRoom_m6D553521DCD3D2A943F0B1DFF20B9AA4978913B9 (void);
-// 0x000007ED System.Void Pico.Platform.RtcService::StartAudioCapture()
-extern void RtcService_StartAudioCapture_mF0DA2F73E5B7E3FBDF12FF883391C4EF15CB852D (void);
-// 0x000007EE System.Void Pico.Platform.RtcService::StopAudioCapture()
-extern void RtcService_StopAudioCapture_mCBE5DADCBEA31AB76D2BF7E2B2D70929C9D535A7 (void);
-// 0x000007EF System.Void Pico.Platform.RtcService::SetCaptureVolume(System.Int32)
-extern void RtcService_SetCaptureVolume_mEE326C6BADAE50B581A2C44B44411165A62A71AB (void);
-// 0x000007F0 System.Void Pico.Platform.RtcService::SetPlaybackVolume(System.Int32)
-extern void RtcService_SetPlaybackVolume_m677C38B515B81C488FA486F7F5D6446D49D07C3A (void);
-// 0x000007F1 System.Void Pico.Platform.RtcService::SetEarMonitorMode(Pico.Platform.RtcEarMonitorMode)
-extern void RtcService_SetEarMonitorMode_mD8D611AF6E8068A2B4F53FC96CEF69ECDBD5AEA1 (void);
-// 0x000007F2 System.Void Pico.Platform.RtcService::SetEarMonitorVolume(System.Int32)
-extern void RtcService_SetEarMonitorVolume_mA72A4B6C43B754BDBA6A66FD0F24F4ED0A990575 (void);
-// 0x000007F3 System.Void Pico.Platform.RtcService::MuteLocalAudio(Pico.Platform.RtcMuteState)
-extern void RtcService_MuteLocalAudio_m17017BE2D4274302111347DD1B88ADF2C13659E4 (void);
-// 0x000007F4 System.Void Pico.Platform.RtcService::UpdateToken(System.String,System.String)
-extern void RtcService_UpdateToken_mD860DBD249EF4448F974954FAACF64A18D9B3C11 (void);
-// 0x000007F5 System.Void Pico.Platform.RtcService::SetAudioScenario(Pico.Platform.RtcAudioScenarioType)
-extern void RtcService_SetAudioScenario_m8DEFD5F7961B4DEEBF89509DBD6A23A62D75231F (void);
-// 0x000007F6 System.Void Pico.Platform.RtcService::RoomSetRemoteAudioPlaybackVolume(System.String,System.String,System.Int32)
-extern void RtcService_RoomSetRemoteAudioPlaybackVolume_m981CA20823E8E0F250AA964F9EB9DB0E26BEBAE0 (void);
-// 0x000007F7 System.Void Pico.Platform.RtcService::RoomSubscribeStream(System.String,System.String)
-extern void RtcService_RoomSubscribeStream_m41B409CF7ECD851EA659A244FBF8A5A4EE3E22E9 (void);
-// 0x000007F8 System.Void Pico.Platform.RtcService::RoomUnSubscribeStream(System.String,System.String)
-extern void RtcService_RoomUnSubscribeStream_m0DE28E1583C633D45193390228BBFF756158F3BC (void);
-// 0x000007F9 System.Int64 Pico.Platform.RtcService::SendRoomBinaryMessage(System.String,System.Byte[])
-extern void RtcService_SendRoomBinaryMessage_m6B48B971DEB3A71493C99BCFB41A5E379BF32910 (void);
-// 0x000007FA System.Int64 Pico.Platform.RtcService::SendRoomMessage(System.String,System.String)
-extern void RtcService_SendRoomMessage_m0F9CD695740455C83F22DF58630C01BEFD2982B1 (void);
-// 0x000007FB System.Int64 Pico.Platform.RtcService::SendUserBinaryMessage(System.String,System.String,System.Byte[])
-extern void RtcService_SendUserBinaryMessage_mCB97BBCAF6EB8A7A76CFD407B45A5F956DBC6606 (void);
-// 0x000007FC System.Int64 Pico.Platform.RtcService::SendUserMessage(System.String,System.String,System.String)
-extern void RtcService_SendUserMessage_mF5F9172924B7BD1084FEBA1582271B8D6EB53AB3 (void);
-// 0x000007FD System.Int32 Pico.Platform.RtcService::SendStreamSyncInfo(System.Byte[],System.Int32)
-extern void RtcService_SendStreamSyncInfo_mB9BAEBCD9D9DA8646BD489926006E0DE1FA1EBBF (void);
-// 0x000007FE System.Void Pico.Platform.RtcService::SetOnTokenWillExpire(Pico.Platform.Message`1/Handler<System.String>)
-extern void RtcService_SetOnTokenWillExpire_m62284B70EA146FC1268F6E0243E124A3FA4BE2C2 (void);
-// 0x000007FF System.Void Pico.Platform.RtcService::SetOnRoomMessageReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomMessageReceived>)
-extern void RtcService_SetOnRoomMessageReceived_mEE234847995A8A3C887B54A99AAFDD4F4829726A (void);
-// 0x00000800 System.Void Pico.Platform.RtcService::SetOnRoomBinaryMessageReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcBinaryMessageReceived>)
-extern void RtcService_SetOnRoomBinaryMessageReceived_m8C37D1A4BB4B2077B0E81EE85A6979972DA3E3B3 (void);
-// 0x00000801 System.Void Pico.Platform.RtcService::SetOnUserMessageReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserMessageReceived>)
-extern void RtcService_SetOnUserMessageReceived_mFAFA95CA10E70EEB1C25B601A057639160BB4725 (void);
-// 0x00000802 System.Void Pico.Platform.RtcService::SetOnUserBinaryMessageReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcBinaryMessageReceived>)
-extern void RtcService_SetOnUserBinaryMessageReceived_mAEC374611130A9795BDADB88687F21FCACB6033D (void);
-// 0x00000803 System.Void Pico.Platform.RtcService::SetOnRoomMessageSendResult(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMessageSendResult>)
-extern void RtcService_SetOnRoomMessageSendResult_m3103B58648CC5E3B2A647D4BA6A1B458AED9D734 (void);
-// 0x00000804 System.Void Pico.Platform.RtcService::SetOnUserMessageSendResult(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMessageSendResult>)
-extern void RtcService_SetOnUserMessageSendResult_mEA4292387F7F798D1666C9F86445A62AF4DC2872 (void);
-// 0x00000805 System.Void Pico.Platform.RtcService::SetOnUserPublishStream(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserPublishInfo>)
-extern void RtcService_SetOnUserPublishStream_m908893F7D093DD75C6CDE3E9AFF3674D4A89F5B1 (void);
-// 0x00000806 System.Void Pico.Platform.RtcService::SetOnUserUnPublishStream(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserUnPublishInfo>)
-extern void RtcService_SetOnUserUnPublishStream_m6980E54D537145F7C13FB389F0A937607FB84236 (void);
-// 0x00000807 System.Void Pico.Platform.RtcService::SetOnStreamSyncInfoReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcStreamSyncInfo>)
-extern void RtcService_SetOnStreamSyncInfoReceived_m9E62FAF704FE413C97F03895963B9CC279A52CFB (void);
-// 0x00000808 System.Void Pico.Platform.RtcService::SetOnJoinRoomResultCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcJoinRoomResult>)
-extern void RtcService_SetOnJoinRoomResultCallback_mA19906E0C26C51CBBC166A1C232E1F6DBCE01238 (void);
-// 0x00000809 System.Void Pico.Platform.RtcService::SetOnLeaveRoomResultCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLeaveRoomResult>)
-extern void RtcService_SetOnLeaveRoomResultCallback_m19E57F1CC4F83730B63EBCC0DF1D1EBAEB891813 (void);
-// 0x0000080A System.Void Pico.Platform.RtcService::SetOnUserJoinRoomResultCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserJoinInfo>)
-extern void RtcService_SetOnUserJoinRoomResultCallback_m1EA0B7C739EC23115E11B223D0C3D81B31953D34 (void);
-// 0x0000080B System.Void Pico.Platform.RtcService::SetOnUserLeaveRoomResultCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserLeaveInfo>)
-extern void RtcService_SetOnUserLeaveRoomResultCallback_m8DA5A2E2CDD523B29E2CED9FC32794ACD350C6B7 (void);
-// 0x0000080C System.Void Pico.Platform.RtcService::SetOnRoomStatsCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomStats>)
-extern void RtcService_SetOnRoomStatsCallback_m186B41016E002BFA46E347E778091F95EF732E41 (void);
-// 0x0000080D System.Void Pico.Platform.RtcService::SetOnWarnCallback(Pico.Platform.Message`1/Handler<System.Int32>)
-extern void RtcService_SetOnWarnCallback_m43D4E89F6FE8D46AF1A682AC9B947E7DBA694687 (void);
-// 0x0000080E System.Void Pico.Platform.RtcService::SetOnErrorCallback(Pico.Platform.Message`1/Handler<System.Int32>)
-extern void RtcService_SetOnErrorCallback_m9F08039B1416D6169430DE08694E9C4FEC4928ED (void);
-// 0x0000080F System.Void Pico.Platform.RtcService::SetOnRoomWarnCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomWarn>)
-extern void RtcService_SetOnRoomWarnCallback_m400F490F0DABB37F9ED61E126569823FF2D6FE41 (void);
-// 0x00000810 System.Void Pico.Platform.RtcService::SetOnRoomErrorCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomError>)
-extern void RtcService_SetOnRoomErrorCallback_mD906D67149802F5ED99045D3B6B0A18B60372E0F (void);
-// 0x00000811 System.Void Pico.Platform.RtcService::SetOnConnectionStateChangeCallback(Pico.Platform.Message`1/Handler<Pico.Platform.RtcConnectionState>)
-extern void RtcService_SetOnConnectionStateChangeCallback_m950EAA7B5E413BEFF5DAC4F898CD8066E5673A24 (void);
-// 0x00000812 System.Void Pico.Platform.RtcService::SetOnUserMuteAudio(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMuteInfo>)
-extern void RtcService_SetOnUserMuteAudio_m8842D05F8B89D9A401E79ABABE6E477977C34679 (void);
-// 0x00000813 System.Void Pico.Platform.RtcService::SetOnUserStartAudioCapture(Pico.Platform.Message`1/Handler<System.String>)
-extern void RtcService_SetOnUserStartAudioCapture_mB0F6F207058DD34493019BAF3062FF7FCB8DD40C (void);
-// 0x00000814 System.Void Pico.Platform.RtcService::SetOnUserStopAudioCapture(Pico.Platform.Message`1/Handler<System.String>)
-extern void RtcService_SetOnUserStopAudioCapture_m37BB90937CF2D79B415CE2B1AE45959CAFA3EDA8 (void);
-// 0x00000815 System.Void Pico.Platform.RtcService::SetOnAudioPlaybackDeviceChange(Pico.Platform.Message`1/Handler<Pico.Platform.RtcAudioPlaybackDevice>)
-extern void RtcService_SetOnAudioPlaybackDeviceChange_mD5EDABCFA996E8CB520E7D16BB23206C104AC7D0 (void);
-// 0x00000816 System.Void Pico.Platform.RtcService::SetOnLocalAudioPropertiesReport(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLocalAudioPropertiesReport>)
-extern void RtcService_SetOnLocalAudioPropertiesReport_mD647E749A414A483896817C4C530F09E34EB8000 (void);
-// 0x00000817 System.Void Pico.Platform.RtcService::SetOnRemoteAudioPropertiesReport(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRemoteAudioPropertiesReport>)
-extern void RtcService_SetOnRemoteAudioPropertiesReport_m07BF3E4B2DB1008AA02CC3CC682B211616506BCF (void);
-// 0x00000818 System.Void Pico.Platform.RtcService/ProcessAudioFrameFunction::.ctor(System.Object,System.IntPtr)
-extern void ProcessAudioFrameFunction__ctor_mB63C465A7D6EA4ED5A425D0F961AB935ED9C31B7 (void);
-// 0x00000819 System.Int32 Pico.Platform.RtcService/ProcessAudioFrameFunction::Invoke(Pico.Platform.Models.RtcAudioFrame)
-extern void ProcessAudioFrameFunction_Invoke_m5EC2CDFD611F5CDC64BD8A36A025E8C08FF061D6 (void);
-// 0x0000081A System.IAsyncResult Pico.Platform.RtcService/ProcessAudioFrameFunction::BeginInvoke(Pico.Platform.Models.RtcAudioFrame,System.AsyncCallback,System.Object)
-extern void ProcessAudioFrameFunction_BeginInvoke_m18E036E1B3C2DE7BC8F84048F264523B29D85E5A (void);
-// 0x0000081B System.Int32 Pico.Platform.RtcService/ProcessAudioFrameFunction::EndInvoke(System.IAsyncResult)
-extern void ProcessAudioFrameFunction_EndInvoke_mB3475E6B559FD9E7A51ED673BD7368E267DF0AC1 (void);
-// 0x0000081C System.Void Pico.Platform.RtcStreamSyncInfoOptions::.ctor()
-extern void RtcStreamSyncInfoOptions__ctor_m9D86B190CCE9ADF893542CCB8FEB7EEF4309CE7E (void);
-// 0x0000081D System.Void Pico.Platform.RtcStreamSyncInfoOptions::SetRepeatCount(System.Int32)
-extern void RtcStreamSyncInfoOptions_SetRepeatCount_mEC362A0008CECC40F6C5B3DE011BC44DBE66256B (void);
-// 0x0000081E System.Void Pico.Platform.RtcStreamSyncInfoOptions::SetStreamIndex(Pico.Platform.RtcStreamIndex)
-extern void RtcStreamSyncInfoOptions_SetStreamIndex_m76FF4534D8271C81C0263995DC0554961184DA34 (void);
-// 0x0000081F System.Void Pico.Platform.RtcStreamSyncInfoOptions::SetStreamType(Pico.Platform.RtcSyncInfoStreamType)
-extern void RtcStreamSyncInfoOptions_SetStreamType_m75AF0A32A37BC87F68C105FB7DA0E3737C3BF977 (void);
-// 0x00000820 System.IntPtr Pico.Platform.RtcStreamSyncInfoOptions::op_Explicit(Pico.Platform.RtcStreamSyncInfoOptions)
-extern void RtcStreamSyncInfoOptions_op_Explicit_m36286E8D49E4A5A299A71C763E9421343B2E71FC (void);
-// 0x00000821 System.Void Pico.Platform.RtcStreamSyncInfoOptions::Finalize()
-extern void RtcStreamSyncInfoOptions_Finalize_mD7F8F12816ED55BC14D898727AAFEA8741D13820 (void);
-// 0x00000822 System.Void Pico.Platform.RtcRoomOptions::.ctor()
-extern void RtcRoomOptions__ctor_m753D1C11608C22036A76D99B3C862D89B347E274 (void);
-// 0x00000823 System.Void Pico.Platform.RtcRoomOptions::SetRoomProfileType(Pico.Platform.RtcRoomProfileType)
-extern void RtcRoomOptions_SetRoomProfileType_m45350524D2610FA5CD5C4D5723EEA2A2FCF5E0F2 (void);
-// 0x00000824 System.Void Pico.Platform.RtcRoomOptions::SetIsAutoSubscribeAudio(System.Boolean)
-extern void RtcRoomOptions_SetIsAutoSubscribeAudio_m0A6C2D07889202383FE2627313F63E081CA25531 (void);
-// 0x00000825 System.Void Pico.Platform.RtcRoomOptions::SetRoomId(System.String)
-extern void RtcRoomOptions_SetRoomId_m1EC97F209EAB97E51EF3EEAFD8C6D62B6CAD2ED6 (void);
-// 0x00000826 System.Void Pico.Platform.RtcRoomOptions::SetUserId(System.String)
-extern void RtcRoomOptions_SetUserId_m33FD3B38340AF5C0F0A57BFB514C5DA81BFE10BC (void);
-// 0x00000827 System.Void Pico.Platform.RtcRoomOptions::SetUserExtra(System.String)
-extern void RtcRoomOptions_SetUserExtra_mC725D8F9B0B5148AA8510F043AC2E715C7D84562 (void);
-// 0x00000828 System.Void Pico.Platform.RtcRoomOptions::SetToken(System.String)
-extern void RtcRoomOptions_SetToken_mE7CAA2DC3B2B75013EDE6C974339572E0CEC7CC0 (void);
-// 0x00000829 System.IntPtr Pico.Platform.RtcRoomOptions::op_Explicit(Pico.Platform.RtcRoomOptions)
-extern void RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB (void);
-// 0x0000082A System.Void Pico.Platform.RtcRoomOptions::Finalize()
-extern void RtcRoomOptions_Finalize_mA8D6C0D9BFFECF35457E454A2EC0D5D658CFC2BB (void);
-// 0x0000082B System.Void Pico.Platform.RtcGetTokenOptions::.ctor()
-extern void RtcGetTokenOptions__ctor_mCA91FB23D9E95538924CA5A36D7A0060A0DA1F12 (void);
-// 0x0000082C System.Void Pico.Platform.RtcGetTokenOptions::SetUserId(System.String)
-extern void RtcGetTokenOptions_SetUserId_mAC8EC85CB4D28EE5124B3DF53DCB4DA5AB3D8A74 (void);
-// 0x0000082D System.Void Pico.Platform.RtcGetTokenOptions::SetRoomId(System.String)
-extern void RtcGetTokenOptions_SetRoomId_mEC2981B140C843025675715E718FA4BBBCAF5465 (void);
-// 0x0000082E System.Void Pico.Platform.RtcGetTokenOptions::SetTtl(System.Int32)
-extern void RtcGetTokenOptions_SetTtl_m4EBA04258BF46009456989FA5C35B0C5E3CA85C0 (void);
-// 0x0000082F System.Void Pico.Platform.RtcGetTokenOptions::SetPrivileges(Pico.Platform.RtcPrivilege,System.Int32)
-extern void RtcGetTokenOptions_SetPrivileges_m9BA7C7F94C4C7701F1AAF6B8AE73772F589D6F2B (void);
-// 0x00000830 System.Void Pico.Platform.RtcGetTokenOptions::ClearPrivileges()
-extern void RtcGetTokenOptions_ClearPrivileges_m548048BBEEE0DA5BC362275784078A63612D1465 (void);
-// 0x00000831 System.IntPtr Pico.Platform.RtcGetTokenOptions::op_Explicit(Pico.Platform.RtcGetTokenOptions)
-extern void RtcGetTokenOptions_op_Explicit_m6C383C66020E9B97450516BA56A4804EE11AF49E (void);
-// 0x00000832 System.Void Pico.Platform.RtcGetTokenOptions::Finalize()
-extern void RtcGetTokenOptions_Finalize_mB5CE4F609E6D0885127897CB5590DE8AF041F6BA (void);
-// 0x00000833 System.Void Pico.Platform.RtcAudioPropertyOptions::.ctor()
-extern void RtcAudioPropertyOptions__ctor_m5D01ABC1098566CAD6A7000775D6CA381D70509F (void);
-// 0x00000834 System.Void Pico.Platform.RtcAudioPropertyOptions::SetInterval(System.Int32)
-extern void RtcAudioPropertyOptions_SetInterval_m8075C50D77C3347FB74433C8D73FBA38E3416005 (void);
-// 0x00000835 System.Void Pico.Platform.RtcAudioPropertyOptions::Finalize()
-extern void RtcAudioPropertyOptions_Finalize_m3E314A6827113DAD8622F5A52F3231F31A0C5B5F (void);
-// 0x00000836 System.IntPtr Pico.Platform.RtcAudioPropertyOptions::op_Explicit(Pico.Platform.RtcAudioPropertyOptions)
-extern void RtcAudioPropertyOptions_op_Explicit_mAA54B25B681E9C597F68538D3339153E5748FB9A (void);
-// 0x00000837 Pico.Platform.RoomOptions Pico.Platform.RoomService::GetCreatePrivateRoomOptions(System.Collections.Generic.Dictionary`2<System.String,System.String>)
+// 0x000007DE Pico.Platform.RoomOptions Pico.Platform.RoomService::GetCreatePrivateRoomOptions(System.Collections.Generic.Dictionary`2<System.String,System.String>)
 extern void RoomService_GetCreatePrivateRoomOptions_mC1B5A30AC945E0D599B5E8B4FCEBFB01106A0587 (void);
-// 0x00000838 Pico.Platform.RoomOptions Pico.Platform.RoomService::GetJoinOrCreateNamedRoomOptions(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String)
+// 0x000007DF Pico.Platform.RoomOptions Pico.Platform.RoomService::GetJoinOrCreateNamedRoomOptions(System.Collections.Generic.Dictionary`2<System.String,System.String>,System.String,System.String)
 extern void RoomService_GetJoinOrCreateNamedRoomOptions_mD57228C1919DA9E68530D50D95D2C97A130C4662 (void);
-// 0x00000839 Pico.Platform.Task`1<Pico.Platform.Models.RoomList> Pico.Platform.RoomService::GetNamedRooms(System.Int32,System.Int32)
+// 0x000007E0 Pico.Platform.Task`1<Pico.Platform.Models.RoomList> Pico.Platform.RoomService::GetNamedRooms(System.Int32,System.Int32)
 extern void RoomService_GetNamedRooms_m1A81709F472FAE518A204486B3EA229AA77CE132 (void);
-// 0x0000083A Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::JoinOrCreateNamedRoom(Pico.Platform.RoomJoinPolicy,System.Boolean,System.UInt32,Pico.Platform.RoomOptions)
+// 0x000007E1 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::JoinOrCreateNamedRoom(Pico.Platform.RoomJoinPolicy,System.Boolean,System.UInt32,Pico.Platform.RoomOptions)
 extern void RoomService_JoinOrCreateNamedRoom_m9CCD8B6F1567227910ABD09F14E1687103E4EDA0 (void);
-// 0x0000083B Pico.Platform.Task Pico.Platform.RoomService::LaunchInvitableUserFlow(System.UInt64)
+// 0x000007E2 Pico.Platform.Task Pico.Platform.RoomService::LaunchInvitableUserFlow(System.UInt64)
 extern void RoomService_LaunchInvitableUserFlow_m58A81BE30CCE667DC5EA5ABD0240143E7EDDF752 (void);
-// 0x0000083C Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::UpdateDataStore(System.UInt64,System.Collections.Generic.Dictionary`2<System.String,System.String>)
+// 0x000007E3 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::UpdateDataStore(System.UInt64,System.Collections.Generic.Dictionary`2<System.String,System.String>)
 extern void RoomService_UpdateDataStore_m0230AAF043B61751DE23D4EECADDDE1518E7E231 (void);
-// 0x0000083D Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::CreateAndJoinPrivate2(Pico.Platform.RoomJoinPolicy,System.UInt32,Pico.Platform.RoomOptions)
+// 0x000007E4 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::CreateAndJoinPrivate2(Pico.Platform.RoomJoinPolicy,System.UInt32,Pico.Platform.RoomOptions)
 extern void RoomService_CreateAndJoinPrivate2_m7EC3DA98CBB79FB5B872760FFC902C3E697EB3E3 (void);
-// 0x0000083E Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::Get(System.UInt64)
+// 0x000007E5 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::Get(System.UInt64)
 extern void RoomService_Get_m9B95E74A7780AF31ADC0BCF8A45B86A3AA82C727 (void);
-// 0x0000083F Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::GetCurrent()
+// 0x000007E6 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::GetCurrent()
 extern void RoomService_GetCurrent_m5AFB79C4E773F85A531CD2327CDBCE5480A80B49 (void);
-// 0x00000840 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::GetCurrentForUser(System.String)
+// 0x000007E7 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::GetCurrentForUser(System.String)
 extern void RoomService_GetCurrentForUser_m3C0CAC6E0F3C10B73039401CF5A77633CD08461B (void);
-// 0x00000841 Pico.Platform.Task`1<Pico.Platform.Models.UserList> Pico.Platform.RoomService::GetInvitableUsers2(Pico.Platform.RoomOptions)
+// 0x000007E8 Pico.Platform.Task`1<Pico.Platform.Models.UserList> Pico.Platform.RoomService::GetInvitableUsers2(Pico.Platform.RoomOptions)
 extern void RoomService_GetInvitableUsers2_m3070B68799CDCFA04B64FD177F4CC8E5942E9E86 (void);
-// 0x00000842 Pico.Platform.Task`1<Pico.Platform.Models.RoomList> Pico.Platform.RoomService::GetModeratedRooms(System.Int32,System.Int32)
+// 0x000007E9 Pico.Platform.Task`1<Pico.Platform.Models.RoomList> Pico.Platform.RoomService::GetModeratedRooms(System.Int32,System.Int32)
 extern void RoomService_GetModeratedRooms_m75E752734FD5ADFD7F61B2D1D53F006EDBEA7F25 (void);
-// 0x00000843 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::InviteUser(System.UInt64,System.String)
+// 0x000007EA Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::InviteUser(System.UInt64,System.String)
 extern void RoomService_InviteUser_mB9B29239A6E42A0D703EB7CE6FAE73E67F14C99C (void);
-// 0x00000844 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::Join2(System.UInt64,Pico.Platform.RoomOptions)
+// 0x000007EB Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::Join2(System.UInt64,Pico.Platform.RoomOptions)
 extern void RoomService_Join2_m375B784ED7172A1270E2A8FD999BD4318B665534 (void);
-// 0x00000845 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::KickUser(System.UInt64,System.String,System.Int32)
+// 0x000007EC Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::KickUser(System.UInt64,System.String,System.Int32)
 extern void RoomService_KickUser_m0E8E1B68A47B6D7CF4D1C98FDF549F6413109791 (void);
-// 0x00000846 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::Leave(System.UInt64)
+// 0x000007ED Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::Leave(System.UInt64)
 extern void RoomService_Leave_m25C11A2D91A738A91D21AEA0072F1D704D460DD2 (void);
-// 0x00000847 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::SetDescription(System.UInt64,System.String)
+// 0x000007EE Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::SetDescription(System.UInt64,System.String)
 extern void RoomService_SetDescription_mF1FA0508A2198DE9CA187BC77C68D369A1DA36CE (void);
-// 0x00000848 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::UpdateMembershipLockStatus(System.UInt64,Pico.Platform.RoomMembershipLockStatus)
+// 0x000007EF Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::UpdateMembershipLockStatus(System.UInt64,Pico.Platform.RoomMembershipLockStatus)
 extern void RoomService_UpdateMembershipLockStatus_mDCFB7BB641C3359FB46AFF25C3EF3F158271FD9F (void);
-// 0x00000849 Pico.Platform.Task Pico.Platform.RoomService::UpdateOwner(System.UInt64,System.String)
+// 0x000007F0 Pico.Platform.Task Pico.Platform.RoomService::UpdateOwner(System.UInt64,System.String)
 extern void RoomService_UpdateOwner_mEFA447F88BC01098DEC381EED6E2224241F08E63 (void);
-// 0x0000084A Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::UpdatePrivateRoomJoinPolicy(System.UInt64,Pico.Platform.RoomJoinPolicy)
+// 0x000007F1 Pico.Platform.Task`1<Pico.Platform.Models.Room> Pico.Platform.RoomService::UpdatePrivateRoomJoinPolicy(System.UInt64,Pico.Platform.RoomJoinPolicy)
 extern void RoomService_UpdatePrivateRoomJoinPolicy_m0C571120380F718555680A9845D6B26B71A13405 (void);
-// 0x0000084B System.Void Pico.Platform.RoomService::SetRoomInviteAcceptedNotificationCallback(Pico.Platform.Message`1/Handler<System.String>)
+// 0x000007F2 System.Void Pico.Platform.RoomService::SetRoomInviteAcceptedNotificationCallback(Pico.Platform.Message`1/Handler<System.String>)
 extern void RoomService_SetRoomInviteAcceptedNotificationCallback_m1FEA73073355D81B602D2A09C15727C81CCD9914 (void);
-// 0x0000084C System.Void Pico.Platform.RoomService::SetUpdateNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+// 0x000007F3 System.Void Pico.Platform.RoomService::SetUpdateNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
 extern void RoomService_SetUpdateNotificationCallback_m9D04D587F59B6B6D115097E54F5F1A44F3E1CF3F (void);
-// 0x0000084D System.Void Pico.Platform.RoomService::SetKickUserNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+// 0x000007F4 System.Void Pico.Platform.RoomService::SetKickUserNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
 extern void RoomService_SetKickUserNotificationCallback_mCF2E455DF51FB997EDF92649B5D617E1593629D2 (void);
-// 0x0000084E System.Void Pico.Platform.RoomService::SetSetDescriptionNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+// 0x000007F5 System.Void Pico.Platform.RoomService::SetSetDescriptionNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
 extern void RoomService_SetSetDescriptionNotificationCallback_mFAC7E399FBC5899F2A6E51EE34D083580B5A647D (void);
-// 0x0000084F System.Void Pico.Platform.RoomService::SetUpdateDataStoreNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+// 0x000007F6 System.Void Pico.Platform.RoomService::SetUpdateDataStoreNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
 extern void RoomService_SetUpdateDataStoreNotificationCallback_m7A3B169D9FDA95C3BD16B60A33A21EDEA1042790 (void);
-// 0x00000850 System.Void Pico.Platform.RoomService::SetLeaveNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+// 0x000007F7 System.Void Pico.Platform.RoomService::SetLeaveNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
 extern void RoomService_SetLeaveNotificationCallback_mC366E2B6903FBD02A9A9E9F08876802EC28A0246 (void);
-// 0x00000851 System.Void Pico.Platform.RoomService::SetJoin2NotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+// 0x000007F8 System.Void Pico.Platform.RoomService::SetJoin2NotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
 extern void RoomService_SetJoin2NotificationCallback_mDFE1168E89195B4DABF7F71D771C80471119A4FC (void);
-// 0x00000852 System.Void Pico.Platform.RoomService::SetUpdateOwnerNotificationCallback(Pico.Platform.Message/Handler)
+// 0x000007F9 System.Void Pico.Platform.RoomService::SetUpdateOwnerNotificationCallback(Pico.Platform.Message/Handler)
 extern void RoomService_SetUpdateOwnerNotificationCallback_m86C7EA617AE5F7B9892AD77F0ABCC71D80FD322E (void);
-// 0x00000853 System.Void Pico.Platform.RoomService::SetUpdateMembershipLockStatusNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
+// 0x000007FA System.Void Pico.Platform.RoomService::SetUpdateMembershipLockStatusNotificationCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.Room>)
 extern void RoomService_SetUpdateMembershipLockStatusNotificationCallback_m5320349D7520799E01C7CCEFA68CF3861A3C0D06 (void);
-// 0x00000854 System.Void Pico.Platform.RoomOptions::.ctor()
+// 0x000007FB System.Void Pico.Platform.RoomOptions::.ctor()
 extern void RoomOptions__ctor_m575ABE0CB642F3A565A1B46995AFD5C7BFF17220 (void);
-// 0x00000855 System.Void Pico.Platform.RoomOptions::SetDataStore(System.String,System.String)
+// 0x000007FC System.Void Pico.Platform.RoomOptions::SetDataStore(System.String,System.String)
 extern void RoomOptions_SetDataStore_mD2918B7E5F7682EF389E24BC7E86620FC2B5ED92 (void);
-// 0x00000856 System.Void Pico.Platform.RoomOptions::ClearDataStore()
+// 0x000007FD System.Void Pico.Platform.RoomOptions::ClearDataStore()
 extern void RoomOptions_ClearDataStore_m4DFF7CE299148685166C8660FF9357EF579076B1 (void);
-// 0x00000857 System.Void Pico.Platform.RoomOptions::SetExcludeRecentlyMet(System.Boolean)
+// 0x000007FE System.Void Pico.Platform.RoomOptions::SetExcludeRecentlyMet(System.Boolean)
 extern void RoomOptions_SetExcludeRecentlyMet_mB3DDFB65BE9AED1C730A3FEE915EFCB181FA57C8 (void);
-// 0x00000858 System.Void Pico.Platform.RoomOptions::SetMaxUserResults(System.UInt32)
+// 0x000007FF System.Void Pico.Platform.RoomOptions::SetMaxUserResults(System.UInt32)
 extern void RoomOptions_SetMaxUserResults_mCBA16A9D5EADBC6A22B1355A61130EF4CEFDE671 (void);
-// 0x00000859 System.Void Pico.Platform.RoomOptions::SetRoomId(System.UInt64)
+// 0x00000800 System.Void Pico.Platform.RoomOptions::SetRoomId(System.UInt64)
 extern void RoomOptions_SetRoomId_mD9315F94A1A36C694D8BBAC408072C884B9CFED9 (void);
-// 0x0000085A System.Void Pico.Platform.RoomOptions::SetRoomName(System.String)
+// 0x00000801 System.Void Pico.Platform.RoomOptions::SetRoomName(System.String)
 extern void RoomOptions_SetRoomName_mF13CD35EE1D61715C2FB02A9F7CD983D70490D85 (void);
-// 0x0000085B System.Void Pico.Platform.RoomOptions::SetPassword(System.String)
+// 0x00000802 System.Void Pico.Platform.RoomOptions::SetPassword(System.String)
 extern void RoomOptions_SetPassword_m5323FCDBC642B3161C3B5C58090D0F041F4C19F4 (void);
-// 0x0000085C System.Void Pico.Platform.RoomOptions::SetTurnOffUpdates(System.Boolean)
+// 0x00000803 System.Void Pico.Platform.RoomOptions::SetTurnOffUpdates(System.Boolean)
 extern void RoomOptions_SetTurnOffUpdates_mFFC7DCEA750AFE137BB9AF5865A0023E107F93A1 (void);
-// 0x0000085D System.IntPtr Pico.Platform.RoomOptions::op_Explicit(Pico.Platform.RoomOptions)
+// 0x00000804 System.IntPtr Pico.Platform.RoomOptions::op_Explicit(Pico.Platform.RoomOptions)
 extern void RoomOptions_op_Explicit_m160FF5FE60C41FDD18D2CB346EED21F1F3E3CC78 (void);
-// 0x0000085E System.Void Pico.Platform.RoomOptions::Finalize()
+// 0x00000805 System.Void Pico.Platform.RoomOptions::Finalize()
 extern void RoomOptions_Finalize_m999EEE1957A19E1D7B7270C18524B1B367400CED (void);
-// 0x0000085F System.IntPtr Pico.Platform.RoomOptions::GetHandle()
+// 0x00000806 System.IntPtr Pico.Platform.RoomOptions::GetHandle()
 extern void RoomOptions_GetHandle_m0C9DCC01EC26AC5586AC037C2FC3A8A8C389F247 (void);
+// 0x00000807 Pico.Platform.RtcEngineInitResult Pico.Platform.RtcService::InitRtcEngine()
+extern void RtcService_InitRtcEngine_m8CFD3447FE5884ADA7E671B54C3474DE6492E5FC (void);
+// 0x00000808 Pico.Platform.Task`1<System.String> Pico.Platform.RtcService::GetToken(System.String,System.String,System.Int32,System.Collections.Generic.Dictionary`2<Pico.Platform.RtcPrivilege,System.Int32>)
+extern void RtcService_GetToken_m228DA2D75D8BE8DA4496774D60FD83E05C575A0A (void);
+// 0x00000809 System.Int32 Pico.Platform.RtcService::JoinRoom(System.String,System.String,System.String,Pico.Platform.RtcRoomProfileType,System.Boolean)
+extern void RtcService_JoinRoom_m3782263B9253042E21F4A5AF8605338E63532B79 (void);
+// 0x0000080A System.Int32 Pico.Platform.RtcService::JoinRoom2(Pico.Platform.RtcRoomOptions,System.Boolean)
+extern void RtcService_JoinRoom2_m216395D3F7BD023C56D707C947FF624FAADC4984 (void);
+// 0x0000080B System.Int32 Pico.Platform.RtcService::JoinRoomWithRetry(System.String,System.String,System.String,Pico.Platform.RtcRoomProfileType,System.Boolean)
+extern void RtcService_JoinRoomWithRetry_m8CE086D7FBD84EE07092E134826E2E56A2DCB77D (void);
+// 0x0000080C System.Int32 Pico.Platform.RtcService::LeaveRoom(System.String)
+extern void RtcService_LeaveRoom_m24F28302428DEE9794E878DBA9C441164D93269E (void);
+// 0x0000080D System.Void Pico.Platform.RtcService::SetAudioPlaybackDevice(Pico.Platform.RtcAudioPlaybackDevice)
+extern void RtcService_SetAudioPlaybackDevice_m16BCB06A9BD80AE60C9181430DCE925E2458ED24 (void);
+// 0x0000080E System.Void Pico.Platform.RtcService::RoomPauseAllSubscribedStream(System.String)
+extern void RtcService_RoomPauseAllSubscribedStream_mA94FB050D8FC17E8BBDC40153AB89AA22D25662E (void);
+// 0x0000080F System.Void Pico.Platform.RtcService::RoomResumeAllSubscribedStream(System.String)
+extern void RtcService_RoomResumeAllSubscribedStream_m3619DFCD75324DAE2705D69847131F278F5A3EE4 (void);
+// 0x00000810 System.Int32 Pico.Platform.RtcService::InnerAudioProcessor(System.IntPtr)
+extern void RtcService_InnerAudioProcessor_m663C1AC6BC552D87E0EF075932933D89EA182C22 (void);
+// 0x00000811 System.Void Pico.Platform.RtcService::RegisterLocalAudioProcessor(Pico.Platform.RtcService/ProcessAudioFrameFunction,Pico.Platform.RtcAudioChannel,Pico.Platform.RtcAudioSampleRate)
+extern void RtcService_RegisterLocalAudioProcessor_m58CB81757B963E0FC677025F0277A87159AB3D96 (void);
+// 0x00000812 System.Void Pico.Platform.RtcService::EnableAudioPropertiesReport(System.Int32)
+extern void RtcService_EnableAudioPropertiesReport_m962D3D000DFE783E1EEFE59EF0A84D218C73D8E6 (void);
+// 0x00000813 System.Void Pico.Platform.RtcService::PublishRoom(System.String)
+extern void RtcService_PublishRoom_mEE5D6786FF2EC07CFD59375E9ADC60E33D2D8E86 (void);
+// 0x00000814 System.Void Pico.Platform.RtcService::UnPublishRoom(System.String)
+extern void RtcService_UnPublishRoom_m34592A5C3B59C5C1ACAA0BE0C9D7CAFAB3E362F7 (void);
+// 0x00000815 System.Void Pico.Platform.RtcService::DestroyRoom(System.String)
+extern void RtcService_DestroyRoom_m6D553521DCD3D2A943F0B1DFF20B9AA4978913B9 (void);
+// 0x00000816 System.Void Pico.Platform.RtcService::StartAudioCapture()
+extern void RtcService_StartAudioCapture_mF0DA2F73E5B7E3FBDF12FF883391C4EF15CB852D (void);
+// 0x00000817 System.Void Pico.Platform.RtcService::StopAudioCapture()
+extern void RtcService_StopAudioCapture_mCBE5DADCBEA31AB76D2BF7E2B2D70929C9D535A7 (void);
+// 0x00000818 System.Void Pico.Platform.RtcService::SetCaptureVolume(System.Int32)
+extern void RtcService_SetCaptureVolume_mEE326C6BADAE50B581A2C44B44411165A62A71AB (void);
+// 0x00000819 System.Void Pico.Platform.RtcService::SetPlaybackVolume(System.Int32)
+extern void RtcService_SetPlaybackVolume_m677C38B515B81C488FA486F7F5D6446D49D07C3A (void);
+// 0x0000081A System.Void Pico.Platform.RtcService::SetEarMonitorMode(Pico.Platform.RtcEarMonitorMode)
+extern void RtcService_SetEarMonitorMode_mD8D611AF6E8068A2B4F53FC96CEF69ECDBD5AEA1 (void);
+// 0x0000081B System.Void Pico.Platform.RtcService::SetEarMonitorVolume(System.Int32)
+extern void RtcService_SetEarMonitorVolume_mA72A4B6C43B754BDBA6A66FD0F24F4ED0A990575 (void);
+// 0x0000081C System.Void Pico.Platform.RtcService::MuteLocalAudio(Pico.Platform.RtcMuteState)
+extern void RtcService_MuteLocalAudio_m17017BE2D4274302111347DD1B88ADF2C13659E4 (void);
+// 0x0000081D System.Void Pico.Platform.RtcService::UpdateToken(System.String,System.String)
+extern void RtcService_UpdateToken_mD860DBD249EF4448F974954FAACF64A18D9B3C11 (void);
+// 0x0000081E System.Void Pico.Platform.RtcService::SetAudioScenario(Pico.Platform.RtcAudioScenarioType)
+extern void RtcService_SetAudioScenario_m8DEFD5F7961B4DEEBF89509DBD6A23A62D75231F (void);
+// 0x0000081F System.Void Pico.Platform.RtcService::RoomSetRemoteAudioPlaybackVolume(System.String,System.String,System.Int32)
+extern void RtcService_RoomSetRemoteAudioPlaybackVolume_m981CA20823E8E0F250AA964F9EB9DB0E26BEBAE0 (void);
+// 0x00000820 System.Void Pico.Platform.RtcService::RoomSubscribeStream(System.String,System.String)
+extern void RtcService_RoomSubscribeStream_m41B409CF7ECD851EA659A244FBF8A5A4EE3E22E9 (void);
+// 0x00000821 System.Void Pico.Platform.RtcService::RoomUnSubscribeStream(System.String,System.String)
+extern void RtcService_RoomUnSubscribeStream_m0DE28E1583C633D45193390228BBFF756158F3BC (void);
+// 0x00000822 System.Int64 Pico.Platform.RtcService::SendRoomBinaryMessage(System.String,System.Byte[])
+extern void RtcService_SendRoomBinaryMessage_m6B48B971DEB3A71493C99BCFB41A5E379BF32910 (void);
+// 0x00000823 System.Int64 Pico.Platform.RtcService::SendRoomMessage(System.String,System.String)
+extern void RtcService_SendRoomMessage_m0F9CD695740455C83F22DF58630C01BEFD2982B1 (void);
+// 0x00000824 System.Int64 Pico.Platform.RtcService::SendUserBinaryMessage(System.String,System.String,System.Byte[])
+extern void RtcService_SendUserBinaryMessage_mCB97BBCAF6EB8A7A76CFD407B45A5F956DBC6606 (void);
+// 0x00000825 System.Int64 Pico.Platform.RtcService::SendUserMessage(System.String,System.String,System.String)
+extern void RtcService_SendUserMessage_mF5F9172924B7BD1084FEBA1582271B8D6EB53AB3 (void);
+// 0x00000826 System.Int32 Pico.Platform.RtcService::SendStreamSyncInfo(System.Byte[],System.Int32)
+extern void RtcService_SendStreamSyncInfo_mB9BAEBCD9D9DA8646BD489926006E0DE1FA1EBBF (void);
+// 0x00000827 System.Void Pico.Platform.RtcService::SetOnTokenWillExpire(Pico.Platform.Message`1/Handler<System.String>)
+extern void RtcService_SetOnTokenWillExpire_m62284B70EA146FC1268F6E0243E124A3FA4BE2C2 (void);
+// 0x00000828 System.Void Pico.Platform.RtcService::SetOnRoomMessageReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomMessageReceived>)
+extern void RtcService_SetOnRoomMessageReceived_mEE234847995A8A3C887B54A99AAFDD4F4829726A (void);
+// 0x00000829 System.Void Pico.Platform.RtcService::SetOnRoomBinaryMessageReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcBinaryMessageReceived>)
+extern void RtcService_SetOnRoomBinaryMessageReceived_m8C37D1A4BB4B2077B0E81EE85A6979972DA3E3B3 (void);
+// 0x0000082A System.Void Pico.Platform.RtcService::SetOnUserMessageReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserMessageReceived>)
+extern void RtcService_SetOnUserMessageReceived_mFAFA95CA10E70EEB1C25B601A057639160BB4725 (void);
+// 0x0000082B System.Void Pico.Platform.RtcService::SetOnUserBinaryMessageReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcBinaryMessageReceived>)
+extern void RtcService_SetOnUserBinaryMessageReceived_mAEC374611130A9795BDADB88687F21FCACB6033D (void);
+// 0x0000082C System.Void Pico.Platform.RtcService::SetOnRoomMessageSendResult(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMessageSendResult>)
+extern void RtcService_SetOnRoomMessageSendResult_m3103B58648CC5E3B2A647D4BA6A1B458AED9D734 (void);
+// 0x0000082D System.Void Pico.Platform.RtcService::SetOnUserMessageSendResult(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMessageSendResult>)
+extern void RtcService_SetOnUserMessageSendResult_mEA4292387F7F798D1666C9F86445A62AF4DC2872 (void);
+// 0x0000082E System.Void Pico.Platform.RtcService::SetOnUserPublishStream(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserPublishInfo>)
+extern void RtcService_SetOnUserPublishStream_m908893F7D093DD75C6CDE3E9AFF3674D4A89F5B1 (void);
+// 0x0000082F System.Void Pico.Platform.RtcService::SetOnUserUnPublishStream(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserUnPublishInfo>)
+extern void RtcService_SetOnUserUnPublishStream_m6980E54D537145F7C13FB389F0A937607FB84236 (void);
+// 0x00000830 System.Void Pico.Platform.RtcService::SetOnStreamSyncInfoReceived(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcStreamSyncInfo>)
+extern void RtcService_SetOnStreamSyncInfoReceived_m9E62FAF704FE413C97F03895963B9CC279A52CFB (void);
+// 0x00000831 System.Void Pico.Platform.RtcService::SetOnJoinRoomResultCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcJoinRoomResult>)
+extern void RtcService_SetOnJoinRoomResultCallback_mA19906E0C26C51CBBC166A1C232E1F6DBCE01238 (void);
+// 0x00000832 System.Void Pico.Platform.RtcService::SetOnLeaveRoomResultCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLeaveRoomResult>)
+extern void RtcService_SetOnLeaveRoomResultCallback_m19E57F1CC4F83730B63EBCC0DF1D1EBAEB891813 (void);
+// 0x00000833 System.Void Pico.Platform.RtcService::SetOnUserJoinRoomResultCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserJoinInfo>)
+extern void RtcService_SetOnUserJoinRoomResultCallback_m1EA0B7C739EC23115E11B223D0C3D81B31953D34 (void);
+// 0x00000834 System.Void Pico.Platform.RtcService::SetOnUserLeaveRoomResultCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcUserLeaveInfo>)
+extern void RtcService_SetOnUserLeaveRoomResultCallback_m8DA5A2E2CDD523B29E2CED9FC32794ACD350C6B7 (void);
+// 0x00000835 System.Void Pico.Platform.RtcService::SetOnRoomStatsCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomStats>)
+extern void RtcService_SetOnRoomStatsCallback_m186B41016E002BFA46E347E778091F95EF732E41 (void);
+// 0x00000836 System.Void Pico.Platform.RtcService::SetOnWarnCallback(Pico.Platform.Message`1/Handler<System.Int32>)
+extern void RtcService_SetOnWarnCallback_m43D4E89F6FE8D46AF1A682AC9B947E7DBA694687 (void);
+// 0x00000837 System.Void Pico.Platform.RtcService::SetOnErrorCallback(Pico.Platform.Message`1/Handler<System.Int32>)
+extern void RtcService_SetOnErrorCallback_m9F08039B1416D6169430DE08694E9C4FEC4928ED (void);
+// 0x00000838 System.Void Pico.Platform.RtcService::SetOnRoomWarnCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomWarn>)
+extern void RtcService_SetOnRoomWarnCallback_m400F490F0DABB37F9ED61E126569823FF2D6FE41 (void);
+// 0x00000839 System.Void Pico.Platform.RtcService::SetOnRoomErrorCallback(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRoomError>)
+extern void RtcService_SetOnRoomErrorCallback_mD906D67149802F5ED99045D3B6B0A18B60372E0F (void);
+// 0x0000083A System.Void Pico.Platform.RtcService::SetOnConnectionStateChangeCallback(Pico.Platform.Message`1/Handler<Pico.Platform.RtcConnectionState>)
+extern void RtcService_SetOnConnectionStateChangeCallback_m950EAA7B5E413BEFF5DAC4F898CD8066E5673A24 (void);
+// 0x0000083B System.Void Pico.Platform.RtcService::SetOnUserMuteAudio(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcMuteInfo>)
+extern void RtcService_SetOnUserMuteAudio_m8842D05F8B89D9A401E79ABABE6E477977C34679 (void);
+// 0x0000083C System.Void Pico.Platform.RtcService::SetOnUserStartAudioCapture(Pico.Platform.Message`1/Handler<System.String>)
+extern void RtcService_SetOnUserStartAudioCapture_mB0F6F207058DD34493019BAF3062FF7FCB8DD40C (void);
+// 0x0000083D System.Void Pico.Platform.RtcService::SetOnUserStopAudioCapture(Pico.Platform.Message`1/Handler<System.String>)
+extern void RtcService_SetOnUserStopAudioCapture_m37BB90937CF2D79B415CE2B1AE45959CAFA3EDA8 (void);
+// 0x0000083E System.Void Pico.Platform.RtcService::SetOnAudioPlaybackDeviceChange(Pico.Platform.Message`1/Handler<Pico.Platform.RtcAudioPlaybackDevice>)
+extern void RtcService_SetOnAudioPlaybackDeviceChange_mD5EDABCFA996E8CB520E7D16BB23206C104AC7D0 (void);
+// 0x0000083F System.Void Pico.Platform.RtcService::SetOnLocalAudioPropertiesReport(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcLocalAudioPropertiesReport>)
+extern void RtcService_SetOnLocalAudioPropertiesReport_mD647E749A414A483896817C4C530F09E34EB8000 (void);
+// 0x00000840 System.Void Pico.Platform.RtcService::SetOnRemoteAudioPropertiesReport(Pico.Platform.Message`1/Handler<Pico.Platform.Models.RtcRemoteAudioPropertiesReport>)
+extern void RtcService_SetOnRemoteAudioPropertiesReport_m07BF3E4B2DB1008AA02CC3CC682B211616506BCF (void);
+// 0x00000841 System.Void Pico.Platform.RtcService/ProcessAudioFrameFunction::.ctor(System.Object,System.IntPtr)
+extern void ProcessAudioFrameFunction__ctor_mB63C465A7D6EA4ED5A425D0F961AB935ED9C31B7 (void);
+// 0x00000842 System.Int32 Pico.Platform.RtcService/ProcessAudioFrameFunction::Invoke(Pico.Platform.Models.RtcAudioFrame)
+extern void ProcessAudioFrameFunction_Invoke_m5EC2CDFD611F5CDC64BD8A36A025E8C08FF061D6 (void);
+// 0x00000843 System.IAsyncResult Pico.Platform.RtcService/ProcessAudioFrameFunction::BeginInvoke(Pico.Platform.Models.RtcAudioFrame,System.AsyncCallback,System.Object)
+extern void ProcessAudioFrameFunction_BeginInvoke_m18E036E1B3C2DE7BC8F84048F264523B29D85E5A (void);
+// 0x00000844 System.Int32 Pico.Platform.RtcService/ProcessAudioFrameFunction::EndInvoke(System.IAsyncResult)
+extern void ProcessAudioFrameFunction_EndInvoke_mB3475E6B559FD9E7A51ED673BD7368E267DF0AC1 (void);
+// 0x00000845 System.Void Pico.Platform.RtcStreamSyncInfoOptions::.ctor()
+extern void RtcStreamSyncInfoOptions__ctor_m9D86B190CCE9ADF893542CCB8FEB7EEF4309CE7E (void);
+// 0x00000846 System.Void Pico.Platform.RtcStreamSyncInfoOptions::SetRepeatCount(System.Int32)
+extern void RtcStreamSyncInfoOptions_SetRepeatCount_mEC362A0008CECC40F6C5B3DE011BC44DBE66256B (void);
+// 0x00000847 System.Void Pico.Platform.RtcStreamSyncInfoOptions::SetStreamIndex(Pico.Platform.RtcStreamIndex)
+extern void RtcStreamSyncInfoOptions_SetStreamIndex_m76FF4534D8271C81C0263995DC0554961184DA34 (void);
+// 0x00000848 System.Void Pico.Platform.RtcStreamSyncInfoOptions::SetStreamType(Pico.Platform.RtcSyncInfoStreamType)
+extern void RtcStreamSyncInfoOptions_SetStreamType_m75AF0A32A37BC87F68C105FB7DA0E3737C3BF977 (void);
+// 0x00000849 System.IntPtr Pico.Platform.RtcStreamSyncInfoOptions::op_Explicit(Pico.Platform.RtcStreamSyncInfoOptions)
+extern void RtcStreamSyncInfoOptions_op_Explicit_m36286E8D49E4A5A299A71C763E9421343B2E71FC (void);
+// 0x0000084A System.Void Pico.Platform.RtcStreamSyncInfoOptions::Finalize()
+extern void RtcStreamSyncInfoOptions_Finalize_mD7F8F12816ED55BC14D898727AAFEA8741D13820 (void);
+// 0x0000084B System.Void Pico.Platform.RtcRoomOptions::.ctor()
+extern void RtcRoomOptions__ctor_m753D1C11608C22036A76D99B3C862D89B347E274 (void);
+// 0x0000084C System.Void Pico.Platform.RtcRoomOptions::SetRoomProfileType(Pico.Platform.RtcRoomProfileType)
+extern void RtcRoomOptions_SetRoomProfileType_m45350524D2610FA5CD5C4D5723EEA2A2FCF5E0F2 (void);
+// 0x0000084D System.Void Pico.Platform.RtcRoomOptions::SetIsAutoSubscribeAudio(System.Boolean)
+extern void RtcRoomOptions_SetIsAutoSubscribeAudio_m0A6C2D07889202383FE2627313F63E081CA25531 (void);
+// 0x0000084E System.Void Pico.Platform.RtcRoomOptions::SetRoomId(System.String)
+extern void RtcRoomOptions_SetRoomId_m1EC97F209EAB97E51EF3EEAFD8C6D62B6CAD2ED6 (void);
+// 0x0000084F System.Void Pico.Platform.RtcRoomOptions::SetUserId(System.String)
+extern void RtcRoomOptions_SetUserId_m33FD3B38340AF5C0F0A57BFB514C5DA81BFE10BC (void);
+// 0x00000850 System.Void Pico.Platform.RtcRoomOptions::SetUserExtra(System.String)
+extern void RtcRoomOptions_SetUserExtra_mC725D8F9B0B5148AA8510F043AC2E715C7D84562 (void);
+// 0x00000851 System.Void Pico.Platform.RtcRoomOptions::SetToken(System.String)
+extern void RtcRoomOptions_SetToken_mE7CAA2DC3B2B75013EDE6C974339572E0CEC7CC0 (void);
+// 0x00000852 System.IntPtr Pico.Platform.RtcRoomOptions::op_Explicit(Pico.Platform.RtcRoomOptions)
+extern void RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB (void);
+// 0x00000853 System.Void Pico.Platform.RtcRoomOptions::Finalize()
+extern void RtcRoomOptions_Finalize_mA8D6C0D9BFFECF35457E454A2EC0D5D658CFC2BB (void);
+// 0x00000854 System.Void Pico.Platform.RtcGetTokenOptions::.ctor()
+extern void RtcGetTokenOptions__ctor_mCA91FB23D9E95538924CA5A36D7A0060A0DA1F12 (void);
+// 0x00000855 System.Void Pico.Platform.RtcGetTokenOptions::SetUserId(System.String)
+extern void RtcGetTokenOptions_SetUserId_mAC8EC85CB4D28EE5124B3DF53DCB4DA5AB3D8A74 (void);
+// 0x00000856 System.Void Pico.Platform.RtcGetTokenOptions::SetRoomId(System.String)
+extern void RtcGetTokenOptions_SetRoomId_mEC2981B140C843025675715E718FA4BBBCAF5465 (void);
+// 0x00000857 System.Void Pico.Platform.RtcGetTokenOptions::SetTtl(System.Int32)
+extern void RtcGetTokenOptions_SetTtl_m4EBA04258BF46009456989FA5C35B0C5E3CA85C0 (void);
+// 0x00000858 System.Void Pico.Platform.RtcGetTokenOptions::SetPrivileges(Pico.Platform.RtcPrivilege,System.Int32)
+extern void RtcGetTokenOptions_SetPrivileges_m9BA7C7F94C4C7701F1AAF6B8AE73772F589D6F2B (void);
+// 0x00000859 System.Void Pico.Platform.RtcGetTokenOptions::ClearPrivileges()
+extern void RtcGetTokenOptions_ClearPrivileges_m548048BBEEE0DA5BC362275784078A63612D1465 (void);
+// 0x0000085A System.IntPtr Pico.Platform.RtcGetTokenOptions::op_Explicit(Pico.Platform.RtcGetTokenOptions)
+extern void RtcGetTokenOptions_op_Explicit_m6C383C66020E9B97450516BA56A4804EE11AF49E (void);
+// 0x0000085B System.Void Pico.Platform.RtcGetTokenOptions::Finalize()
+extern void RtcGetTokenOptions_Finalize_mB5CE4F609E6D0885127897CB5590DE8AF041F6BA (void);
+// 0x0000085C System.Void Pico.Platform.RtcAudioPropertyOptions::.ctor()
+extern void RtcAudioPropertyOptions__ctor_m5D01ABC1098566CAD6A7000775D6CA381D70509F (void);
+// 0x0000085D System.Void Pico.Platform.RtcAudioPropertyOptions::SetInterval(System.Int32)
+extern void RtcAudioPropertyOptions_SetInterval_m8075C50D77C3347FB74433C8D73FBA38E3416005 (void);
+// 0x0000085E System.Void Pico.Platform.RtcAudioPropertyOptions::Finalize()
+extern void RtcAudioPropertyOptions_Finalize_m3E314A6827113DAD8622F5A52F3231F31A0C5B5F (void);
+// 0x0000085F System.IntPtr Pico.Platform.RtcAudioPropertyOptions::op_Explicit(Pico.Platform.RtcAudioPropertyOptions)
+extern void RtcAudioPropertyOptions_op_Explicit_mAA54B25B681E9C597F68538D3339153E5748FB9A (void);
 // 0x00000860 Pico.Platform.AsrEngineInitResult Pico.Platform.SpeechService::InitAsrEngine()
 extern void SpeechService_InitAsrEngine_m34FEB1C9509F508B6E13EE6DE12FC31463AC1F45 (void);
 // 0x00000861 System.Int32 Pico.Platform.SpeechService::StartAsr(System.Boolean,System.Boolean,System.Int32)
@@ -4540,60 +4540,60 @@ extern void ApplicationInviteList__ctor_mF3D2F58B366BD4BF1634F9EF207061494C7826F
 extern void SendInvitesResult__ctor_m669F65E6C225768F1BA741341D73F7180B4E03F3 (void);
 // 0x000008E0 System.Void Pico.Platform.Models.PresenceJoinIntent::.ctor(System.IntPtr)
 extern void PresenceJoinIntent__ctor_m592B2B2ABFC03E0612F7E14D9FA75415A108C5D0 (void);
-// 0x000008E1 System.Void Pico.Platform.Models.RtcBinaryMessageReceived::.ctor(System.IntPtr)
-extern void RtcBinaryMessageReceived__ctor_m68DAEA37EDB5FEF2C0E7E7A194894468CCE61039 (void);
-// 0x000008E2 System.Void Pico.Platform.Models.RtcAudioFrame::.ctor(System.IntPtr)
-extern void RtcAudioFrame__ctor_mAF8A3A50316BDC0FFFE39C0FCF28E25F185B5E9A (void);
-// 0x000008E3 System.Byte[] Pico.Platform.Models.RtcAudioFrame::GetData()
-extern void RtcAudioFrame_GetData_m40190CFA38F67C5EA55F3963E96660955E242AD3 (void);
-// 0x000008E4 System.Void Pico.Platform.Models.RtcAudioFrame::SetData(System.Byte[])
-extern void RtcAudioFrame_SetData_m26BE8873272F1424F9E4EC2B4932075214E026A5 (void);
-// 0x000008E5 System.Void Pico.Platform.Models.RtcMessageSendResult::.ctor(System.IntPtr)
-extern void RtcMessageSendResult__ctor_m47D9BEA1D198088E92B9AEA378DDF2993FEE316E (void);
-// 0x000008E6 System.Void Pico.Platform.Models.RtcUserUnPublishInfo::.ctor(System.IntPtr)
-extern void RtcUserUnPublishInfo__ctor_mC9D23482725E312E7C768F1DF446C317B3C1D54F (void);
-// 0x000008E7 System.Void Pico.Platform.Models.RtcUserPublishInfo::.ctor(System.IntPtr)
-extern void RtcUserPublishInfo__ctor_m7F8F28605A4333DBEAB0CD5E00CA744567B09491 (void);
-// 0x000008E8 System.Void Pico.Platform.Models.RtcRoomMessageReceived::.ctor(System.IntPtr)
-extern void RtcRoomMessageReceived__ctor_m8D86C9D5AA77B39D55575DC04AF8B1E4E3F24C4E (void);
-// 0x000008E9 System.Void Pico.Platform.Models.RtcUserMessageReceived::.ctor(System.IntPtr)
-extern void RtcUserMessageReceived__ctor_mA15829E6AAF21A3F2A08AE972367B1A998C3440E (void);
-// 0x000008EA System.Void Pico.Platform.Models.RtcStreamSyncInfo::.ctor(System.IntPtr)
-extern void RtcStreamSyncInfo__ctor_mBAE942B8B6AEBBC8BCB241FE9042B4E51AFEFBC3 (void);
-// 0x000008EB System.Void Pico.Platform.Models.RtcAudioPropertyInfo::.ctor(System.IntPtr)
-extern void RtcAudioPropertyInfo__ctor_mC061C4E479AA1830243454373F9FF6FEDC6C96DD (void);
-// 0x000008EC System.Void Pico.Platform.Models.RtcJoinRoomResult::.ctor(System.IntPtr)
-extern void RtcJoinRoomResult__ctor_mC049DBA41EE89458E531FE5B02AA9D370B3CCF24 (void);
-// 0x000008ED System.Void Pico.Platform.Models.RtcLeaveRoomResult::.ctor(System.IntPtr)
-extern void RtcLeaveRoomResult__ctor_mB9FE004632192B4B0031279A1C3FAB3165133D42 (void);
-// 0x000008EE System.Void Pico.Platform.Models.RtcLocalAudioPropertiesInfo::.ctor(System.IntPtr)
-extern void RtcLocalAudioPropertiesInfo__ctor_m62EA3EAC77FF4AA26A9A1E437EC790B4BFA936D4 (void);
-// 0x000008EF System.Void Pico.Platform.Models.RtcLocalAudioPropertiesReport::.ctor(System.IntPtr)
-extern void RtcLocalAudioPropertiesReport__ctor_m5EC1418129644EF39E90281288475FDD0C14B8D0 (void);
-// 0x000008F0 System.Void Pico.Platform.Models.RtcMediaDeviceChangeInfo::.ctor(System.IntPtr)
-extern void RtcMediaDeviceChangeInfo__ctor_m8500EDE2340DEFF93732EAEB521C70CB5CE22D6B (void);
-// 0x000008F1 System.Void Pico.Platform.Models.RtcMuteInfo::.ctor(System.IntPtr)
-extern void RtcMuteInfo__ctor_m3C54BEB8F5A442973EBFED444563DE9D02C52DC4 (void);
-// 0x000008F2 System.Void Pico.Platform.Models.RtcRemoteAudioPropertiesInfo::.ctor(System.IntPtr)
-extern void RtcRemoteAudioPropertiesInfo__ctor_mB57DCD21659CC7D50B528459D77BCD195151A538 (void);
-// 0x000008F3 System.Void Pico.Platform.Models.RtcRemoteAudioPropertiesReport::.ctor(System.IntPtr)
-extern void RtcRemoteAudioPropertiesReport__ctor_mF7C56319B7F5278B9D0F6E43EB9DCAA12206AE22 (void);
-// 0x000008F4 System.Void Pico.Platform.Models.RtcRemoteStreamKey::.ctor(System.IntPtr)
-extern void RtcRemoteStreamKey__ctor_mA8181CF8D33199DCDEE57AE098F0FF9558C00875 (void);
-// 0x000008F5 System.Void Pico.Platform.Models.RtcRoomError::.ctor(System.IntPtr)
-extern void RtcRoomError__ctor_m217646918A21BB202206C9A9AE150E02749192BC (void);
-// 0x000008F6 System.Void Pico.Platform.Models.RtcRoomStats::.ctor(System.IntPtr)
-extern void RtcRoomStats__ctor_mEC96AB8DB2C5DF4D934943EB7AFED398165F3766 (void);
-// 0x000008F7 System.Void Pico.Platform.Models.RtcRoomWarn::.ctor(System.IntPtr)
-extern void RtcRoomWarn__ctor_m7CDFA2A91713BE86F1329061C8C1268EB01F7FBB (void);
-// 0x000008F8 System.Void Pico.Platform.Models.RtcUserJoinInfo::.ctor(System.IntPtr)
-extern void RtcUserJoinInfo__ctor_mE3B9C66118A91C8F980048A6DE9735CB1874B7EA (void);
-// 0x000008F9 System.Void Pico.Platform.Models.RtcUserLeaveInfo::.ctor(System.IntPtr)
-extern void RtcUserLeaveInfo__ctor_mDD91E36255CD46659679A2F2E649779737F37ED7 (void);
-// 0x000008FA System.Void Pico.Platform.Models.Room::.ctor(System.IntPtr)
+// 0x000008E1 System.Void Pico.Platform.Models.Room::.ctor(System.IntPtr)
 extern void Room__ctor_mB6AF794D98BC22F1081870DD63E403520D1172A4 (void);
-// 0x000008FB System.Void Pico.Platform.Models.RoomList::.ctor(System.IntPtr)
+// 0x000008E2 System.Void Pico.Platform.Models.RoomList::.ctor(System.IntPtr)
 extern void RoomList__ctor_mEBDDF23698AD7ED54D4673ADB003D6182A4A0CD3 (void);
+// 0x000008E3 System.Void Pico.Platform.Models.RtcBinaryMessageReceived::.ctor(System.IntPtr)
+extern void RtcBinaryMessageReceived__ctor_m68DAEA37EDB5FEF2C0E7E7A194894468CCE61039 (void);
+// 0x000008E4 System.Void Pico.Platform.Models.RtcAudioFrame::.ctor(System.IntPtr)
+extern void RtcAudioFrame__ctor_mAF8A3A50316BDC0FFFE39C0FCF28E25F185B5E9A (void);
+// 0x000008E5 System.Byte[] Pico.Platform.Models.RtcAudioFrame::GetData()
+extern void RtcAudioFrame_GetData_m40190CFA38F67C5EA55F3963E96660955E242AD3 (void);
+// 0x000008E6 System.Void Pico.Platform.Models.RtcAudioFrame::SetData(System.Byte[])
+extern void RtcAudioFrame_SetData_m26BE8873272F1424F9E4EC2B4932075214E026A5 (void);
+// 0x000008E7 System.Void Pico.Platform.Models.RtcMessageSendResult::.ctor(System.IntPtr)
+extern void RtcMessageSendResult__ctor_m47D9BEA1D198088E92B9AEA378DDF2993FEE316E (void);
+// 0x000008E8 System.Void Pico.Platform.Models.RtcUserUnPublishInfo::.ctor(System.IntPtr)
+extern void RtcUserUnPublishInfo__ctor_mC9D23482725E312E7C768F1DF446C317B3C1D54F (void);
+// 0x000008E9 System.Void Pico.Platform.Models.RtcUserPublishInfo::.ctor(System.IntPtr)
+extern void RtcUserPublishInfo__ctor_m7F8F28605A4333DBEAB0CD5E00CA744567B09491 (void);
+// 0x000008EA System.Void Pico.Platform.Models.RtcRoomMessageReceived::.ctor(System.IntPtr)
+extern void RtcRoomMessageReceived__ctor_m8D86C9D5AA77B39D55575DC04AF8B1E4E3F24C4E (void);
+// 0x000008EB System.Void Pico.Platform.Models.RtcUserMessageReceived::.ctor(System.IntPtr)
+extern void RtcUserMessageReceived__ctor_mA15829E6AAF21A3F2A08AE972367B1A998C3440E (void);
+// 0x000008EC System.Void Pico.Platform.Models.RtcStreamSyncInfo::.ctor(System.IntPtr)
+extern void RtcStreamSyncInfo__ctor_mBAE942B8B6AEBBC8BCB241FE9042B4E51AFEFBC3 (void);
+// 0x000008ED System.Void Pico.Platform.Models.RtcAudioPropertyInfo::.ctor(System.IntPtr)
+extern void RtcAudioPropertyInfo__ctor_mC061C4E479AA1830243454373F9FF6FEDC6C96DD (void);
+// 0x000008EE System.Void Pico.Platform.Models.RtcJoinRoomResult::.ctor(System.IntPtr)
+extern void RtcJoinRoomResult__ctor_mC049DBA41EE89458E531FE5B02AA9D370B3CCF24 (void);
+// 0x000008EF System.Void Pico.Platform.Models.RtcLeaveRoomResult::.ctor(System.IntPtr)
+extern void RtcLeaveRoomResult__ctor_mB9FE004632192B4B0031279A1C3FAB3165133D42 (void);
+// 0x000008F0 System.Void Pico.Platform.Models.RtcLocalAudioPropertiesInfo::.ctor(System.IntPtr)
+extern void RtcLocalAudioPropertiesInfo__ctor_m62EA3EAC77FF4AA26A9A1E437EC790B4BFA936D4 (void);
+// 0x000008F1 System.Void Pico.Platform.Models.RtcLocalAudioPropertiesReport::.ctor(System.IntPtr)
+extern void RtcLocalAudioPropertiesReport__ctor_m5EC1418129644EF39E90281288475FDD0C14B8D0 (void);
+// 0x000008F2 System.Void Pico.Platform.Models.RtcMediaDeviceChangeInfo::.ctor(System.IntPtr)
+extern void RtcMediaDeviceChangeInfo__ctor_m8500EDE2340DEFF93732EAEB521C70CB5CE22D6B (void);
+// 0x000008F3 System.Void Pico.Platform.Models.RtcMuteInfo::.ctor(System.IntPtr)
+extern void RtcMuteInfo__ctor_m3C54BEB8F5A442973EBFED444563DE9D02C52DC4 (void);
+// 0x000008F4 System.Void Pico.Platform.Models.RtcRemoteAudioPropertiesInfo::.ctor(System.IntPtr)
+extern void RtcRemoteAudioPropertiesInfo__ctor_mB57DCD21659CC7D50B528459D77BCD195151A538 (void);
+// 0x000008F5 System.Void Pico.Platform.Models.RtcRemoteAudioPropertiesReport::.ctor(System.IntPtr)
+extern void RtcRemoteAudioPropertiesReport__ctor_mF7C56319B7F5278B9D0F6E43EB9DCAA12206AE22 (void);
+// 0x000008F6 System.Void Pico.Platform.Models.RtcRemoteStreamKey::.ctor(System.IntPtr)
+extern void RtcRemoteStreamKey__ctor_mA8181CF8D33199DCDEE57AE098F0FF9558C00875 (void);
+// 0x000008F7 System.Void Pico.Platform.Models.RtcRoomError::.ctor(System.IntPtr)
+extern void RtcRoomError__ctor_m217646918A21BB202206C9A9AE150E02749192BC (void);
+// 0x000008F8 System.Void Pico.Platform.Models.RtcRoomStats::.ctor(System.IntPtr)
+extern void RtcRoomStats__ctor_mEC96AB8DB2C5DF4D934943EB7AFED398165F3766 (void);
+// 0x000008F9 System.Void Pico.Platform.Models.RtcRoomWarn::.ctor(System.IntPtr)
+extern void RtcRoomWarn__ctor_m7CDFA2A91713BE86F1329061C8C1268EB01F7FBB (void);
+// 0x000008FA System.Void Pico.Platform.Models.RtcUserJoinInfo::.ctor(System.IntPtr)
+extern void RtcUserJoinInfo__ctor_mE3B9C66118A91C8F980048A6DE9735CB1874B7EA (void);
+// 0x000008FB System.Void Pico.Platform.Models.RtcUserLeaveInfo::.ctor(System.IntPtr)
+extern void RtcUserLeaveInfo__ctor_mDD91E36255CD46659679A2F2E649779737F37ED7 (void);
 // 0x000008FC System.Void Pico.Platform.Models.AsrResult::.ctor(System.IntPtr)
 extern void AsrResult__ctor_mD74BAFECAE819544CF068FE7AE3BB1C7838AD349 (void);
 // 0x000008FD System.Void Pico.Platform.Models.SpeechError::.ctor(System.IntPtr)
@@ -6669,6 +6669,47 @@ static Il2CppMethodPointer s_methodPointers[2329] =
 	InviteOptions_ClearSuggestedUsers_mD71C7C4A91F1E7EFF94D1F7C5BFAAFDF1A59E339,
 	InviteOptions_op_Explicit_m3837D7527DBAF736AC307065EBCEC72367A58BB3,
 	InviteOptions_Finalize_mFBFDDFE8346B8177C74CB9B9422B18B50DCC7CE3,
+	RoomService_GetCreatePrivateRoomOptions_mC1B5A30AC945E0D599B5E8B4FCEBFB01106A0587,
+	RoomService_GetJoinOrCreateNamedRoomOptions_mD57228C1919DA9E68530D50D95D2C97A130C4662,
+	RoomService_GetNamedRooms_m1A81709F472FAE518A204486B3EA229AA77CE132,
+	RoomService_JoinOrCreateNamedRoom_m9CCD8B6F1567227910ABD09F14E1687103E4EDA0,
+	RoomService_LaunchInvitableUserFlow_m58A81BE30CCE667DC5EA5ABD0240143E7EDDF752,
+	RoomService_UpdateDataStore_m0230AAF043B61751DE23D4EECADDDE1518E7E231,
+	RoomService_CreateAndJoinPrivate2_m7EC3DA98CBB79FB5B872760FFC902C3E697EB3E3,
+	RoomService_Get_m9B95E74A7780AF31ADC0BCF8A45B86A3AA82C727,
+	RoomService_GetCurrent_m5AFB79C4E773F85A531CD2327CDBCE5480A80B49,
+	RoomService_GetCurrentForUser_m3C0CAC6E0F3C10B73039401CF5A77633CD08461B,
+	RoomService_GetInvitableUsers2_m3070B68799CDCFA04B64FD177F4CC8E5942E9E86,
+	RoomService_GetModeratedRooms_m75E752734FD5ADFD7F61B2D1D53F006EDBEA7F25,
+	RoomService_InviteUser_mB9B29239A6E42A0D703EB7CE6FAE73E67F14C99C,
+	RoomService_Join2_m375B784ED7172A1270E2A8FD999BD4318B665534,
+	RoomService_KickUser_m0E8E1B68A47B6D7CF4D1C98FDF549F6413109791,
+	RoomService_Leave_m25C11A2D91A738A91D21AEA0072F1D704D460DD2,
+	RoomService_SetDescription_mF1FA0508A2198DE9CA187BC77C68D369A1DA36CE,
+	RoomService_UpdateMembershipLockStatus_mDCFB7BB641C3359FB46AFF25C3EF3F158271FD9F,
+	RoomService_UpdateOwner_mEFA447F88BC01098DEC381EED6E2224241F08E63,
+	RoomService_UpdatePrivateRoomJoinPolicy_m0C571120380F718555680A9845D6B26B71A13405,
+	RoomService_SetRoomInviteAcceptedNotificationCallback_m1FEA73073355D81B602D2A09C15727C81CCD9914,
+	RoomService_SetUpdateNotificationCallback_m9D04D587F59B6B6D115097E54F5F1A44F3E1CF3F,
+	RoomService_SetKickUserNotificationCallback_mCF2E455DF51FB997EDF92649B5D617E1593629D2,
+	RoomService_SetSetDescriptionNotificationCallback_mFAC7E399FBC5899F2A6E51EE34D083580B5A647D,
+	RoomService_SetUpdateDataStoreNotificationCallback_m7A3B169D9FDA95C3BD16B60A33A21EDEA1042790,
+	RoomService_SetLeaveNotificationCallback_mC366E2B6903FBD02A9A9E9F08876802EC28A0246,
+	RoomService_SetJoin2NotificationCallback_mDFE1168E89195B4DABF7F71D771C80471119A4FC,
+	RoomService_SetUpdateOwnerNotificationCallback_m86C7EA617AE5F7B9892AD77F0ABCC71D80FD322E,
+	RoomService_SetUpdateMembershipLockStatusNotificationCallback_m5320349D7520799E01C7CCEFA68CF3861A3C0D06,
+	RoomOptions__ctor_m575ABE0CB642F3A565A1B46995AFD5C7BFF17220,
+	RoomOptions_SetDataStore_mD2918B7E5F7682EF389E24BC7E86620FC2B5ED92,
+	RoomOptions_ClearDataStore_m4DFF7CE299148685166C8660FF9357EF579076B1,
+	RoomOptions_SetExcludeRecentlyMet_mB3DDFB65BE9AED1C730A3FEE915EFCB181FA57C8,
+	RoomOptions_SetMaxUserResults_mCBA16A9D5EADBC6A22B1355A61130EF4CEFDE671,
+	RoomOptions_SetRoomId_mD9315F94A1A36C694D8BBAC408072C884B9CFED9,
+	RoomOptions_SetRoomName_mF13CD35EE1D61715C2FB02A9F7CD983D70490D85,
+	RoomOptions_SetPassword_m5323FCDBC642B3161C3B5C58090D0F041F4C19F4,
+	RoomOptions_SetTurnOffUpdates_mFFC7DCEA750AFE137BB9AF5865A0023E107F93A1,
+	RoomOptions_op_Explicit_m160FF5FE60C41FDD18D2CB346EED21F1F3E3CC78,
+	RoomOptions_Finalize_m999EEE1957A19E1D7B7270C18524B1B367400CED,
+	RoomOptions_GetHandle_m0C9DCC01EC26AC5586AC037C2FC3A8A8C389F247,
 	RtcService_InitRtcEngine_m8CFD3447FE5884ADA7E671B54C3474DE6492E5FC,
 	RtcService_GetToken_m228DA2D75D8BE8DA4496774D60FD83E05C575A0A,
 	RtcService_JoinRoom_m3782263B9253042E21F4A5AF8605338E63532B79,
@@ -6758,47 +6799,6 @@ static Il2CppMethodPointer s_methodPointers[2329] =
 	RtcAudioPropertyOptions_SetInterval_m8075C50D77C3347FB74433C8D73FBA38E3416005,
 	RtcAudioPropertyOptions_Finalize_m3E314A6827113DAD8622F5A52F3231F31A0C5B5F,
 	RtcAudioPropertyOptions_op_Explicit_mAA54B25B681E9C597F68538D3339153E5748FB9A,
-	RoomService_GetCreatePrivateRoomOptions_mC1B5A30AC945E0D599B5E8B4FCEBFB01106A0587,
-	RoomService_GetJoinOrCreateNamedRoomOptions_mD57228C1919DA9E68530D50D95D2C97A130C4662,
-	RoomService_GetNamedRooms_m1A81709F472FAE518A204486B3EA229AA77CE132,
-	RoomService_JoinOrCreateNamedRoom_m9CCD8B6F1567227910ABD09F14E1687103E4EDA0,
-	RoomService_LaunchInvitableUserFlow_m58A81BE30CCE667DC5EA5ABD0240143E7EDDF752,
-	RoomService_UpdateDataStore_m0230AAF043B61751DE23D4EECADDDE1518E7E231,
-	RoomService_CreateAndJoinPrivate2_m7EC3DA98CBB79FB5B872760FFC902C3E697EB3E3,
-	RoomService_Get_m9B95E74A7780AF31ADC0BCF8A45B86A3AA82C727,
-	RoomService_GetCurrent_m5AFB79C4E773F85A531CD2327CDBCE5480A80B49,
-	RoomService_GetCurrentForUser_m3C0CAC6E0F3C10B73039401CF5A77633CD08461B,
-	RoomService_GetInvitableUsers2_m3070B68799CDCFA04B64FD177F4CC8E5942E9E86,
-	RoomService_GetModeratedRooms_m75E752734FD5ADFD7F61B2D1D53F006EDBEA7F25,
-	RoomService_InviteUser_mB9B29239A6E42A0D703EB7CE6FAE73E67F14C99C,
-	RoomService_Join2_m375B784ED7172A1270E2A8FD999BD4318B665534,
-	RoomService_KickUser_m0E8E1B68A47B6D7CF4D1C98FDF549F6413109791,
-	RoomService_Leave_m25C11A2D91A738A91D21AEA0072F1D704D460DD2,
-	RoomService_SetDescription_mF1FA0508A2198DE9CA187BC77C68D369A1DA36CE,
-	RoomService_UpdateMembershipLockStatus_mDCFB7BB641C3359FB46AFF25C3EF3F158271FD9F,
-	RoomService_UpdateOwner_mEFA447F88BC01098DEC381EED6E2224241F08E63,
-	RoomService_UpdatePrivateRoomJoinPolicy_m0C571120380F718555680A9845D6B26B71A13405,
-	RoomService_SetRoomInviteAcceptedNotificationCallback_m1FEA73073355D81B602D2A09C15727C81CCD9914,
-	RoomService_SetUpdateNotificationCallback_m9D04D587F59B6B6D115097E54F5F1A44F3E1CF3F,
-	RoomService_SetKickUserNotificationCallback_mCF2E455DF51FB997EDF92649B5D617E1593629D2,
-	RoomService_SetSetDescriptionNotificationCallback_mFAC7E399FBC5899F2A6E51EE34D083580B5A647D,
-	RoomService_SetUpdateDataStoreNotificationCallback_m7A3B169D9FDA95C3BD16B60A33A21EDEA1042790,
-	RoomService_SetLeaveNotificationCallback_mC366E2B6903FBD02A9A9E9F08876802EC28A0246,
-	RoomService_SetJoin2NotificationCallback_mDFE1168E89195B4DABF7F71D771C80471119A4FC,
-	RoomService_SetUpdateOwnerNotificationCallback_m86C7EA617AE5F7B9892AD77F0ABCC71D80FD322E,
-	RoomService_SetUpdateMembershipLockStatusNotificationCallback_m5320349D7520799E01C7CCEFA68CF3861A3C0D06,
-	RoomOptions__ctor_m575ABE0CB642F3A565A1B46995AFD5C7BFF17220,
-	RoomOptions_SetDataStore_mD2918B7E5F7682EF389E24BC7E86620FC2B5ED92,
-	RoomOptions_ClearDataStore_m4DFF7CE299148685166C8660FF9357EF579076B1,
-	RoomOptions_SetExcludeRecentlyMet_mB3DDFB65BE9AED1C730A3FEE915EFCB181FA57C8,
-	RoomOptions_SetMaxUserResults_mCBA16A9D5EADBC6A22B1355A61130EF4CEFDE671,
-	RoomOptions_SetRoomId_mD9315F94A1A36C694D8BBAC408072C884B9CFED9,
-	RoomOptions_SetRoomName_mF13CD35EE1D61715C2FB02A9F7CD983D70490D85,
-	RoomOptions_SetPassword_m5323FCDBC642B3161C3B5C58090D0F041F4C19F4,
-	RoomOptions_SetTurnOffUpdates_mFFC7DCEA750AFE137BB9AF5865A0023E107F93A1,
-	RoomOptions_op_Explicit_m160FF5FE60C41FDD18D2CB346EED21F1F3E3CC78,
-	RoomOptions_Finalize_m999EEE1957A19E1D7B7270C18524B1B367400CED,
-	RoomOptions_GetHandle_m0C9DCC01EC26AC5586AC037C2FC3A8A8C389F247,
 	SpeechService_InitAsrEngine_m34FEB1C9509F508B6E13EE6DE12FC31463AC1F45,
 	SpeechService_StartAsr_m6B5E46DD7D6C9AFEC0243B8A4D32553111012E98,
 	SpeechService_StopAsr_mF55F7E675178899152017EFBE97119D969092C1F,
@@ -6928,6 +6928,8 @@ static Il2CppMethodPointer s_methodPointers[2329] =
 	ApplicationInviteList__ctor_mF3D2F58B366BD4BF1634F9EF207061494C7826FE,
 	SendInvitesResult__ctor_m669F65E6C225768F1BA741341D73F7180B4E03F3,
 	PresenceJoinIntent__ctor_m592B2B2ABFC03E0612F7E14D9FA75415A108C5D0,
+	Room__ctor_mB6AF794D98BC22F1081870DD63E403520D1172A4,
+	RoomList__ctor_mEBDDF23698AD7ED54D4673ADB003D6182A4A0CD3,
 	RtcBinaryMessageReceived__ctor_m68DAEA37EDB5FEF2C0E7E7A194894468CCE61039,
 	RtcAudioFrame__ctor_mAF8A3A50316BDC0FFFE39C0FCF28E25F185B5E9A,
 	RtcAudioFrame_GetData_m40190CFA38F67C5EA55F3963E96660955E242AD3,
@@ -6953,8 +6955,6 @@ static Il2CppMethodPointer s_methodPointers[2329] =
 	RtcRoomWarn__ctor_m7CDFA2A91713BE86F1329061C8C1268EB01F7FBB,
 	RtcUserJoinInfo__ctor_mE3B9C66118A91C8F980048A6DE9735CB1874B7EA,
 	RtcUserLeaveInfo__ctor_mDD91E36255CD46659679A2F2E649779737F37ED7,
-	Room__ctor_mB6AF794D98BC22F1081870DD63E403520D1172A4,
-	RoomList__ctor_mEBDDF23698AD7ED54D4673ADB003D6182A4A0CD3,
 	AsrResult__ctor_mD74BAFECAE819544CF068FE7AE3BB1C7838AD349,
 	SpeechError__ctor_m024F1E267FD9A5927AF077A6CA675E8CC4DA612D,
 	SportDailySummary__ctor_m414B482BE61A12E06A1A9AD9754172A30A153607,
@@ -9001,6 +9001,47 @@ static const int32_t s_InvokerIndices[2329] =
 	6676,
 	9746,
 	6676,
+	9836,
+	8316,
+	9013,
+	7813,
+	9852,
+	9067,
+	8290,
+	9852,
+	10308,
+	9836,
+	9836,
+	9013,
+	9067,
+	9067,
+	8341,
+	9852,
+	9067,
+	9066,
+	9067,
+	9066,
+	10136,
+	10136,
+	10136,
+	10136,
+	10136,
+	10136,
+	10136,
+	10136,
+	10136,
+	6676,
+	2959,
+	6676,
+	5214,
+	5416,
+	5417,
+	5314,
+	5314,
+	5214,
+	9746,
+	6676,
+	6513,
 	10300,
 	7838,
 	7304,
@@ -9090,47 +9131,6 @@ static const int32_t s_InvokerIndices[2329] =
 	5286,
 	6676,
 	9746,
-	9836,
-	8316,
-	9013,
-	7813,
-	9852,
-	9067,
-	8290,
-	9852,
-	10308,
-	9836,
-	9836,
-	9013,
-	9067,
-	9067,
-	8341,
-	9852,
-	9067,
-	9066,
-	9067,
-	9066,
-	10136,
-	10136,
-	10136,
-	10136,
-	10136,
-	10136,
-	10136,
-	10136,
-	10136,
-	6676,
-	2959,
-	6676,
-	5214,
-	5416,
-	5417,
-	5314,
-	5314,
-	5214,
-	9746,
-	6676,
-	6513,
 	10300,
 	8193,
 	10350,
@@ -9262,10 +9262,10 @@ static const int32_t s_InvokerIndices[2329] =
 	5288,
 	5288,
 	5288,
+	5288,
+	5288,
 	6544,
 	5314,
-	5288,
-	5288,
 	5288,
 	5288,
 	5288,
@@ -9320,7 +9320,7 @@ static const int32_t s_InvokerIndices[2329] =
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[1] = 
 {
-	{ 0x060007E7, 10,  (void**)&RtcService_InnerAudioProcessor_m663C1AC6BC552D87E0EF075932933D89EA182C22_RuntimeMethod_var, 0 },
+	{ 0x06000810, 10,  (void**)&RtcService_InnerAudioProcessor_m663C1AC6BC552D87E0EF075932933D89EA182C22_RuntimeMethod_var, 0 },
 };
 static const Il2CppTokenRangePair s_rgctxIndices[4] = 
 {
