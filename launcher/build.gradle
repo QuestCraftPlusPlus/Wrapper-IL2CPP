@@ -13,9 +13,9 @@ android {
     signingConfigs {
         debug {
             storeFile file('C:\\Users\\fourr\\.android\\qcxr.keystore')
-            storePassword '***REMOVED***'
+            storePassword 'questcraftdevs'
             keyAlias 'qcxr'
-            keyPassword '***REMOVED***'
+            keyPassword 'questcraftdevs'
         }
     }
     buildToolsVersion '30.0.3'
