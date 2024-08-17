@@ -11,12 +11,7 @@ android {
         }
     }
     signingConfigs {
-        debug {
-            storeFile file('C:\\Users\\fourr\\.android\\qcxr.keystore')
-            storePassword 'questcraftdevs'
-            keyAlias 'qcxr'
-            keyPassword 'questcraftdevs'
-        }
+        // Removed for Security
     }
     buildToolsVersion '30.0.3'
 
@@ -60,6 +55,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt')
+            signingConfig signingConfigs.release
         }
     }
 
