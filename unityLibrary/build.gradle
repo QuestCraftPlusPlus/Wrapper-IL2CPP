@@ -57,8 +57,13 @@ android {
 
 def getSdkDir() {
     Properties local = new Properties()
-    local.load(new FileInputStream("${rootDir}/local.properties"))
-    return local.getProperty('sdk.dir')
+    String dir
+    try {
+        dir = local.load(new FileInputStream("${rootDir}/local.properties")).getProperty('sdk.dir')
+    } catch(FileNotFoundException ex) {
+        dir = "${System.env.ANDROID_SDK_ROOT}"
+    }
+    return dir
 }
 
 def BuildIl2Cpp(String workingDir, String configuration, String architecture, String abi, String[] staticLibraries) {
