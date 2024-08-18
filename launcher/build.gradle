@@ -11,7 +11,18 @@ android {
         }
     }
     signingConfigs {
-        // Removed for Security
+        debug {
+            storeFile file("${System.getenv().QCXR_KEYSTORE_PATH}")
+            storePassword "${System.getenv().QCXR_KEYSTORE_PASS}"
+            keyAlias "${System.getenv().QCXR_KEYSTORE_ALIAS}"
+            keyPassword "${System.getenv().QCXR_KEYSTORE_PASS}"
+        }
+        release {
+            storeFile file("${System.getenv().QCXR_KEYSTORE_PATH}")
+            storePassword "${System.getenv().QCXR_KEYSTORE_PASS}"
+            keyAlias "${System.getenv().QCXR_KEYSTORE_ALIAS}"
+            keyPassword "${System.getenv().QCXR_KEYSTORE_PASS}"
+        }
     }
     buildToolsVersion '30.0.3'
 

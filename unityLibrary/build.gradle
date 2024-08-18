@@ -61,7 +61,7 @@ def getSdkDir() {
     try {
         dir = local.load(new FileInputStream("${rootDir}/local.properties")).getProperty('sdk.dir')
     } catch(FileNotFoundException ex) {
-        dir = "${System.env.ANDROID_SDK_ROOT}"
+        dir = "${System.getenv().ANDROID_SDK_ROOT}"
     }
     return dir
 }
