@@ -12,13 +12,13 @@ android {
     }
     signingConfigs {
         debug {
-            storeFile file("${System.getProperty("user.dir")}")
+            storeFile file("${System.getProperty("user.dir")}/qcxr.keystore")
             storePassword "${System.getenv().QCXR_KEYSTORE_PASS}"
             keyAlias "${System.getenv().QCXR_KEYSTORE_ALIAS}"
             keyPassword "${System.getenv().QCXR_KEYSTORE_PASS}"
         }
         release {
-            storeFile file("${System.getProperty("user.dir")}")
+            storeFile file("${System.getProperty("user.dir")}/qcxr.keystore")
             storePassword "${System.getenv().QCXR_KEYSTORE_PASS}"
             keyAlias "${System.getenv().QCXR_KEYSTORE_ALIAS}"
             keyPassword "${System.getenv().QCXR_KEYSTORE_PASS}"
