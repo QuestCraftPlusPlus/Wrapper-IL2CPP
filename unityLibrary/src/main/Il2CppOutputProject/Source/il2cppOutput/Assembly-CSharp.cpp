@@ -8828,8 +8828,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRGeneralSettings_t8F8D096944606B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* XRGeneralSettings_get_Manager_m112FEB4E6DFB7B5F5C4A2DEC4E975CF2EBD51B42_inline (XRGeneralSettings_t8F8D096944606B5AD845D010706BF7094ADEC8CE* __this, const RuntimeMethod* method) ;
 // UnityEngine.XR.Management.XRLoader UnityEngine.XR.Management.XRManagerSettings::get_activeLoader()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRLoader_t80B1B1934C40561C5352ABC95D567DC2A7C9C976* XRManagerSettings_get_activeLoader_mFB3B679005792D3DF871EAA7120DD86DCA1D5DEA_inline (XRManagerSettings_t7923B66EB3FEE58C7B9F85FF61749B774D3B9E52* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Application::Unload()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Unload_mAC3EDA0BE38D1A2D7C34A20F0547DC63D356900C (const RuntimeMethod* method) ;
+// System.Void UnityEngine.Application::Quit()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.AndroidJavaObject::CallStatic(System.String,System.Object[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaObject_CallStatic_mB677DE04369EDD8E6DECAF2F233116EE1F06555C (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_methodName, ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___1_args, const RuntimeMethod* method) ;
 // System.Void InstanceButton/<>c__DisplayClass5_0/<<LaunchCurrentInstance>g__FinishAnim|0>d::MoveNext()
@@ -9310,8 +9310,6 @@ inline TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* GameObject_Get
 {
 	return ((  TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
 }
-// System.Void UnityEngine.Application::Quit()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281 (const RuntimeMethod* method) ;
 // System.Void System.Runtime.CompilerServices.AsyncTaskMethodBuilder::Start<LoginHandler/<<Login>g__LoadingButtonText|7_0>d>(TStateMachine&)
 inline void AsyncTaskMethodBuilder_Start_TisU3CU3CLoginU3Eg__LoadingButtonTextU7C7_0U3Ed_t43EA3BB7BEE3FEE00FC200DF1886D7FAF36CB92B_mE94C9AA7BED78C1E364F1228D940D5E21FEBF07C (AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06* __this, U3CU3CLoginU3Eg__LoadingButtonTextU7C7_0U3Ed_t43EA3BB7BEE3FEE00FC200DF1886D7FAF36CB92B* ___0_stateMachine, const RuntimeMethod* method)
 {
@@ -12987,8 +12985,8 @@ IL_0069_1:
 			NullCheck(L_18);
 			bool L_19;
 			L_19 = VirtualFuncInvoker0< bool >::Invoke(7 /* System.Boolean UnityEngine.XR.Management.XRLoader::Deinitialize() */, L_18);
-			// Application.Unload();
-			Application_Unload_mAC3EDA0BE38D1A2D7C34A20F0547DC63D356900C(NULL);
+			// Application.Quit();
+			Application_Quit_mE304382DB9A6455C2A474C8F364C7387F37E9281(NULL);
 			// JNIStorage.apiClass.CallStatic("launchInstance", JNIStorage.activity, JNIStorage.accountObj, instance.raw);
 			AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_20 = ((JNIStorage_t375A1F8724CA5D597A2FE2AD654C0A9059F8851D_StaticFields*)il2cpp_codegen_static_fields_for(JNIStorage_t375A1F8724CA5D597A2FE2AD654C0A9059F8851D_il2cpp_TypeInfo_var))->___apiClass_4;
 			ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_21 = (ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918*)SZArrayNew(ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_il2cpp_TypeInfo_var, (uint32_t)3);

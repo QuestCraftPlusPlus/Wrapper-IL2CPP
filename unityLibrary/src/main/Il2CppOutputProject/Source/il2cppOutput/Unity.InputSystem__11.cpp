@@ -1296,6 +1296,13 @@ struct EditorInputBehaviorInPlayMode_tC47B44FACCF39F8E2DCA21270D51417B5DEF814D
 	int32_t ___value___2;
 };
 
+// UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode
+struct InputActionPropertyDrawerMode_t521985D556D158DCD4AF3C3B351D5EC081C89E86 
+{
+	// System.Int32 UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode::value__
+	int32_t ___value___2;
+};
+
 // UnityEngine.InputSystem.InputSettings/UpdateMode
 struct UpdateMode_tCD49766B755C4CD8E1F2DE8D57798DAC2C5CBF32 
 {
@@ -2074,30 +2081,32 @@ struct InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF  : public Scripta
 	int32_t ___m_BackgroundBehavior_9;
 	// UnityEngine.InputSystem.InputSettings/EditorInputBehaviorInPlayMode UnityEngine.InputSystem.InputSettings::m_EditorInputBehaviorInPlayMode
 	int32_t ___m_EditorInputBehaviorInPlayMode_10;
+	// UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode UnityEngine.InputSystem.InputSettings::m_InputActionPropertyDrawerMode
+	int32_t ___m_InputActionPropertyDrawerMode_11;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultDeadzoneMin
-	float ___m_DefaultDeadzoneMin_11;
+	float ___m_DefaultDeadzoneMin_12;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultDeadzoneMax
-	float ___m_DefaultDeadzoneMax_12;
+	float ___m_DefaultDeadzoneMax_13;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultButtonPressPoint
-	float ___m_DefaultButtonPressPoint_13;
+	float ___m_DefaultButtonPressPoint_14;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_ButtonReleaseThreshold
-	float ___m_ButtonReleaseThreshold_14;
+	float ___m_ButtonReleaseThreshold_15;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultTapTime
-	float ___m_DefaultTapTime_15;
+	float ___m_DefaultTapTime_16;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultSlowTapTime
-	float ___m_DefaultSlowTapTime_16;
+	float ___m_DefaultSlowTapTime_17;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultHoldTime
-	float ___m_DefaultHoldTime_17;
+	float ___m_DefaultHoldTime_18;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_TapRadius
-	float ___m_TapRadius_18;
+	float ___m_TapRadius_19;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_MultiTapDelayTime
-	float ___m_MultiTapDelayTime_19;
+	float ___m_MultiTapDelayTime_20;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::m_DisableRedundantEventsMerging
-	bool ___m_DisableRedundantEventsMerging_20;
+	bool ___m_DisableRedundantEventsMerging_21;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::m_ShortcutKeysConsumeInputs
-	bool ___m_ShortcutKeysConsumeInputs_21;
+	bool ___m_ShortcutKeysConsumeInputs_22;
 	// System.Collections.Generic.HashSet`1<System.String> UnityEngine.InputSystem.InputSettings::m_FeatureFlags
-	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___m_FeatureFlags_22;
+	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___m_FeatureFlags_23;
 };
 
 // System.InvalidOperationException
@@ -2576,11 +2585,11 @@ struct Type_t_StaticFields
 struct InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_StaticFields
 {
 	// System.Boolean UnityEngine.InputSystem.InputSettings::optimizedControlsFeatureEnabled
-	bool ___optimizedControlsFeatureEnabled_23;
+	bool ___optimizedControlsFeatureEnabled_24;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::readValueCachingFeatureEnabled
-	bool ___readValueCachingFeatureEnabled_24;
+	bool ___readValueCachingFeatureEnabled_25;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::paranoidReadValueCachingChecksEnabled
-	bool ___paranoidReadValueCachingChecksEnabled_25;
+	bool ___paranoidReadValueCachingChecksEnabled_26;
 };
 
 // UnityEngine.InputSystem.InputSettings
@@ -3001,6 +3010,8 @@ inline void InputBindingComposite_1__ctor_m7A3EC8A3F30D4FD3E13C1FDD38CFB5B41B461
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::get_normalized()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+// System.Single UnityEngine.Vector3::get_magnitude()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.InputSystem.InputBindingComposite`1<UnityEngine.Vector3>::.ctor()
 inline void InputBindingComposite_1__ctor_mCC1C23E6E7958682F8F851C7EF1C1C179E21D789 (InputBindingComposite_1_t34CD8E199158A65EE0E5DBCE8CC705AF3C4B3306* __this, const RuntimeMethod* method)
 {
@@ -9716,6 +9727,23 @@ IL_0135:
 		return L_51;
 	}
 }
+// System.Single UnityEngine.InputSystem.Composites.Vector3Composite::EvaluateMagnitude(UnityEngine.InputSystem.InputBindingCompositeContext&)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vector3Composite_EvaluateMagnitude_m39F9A72560A778CFF59BB04B02852174FFD8F957 (Vector3Composite_t014892920D73110CD43E6CC997E0FAA5860A62E0* __this, InputBindingCompositeContext_t961CAA1DF29D7D4E0AE0AEF22400B285E17B1390* ___0_context, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		// var value = ReadValue(ref context);
+		InputBindingCompositeContext_t961CAA1DF29D7D4E0AE0AEF22400B285E17B1390* L_0 = ___0_context;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = VirtualFuncInvoker1< Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, InputBindingCompositeContext_t961CAA1DF29D7D4E0AE0AEF22400B285E17B1390* >::Invoke(10 /* TValue UnityEngine.InputSystem.InputBindingComposite`1<UnityEngine.Vector3>::ReadValue(UnityEngine.InputSystem.InputBindingCompositeContext&) */, __this, L_0);
+		V_0 = L_1;
+		// return value.magnitude;
+		float L_2;
+		L_2 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_0), NULL);
+		return L_2;
+	}
+}
 // System.Void UnityEngine.InputSystem.Composites.Vector3Composite::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3Composite__ctor_m7411C64277DE74720952DC246F08B6970AB6F5DD (Vector3Composite_t014892920D73110CD43E6CC997E0FAA5860A62E0* __this, const RuntimeMethod* method) 
 {
@@ -9874,7 +9902,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool InputSettings_get_shortcutKe
 {
 	{
 		// get => m_ShortcutKeysConsumeInputs;
-		bool L_0 = __this->___m_ShortcutKeysConsumeInputs_21;
+		bool L_0 = __this->___m_ShortcutKeysConsumeInputs_22;
 		return L_0;
 	}
 }
@@ -9949,6 +9977,35 @@ IL_000f:
 	{
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = V_0;
 		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___x_2;
+		float L_1 = __this->___x_2;
+		float L_2 = __this->___y_3;
+		float L_3 = __this->___y_3;
+		float L_4 = __this->___z_4;
+		float L_5 = __this->___z_4;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_6;
+		L_6 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))))));
+		V_0 = ((float)L_6);
+		goto IL_0034;
+	}
+
+IL_0034:
+	{
+		float L_7 = V_0;
+		return L_7;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtility_SizeOf_TisColor32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B_m506739DDFD44F4F6CE36D20C36BFA90D7F56E4AE_gshared_inline (const RuntimeMethod* method) 

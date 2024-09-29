@@ -2413,9 +2413,22 @@ struct TriggerState_t99B6AEA05EECEE1FEE7B60C2ABA73FA03685F38D
 					char ___m_ReleasedInUpdate_15_OffsetPadding_forAlignmentOnly[44];
 					uint32_t ___m_ReleasedInUpdate_15_forAlignmentOnly;
 				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___m_LastCompletedInUpdate_16_OffsetPadding[48];
+					// System.UInt32 UnityEngine.InputSystem.InputActionState/TriggerState::m_LastCompletedInUpdate
+					uint32_t ___m_LastCompletedInUpdate_16;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___m_LastCompletedInUpdate_16_OffsetPadding_forAlignmentOnly[48];
+					uint32_t ___m_LastCompletedInUpdate_16_forAlignmentOnly;
+				};
 			};
 		};
-		uint8_t TriggerState_t99B6AEA05EECEE1FEE7B60C2ABA73FA03685F38D__padding[48];
+		uint8_t TriggerState_t99B6AEA05EECEE1FEE7B60C2ABA73FA03685F38D__padding[52];
 	};
 };
 
@@ -3454,6 +3467,13 @@ struct BackgroundBehavior_t4D397A0FC3ECD31C1A4DB8C2D09BBC4E71BFC1D6
 struct EditorInputBehaviorInPlayMode_tC47B44FACCF39F8E2DCA21270D51417B5DEF814D 
 {
 	// System.Int32 UnityEngine.InputSystem.InputSettings/EditorInputBehaviorInPlayMode::value__
+	int32_t ___value___2;
+};
+
+// UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode
+struct InputActionPropertyDrawerMode_t521985D556D158DCD4AF3C3B351D5EC081C89E86 
+{
+	// System.Int32 UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode::value__
 	int32_t ___value___2;
 };
 
@@ -4593,30 +4613,32 @@ struct InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF  : public Scripta
 	int32_t ___m_BackgroundBehavior_9;
 	// UnityEngine.InputSystem.InputSettings/EditorInputBehaviorInPlayMode UnityEngine.InputSystem.InputSettings::m_EditorInputBehaviorInPlayMode
 	int32_t ___m_EditorInputBehaviorInPlayMode_10;
+	// UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode UnityEngine.InputSystem.InputSettings::m_InputActionPropertyDrawerMode
+	int32_t ___m_InputActionPropertyDrawerMode_11;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultDeadzoneMin
-	float ___m_DefaultDeadzoneMin_11;
+	float ___m_DefaultDeadzoneMin_12;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultDeadzoneMax
-	float ___m_DefaultDeadzoneMax_12;
+	float ___m_DefaultDeadzoneMax_13;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultButtonPressPoint
-	float ___m_DefaultButtonPressPoint_13;
+	float ___m_DefaultButtonPressPoint_14;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_ButtonReleaseThreshold
-	float ___m_ButtonReleaseThreshold_14;
+	float ___m_ButtonReleaseThreshold_15;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultTapTime
-	float ___m_DefaultTapTime_15;
+	float ___m_DefaultTapTime_16;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultSlowTapTime
-	float ___m_DefaultSlowTapTime_16;
+	float ___m_DefaultSlowTapTime_17;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultHoldTime
-	float ___m_DefaultHoldTime_17;
+	float ___m_DefaultHoldTime_18;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_TapRadius
-	float ___m_TapRadius_18;
+	float ___m_TapRadius_19;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_MultiTapDelayTime
-	float ___m_MultiTapDelayTime_19;
+	float ___m_MultiTapDelayTime_20;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::m_DisableRedundantEventsMerging
-	bool ___m_DisableRedundantEventsMerging_20;
+	bool ___m_DisableRedundantEventsMerging_21;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::m_ShortcutKeysConsumeInputs
-	bool ___m_ShortcutKeysConsumeInputs_21;
+	bool ___m_ShortcutKeysConsumeInputs_22;
 	// System.Collections.Generic.HashSet`1<System.String> UnityEngine.InputSystem.InputSettings::m_FeatureFlags
-	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___m_FeatureFlags_22;
+	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___m_FeatureFlags_23;
 };
 
 // System.InvalidOperationException
@@ -4966,19 +4988,19 @@ struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD  : public RuntimeOb
 struct InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
 {
 	// UnityEngine.InputSystem.InputActionMap[] UnityEngine.InputSystem.InputActionAsset::m_ActionMaps
-	InputActionMapU5BU5D_t4B352E8DA73976FEDA107E35E81FB5BE6838C045* ___m_ActionMaps_5;
+	InputActionMapU5BU5D_t4B352E8DA73976FEDA107E35E81FB5BE6838C045* ___m_ActionMaps_6;
 	// UnityEngine.InputSystem.InputControlScheme[] UnityEngine.InputSystem.InputActionAsset::m_ControlSchemes
-	InputControlSchemeU5BU5D_tAE603126FBD4D6B8F67EA6F8CFA531A646C63D86* ___m_ControlSchemes_6;
+	InputControlSchemeU5BU5D_tAE603126FBD4D6B8F67EA6F8CFA531A646C63D86* ___m_ControlSchemes_7;
 	// UnityEngine.InputSystem.InputActionState UnityEngine.InputSystem.InputActionAsset::m_SharedStateForAllMaps
-	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_SharedStateForAllMaps_7;
+	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_SharedStateForAllMaps_8;
 	// System.Nullable`1<UnityEngine.InputSystem.InputBinding> UnityEngine.InputSystem.InputActionAsset::m_BindingMask
-	Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 ___m_BindingMask_8;
+	Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 ___m_BindingMask_9;
 	// System.Int32 UnityEngine.InputSystem.InputActionAsset::m_ParameterOverridesCount
-	int32_t ___m_ParameterOverridesCount_9;
+	int32_t ___m_ParameterOverridesCount_10;
 	// UnityEngine.InputSystem.InputActionRebindingExtensions/ParameterOverride[] UnityEngine.InputSystem.InputActionAsset::m_ParameterOverrides
-	ParameterOverrideU5BU5D_tC408277D7E98D32E4B0AEFA1E2EDDB74790897EE* ___m_ParameterOverrides_10;
+	ParameterOverrideU5BU5D_tC408277D7E98D32E4B0AEFA1E2EDDB74790897EE* ___m_ParameterOverrides_11;
 	// UnityEngine.InputSystem.InputActionMap/DeviceArray UnityEngine.InputSystem.InputActionAsset::m_Devices
-	DeviceArray_t7F2F2D8A9D5CAF504DC1A21C1FEF79BCA9E4761E ___m_Devices_11;
+	DeviceArray_t7F2F2D8A9D5CAF504DC1A21C1FEF79BCA9E4761E ___m_Devices_12;
 };
 
 // UnityEngine.InputSystem.InputActionMap
@@ -6098,11 +6120,11 @@ struct Type_t_StaticFields
 struct InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_StaticFields
 {
 	// System.Boolean UnityEngine.InputSystem.InputSettings::optimizedControlsFeatureEnabled
-	bool ___optimizedControlsFeatureEnabled_23;
+	bool ___optimizedControlsFeatureEnabled_24;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::readValueCachingFeatureEnabled
-	bool ___readValueCachingFeatureEnabled_24;
+	bool ___readValueCachingFeatureEnabled_25;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::paranoidReadValueCachingChecksEnabled
-	bool ___paranoidReadValueCachingChecksEnabled_25;
+	bool ___paranoidReadValueCachingChecksEnabled_26;
 };
 
 // UnityEngine.InputSystem.InputSettings
@@ -35656,7 +35678,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float InputSettings_get_defaultHo
 {
 	{
 		// get => m_DefaultHoldTime;
-		float L_0 = __this->___m_DefaultHoldTime_17;
+		float L_0 = __this->___m_DefaultHoldTime_18;
 		return L_0;
 	}
 }
@@ -35664,7 +35686,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float InputSettings_get_defaultTa
 {
 	{
 		// get => m_DefaultTapTime;
-		float L_0 = __this->___m_DefaultTapTime_15;
+		float L_0 = __this->___m_DefaultTapTime_16;
 		return L_0;
 	}
 }
@@ -35672,7 +35694,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float InputSettings_get_multiTapD
 {
 	{
 		// get => m_MultiTapDelayTime;
-		float L_0 = __this->___m_MultiTapDelayTime_19;
+		float L_0 = __this->___m_MultiTapDelayTime_20;
 		return L_0;
 	}
 }
@@ -35680,7 +35702,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float InputSettings_get_defaultSl
 {
 	{
 		// get => m_DefaultSlowTapTime;
-		float L_0 = __this->___m_DefaultSlowTapTime_16;
+		float L_0 = __this->___m_DefaultSlowTapTime_17;
 		return L_0;
 	}
 }
