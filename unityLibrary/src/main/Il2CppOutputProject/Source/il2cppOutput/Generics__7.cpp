@@ -415,12 +415,6 @@ struct IReadOnlyBindableVariable_1_t30F8A3CCB780628479B0DEE47DCE0FAEEC3F2154;
 struct IReadOnlyBindableVariable_1_tBEEF395C4523D372934939CCED44DAB1614CD0A0;
 // Unity.XR.CoreUtils.Bindings.Variables.IReadOnlyBindableVariable`1<Unity.Mathematics.float4>
 struct IReadOnlyBindableVariable_1_t3A7ABDC22550894765705B6CF20D2291642256BA;
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.IXRInputValueReader`1<System.Int32>
-struct IXRInputValueReader_1_t247E136B8E885FC4E01A4405F0524F47214F4A5B;
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.IXRInputValueReader`1<System.Single>
-struct IXRInputValueReader_1_tE6C56CC3831F86463CF271FFFFAEA88A1AFFC425;
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.IXRInputValueReader`1<UnityEngine.Vector2>
-struct IXRInputValueReader_1_t3B292CF89AD3EFA514AD2640799BAD4A06619677;
 // System.Collections.Generic.Dictionary`2/KeyCollection<System.Object,System.Object>
 struct KeyCollection_tB45A861D090B15129521119AE48ED3813820A974;
 // UnityEngine.UIElements.KeyboardEventBase`1<UnityEngine.UIElements.KeyDownEvent>
@@ -557,22 +551,8 @@ struct ThreadSafeStore_2_t49EC2348B7EE981B1B01650A69EB2B2321896A91;
 struct ThreadSafeStore_2_t4B888B5DC076AA8546541B9573C40CFC4B49526C;
 // Newtonsoft.Json.Utilities.ThreadSafeStore`2<System.Type,System.Type>
 struct ThreadSafeStore_2_tCEC2827DC2C44157CCDD76299BCF8513E90DD8C9;
-// UnityEngine.XR.Interaction.Toolkit.Utilities.UnityObjectReferenceCache`1<UnityEngine.InputSystem.InputActionReference>
-struct UnityObjectReferenceCache_1_t5037B37A78F59591F798651810A820937FB97158;
-// UnityEngine.XR.Interaction.Toolkit.Utilities.UnityObjectReferenceCache`2<UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.IXRInputValueReader`1<System.Int32>,UnityEngine.Object>
-struct UnityObjectReferenceCache_2_tD8A6095CFF0BF19D8C03B26A41A006F289F7ED32;
-// UnityEngine.XR.Interaction.Toolkit.Utilities.UnityObjectReferenceCache`2<UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.IXRInputValueReader`1<System.Single>,UnityEngine.Object>
-struct UnityObjectReferenceCache_2_t1413D13E9E061514692C40A683297E679FF60E5D;
-// UnityEngine.XR.Interaction.Toolkit.Utilities.UnityObjectReferenceCache`2<UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.IXRInputValueReader`1<UnityEngine.Vector2>,UnityEngine.Object>
-struct UnityObjectReferenceCache_2_t08EE923CC15885C623411E73603DB293982DFD7A;
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Object,System.Object>
 struct ValueCollection_t038245E04B5D2A80048D9F8021A23E69A0C9DBAA;
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<System.Int32>
-struct XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35;
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<System.Single>
-struct XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5;
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<UnityEngine.Vector2>
-struct XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0;
 // System.Dynamic.Utils.CacheDict`2/Entry<System.Object,System.Object>[]
 struct EntryU5BU5D_tB50A06363036B37C6E770D47E3857F7F9B02568A;
 // System.Collections.Generic.Dictionary`2/Entry<System.Object,System.Object>[]
@@ -701,10 +681,6 @@ struct ITransform_tE5B8E1959EF1ABDE4E6DD44E9FB55EB043FCCDA4;
 struct IVisualElementScheduledItem_t309F1A5445514122A9E3F64182D0D8A4DE34C48F;
 // UnityEngine.UIElements.InlineStyleAccess
 struct InlineStyleAccess_t5CA7877999C9442491A220AE50D605C84D09A165;
-// UnityEngine.InputSystem.InputAction
-struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD;
-// UnityEngine.InputSystem.InputActionReference
-struct InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1;
 // UnityEngine.UIElements.KeyDownEvent
 struct KeyDownEvent_t1971978254C8EE65CDDD992AF86B44E442CDD18C;
 // UnityEngine.UIElements.Label
@@ -1776,27 +1752,6 @@ struct Buffer_1_t2F1FCC9FC2FBF87BF1F3015D0891FB06F60E47D4
 	DeviceRequirementU5BU5D_t0496FAAB7554B7BFC270BA53BA6A5EFD5DE061CE* ___items_0;
 	// System.Int32 System.Linq.Buffer`1::count
 	int32_t ___count_1;
-};
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Int32>
-struct BypassScope_t22B85DE7BD7DE10C70316E2D58E15746F7AFB68A 
-{
-	// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<TValue> UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope::m_Reader
-	XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35* ___m_Reader_0;
-};
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Single>
-struct BypassScope_t7D1B37565637622063AAB13A80F139C346FF13D9 
-{
-	// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<TValue> UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope::m_Reader
-	XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___m_Reader_0;
-};
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<UnityEngine.Vector2>
-struct BypassScope_tB35565F99D3AE468B5171E5D9CB0AE8274E0A7CE 
-{
-	// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<TValue> UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope::m_Reader
-	XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___m_Reader_0;
 };
 
 // UnityEngine.UIElements.CustomStyleProperty`1<System.Single>
@@ -3165,13 +3120,6 @@ struct RenderTargetMode_tAE75E29BB61A64BDE7646D5CBD353B64BCFA9F3A
 	int32_t ___value___2;
 };
 
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader/InputSourceMode
-struct InputSourceMode_tC6F86938AEFC93650B200F13CB1CDF660E091A6C 
-{
-	// System.Int32 UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader/InputSourceMode::value__
-	int32_t ___value___2;
-};
-
 // UnityEngine.InputSystem.InputControlScheme/DeviceRequirement/Flags
 struct Flags_t1E712B23AAE0C9B46749E115A88CF844D5AD1C33 
 {
@@ -3454,19 +3402,6 @@ struct StyleFloat_t4A100BCCDC275C2302517C5858C9BE9EC43D4841
 // System.SystemException
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
-};
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader
-struct XRInputValueReader_t0A220D04F7D6F5BC7E5A253F5AF8A9C3AB430D59  : public RuntimeObject
-{
-	// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader/InputSourceMode UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader::m_InputSourceMode
-	int32_t ___m_InputSourceMode_0;
-	// UnityEngine.InputSystem.InputAction UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader::m_InputAction
-	InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD* ___m_InputAction_1;
-	// UnityEngine.InputSystem.InputActionReference UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader::m_InputActionReference
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_InputActionReference_2;
-	// UnityEngine.XR.Interaction.Toolkit.Utilities.UnityObjectReferenceCache`1<UnityEngine.InputSystem.InputActionReference> UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader::m_InputActionReferenceCache
-	UnityObjectReferenceCache_1_t5037B37A78F59591F798651810A820937FB97158* ___m_InputActionReferenceCache_3;
 };
 
 // UnityEngine.InputSystem.InputControlScheme/DeviceRequirement
@@ -3765,51 +3700,6 @@ struct Func_3_tE454B2F07459EA885F6D39FCB5E70BF80B11F175  : public MulticastDeleg
 // System.Func`3<Unity.Mathematics.float4,Unity.Mathematics.float4,System.Boolean>
 struct Func_3_t0F3960B571C7D586E85A53CA420CA324108BF354  : public MulticastDelegate_t
 {
-};
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<System.Int32>
-struct XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35  : public XRInputValueReader_t0A220D04F7D6F5BC7E5A253F5AF8A9C3AB430D59
-{
-	// UnityEngine.Object UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::m_ObjectReferenceObject
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___m_ObjectReferenceObject_4;
-	// TValue UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::m_ManualValue
-	int32_t ___m_ManualValue_5;
-	// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.IXRInputValueReader`1<TValue> UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::<bypass>k__BackingField
-	RuntimeObject* ___U3CbypassU3Ek__BackingField_6;
-	// System.Boolean UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::m_CallingBypass
-	bool ___m_CallingBypass_7;
-	// UnityEngine.XR.Interaction.Toolkit.Utilities.UnityObjectReferenceCache`2<UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.IXRInputValueReader`1<TValue>,UnityEngine.Object> UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::m_ObjectReference
-	UnityObjectReferenceCache_2_tD8A6095CFF0BF19D8C03B26A41A006F289F7ED32* ___m_ObjectReference_8;
-};
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<System.Single>
-struct XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5  : public XRInputValueReader_t0A220D04F7D6F5BC7E5A253F5AF8A9C3AB430D59
-{
-	// UnityEngine.Object UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::m_ObjectReferenceObject
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___m_ObjectReferenceObject_4;
-	// TValue UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::m_ManualValue
-	float ___m_ManualValue_5;
-	// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.IXRInputValueReader`1<TValue> UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::<bypass>k__BackingField
-	RuntimeObject* ___U3CbypassU3Ek__BackingField_6;
-	// System.Boolean UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::m_CallingBypass
-	bool ___m_CallingBypass_7;
-	// UnityEngine.XR.Interaction.Toolkit.Utilities.UnityObjectReferenceCache`2<UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.IXRInputValueReader`1<TValue>,UnityEngine.Object> UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::m_ObjectReference
-	UnityObjectReferenceCache_2_t1413D13E9E061514692C40A683297E679FF60E5D* ___m_ObjectReference_8;
-};
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<UnityEngine.Vector2>
-struct XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0  : public XRInputValueReader_t0A220D04F7D6F5BC7E5A253F5AF8A9C3AB430D59
-{
-	// UnityEngine.Object UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::m_ObjectReferenceObject
-	Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___m_ObjectReferenceObject_4;
-	// TValue UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::m_ManualValue
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_ManualValue_5;
-	// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.IXRInputValueReader`1<TValue> UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::<bypass>k__BackingField
-	RuntimeObject* ___U3CbypassU3Ek__BackingField_6;
-	// System.Boolean UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::m_CallingBypass
-	bool ___m_CallingBypass_7;
-	// UnityEngine.XR.Interaction.Toolkit.Utilities.UnityObjectReferenceCache`2<UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.IXRInputValueReader`1<TValue>,UnityEngine.Object> UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1::m_ObjectReference
-	UnityObjectReferenceCache_2_t08EE923CC15885C623411E73603DB293982DFD7A* ___m_ObjectReference_8;
 };
 
 // System.Action
@@ -4949,18 +4839,6 @@ struct String_t_StaticFields
 
 // System.Linq.Buffer`1<UnityEngine.InputSystem.InputControlScheme/DeviceRequirement>
 
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Int32>
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Int32>
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Single>
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Single>
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<UnityEngine.Vector2>
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<UnityEngine.Vector2>
-
 // System.Collections.Generic.List`1/Enumerator<Unity.XR.CoreUtils.IComponentHost`1<System.Object>>
 
 // System.Collections.Generic.List`1/Enumerator<Unity.XR.CoreUtils.IComponentHost`1<System.Object>>
@@ -5686,18 +5564,6 @@ struct EventBase_tD7F89B936EB8074AE31E7B15976C072277371F7C_StaticFields
 // System.Func`3<Unity.Mathematics.float4,Unity.Mathematics.float4,System.Boolean>
 
 // System.Func`3<Unity.Mathematics.float4,Unity.Mathematics.float4,System.Boolean>
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<System.Int32>
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<System.Int32>
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<System.Single>
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<System.Single>
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<UnityEngine.Vector2>
-
-// UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<UnityEngine.Vector2>
 
 // System.Action
 
@@ -6534,18 +6400,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Buffer_1__ctor_m46490F1A1494A5E035E63A3E94406444E0BCC688_gshared (Buffer_1_t2F1FCC9FC2FBF87BF1F3015D0891FB06F60E47D4* __this, RuntimeObject* ___0_source, const RuntimeMethod* method) ;
 // TElement[] System.Linq.Buffer`1<UnityEngine.InputSystem.InputControlScheme/DeviceRequirement>::ToArray()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DeviceRequirementU5BU5D_t0496FAAB7554B7BFC270BA53BA6A5EFD5DE061CE* Buffer_1_ToArray_m00C0E871116DA355D332747398B795A4FC3D7E88_gshared (Buffer_1_t2F1FCC9FC2FBF87BF1F3015D0891FB06F60E47D4* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Int32>::.ctor(UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<TValue>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BypassScope__ctor_m4C69A76D4AC77A2B9614EE057AF15FE52C0DE38A_gshared (BypassScope_t22B85DE7BD7DE10C70316E2D58E15746F7AFB68A* __this, XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35* ___0_reader, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Int32>::Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BypassScope_Dispose_m5CD3B43095C61AFF9874DDD86DB1293A28EEAFDE_gshared (BypassScope_t22B85DE7BD7DE10C70316E2D58E15746F7AFB68A* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Single>::.ctor(UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<TValue>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BypassScope__ctor_m41D5DA2BCA2B77D2DA27E656C766E38EBEC627E0_gshared (BypassScope_t7D1B37565637622063AAB13A80F139C346FF13D9* __this, XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___0_reader, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Single>::Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BypassScope_Dispose_mDBDD085BD390FE04EB2D5F27F3502957EC085CF4_gshared (BypassScope_t7D1B37565637622063AAB13A80F139C346FF13D9* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<UnityEngine.Vector2>::.ctor(UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<TValue>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BypassScope__ctor_mC851733D0BA89E4C6D8B31DFBB314108D096BBE4_gshared (BypassScope_tB35565F99D3AE468B5171E5D9CB0AE8274E0A7CE* __this, XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___0_reader, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<UnityEngine.Vector2>::Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BypassScope_Dispose_m7522061C3879542376C437B3B49765BA68353B70_gshared (BypassScope_tB35565F99D3AE468B5171E5D9CB0AE8274E0A7CE* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1/Enumerator<System.Object>::Dispose()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mD9DC3E3C3697830A4823047AB29A77DBBB5ED419_gshared (Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A* __this, const RuntimeMethod* method) ;
 // T System.Collections.Generic.List`1/Enumerator<System.Object>::get_Current()
@@ -7346,36 +7200,6 @@ inline DeviceRequirementU5BU5D_t0496FAAB7554B7BFC270BA53BA6A5EFD5DE061CE* Buffer
 }
 // System.Void System.NotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Int32>::.ctor(UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<TValue>)
-inline void BypassScope__ctor_m4C69A76D4AC77A2B9614EE057AF15FE52C0DE38A (BypassScope_t22B85DE7BD7DE10C70316E2D58E15746F7AFB68A* __this, XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35* ___0_reader, const RuntimeMethod* method)
-{
-	((  void (*) (BypassScope_t22B85DE7BD7DE10C70316E2D58E15746F7AFB68A*, XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35*, const RuntimeMethod*))BypassScope__ctor_m4C69A76D4AC77A2B9614EE057AF15FE52C0DE38A_gshared)(__this, ___0_reader, method);
-}
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Int32>::Dispose()
-inline void BypassScope_Dispose_m5CD3B43095C61AFF9874DDD86DB1293A28EEAFDE (BypassScope_t22B85DE7BD7DE10C70316E2D58E15746F7AFB68A* __this, const RuntimeMethod* method)
-{
-	((  void (*) (BypassScope_t22B85DE7BD7DE10C70316E2D58E15746F7AFB68A*, const RuntimeMethod*))BypassScope_Dispose_m5CD3B43095C61AFF9874DDD86DB1293A28EEAFDE_gshared)(__this, method);
-}
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Single>::.ctor(UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<TValue>)
-inline void BypassScope__ctor_m41D5DA2BCA2B77D2DA27E656C766E38EBEC627E0 (BypassScope_t7D1B37565637622063AAB13A80F139C346FF13D9* __this, XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___0_reader, const RuntimeMethod* method)
-{
-	((  void (*) (BypassScope_t7D1B37565637622063AAB13A80F139C346FF13D9*, XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5*, const RuntimeMethod*))BypassScope__ctor_m41D5DA2BCA2B77D2DA27E656C766E38EBEC627E0_gshared)(__this, ___0_reader, method);
-}
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Single>::Dispose()
-inline void BypassScope_Dispose_mDBDD085BD390FE04EB2D5F27F3502957EC085CF4 (BypassScope_t7D1B37565637622063AAB13A80F139C346FF13D9* __this, const RuntimeMethod* method)
-{
-	((  void (*) (BypassScope_t7D1B37565637622063AAB13A80F139C346FF13D9*, const RuntimeMethod*))BypassScope_Dispose_mDBDD085BD390FE04EB2D5F27F3502957EC085CF4_gshared)(__this, method);
-}
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<UnityEngine.Vector2>::.ctor(UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<TValue>)
-inline void BypassScope__ctor_mC851733D0BA89E4C6D8B31DFBB314108D096BBE4 (BypassScope_tB35565F99D3AE468B5171E5D9CB0AE8274E0A7CE* __this, XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___0_reader, const RuntimeMethod* method)
-{
-	((  void (*) (BypassScope_tB35565F99D3AE468B5171E5D9CB0AE8274E0A7CE*, XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0*, const RuntimeMethod*))BypassScope__ctor_mC851733D0BA89E4C6D8B31DFBB314108D096BBE4_gshared)(__this, ___0_reader, method);
-}
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<UnityEngine.Vector2>::Dispose()
-inline void BypassScope_Dispose_m7522061C3879542376C437B3B49765BA68353B70 (BypassScope_tB35565F99D3AE468B5171E5D9CB0AE8274E0A7CE* __this, const RuntimeMethod* method)
-{
-	((  void (*) (BypassScope_tB35565F99D3AE468B5171E5D9CB0AE8274E0A7CE*, const RuntimeMethod*))BypassScope_Dispose_m7522061C3879542376C437B3B49765BA68353B70_gshared)(__this, method);
-}
 // UnityEngine.Transform UnityEngine.Component::get_transform()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
 // UnityEngine.Transform UnityEngine.Transform::get_parent()
@@ -28279,156 +28103,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t* ByReference_1_get_Value_m0AF420DA3F
 		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ByReference_1_get_Value_m0AF420DA3FD4EB206A6CE9A009A8E7E965B4FF7A_RuntimeMethod_var)));
 	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Int32>::.ctor(UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<TValue>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BypassScope__ctor_m4C69A76D4AC77A2B9614EE057AF15FE52C0DE38A_gshared (BypassScope_t22B85DE7BD7DE10C70316E2D58E15746F7AFB68A* __this, XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35* ___0_reader, const RuntimeMethod* method) 
-{
-	{
-		// m_Reader = reader;
-		XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35* L_0 = ___0_reader;
-		__this->___m_Reader_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Reader_0), (void*)L_0);
-		// m_Reader.m_CallingBypass = true;
-		XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35* L_1 = __this->___m_Reader_0;
-		NullCheck(L_1);
-		L_1->___m_CallingBypass_7 = (bool)1;
-		// }
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void BypassScope__ctor_m4C69A76D4AC77A2B9614EE057AF15FE52C0DE38A_AdjustorThunk (RuntimeObject* __this, XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35* ___0_reader, const RuntimeMethod* method)
-{
-	BypassScope_t22B85DE7BD7DE10C70316E2D58E15746F7AFB68A* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<BypassScope_t22B85DE7BD7DE10C70316E2D58E15746F7AFB68A*>(__this + _offset);
-	BypassScope__ctor_m4C69A76D4AC77A2B9614EE057AF15FE52C0DE38A(_thisAdjusted, ___0_reader, method);
-}
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Int32>::Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BypassScope_Dispose_m5CD3B43095C61AFF9874DDD86DB1293A28EEAFDE_gshared (BypassScope_t22B85DE7BD7DE10C70316E2D58E15746F7AFB68A* __this, const RuntimeMethod* method) 
-{
-	{
-		// m_Reader.m_CallingBypass = false;
-		XRInputValueReader_1_t8F80E2A6EAD592207D2C695B2C3BF79698840C35* L_0 = __this->___m_Reader_0;
-		NullCheck(L_0);
-		L_0->___m_CallingBypass_7 = (bool)0;
-		// }
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void BypassScope_Dispose_m5CD3B43095C61AFF9874DDD86DB1293A28EEAFDE_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	BypassScope_t22B85DE7BD7DE10C70316E2D58E15746F7AFB68A* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<BypassScope_t22B85DE7BD7DE10C70316E2D58E15746F7AFB68A*>(__this + _offset);
-	BypassScope_Dispose_m5CD3B43095C61AFF9874DDD86DB1293A28EEAFDE(_thisAdjusted, method);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Single>::.ctor(UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<TValue>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BypassScope__ctor_m41D5DA2BCA2B77D2DA27E656C766E38EBEC627E0_gshared (BypassScope_t7D1B37565637622063AAB13A80F139C346FF13D9* __this, XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___0_reader, const RuntimeMethod* method) 
-{
-	{
-		// m_Reader = reader;
-		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_0 = ___0_reader;
-		__this->___m_Reader_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Reader_0), (void*)L_0);
-		// m_Reader.m_CallingBypass = true;
-		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_1 = __this->___m_Reader_0;
-		NullCheck(L_1);
-		L_1->___m_CallingBypass_7 = (bool)1;
-		// }
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void BypassScope__ctor_m41D5DA2BCA2B77D2DA27E656C766E38EBEC627E0_AdjustorThunk (RuntimeObject* __this, XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* ___0_reader, const RuntimeMethod* method)
-{
-	BypassScope_t7D1B37565637622063AAB13A80F139C346FF13D9* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<BypassScope_t7D1B37565637622063AAB13A80F139C346FF13D9*>(__this + _offset);
-	BypassScope__ctor_m41D5DA2BCA2B77D2DA27E656C766E38EBEC627E0(_thisAdjusted, ___0_reader, method);
-}
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<System.Single>::Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BypassScope_Dispose_mDBDD085BD390FE04EB2D5F27F3502957EC085CF4_gshared (BypassScope_t7D1B37565637622063AAB13A80F139C346FF13D9* __this, const RuntimeMethod* method) 
-{
-	{
-		// m_Reader.m_CallingBypass = false;
-		XRInputValueReader_1_t7482F990F323B5D373DF221174629A7C3EB97BC5* L_0 = __this->___m_Reader_0;
-		NullCheck(L_0);
-		L_0->___m_CallingBypass_7 = (bool)0;
-		// }
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void BypassScope_Dispose_mDBDD085BD390FE04EB2D5F27F3502957EC085CF4_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	BypassScope_t7D1B37565637622063AAB13A80F139C346FF13D9* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<BypassScope_t7D1B37565637622063AAB13A80F139C346FF13D9*>(__this + _offset);
-	BypassScope_Dispose_mDBDD085BD390FE04EB2D5F27F3502957EC085CF4(_thisAdjusted, method);
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<UnityEngine.Vector2>::.ctor(UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1<TValue>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BypassScope__ctor_mC851733D0BA89E4C6D8B31DFBB314108D096BBE4_gshared (BypassScope_tB35565F99D3AE468B5171E5D9CB0AE8274E0A7CE* __this, XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___0_reader, const RuntimeMethod* method) 
-{
-	{
-		// m_Reader = reader;
-		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_0 = ___0_reader;
-		__this->___m_Reader_0 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Reader_0), (void*)L_0);
-		// m_Reader.m_CallingBypass = true;
-		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_1 = __this->___m_Reader_0;
-		NullCheck(L_1);
-		L_1->___m_CallingBypass_7 = (bool)1;
-		// }
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void BypassScope__ctor_mC851733D0BA89E4C6D8B31DFBB314108D096BBE4_AdjustorThunk (RuntimeObject* __this, XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* ___0_reader, const RuntimeMethod* method)
-{
-	BypassScope_tB35565F99D3AE468B5171E5D9CB0AE8274E0A7CE* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<BypassScope_tB35565F99D3AE468B5171E5D9CB0AE8274E0A7CE*>(__this + _offset);
-	BypassScope__ctor_mC851733D0BA89E4C6D8B31DFBB314108D096BBE4(_thisAdjusted, ___0_reader, method);
-}
-// System.Void UnityEngine.XR.Interaction.Toolkit.Inputs.Readers.XRInputValueReader`1/BypassScope<UnityEngine.Vector2>::Dispose()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BypassScope_Dispose_m7522061C3879542376C437B3B49765BA68353B70_gshared (BypassScope_tB35565F99D3AE468B5171E5D9CB0AE8274E0A7CE* __this, const RuntimeMethod* method) 
-{
-	{
-		// m_Reader.m_CallingBypass = false;
-		XRInputValueReader_1_t6B311BAB920F92BC851C1CD180A8555021DE8FC0* L_0 = __this->___m_Reader_0;
-		NullCheck(L_0);
-		L_0->___m_CallingBypass_7 = (bool)0;
-		// }
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void BypassScope_Dispose_m7522061C3879542376C437B3B49765BA68353B70_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
-{
-	BypassScope_tB35565F99D3AE468B5171E5D9CB0AE8274E0A7CE* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<BypassScope_tB35565F99D3AE468B5171E5D9CB0AE8274E0A7CE*>(__this + _offset);
-	BypassScope_Dispose_m7522061C3879542376C437B3B49765BA68353B70(_thisAdjusted, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop

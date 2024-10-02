@@ -457,8 +457,6 @@ struct AndroidAmbientTemperature_t708F5C6684A965DF4B1DB0FBCD468DDCCC718F85;
 struct AndroidCompensateDirectionProcessor_t6EC5E83645FC7DD5345A83BD314EB8672860E557;
 // UnityEngine.InputSystem.Android.LowLevel.AndroidCompensateRotationProcessor
 struct AndroidCompensateRotationProcessor_tFDB308670A5D207966B1CF3BCA786D69D060F021;
-// UnityEngine.InputSystem.Android.AndroidGameRotationVector
-struct AndroidGameRotationVector_t7B3682A453C14CDFAFDA1E449868F583E132A502;
 // UnityEngine.InputSystem.Android.AndroidGamepad
 struct AndroidGamepad_t786079AAF70FADAC9023B59E60BE8DB35903EF6E;
 // UnityEngine.InputSystem.Android.AndroidGamepadWithDpadAxes
@@ -1060,7 +1058,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* InputState_RemoveChangeMonitor_m88D0A78BCF1
 IL2CPP_EXTERN_C const RuntimeMethod* InputSystem_AddDevice_TisTouchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE_mD79344B098B9A9FB343FF886B1570591ABE366F5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputSystem_RegisterLayout_TisAndroidAccelerometer_t424C7F249B02EEE2B4FC08EEEB8CCA17979C0152_m81BB016324781010C03B79F03B9B1251EF494F06_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputSystem_RegisterLayout_TisAndroidAmbientTemperature_t708F5C6684A965DF4B1DB0FBCD468DDCCC718F85_m5530D2BE7273A5B0ADEE6D0E0BC7959DE2F720C6_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InputSystem_RegisterLayout_TisAndroidGameRotationVector_t7B3682A453C14CDFAFDA1E449868F583E132A502_m4A843DD2C0B734FBCC4B2417B85869DA44CE8E9A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputSystem_RegisterLayout_TisAndroidGamepadWithDpadAxes_tF737215B337DB2EE82739556B7D49B9C47E1E0A6_m30DAFD342250BE7F2EC990CB00E8ADDF54F342FD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputSystem_RegisterLayout_TisAndroidGamepadWithDpadButtons_t62C4BA5D1E7EDAC25BF4540A84825D8F210121CA_mC09733DAF7FF9BD02283D2C22F6A22B8BF2AD5C5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* InputSystem_RegisterLayout_TisAndroidGamepad_t786079AAF70FADAC9023B59E60BE8DB35903EF6E_mC2C285D2C9FFBD05E571A73FE3DAE0587C215F23_RuntimeMethod_var;
@@ -4315,13 +4312,6 @@ struct EditorInputBehaviorInPlayMode_tC47B44FACCF39F8E2DCA21270D51417B5DEF814D
 	int32_t ___value___2;
 };
 
-// UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode
-struct InputActionPropertyDrawerMode_t521985D556D158DCD4AF3C3B351D5EC081C89E86 
-{
-	// System.Int32 UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode::value__
-	int32_t ___value___2;
-};
-
 // UnityEngine.InputSystem.InputSettings/UpdateMode
 struct UpdateMode_tCD49766B755C4CD8E1F2DE8D57798DAC2C5CBF32 
 {
@@ -6732,32 +6722,30 @@ struct InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF  : public Scripta
 	int32_t ___m_BackgroundBehavior_9;
 	// UnityEngine.InputSystem.InputSettings/EditorInputBehaviorInPlayMode UnityEngine.InputSystem.InputSettings::m_EditorInputBehaviorInPlayMode
 	int32_t ___m_EditorInputBehaviorInPlayMode_10;
-	// UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode UnityEngine.InputSystem.InputSettings::m_InputActionPropertyDrawerMode
-	int32_t ___m_InputActionPropertyDrawerMode_11;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultDeadzoneMin
-	float ___m_DefaultDeadzoneMin_12;
+	float ___m_DefaultDeadzoneMin_11;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultDeadzoneMax
-	float ___m_DefaultDeadzoneMax_13;
+	float ___m_DefaultDeadzoneMax_12;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultButtonPressPoint
-	float ___m_DefaultButtonPressPoint_14;
+	float ___m_DefaultButtonPressPoint_13;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_ButtonReleaseThreshold
-	float ___m_ButtonReleaseThreshold_15;
+	float ___m_ButtonReleaseThreshold_14;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultTapTime
-	float ___m_DefaultTapTime_16;
+	float ___m_DefaultTapTime_15;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultSlowTapTime
-	float ___m_DefaultSlowTapTime_17;
+	float ___m_DefaultSlowTapTime_16;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultHoldTime
-	float ___m_DefaultHoldTime_18;
+	float ___m_DefaultHoldTime_17;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_TapRadius
-	float ___m_TapRadius_19;
+	float ___m_TapRadius_18;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_MultiTapDelayTime
-	float ___m_MultiTapDelayTime_20;
+	float ___m_MultiTapDelayTime_19;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::m_DisableRedundantEventsMerging
-	bool ___m_DisableRedundantEventsMerging_21;
+	bool ___m_DisableRedundantEventsMerging_20;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::m_ShortcutKeysConsumeInputs
-	bool ___m_ShortcutKeysConsumeInputs_22;
+	bool ___m_ShortcutKeysConsumeInputs_21;
 	// System.Collections.Generic.HashSet`1<System.String> UnityEngine.InputSystem.InputSettings::m_FeatureFlags
-	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___m_FeatureFlags_23;
+	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___m_FeatureFlags_22;
 };
 
 // UnityEngine.InputSystem.LowLevel.InputStateHistory
@@ -8018,11 +8006,6 @@ struct AndroidAccelerometer_t424C7F249B02EEE2B4FC08EEEB8CCA17979C0152  : public 
 
 // UnityEngine.InputSystem.Android.AndroidAmbientTemperature
 struct AndroidAmbientTemperature_t708F5C6684A965DF4B1DB0FBCD468DDCCC718F85  : public AmbientTemperatureSensor_t76EBA3E167601D4CC695BC674983F15E4EEADAE8
-{
-};
-
-// UnityEngine.InputSystem.Android.AndroidGameRotationVector
-struct AndroidGameRotationVector_t7B3682A453C14CDFAFDA1E449868F583E132A502  : public AttitudeSensor_tA85F0C6E285FC1137DE8AB1CFB7357C7E8673906
 {
 };
 
@@ -9397,11 +9380,11 @@ struct Type_t_StaticFields
 struct InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_StaticFields
 {
 	// System.Boolean UnityEngine.InputSystem.InputSettings::optimizedControlsFeatureEnabled
-	bool ___optimizedControlsFeatureEnabled_24;
+	bool ___optimizedControlsFeatureEnabled_23;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::readValueCachingFeatureEnabled
-	bool ___readValueCachingFeatureEnabled_25;
+	bool ___readValueCachingFeatureEnabled_24;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::paranoidReadValueCachingChecksEnabled
-	bool ___paranoidReadValueCachingChecksEnabled_26;
+	bool ___paranoidReadValueCachingChecksEnabled_25;
 };
 
 // UnityEngine.InputSystem.InputSettings
@@ -9748,10 +9731,6 @@ struct Touchscreen_t5A3B494C10A53A822AEDB3508093860D142D84CE_StaticFields
 // UnityEngine.InputSystem.Android.AndroidAmbientTemperature
 
 // UnityEngine.InputSystem.Android.AndroidAmbientTemperature
-
-// UnityEngine.InputSystem.Android.AndroidGameRotationVector
-
-// UnityEngine.InputSystem.Android.AndroidGameRotationVector
 
 // UnityEngine.InputSystem.Android.AndroidGamepadWithDpadAxes
 
@@ -11718,11 +11697,6 @@ inline void InputSystem_RegisterLayout_TisAndroidRelativeHumidity_tBEFC715127669
 }
 // System.Void UnityEngine.InputSystem.InputSystem::RegisterLayout<UnityEngine.InputSystem.Android.AndroidAmbientTemperature>(System.String,System.Nullable`1<UnityEngine.InputSystem.Layouts.InputDeviceMatcher>)
 inline void InputSystem_RegisterLayout_TisAndroidAmbientTemperature_t708F5C6684A965DF4B1DB0FBCD468DDCCC718F85_m5530D2BE7273A5B0ADEE6D0E0BC7959DE2F720C6 (String_t* ___0_name, Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C ___1_matches, const RuntimeMethod* method)
-{
-	((  void (*) (String_t*, Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C, const RuntimeMethod*))InputSystem_RegisterLayout_TisRuntimeObject_m8B0CF2E33066D31E034869BE401DD185E2F04011_gshared)(___0_name, ___1_matches, method);
-}
-// System.Void UnityEngine.InputSystem.InputSystem::RegisterLayout<UnityEngine.InputSystem.Android.AndroidGameRotationVector>(System.String,System.Nullable`1<UnityEngine.InputSystem.Layouts.InputDeviceMatcher>)
-inline void InputSystem_RegisterLayout_TisAndroidGameRotationVector_t7B3682A453C14CDFAFDA1E449868F583E132A502_m4A843DD2C0B734FBCC4B2417B85869DA44CE8E9A (String_t* ___0_name, Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C ___1_matches, const RuntimeMethod* method)
 {
 	((  void (*) (String_t*, Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C, const RuntimeMethod*))InputSystem_RegisterLayout_TisRuntimeObject_m8B0CF2E33066D31E034869BE401DD185E2F04011_gshared)(___0_name, ___1_matches, method);
 }
@@ -21069,22 +21043,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidAmbientTemperature__ctor_m0BBCDE2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void UnityEngine.InputSystem.Android.AndroidGameRotationVector::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidGameRotationVector__ctor_mF426480A54BBFBCF612D19B3FF5B3A548166D870 (AndroidGameRotationVector_t7B3682A453C14CDFAFDA1E449868F583E132A502* __this, const RuntimeMethod* method) 
-{
-	{
-		AttitudeSensor__ctor_m4BC22DA0C424808E1AAE9DE7C1B13D7EE171D1E1(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // System.Void UnityEngine.InputSystem.Android.AndroidStepCounter::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidStepCounter__ctor_m619B6183B2DF854E9C1E9D67A58401C5E5B40446 (AndroidStepCounter_t60ECCD106CD8AD94CB740C46D212D1FA94DF38CD* __this, const RuntimeMethod* method) 
 {
@@ -21113,7 +21071,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSupport_Initialize_mC47A27DAF01C4
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_RegisterLayout_TisAndroidAccelerometer_t424C7F249B02EEE2B4FC08EEEB8CCA17979C0152_m81BB016324781010C03B79F03B9B1251EF494F06_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_RegisterLayout_TisAndroidAmbientTemperature_t708F5C6684A965DF4B1DB0FBCD468DDCCC718F85_m5530D2BE7273A5B0ADEE6D0E0BC7959DE2F720C6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_RegisterLayout_TisAndroidGameRotationVector_t7B3682A453C14CDFAFDA1E449868F583E132A502_m4A843DD2C0B734FBCC4B2417B85869DA44CE8E9A_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_RegisterLayout_TisAndroidGamepadWithDpadAxes_tF737215B337DB2EE82739556B7D49B9C47E1E0A6_m30DAFD342250BE7F2EC990CB00E8ADDF54F342FD_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_RegisterLayout_TisAndroidGamepadWithDpadButtons_t62C4BA5D1E7EDAC25BF4540A84825D8F210121CA_mC09733DAF7FF9BD02283D2C22F6A22B8BF2AD5C5_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InputSystem_RegisterLayout_TisAndroidGamepad_t786079AAF70FADAC9023B59E60BE8DB35903EF6E_mC2C285D2C9FFBD05E571A73FE3DAE0587C215F23_RuntimeMethod_var);
@@ -21406,11 +21363,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSupport_Initialize_mC47A27DAF01C4
 		memset((&L_66), 0, sizeof(L_66));
 		Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB((&L_66), L_65, /*hidden argument*/Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB_RuntimeMethod_var);
 		InputSystem_RegisterLayout_TisAndroidAmbientTemperature_t708F5C6684A965DF4B1DB0FBCD468DDCCC718F85_m5530D2BE7273A5B0ADEE6D0E0BC7959DE2F720C6((String_t*)NULL, L_66, InputSystem_RegisterLayout_TisAndroidAmbientTemperature_t708F5C6684A965DF4B1DB0FBCD468DDCCC718F85_m5530D2BE7273A5B0ADEE6D0E0BC7959DE2F720C6_RuntimeMethod_var);
-		// InputSystem.RegisterLayout<AndroidGameRotationVector>(
+		// InputSystem.RegisterLayout<AndroidStepCounter>(
 		//     matches: new InputDeviceMatcher()
 		//         .WithInterface(kAndroidInterface)
 		//         .WithDeviceClass("AndroidSensor")
-		//         .WithCapability("sensorType", AndroidSensorType.GameRotationVector));
+		//         .WithCapability("sensorType", AndroidSensorType.StepCounter));
 		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555* L_67 = (&V_0);
 		il2cpp_codegen_initobj(L_67, sizeof(InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555));
 		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555 L_68;
@@ -21420,35 +21377,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidSupport_Initialize_mC47A27DAF01C4
 		L_69 = InputDeviceMatcher_WithDeviceClass_m303C68EE7902057FB7C4DA6CCAEC4A95B1BEB193((&V_0), _stringLiteralF87BFA6908F78FD2F9414AE8928800B1CECA77EC, (bool)1, NULL);
 		V_0 = L_69;
 		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555 L_70;
-		L_70 = InputDeviceMatcher_WithCapability_TisAndroidSensorType_tB6AC49E8C886787678C43E95D916F20DF159FC1C_m584A73C156B31C066D3FB9D2992B4FCF43DE9FA5((&V_0), _stringLiteralBBD73174406D6BAD02A5FFCA92D8E5008A02E589, ((int32_t)15), InputDeviceMatcher_WithCapability_TisAndroidSensorType_tB6AC49E8C886787678C43E95D916F20DF159FC1C_m584A73C156B31C066D3FB9D2992B4FCF43DE9FA5_RuntimeMethod_var);
+		L_70 = InputDeviceMatcher_WithCapability_TisAndroidSensorType_tB6AC49E8C886787678C43E95D916F20DF159FC1C_m584A73C156B31C066D3FB9D2992B4FCF43DE9FA5((&V_0), _stringLiteralBBD73174406D6BAD02A5FFCA92D8E5008A02E589, ((int32_t)19), InputDeviceMatcher_WithCapability_TisAndroidSensorType_tB6AC49E8C886787678C43E95D916F20DF159FC1C_m584A73C156B31C066D3FB9D2992B4FCF43DE9FA5_RuntimeMethod_var);
 		Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C L_71;
 		memset((&L_71), 0, sizeof(L_71));
 		Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB((&L_71), L_70, /*hidden argument*/Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB_RuntimeMethod_var);
-		InputSystem_RegisterLayout_TisAndroidGameRotationVector_t7B3682A453C14CDFAFDA1E449868F583E132A502_m4A843DD2C0B734FBCC4B2417B85869DA44CE8E9A((String_t*)NULL, L_71, InputSystem_RegisterLayout_TisAndroidGameRotationVector_t7B3682A453C14CDFAFDA1E449868F583E132A502_m4A843DD2C0B734FBCC4B2417B85869DA44CE8E9A_RuntimeMethod_var);
-		// InputSystem.RegisterLayout<AndroidStepCounter>(
-		//     matches: new InputDeviceMatcher()
-		//         .WithInterface(kAndroidInterface)
-		//         .WithDeviceClass("AndroidSensor")
-		//         .WithCapability("sensorType", AndroidSensorType.StepCounter));
-		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555* L_72 = (&V_0);
-		il2cpp_codegen_initobj(L_72, sizeof(InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555));
-		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555 L_73;
-		L_73 = InputDeviceMatcher_WithInterface_m58A8A1CF9A77598D0F904E13A86F48B3464725E4(L_72, _stringLiteral77843243D4312B40A1163EFE55D56961E2352D09, (bool)1, NULL);
-		V_0 = L_73;
-		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555 L_74;
-		L_74 = InputDeviceMatcher_WithDeviceClass_m303C68EE7902057FB7C4DA6CCAEC4A95B1BEB193((&V_0), _stringLiteralF87BFA6908F78FD2F9414AE8928800B1CECA77EC, (bool)1, NULL);
-		V_0 = L_74;
-		InputDeviceMatcher_tF9BA551C8BB4AE41672366A7EBEA951543E0C555 L_75;
-		L_75 = InputDeviceMatcher_WithCapability_TisAndroidSensorType_tB6AC49E8C886787678C43E95D916F20DF159FC1C_m584A73C156B31C066D3FB9D2992B4FCF43DE9FA5((&V_0), _stringLiteralBBD73174406D6BAD02A5FFCA92D8E5008A02E589, ((int32_t)19), InputDeviceMatcher_WithCapability_TisAndroidSensorType_tB6AC49E8C886787678C43E95D916F20DF159FC1C_m584A73C156B31C066D3FB9D2992B4FCF43DE9FA5_RuntimeMethod_var);
-		Nullable_1_t4EEC710224A7596AC94C3B6D292E4CB7D84B7F2C L_76;
-		memset((&L_76), 0, sizeof(L_76));
-		Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB((&L_76), L_75, /*hidden argument*/Nullable_1__ctor_mD369CAC1BA03979662923E5D5E9FAF1F98E252EB_RuntimeMethod_var);
-		InputSystem_RegisterLayout_TisAndroidStepCounter_t60ECCD106CD8AD94CB740C46D212D1FA94DF38CD_mF53B342756B40D69B85330687ACE970B12B9E7EB((String_t*)NULL, L_76, InputSystem_RegisterLayout_TisAndroidStepCounter_t60ECCD106CD8AD94CB740C46D212D1FA94DF38CD_mF53B342756B40D69B85330687ACE970B12B9E7EB_RuntimeMethod_var);
+		InputSystem_RegisterLayout_TisAndroidStepCounter_t60ECCD106CD8AD94CB740C46D212D1FA94DF38CD_mF53B342756B40D69B85330687ACE970B12B9E7EB((String_t*)NULL, L_71, InputSystem_RegisterLayout_TisAndroidStepCounter_t60ECCD106CD8AD94CB740C46D212D1FA94DF38CD_mF53B342756B40D69B85330687ACE970B12B9E7EB_RuntimeMethod_var);
 		// InputSystem.onFindLayoutForDevice += OnFindLayoutForDevice;
-		InputDeviceFindControlLayoutDelegate_t533E695E7CFD2DEB4FEDA1A9E72D9F5F5AEF4A3E* L_77 = (InputDeviceFindControlLayoutDelegate_t533E695E7CFD2DEB4FEDA1A9E72D9F5F5AEF4A3E*)il2cpp_codegen_object_new(InputDeviceFindControlLayoutDelegate_t533E695E7CFD2DEB4FEDA1A9E72D9F5F5AEF4A3E_il2cpp_TypeInfo_var);
-		NullCheck(L_77);
-		InputDeviceFindControlLayoutDelegate__ctor_mFF49E8C46111B03A6B9AEBDA66C309EF6FACFB78(L_77, NULL, (intptr_t)((void*)AndroidSupport_OnFindLayoutForDevice_m6D2CFB4805920FAB5F531DC4460E722FDF85EBFC_RuntimeMethod_var), NULL);
-		InputSystem_add_onFindLayoutForDevice_m45EFFF1289C40BBA4B9AED83192E6EF8994FFB54(L_77, NULL);
+		InputDeviceFindControlLayoutDelegate_t533E695E7CFD2DEB4FEDA1A9E72D9F5F5AEF4A3E* L_72 = (InputDeviceFindControlLayoutDelegate_t533E695E7CFD2DEB4FEDA1A9E72D9F5F5AEF4A3E*)il2cpp_codegen_object_new(InputDeviceFindControlLayoutDelegate_t533E695E7CFD2DEB4FEDA1A9E72D9F5F5AEF4A3E_il2cpp_TypeInfo_var);
+		NullCheck(L_72);
+		InputDeviceFindControlLayoutDelegate__ctor_mFF49E8C46111B03A6B9AEBDA66C309EF6FACFB78(L_72, NULL, (intptr_t)((void*)AndroidSupport_OnFindLayoutForDevice_m6D2CFB4805920FAB5F531DC4460E722FDF85EBFC_RuntimeMethod_var), NULL);
+		InputSystem_add_onFindLayoutForDevice_m45EFFF1289C40BBA4B9AED83192E6EF8994FFB54(L_72, NULL);
 		// }
 		return;
 	}
