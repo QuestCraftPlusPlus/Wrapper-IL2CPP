@@ -431,6 +431,8 @@ struct EyesControl_t83617BA50C727F89DD6BB371171708BCE0FD8028;
 struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
 // UnityEngine.InputSystem.Gamepad
 struct Gamepad_tA8C0E40B4F0828615C6C6E1A69AAEBE5AA643A4C;
+// UnityEngine.InputSystem.XR.Haptics.HapticCapabilities
+struct HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B;
 // System.IAsyncResult
 struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
 // System.Collections.IDictionary
@@ -742,7 +744,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral8AC9B1631946ABA77732A21837CA3B2C35A59A5E
 IL2CPP_EXTERN_C String_t* _stringLiteral8B794A79E25012031D9ECB66736699945E12EAA7;
 IL2CPP_EXTERN_C String_t* _stringLiteral8C4BDF69809ECFA0DD6D4FB4462D77E77FD1A6D9;
 IL2CPP_EXTERN_C String_t* _stringLiteral8D0D3A5F403830E41B4FCB57E7943BAA7A10976B;
-IL2CPP_EXTERN_C String_t* _stringLiteral8D9B00219CB862A3DCBFD543D5700AA7F7F40FE8;
 IL2CPP_EXTERN_C String_t* _stringLiteral8DD674C07B324540A5A7A64306FEB6783C82286F;
 IL2CPP_EXTERN_C String_t* _stringLiteral904F5C54BDDBCDE4FF0A0949B59DA0DD318D4A5C;
 IL2CPP_EXTERN_C String_t* _stringLiteral919A8B8AD6B0B984A557F401CB8A6A77F6AB9F16;
@@ -792,6 +793,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDCA5ECAF150CF00E44F6388901186F2356B06739
 IL2CPP_EXTERN_C String_t* _stringLiteralDCA884BDE3461B51BC3CBE077E141428C6D55245;
 IL2CPP_EXTERN_C String_t* _stringLiteralDDDEAC84FAFDD66D0CAADC5EA70E433D20AAC835;
 IL2CPP_EXTERN_C String_t* _stringLiteralE16EED961058125D81E09FCA0B5A362770A7CAB5;
+IL2CPP_EXTERN_C String_t* _stringLiteralE24C697779110DC1879915CAA7B5EEBD6657ECC1;
 IL2CPP_EXTERN_C String_t* _stringLiteralE4C94564C8BA4009075E09F4D5466583C4D1F087;
 IL2CPP_EXTERN_C String_t* _stringLiteralE4D977C2A30DA0EF036B1F2C032B2896E6C5372F;
 IL2CPP_EXTERN_C String_t* _stringLiteralE566E6091771397A8847DE9F0E5AF31E5E383CA7;
@@ -1094,6 +1096,11 @@ struct DynamicBitfield_t4EE89B3E0E02AA497D0D0768DE48E64DC490AE10_marshaled_pinvo
 struct DynamicBitfield_t4EE89B3E0E02AA497D0D0768DE48E64DC490AE10_marshaled_pinvoke;;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
+struct HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B;;
+struct HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_com;
+struct HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_com;;
+struct HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_pinvoke;
+struct HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_pinvoke;;
 struct InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F;;
 struct InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F_marshaled_com;
 struct InputDeviceDescription_tE86DD77422AAF60ADDAC788B31E5A05E739B708F_marshaled_com;;
@@ -2076,10 +2083,36 @@ struct HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B
 {
 	// System.UInt32 UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::<numChannels>k__BackingField
 	uint32_t ___U3CnumChannelsU3Ek__BackingField_0;
+	// System.Boolean UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::<supportsImpulse>k__BackingField
+	bool ___U3CsupportsImpulseU3Ek__BackingField_1;
+	// System.Boolean UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::<supportsBuffer>k__BackingField
+	bool ___U3CsupportsBufferU3Ek__BackingField_2;
 	// System.UInt32 UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::<frequencyHz>k__BackingField
-	uint32_t ___U3CfrequencyHzU3Ek__BackingField_1;
+	uint32_t ___U3CfrequencyHzU3Ek__BackingField_3;
 	// System.UInt32 UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::<maxBufferSize>k__BackingField
-	uint32_t ___U3CmaxBufferSizeU3Ek__BackingField_2;
+	uint32_t ___U3CmaxBufferSizeU3Ek__BackingField_4;
+	// System.UInt32 UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::<optimalBufferSize>k__BackingField
+	uint32_t ___U3CoptimalBufferSizeU3Ek__BackingField_5;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.XR.Haptics.HapticCapabilities
+struct HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_pinvoke
+{
+	uint32_t ___U3CnumChannelsU3Ek__BackingField_0;
+	int32_t ___U3CsupportsImpulseU3Ek__BackingField_1;
+	int32_t ___U3CsupportsBufferU3Ek__BackingField_2;
+	uint32_t ___U3CfrequencyHzU3Ek__BackingField_3;
+	uint32_t ___U3CmaxBufferSizeU3Ek__BackingField_4;
+	uint32_t ___U3CoptimalBufferSizeU3Ek__BackingField_5;
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.XR.Haptics.HapticCapabilities
+struct HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_com
+{
+	uint32_t ___U3CnumChannelsU3Ek__BackingField_0;
+	int32_t ___U3CsupportsImpulseU3Ek__BackingField_1;
+	int32_t ___U3CsupportsBufferU3Ek__BackingField_2;
+	uint32_t ___U3CfrequencyHzU3Ek__BackingField_3;
+	uint32_t ___U3CmaxBufferSizeU3Ek__BackingField_4;
+	uint32_t ___U3CoptimalBufferSizeU3Ek__BackingField_5;
 };
 
 // UnityEngine.InputSystem.XR.Haptics.HapticState
@@ -3426,13 +3459,13 @@ struct BufferedRumble_t9CEFFD2617629F279D1B3DAE7E39F8BB7C89CA19
 // Native definition for P/Invoke marshalling of UnityEngine.InputSystem.XR.Haptics.BufferedRumble
 struct BufferedRumble_t9CEFFD2617629F279D1B3DAE7E39F8BB7C89CA19_marshaled_pinvoke
 {
-	HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B ___U3CcapabilitiesU3Ek__BackingField_0;
+	HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_pinvoke ___U3CcapabilitiesU3Ek__BackingField_0;
 	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___U3CdeviceU3Ek__BackingField_1;
 };
 // Native definition for COM marshalling of UnityEngine.InputSystem.XR.Haptics.BufferedRumble
 struct BufferedRumble_t9CEFFD2617629F279D1B3DAE7E39F8BB7C89CA19_marshaled_com
 {
-	HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B ___U3CcapabilitiesU3Ek__BackingField_0;
+	HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_com ___U3CcapabilitiesU3Ek__BackingField_0;
 	InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___U3CdeviceU3Ek__BackingField_1;
 };
 
@@ -4078,6 +4111,13 @@ struct EditorInputBehaviorInPlayMode_tC47B44FACCF39F8E2DCA21270D51417B5DEF814D
 	int32_t ___value___2;
 };
 
+// UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode
+struct InputActionPropertyDrawerMode_t521985D556D158DCD4AF3C3B351D5EC081C89E86 
+{
+	// System.Int32 UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode::value__
+	int32_t ___value___2;
+};
+
 // UnityEngine.InputSystem.InputSettings/UpdateMode
 struct UpdateMode_tCD49766B755C4CD8E1F2DE8D57798DAC2C5CBF32 
 {
@@ -4404,32 +4444,263 @@ struct GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___frequencyHz_3_OffsetPadding[12];
-					// System.UInt32 UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand::frequencyHz
-					uint32_t ___frequencyHz_3;
+					char ___supportsImpulse_3_OffsetPadding[12];
+					// System.Boolean UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand::supportsImpulse
+					bool ___supportsImpulse_3;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___frequencyHz_3_OffsetPadding_forAlignmentOnly[12];
-					uint32_t ___frequencyHz_3_forAlignmentOnly;
+					char ___supportsImpulse_3_OffsetPadding_forAlignmentOnly[12];
+					bool ___supportsImpulse_3_forAlignmentOnly;
 				};
 				#pragma pack(push, tp, 1)
 				struct
 				{
-					char ___maxBufferSize_4_OffsetPadding[16];
-					// System.UInt32 UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand::maxBufferSize
-					uint32_t ___maxBufferSize_4;
+					char ___supportsBuffer_4_OffsetPadding[13];
+					// System.Boolean UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand::supportsBuffer
+					bool ___supportsBuffer_4;
 				};
 				#pragma pack(pop, tp)
 				struct
 				{
-					char ___maxBufferSize_4_OffsetPadding_forAlignmentOnly[16];
-					uint32_t ___maxBufferSize_4_forAlignmentOnly;
+					char ___supportsBuffer_4_OffsetPadding_forAlignmentOnly[13];
+					bool ___supportsBuffer_4_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___frequencyHz_5_OffsetPadding[16];
+					// System.UInt32 UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand::frequencyHz
+					uint32_t ___frequencyHz_5;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___frequencyHz_5_OffsetPadding_forAlignmentOnly[16];
+					uint32_t ___frequencyHz_5_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___maxBufferSize_6_OffsetPadding[20];
+					// System.UInt32 UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand::maxBufferSize
+					uint32_t ___maxBufferSize_6;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___maxBufferSize_6_OffsetPadding_forAlignmentOnly[20];
+					uint32_t ___maxBufferSize_6_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___optimalBufferSize_7_OffsetPadding[24];
+					// System.UInt32 UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand::optimalBufferSize
+					uint32_t ___optimalBufferSize_7;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___optimalBufferSize_7_OffsetPadding_forAlignmentOnly[24];
+					uint32_t ___optimalBufferSize_7_forAlignmentOnly;
 				};
 			};
 		};
-		uint8_t GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE__padding[20];
+		uint8_t GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE__padding[28];
+	};
+};
+// Native definition for P/Invoke marshalling of UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand
+struct GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshaled_pinvoke
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					InputDeviceCommand_t219FD4502984D73D423496E4A2ED7FDB6CBE710E ___baseCommand_1;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					InputDeviceCommand_t219FD4502984D73D423496E4A2ED7FDB6CBE710E ___baseCommand_1_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___numChannels_2_OffsetPadding[8];
+					uint32_t ___numChannels_2;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___numChannels_2_OffsetPadding_forAlignmentOnly[8];
+					uint32_t ___numChannels_2_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___supportsImpulse_3_OffsetPadding[12];
+					int32_t ___supportsImpulse_3;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___supportsImpulse_3_OffsetPadding_forAlignmentOnly[12];
+					int32_t ___supportsImpulse_3_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___supportsBuffer_4_OffsetPadding[13];
+					int32_t ___supportsBuffer_4;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___supportsBuffer_4_OffsetPadding_forAlignmentOnly[13];
+					int32_t ___supportsBuffer_4_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___frequencyHz_5_OffsetPadding[16];
+					uint32_t ___frequencyHz_5;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___frequencyHz_5_OffsetPadding_forAlignmentOnly[16];
+					uint32_t ___frequencyHz_5_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___maxBufferSize_6_OffsetPadding[20];
+					uint32_t ___maxBufferSize_6;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___maxBufferSize_6_OffsetPadding_forAlignmentOnly[20];
+					uint32_t ___maxBufferSize_6_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___optimalBufferSize_7_OffsetPadding[24];
+					uint32_t ___optimalBufferSize_7;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___optimalBufferSize_7_OffsetPadding_forAlignmentOnly[24];
+					uint32_t ___optimalBufferSize_7_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE__padding[28];
+	};
+};
+// Native definition for COM marshalling of UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand
+struct GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshaled_com
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					InputDeviceCommand_t219FD4502984D73D423496E4A2ED7FDB6CBE710E ___baseCommand_1;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					InputDeviceCommand_t219FD4502984D73D423496E4A2ED7FDB6CBE710E ___baseCommand_1_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___numChannels_2_OffsetPadding[8];
+					uint32_t ___numChannels_2;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___numChannels_2_OffsetPadding_forAlignmentOnly[8];
+					uint32_t ___numChannels_2_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___supportsImpulse_3_OffsetPadding[12];
+					int32_t ___supportsImpulse_3;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___supportsImpulse_3_OffsetPadding_forAlignmentOnly[12];
+					int32_t ___supportsImpulse_3_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___supportsBuffer_4_OffsetPadding[13];
+					int32_t ___supportsBuffer_4;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___supportsBuffer_4_OffsetPadding_forAlignmentOnly[13];
+					int32_t ___supportsBuffer_4_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___frequencyHz_5_OffsetPadding[16];
+					uint32_t ___frequencyHz_5;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___frequencyHz_5_OffsetPadding_forAlignmentOnly[16];
+					uint32_t ___frequencyHz_5_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___maxBufferSize_6_OffsetPadding[20];
+					uint32_t ___maxBufferSize_6;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___maxBufferSize_6_OffsetPadding_forAlignmentOnly[20];
+					uint32_t ___maxBufferSize_6_forAlignmentOnly;
+				};
+				#pragma pack(push, tp, 1)
+				struct
+				{
+					char ___optimalBufferSize_7_OffsetPadding[24];
+					uint32_t ___optimalBufferSize_7;
+				};
+				#pragma pack(pop, tp)
+				struct
+				{
+					char ___optimalBufferSize_7_OffsetPadding_forAlignmentOnly[24];
+					uint32_t ___optimalBufferSize_7_forAlignmentOnly;
+				};
+			};
+		};
+		uint8_t GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE__padding[28];
 	};
 };
 
@@ -6188,30 +6459,32 @@ struct InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF  : public Scripta
 	int32_t ___m_BackgroundBehavior_9;
 	// UnityEngine.InputSystem.InputSettings/EditorInputBehaviorInPlayMode UnityEngine.InputSystem.InputSettings::m_EditorInputBehaviorInPlayMode
 	int32_t ___m_EditorInputBehaviorInPlayMode_10;
+	// UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode UnityEngine.InputSystem.InputSettings::m_InputActionPropertyDrawerMode
+	int32_t ___m_InputActionPropertyDrawerMode_11;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultDeadzoneMin
-	float ___m_DefaultDeadzoneMin_11;
+	float ___m_DefaultDeadzoneMin_12;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultDeadzoneMax
-	float ___m_DefaultDeadzoneMax_12;
+	float ___m_DefaultDeadzoneMax_13;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultButtonPressPoint
-	float ___m_DefaultButtonPressPoint_13;
+	float ___m_DefaultButtonPressPoint_14;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_ButtonReleaseThreshold
-	float ___m_ButtonReleaseThreshold_14;
+	float ___m_ButtonReleaseThreshold_15;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultTapTime
-	float ___m_DefaultTapTime_15;
+	float ___m_DefaultTapTime_16;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultSlowTapTime
-	float ___m_DefaultSlowTapTime_16;
+	float ___m_DefaultSlowTapTime_17;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_DefaultHoldTime
-	float ___m_DefaultHoldTime_17;
+	float ___m_DefaultHoldTime_18;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_TapRadius
-	float ___m_TapRadius_18;
+	float ___m_TapRadius_19;
 	// System.Single UnityEngine.InputSystem.InputSettings::m_MultiTapDelayTime
-	float ___m_MultiTapDelayTime_19;
+	float ___m_MultiTapDelayTime_20;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::m_DisableRedundantEventsMerging
-	bool ___m_DisableRedundantEventsMerging_20;
+	bool ___m_DisableRedundantEventsMerging_21;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::m_ShortcutKeysConsumeInputs
-	bool ___m_ShortcutKeysConsumeInputs_21;
+	bool ___m_ShortcutKeysConsumeInputs_22;
 	// System.Collections.Generic.HashSet`1<System.String> UnityEngine.InputSystem.InputSettings::m_FeatureFlags
-	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___m_FeatureFlags_22;
+	HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* ___m_FeatureFlags_23;
 };
 
 // System.InvalidOperationException
@@ -6606,19 +6879,19 @@ struct InputAction_t1B550AD2B55AF322AFB53CD28DA64081220D01CD  : public RuntimeOb
 struct InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D  : public ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A
 {
 	// UnityEngine.InputSystem.InputActionMap[] UnityEngine.InputSystem.InputActionAsset::m_ActionMaps
-	InputActionMapU5BU5D_t4B352E8DA73976FEDA107E35E81FB5BE6838C045* ___m_ActionMaps_5;
+	InputActionMapU5BU5D_t4B352E8DA73976FEDA107E35E81FB5BE6838C045* ___m_ActionMaps_6;
 	// UnityEngine.InputSystem.InputControlScheme[] UnityEngine.InputSystem.InputActionAsset::m_ControlSchemes
-	InputControlSchemeU5BU5D_tAE603126FBD4D6B8F67EA6F8CFA531A646C63D86* ___m_ControlSchemes_6;
+	InputControlSchemeU5BU5D_tAE603126FBD4D6B8F67EA6F8CFA531A646C63D86* ___m_ControlSchemes_7;
 	// UnityEngine.InputSystem.InputActionState UnityEngine.InputSystem.InputActionAsset::m_SharedStateForAllMaps
-	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_SharedStateForAllMaps_7;
+	InputActionState_t780948EA293BAA800AD8699518B58B59FFB8A700* ___m_SharedStateForAllMaps_8;
 	// System.Nullable`1<UnityEngine.InputSystem.InputBinding> UnityEngine.InputSystem.InputActionAsset::m_BindingMask
-	Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 ___m_BindingMask_8;
+	Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 ___m_BindingMask_9;
 	// System.Int32 UnityEngine.InputSystem.InputActionAsset::m_ParameterOverridesCount
-	int32_t ___m_ParameterOverridesCount_9;
+	int32_t ___m_ParameterOverridesCount_10;
 	// UnityEngine.InputSystem.InputActionRebindingExtensions/ParameterOverride[] UnityEngine.InputSystem.InputActionAsset::m_ParameterOverrides
-	ParameterOverrideU5BU5D_tC408277D7E98D32E4B0AEFA1E2EDDB74790897EE* ___m_ParameterOverrides_10;
+	ParameterOverrideU5BU5D_tC408277D7E98D32E4B0AEFA1E2EDDB74790897EE* ___m_ParameterOverrides_11;
 	// UnityEngine.InputSystem.InputActionMap/DeviceArray UnityEngine.InputSystem.InputActionAsset::m_Devices
-	DeviceArray_t7F2F2D8A9D5CAF504DC1A21C1FEF79BCA9E4761E ___m_Devices_11;
+	DeviceArray_t7F2F2D8A9D5CAF504DC1A21C1FEF79BCA9E4761E ___m_Devices_12;
 };
 
 // UnityEngine.InputSystem.InputActionMap
@@ -7300,71 +7573,71 @@ struct InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58  : pub
 	// UnityEngine.Transform UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_XRTrackingOrigin
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___m_XRTrackingOrigin_15;
 	// UnityEngine.InputSystem.InputActionAsset UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_ActionsAsset
-	InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ___m_ActionsAsset_17;
+	InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* ___m_ActionsAsset_18;
 	// UnityEngine.InputSystem.InputActionReference UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_PointAction
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_PointAction_18;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_PointAction_19;
 	// UnityEngine.InputSystem.InputActionReference UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_MoveAction
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_MoveAction_19;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_MoveAction_20;
 	// UnityEngine.InputSystem.InputActionReference UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_SubmitAction
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_SubmitAction_20;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_SubmitAction_21;
 	// UnityEngine.InputSystem.InputActionReference UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_CancelAction
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_CancelAction_21;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_CancelAction_22;
 	// UnityEngine.InputSystem.InputActionReference UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_LeftClickAction
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_LeftClickAction_22;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_LeftClickAction_23;
 	// UnityEngine.InputSystem.InputActionReference UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_MiddleClickAction
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_MiddleClickAction_23;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_MiddleClickAction_24;
 	// UnityEngine.InputSystem.InputActionReference UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_RightClickAction
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_RightClickAction_24;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_RightClickAction_25;
 	// UnityEngine.InputSystem.InputActionReference UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_ScrollWheelAction
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_ScrollWheelAction_25;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_ScrollWheelAction_26;
 	// UnityEngine.InputSystem.InputActionReference UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_TrackedDevicePositionAction
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_TrackedDevicePositionAction_26;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_TrackedDevicePositionAction_27;
 	// UnityEngine.InputSystem.InputActionReference UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_TrackedDeviceOrientationAction
-	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_TrackedDeviceOrientationAction_27;
+	InputActionReference_t64730C6B41271E0983FC21BFB416169F5D6BC4A1* ___m_TrackedDeviceOrientationAction_28;
 	// System.Boolean UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_DeselectOnBackgroundClick
-	bool ___m_DeselectOnBackgroundClick_28;
+	bool ___m_DeselectOnBackgroundClick_29;
 	// UnityEngine.InputSystem.UI.UIPointerBehavior UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_PointerBehavior
-	int32_t ___m_PointerBehavior_29;
+	int32_t ___m_PointerBehavior_30;
 	// UnityEngine.InputSystem.UI.InputSystemUIInputModule/CursorLockBehavior UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_CursorLockBehavior
-	int32_t ___m_CursorLockBehavior_30;
+	int32_t ___m_CursorLockBehavior_31;
 	// System.Boolean UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_ActionsHooked
-	bool ___m_ActionsHooked_32;
+	bool ___m_ActionsHooked_33;
 	// System.Boolean UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_NeedToPurgeStalePointers
-	bool ___m_NeedToPurgeStalePointers_33;
+	bool ___m_NeedToPurgeStalePointers_34;
 	// System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext> UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_OnPointDelegate
-	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnPointDelegate_34;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnPointDelegate_35;
 	// System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext> UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_OnMoveDelegate
-	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnMoveDelegate_35;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnMoveDelegate_36;
 	// System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext> UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_OnLeftClickDelegate
-	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnLeftClickDelegate_36;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnLeftClickDelegate_37;
 	// System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext> UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_OnRightClickDelegate
-	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnRightClickDelegate_37;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnRightClickDelegate_38;
 	// System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext> UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_OnMiddleClickDelegate
-	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnMiddleClickDelegate_38;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnMiddleClickDelegate_39;
 	// System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext> UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_OnScrollWheelDelegate
-	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnScrollWheelDelegate_39;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnScrollWheelDelegate_40;
 	// System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext> UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_OnTrackedDevicePositionDelegate
-	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnTrackedDevicePositionDelegate_40;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnTrackedDevicePositionDelegate_41;
 	// System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext> UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_OnTrackedDeviceOrientationDelegate
-	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnTrackedDeviceOrientationDelegate_41;
+	Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* ___m_OnTrackedDeviceOrientationDelegate_42;
 	// System.Action`1<System.Object> UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_OnControlsChangedDelegate
-	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___m_OnControlsChangedDelegate_42;
+	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___m_OnControlsChangedDelegate_43;
 	// System.Int32 UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_CurrentPointerId
-	int32_t ___m_CurrentPointerId_43;
+	int32_t ___m_CurrentPointerId_44;
 	// System.Int32 UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_CurrentPointerIndex
-	int32_t ___m_CurrentPointerIndex_44;
+	int32_t ___m_CurrentPointerIndex_45;
 	// UnityEngine.InputSystem.UI.UIPointerType UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_CurrentPointerType
-	int32_t ___m_CurrentPointerType_45;
+	int32_t ___m_CurrentPointerType_46;
 	// UnityEngine.InputSystem.Utilities.InlinedArray`1<System.Int32> UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_PointerIds
-	InlinedArray_1_tC2490B07B1DD813665B621955586CF31457DB284 ___m_PointerIds_46;
+	InlinedArray_1_tC2490B07B1DD813665B621955586CF31457DB284 ___m_PointerIds_47;
 	// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.InputControl> UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_PointerTouchControls
-	InlinedArray_1_t41B0BE9148DA71A79EE32EDB0E82E219783F9BF8 ___m_PointerTouchControls_47;
+	InlinedArray_1_t41B0BE9148DA71A79EE32EDB0E82E219783F9BF8 ___m_PointerTouchControls_48;
 	// UnityEngine.InputSystem.Utilities.InlinedArray`1<UnityEngine.InputSystem.UI.PointerModel> UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_PointerStates
-	InlinedArray_1_t6E2851F85C23093EDE233F71F5CE3D6D08FAE920 ___m_PointerStates_48;
+	InlinedArray_1_t6E2851F85C23093EDE233F71F5CE3D6D08FAE920 ___m_PointerStates_49;
 	// UnityEngine.InputSystem.UI.NavigationModel UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_NavigationState
-	NavigationModel_t6B51B0BA26B0D874FF92F039259B0E6B74E427C2 ___m_NavigationState_49;
+	NavigationModel_t6B51B0BA26B0D874FF92F039259B0E6B74E427C2 ___m_NavigationState_50;
 	// UnityEngine.GameObject UnityEngine.InputSystem.UI.InputSystemUIInputModule::m_LocalMultiPlayerRoot
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LocalMultiPlayerRoot_50;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___m_LocalMultiPlayerRoot_51;
 };
 
 // UnityEngine.InputSystem.XR.XRControllerWithRumble
@@ -8166,6 +8439,10 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
 
 // UnityEngine.InputSystem.InputSettings/EditorInputBehaviorInPlayMode
 
+// UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode
+
+// UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode
+
 // UnityEngine.InputSystem.InputSettings/UpdateMode
 
 // UnityEngine.InputSystem.InputSettings/UpdateMode
@@ -8455,11 +8732,11 @@ struct Type_t_StaticFields
 struct InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_StaticFields
 {
 	// System.Boolean UnityEngine.InputSystem.InputSettings::optimizedControlsFeatureEnabled
-	bool ___optimizedControlsFeatureEnabled_23;
+	bool ___optimizedControlsFeatureEnabled_24;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::readValueCachingFeatureEnabled
-	bool ___readValueCachingFeatureEnabled_24;
+	bool ___readValueCachingFeatureEnabled_25;
 	// System.Boolean UnityEngine.InputSystem.InputSettings::paranoidReadValueCachingChecksEnabled
-	bool ___paranoidReadValueCachingChecksEnabled_25;
+	bool ___paranoidReadValueCachingChecksEnabled_26;
 };
 
 // UnityEngine.InputSystem.InputSettings
@@ -8683,8 +8960,10 @@ struct ButtonControl_t85949109B98AAF5B7ADC0285F0EC98A61EC88ECF_StaticFields
 // UnityEngine.InputSystem.UI.InputSystemUIInputModule
 struct InputSystemUIInputModule_tB7D5B53F656D196BB5AF712FA16FEE22B2EE0C58_StaticFields
 {
+	// UnityEngine.InputSystem.DefaultInputActions UnityEngine.InputSystem.UI.InputSystemUIInputModule::defaultActions
+	DefaultInputActions_t8041965208E4C6952C7969FD33249007DE96F0A6* ___defaultActions_16;
 	// System.Collections.Generic.Dictionary`2<UnityEngine.InputSystem.InputAction,UnityEngine.InputSystem.UI.InputSystemUIInputModule/InputActionReferenceState> UnityEngine.InputSystem.UI.InputSystemUIInputModule::s_InputActionReferenceCounts
-	Dictionary_2_t609CD6E7E686007E5CF00E6A12C74A3B3106EF96* ___s_InputActionReferenceCounts_31;
+	Dictionary_2_t609CD6E7E686007E5CF00E6A12C74A3B3106EF96* ___s_InputActionReferenceCounts_32;
 };
 
 // UnityEngine.InputSystem.UI.InputSystemUIInputModule
@@ -9139,6 +9418,12 @@ IL2CPP_EXTERN_C void StateChangeMonitorListener_t8DDE11DEF769AE92B7A6B6554D41511
 IL2CPP_EXTERN_C void DynamicBitfield_t4EE89B3E0E02AA497D0D0768DE48E64DC490AE10_marshal_com(const DynamicBitfield_t4EE89B3E0E02AA497D0D0768DE48E64DC490AE10& unmarshaled, DynamicBitfield_t4EE89B3E0E02AA497D0D0768DE48E64DC490AE10_marshaled_com& marshaled);
 IL2CPP_EXTERN_C void DynamicBitfield_t4EE89B3E0E02AA497D0D0768DE48E64DC490AE10_marshal_com_back(const DynamicBitfield_t4EE89B3E0E02AA497D0D0768DE48E64DC490AE10_marshaled_com& marshaled, DynamicBitfield_t4EE89B3E0E02AA497D0D0768DE48E64DC490AE10& unmarshaled);
 IL2CPP_EXTERN_C void DynamicBitfield_t4EE89B3E0E02AA497D0D0768DE48E64DC490AE10_marshal_com_cleanup(DynamicBitfield_t4EE89B3E0E02AA497D0D0768DE48E64DC490AE10_marshaled_com& marshaled);
+IL2CPP_EXTERN_C void HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshal_pinvoke(const HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B& unmarshaled, HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshal_pinvoke_back(const HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_pinvoke& marshaled, HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B& unmarshaled);
+IL2CPP_EXTERN_C void HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshal_pinvoke_cleanup(HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_pinvoke& marshaled);
+IL2CPP_EXTERN_C void HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshal_com(const HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B& unmarshaled, HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_com& marshaled);
+IL2CPP_EXTERN_C void HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshal_com_back(const HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_com& marshaled, HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B& unmarshaled);
+IL2CPP_EXTERN_C void HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshal_com_cleanup(HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_com& marshaled);
 
 // System.Int32 UnityEngine.InputSystem.Utilities.ArrayHelpers::AppendWithCapacity<UnityEngine.InputSystem.InputManager/StateChangeMonitorListener>(TValue[]&,System.Int32&,TValue,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArrayHelpers_AppendWithCapacity_TisStateChangeMonitorListener_t8DDE11DEF769AE92B7A6B6554D41511AA2A7BDDA_m216CC1B2E14FD9690141609F83DC1A2BDCC02445_gshared (StateChangeMonitorListenerU5BU5D_tEF042EA5E57858FE7C48A9F1AF7A55B249ADB5A9** ___0_array, int32_t* ___1_count, StateChangeMonitorListener_t8DDE11DEF769AE92B7A6B6554D41511AA2A7BDDA ___2_value, int32_t ___3_capacityIncrement, const RuntimeMethod* method) ;
@@ -10414,12 +10699,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PlayerInputManager_get_pl
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PlayerInputManager_get_maxPlayerCount_m2B7D032BC1CDABC6B031F44AC0AD8ABA32D791E3_inline (PlayerInputManager_t2FA5E3E3336BB25B8B77DB59819B6107E6212F3B* __this, const RuntimeMethod* method) ;
 // System.String System.Int32::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Debug::LogWarning(System.Object,UnityEngine.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB (RuntimeObject* ___0_message, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_context, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.InputSystem.PlayerInputManager::IsDeviceUsableWithPlayerActions(UnityEngine.InputSystem.InputDevice)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerInputManager_IsDeviceUsableWithPlayerActions_m321B08BF12AAA94052930F6705F498127396BF2A (PlayerInputManager_t2FA5E3E3336BB25B8B77DB59819B6107E6212F3B* __this, InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B* ___0_device, const RuntimeMethod* method) ;
 // System.Void UnityEngine.InputSystem.PlayerInputManager::set_instance(UnityEngine.InputSystem.PlayerInputManager)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void PlayerInputManager_set_instance_m278A290388AB6B7224FD175C96F16FD3FE82AF1A_inline (PlayerInputManager_t2FA5E3E3336BB25B8B77DB59819B6107E6212F3B* ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.Debug::LogWarning(System.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB (RuntimeObject* ___0_message, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_context, const RuntimeMethod* method) ;
 // UnityEngine.InputSystem.InputActionProperty UnityEngine.InputSystem.PlayerInputManager::get_joinAction()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputActionProperty_tE5B1633784A72FC044A0BB5C0BE140DD7BD84FAD PlayerInputManager_get_joinAction_mBE9D885D590D83CD9C67FF0D4715713BA8965C01_inline (PlayerInputManager_t2FA5E3E3336BB25B8B77DB59819B6107E6212F3B* __this, const RuntimeMethod* method) ;
 // UnityEngine.InputSystem.InputActionReference UnityEngine.InputSystem.InputActionProperty::get_reference()
@@ -11180,20 +11465,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C99
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HapticState_t8F890D06CB3A0CBC134ED533895F71B30B7E3442 GetCurrentHapticStateCommand_get_currentState_m42FCB6656E8B94956079693AF71355375F29EA10 (GetCurrentHapticStateCommand_tF81AA7FA7F93C0AA0F21D30163D11D8AC8BBD479* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.InputSystem.LowLevel.InputDeviceCommand::.ctor(UnityEngine.InputSystem.Utilities.FourCC,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputDeviceCommand__ctor_m2782FEC7CC073D375910E91EBFA992FAD238FC01 (InputDeviceCommand_t219FD4502984D73D423496E4A2ED7FDB6CBE710E* __this, FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED ___0_type, int32_t ___1_sizeInBytes, const RuntimeMethod* method) ;
-// System.Void UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::set_numChannels(System.UInt32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HapticCapabilities_set_numChannels_mF899CD9F035E539AB94ABC32540FEB44730F4E1C_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::set_frequencyHz(System.UInt32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HapticCapabilities_set_frequencyHz_m8008FC81D26379C6C0F9BE27954F2FB0FCFCAE0A_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_value, const RuntimeMethod* method) ;
-// System.Void UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::set_maxBufferSize(System.UInt32)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HapticCapabilities_set_maxBufferSize_m9FD628630D8669A606580BF7B145A84CC5E0AB3D_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_value, const RuntimeMethod* method) ;
+// System.Void UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::.ctor(System.UInt32,System.Boolean,System.Boolean,System.UInt32,System.UInt32,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticCapabilities__ctor_mB1F96F8226ABD103387310A69DAABCCDF66CB453 (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_numChannels, bool ___1_supportsImpulse, bool ___2_supportsBuffer, uint32_t ___3_frequencyHz, uint32_t ___4_maxBufferSize, uint32_t ___5_optimalBufferSize, const RuntimeMethod* method) ;
 // System.Void UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::.ctor(System.UInt32,System.UInt32,System.UInt32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticCapabilities__ctor_m1B34DA0AEF4E4374CFC89B2EEFBA8A1A51D22B52 (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_numChannels, uint32_t ___1_frequencyHz, uint32_t ___2_maxBufferSize, const RuntimeMethod* method) ;
 // System.UInt32 UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::get_numChannels()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t HapticCapabilities_get_numChannels_m05837D94F9C5669C411BD5857D277744F70A7C77_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::get_supportsImpulse()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool HapticCapabilities_get_supportsImpulse_m9216AAEBCCAA7EC250263DD5BEB55E0F155C29DC_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::get_supportsBuffer()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool HapticCapabilities_get_supportsBuffer_m760F74D5BEC5F8C9950543579D6C12505FE25EB5_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) ;
 // System.UInt32 UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::get_frequencyHz()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t HapticCapabilities_get_frequencyHz_m0282AFC8242E2D4AEDA3F797FA1CAB7AC802436A_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) ;
 // System.UInt32 UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::get_maxBufferSize()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t HapticCapabilities_get_maxBufferSize_mD91ABCC88FA4EE4CB9B1528231A1F7B293EA6763_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) ;
+// System.UInt32 UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::get_optimalBufferSize()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t HapticCapabilities_get_optimalBufferSize_mA1E34F66A9C62DC16EB1B34372CFF6CDC85377CB_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) ;
 // UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand::get_Type()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED GetHapticCapabilitiesCommand_get_Type_m2DA900316CD7C3CA5A3FC4A5A7BA932FDD4210F1 (const RuntimeMethod* method) ;
 // UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand::get_typeStatic()
@@ -13539,7 +13826,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputSettings_get_defaultDeadzoneMin_m1
 {
 	{
 		// get => m_DefaultDeadzoneMin;
-		float L_0 = __this->___m_DefaultDeadzoneMin_11;
+		float L_0 = __this->___m_DefaultDeadzoneMin_12;
 		return L_0;
 	}
 }
@@ -13548,7 +13835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings_set_defaultDeadzoneMin_m76
 {
 	{
 		// if (m_DefaultDeadzoneMin == value)
-		float L_0 = __this->___m_DefaultDeadzoneMin_11;
+		float L_0 = __this->___m_DefaultDeadzoneMin_12;
 		float L_1 = ___0_value;
 		if ((!(((float)L_0) == ((float)L_1))))
 		{
@@ -13564,7 +13851,7 @@ IL_000a:
 	{
 		// m_DefaultDeadzoneMin = value;
 		float L_2 = ___0_value;
-		__this->___m_DefaultDeadzoneMin_11 = L_2;
+		__this->___m_DefaultDeadzoneMin_12 = L_2;
 		// OnChange();
 		InputSettings_OnChange_mCB0D398486EC073F501A076B2C5D0C791C565F79(__this, NULL);
 		// }
@@ -13576,7 +13863,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputSettings_get_defaultDeadzoneMax_mD
 {
 	{
 		// get => m_DefaultDeadzoneMax;
-		float L_0 = __this->___m_DefaultDeadzoneMax_12;
+		float L_0 = __this->___m_DefaultDeadzoneMax_13;
 		return L_0;
 	}
 }
@@ -13585,7 +13872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings_set_defaultDeadzoneMax_mEF
 {
 	{
 		// if (m_DefaultDeadzoneMax == value)
-		float L_0 = __this->___m_DefaultDeadzoneMax_12;
+		float L_0 = __this->___m_DefaultDeadzoneMax_13;
 		float L_1 = ___0_value;
 		if ((!(((float)L_0) == ((float)L_1))))
 		{
@@ -13601,7 +13888,7 @@ IL_000a:
 	{
 		// m_DefaultDeadzoneMax = value;
 		float L_2 = ___0_value;
-		__this->___m_DefaultDeadzoneMax_12 = L_2;
+		__this->___m_DefaultDeadzoneMax_13 = L_2;
 		// OnChange();
 		InputSettings_OnChange_mCB0D398486EC073F501A076B2C5D0C791C565F79(__this, NULL);
 		// }
@@ -13613,7 +13900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputSettings_get_defaultButtonPressPoi
 {
 	{
 		// get => m_DefaultButtonPressPoint;
-		float L_0 = __this->___m_DefaultButtonPressPoint_13;
+		float L_0 = __this->___m_DefaultButtonPressPoint_14;
 		return L_0;
 	}
 }
@@ -13622,7 +13909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings_set_defaultButtonPressPoin
 {
 	{
 		// if (m_DefaultButtonPressPoint == value)
-		float L_0 = __this->___m_DefaultButtonPressPoint_13;
+		float L_0 = __this->___m_DefaultButtonPressPoint_14;
 		float L_1 = ___0_value;
 		if ((!(((float)L_0) == ((float)L_1))))
 		{
@@ -13640,7 +13927,7 @@ IL_000a:
 		float L_2 = ___0_value;
 		float L_3;
 		L_3 = Mathf_Clamp_mEB9AEA827D27D20FCC787F7375156AF46BB12BBF_inline(L_2, (9.99999975E-05f), ((std::numeric_limits<float>::max)()), NULL);
-		__this->___m_DefaultButtonPressPoint_13 = L_3;
+		__this->___m_DefaultButtonPressPoint_14 = L_3;
 		// OnChange();
 		InputSettings_OnChange_mCB0D398486EC073F501A076B2C5D0C791C565F79(__this, NULL);
 		// }
@@ -13652,7 +13939,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputSettings_get_buttonReleaseThreshol
 {
 	{
 		// get => m_ButtonReleaseThreshold;
-		float L_0 = __this->___m_ButtonReleaseThreshold_14;
+		float L_0 = __this->___m_ButtonReleaseThreshold_15;
 		return L_0;
 	}
 }
@@ -13661,7 +13948,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings_set_buttonReleaseThreshold
 {
 	{
 		// if (m_ButtonReleaseThreshold == value)
-		float L_0 = __this->___m_ButtonReleaseThreshold_14;
+		float L_0 = __this->___m_ButtonReleaseThreshold_15;
 		float L_1 = ___0_value;
 		if ((!(((float)L_0) == ((float)L_1))))
 		{
@@ -13677,7 +13964,7 @@ IL_000a:
 	{
 		// m_ButtonReleaseThreshold = value;
 		float L_2 = ___0_value;
-		__this->___m_ButtonReleaseThreshold_14 = L_2;
+		__this->___m_ButtonReleaseThreshold_15 = L_2;
 		// OnChange();
 		InputSettings_OnChange_mCB0D398486EC073F501A076B2C5D0C791C565F79(__this, NULL);
 		// }
@@ -13689,7 +13976,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputSettings_get_defaultTapTime_mC6FD6
 {
 	{
 		// get => m_DefaultTapTime;
-		float L_0 = __this->___m_DefaultTapTime_15;
+		float L_0 = __this->___m_DefaultTapTime_16;
 		return L_0;
 	}
 }
@@ -13698,7 +13985,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings_set_defaultTapTime_m9542AF
 {
 	{
 		// if (m_DefaultTapTime == value)
-		float L_0 = __this->___m_DefaultTapTime_15;
+		float L_0 = __this->___m_DefaultTapTime_16;
 		float L_1 = ___0_value;
 		if ((!(((float)L_0) == ((float)L_1))))
 		{
@@ -13714,7 +14001,7 @@ IL_000a:
 	{
 		// m_DefaultTapTime = value;
 		float L_2 = ___0_value;
-		__this->___m_DefaultTapTime_15 = L_2;
+		__this->___m_DefaultTapTime_16 = L_2;
 		// OnChange();
 		InputSettings_OnChange_mCB0D398486EC073F501A076B2C5D0C791C565F79(__this, NULL);
 		// }
@@ -13726,7 +14013,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputSettings_get_defaultSlowTapTime_m8
 {
 	{
 		// get => m_DefaultSlowTapTime;
-		float L_0 = __this->___m_DefaultSlowTapTime_16;
+		float L_0 = __this->___m_DefaultSlowTapTime_17;
 		return L_0;
 	}
 }
@@ -13735,7 +14022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings_set_defaultSlowTapTime_m8A
 {
 	{
 		// if (m_DefaultSlowTapTime == value)
-		float L_0 = __this->___m_DefaultSlowTapTime_16;
+		float L_0 = __this->___m_DefaultSlowTapTime_17;
 		float L_1 = ___0_value;
 		if ((!(((float)L_0) == ((float)L_1))))
 		{
@@ -13751,7 +14038,7 @@ IL_000a:
 	{
 		// m_DefaultSlowTapTime = value;
 		float L_2 = ___0_value;
-		__this->___m_DefaultSlowTapTime_16 = L_2;
+		__this->___m_DefaultSlowTapTime_17 = L_2;
 		// OnChange();
 		InputSettings_OnChange_mCB0D398486EC073F501A076B2C5D0C791C565F79(__this, NULL);
 		// }
@@ -13763,7 +14050,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputSettings_get_defaultHoldTime_m53F2
 {
 	{
 		// get => m_DefaultHoldTime;
-		float L_0 = __this->___m_DefaultHoldTime_17;
+		float L_0 = __this->___m_DefaultHoldTime_18;
 		return L_0;
 	}
 }
@@ -13772,7 +14059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings_set_defaultHoldTime_m164B3
 {
 	{
 		// if (m_DefaultHoldTime == value)
-		float L_0 = __this->___m_DefaultHoldTime_17;
+		float L_0 = __this->___m_DefaultHoldTime_18;
 		float L_1 = ___0_value;
 		if ((!(((float)L_0) == ((float)L_1))))
 		{
@@ -13788,7 +14075,7 @@ IL_000a:
 	{
 		// m_DefaultHoldTime = value;
 		float L_2 = ___0_value;
-		__this->___m_DefaultHoldTime_17 = L_2;
+		__this->___m_DefaultHoldTime_18 = L_2;
 		// OnChange();
 		InputSettings_OnChange_mCB0D398486EC073F501A076B2C5D0C791C565F79(__this, NULL);
 		// }
@@ -13800,7 +14087,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputSettings_get_tapRadius_m669BD4AE47
 {
 	{
 		// get => m_TapRadius;
-		float L_0 = __this->___m_TapRadius_18;
+		float L_0 = __this->___m_TapRadius_19;
 		return L_0;
 	}
 }
@@ -13809,7 +14096,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings_set_tapRadius_mB4D3B085D3A
 {
 	{
 		// if (m_TapRadius == value)
-		float L_0 = __this->___m_TapRadius_18;
+		float L_0 = __this->___m_TapRadius_19;
 		float L_1 = ___0_value;
 		if ((!(((float)L_0) == ((float)L_1))))
 		{
@@ -13825,7 +14112,7 @@ IL_000a:
 	{
 		// m_TapRadius = value;
 		float L_2 = ___0_value;
-		__this->___m_TapRadius_18 = L_2;
+		__this->___m_TapRadius_19 = L_2;
 		// OnChange();
 		InputSettings_OnChange_mCB0D398486EC073F501A076B2C5D0C791C565F79(__this, NULL);
 		// }
@@ -13837,7 +14124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float InputSettings_get_multiTapDelayTime_mF8
 {
 	{
 		// get => m_MultiTapDelayTime;
-		float L_0 = __this->___m_MultiTapDelayTime_19;
+		float L_0 = __this->___m_MultiTapDelayTime_20;
 		return L_0;
 	}
 }
@@ -13846,7 +14133,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings_set_multiTapDelayTime_m88E
 {
 	{
 		// if (m_MultiTapDelayTime == value)
-		float L_0 = __this->___m_MultiTapDelayTime_19;
+		float L_0 = __this->___m_MultiTapDelayTime_20;
 		float L_1 = ___0_value;
 		if ((!(((float)L_0) == ((float)L_1))))
 		{
@@ -13862,7 +14149,7 @@ IL_000a:
 	{
 		// m_MultiTapDelayTime = value;
 		float L_2 = ___0_value;
-		__this->___m_MultiTapDelayTime_19 = L_2;
+		__this->___m_MultiTapDelayTime_20 = L_2;
 		// OnChange();
 		InputSettings_OnChange_mCB0D398486EC073F501A076B2C5D0C791C565F79(__this, NULL);
 		// }
@@ -13937,6 +14224,43 @@ IL_000a:
 		// m_EditorInputBehaviorInPlayMode = value;
 		int32_t L_2 = ___0_value;
 		__this->___m_EditorInputBehaviorInPlayMode_10 = L_2;
+		// OnChange();
+		InputSettings_OnChange_mCB0D398486EC073F501A076B2C5D0C791C565F79(__this, NULL);
+		// }
+		return;
+	}
+}
+// UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode UnityEngine.InputSystem.InputSettings::get_inputActionPropertyDrawerMode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t InputSettings_get_inputActionPropertyDrawerMode_m0B51A3F825821ADB91CA29CB69C61559BB0088F7 (InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF* __this, const RuntimeMethod* method) 
+{
+	{
+		// get => m_InputActionPropertyDrawerMode;
+		int32_t L_0 = __this->___m_InputActionPropertyDrawerMode_11;
+		return L_0;
+	}
+}
+// System.Void UnityEngine.InputSystem.InputSettings::set_inputActionPropertyDrawerMode(UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings_set_inputActionPropertyDrawerMode_m8AC3C428A3924E5E80C74B9BAC54AB877192D70C (InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		// if (m_InputActionPropertyDrawerMode == value)
+		int32_t L_0 = __this->___m_InputActionPropertyDrawerMode_11;
+		int32_t L_1 = ___0_value;
+		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
+		{
+			goto IL_000a;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_000a:
+	{
+		// m_InputActionPropertyDrawerMode = value;
+		int32_t L_2 = ___0_value;
+		__this->___m_InputActionPropertyDrawerMode_11 = L_2;
 		// OnChange();
 		InputSettings_OnChange_mCB0D398486EC073F501A076B2C5D0C791C565F79(__this, NULL);
 		// }
@@ -14151,7 +14475,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputSettings_get_disableRedundantEvents
 {
 	{
 		// get => m_DisableRedundantEventsMerging;
-		bool L_0 = __this->___m_DisableRedundantEventsMerging_20;
+		bool L_0 = __this->___m_DisableRedundantEventsMerging_21;
 		return L_0;
 	}
 }
@@ -14160,7 +14484,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings_set_disableRedundantEvents
 {
 	{
 		// if (m_DisableRedundantEventsMerging == value)
-		bool L_0 = __this->___m_DisableRedundantEventsMerging_20;
+		bool L_0 = __this->___m_DisableRedundantEventsMerging_21;
 		bool L_1 = ___0_value;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
 		{
@@ -14176,7 +14500,7 @@ IL_000a:
 	{
 		// m_DisableRedundantEventsMerging = value;
 		bool L_2 = ___0_value;
-		__this->___m_DisableRedundantEventsMerging_20 = L_2;
+		__this->___m_DisableRedundantEventsMerging_21 = L_2;
 		// OnChange();
 		InputSettings_OnChange_mCB0D398486EC073F501A076B2C5D0C791C565F79(__this, NULL);
 		// }
@@ -14188,7 +14512,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputSettings_get_shortcutKeysConsumeInp
 {
 	{
 		// get => m_ShortcutKeysConsumeInputs;
-		bool L_0 = __this->___m_ShortcutKeysConsumeInputs_21;
+		bool L_0 = __this->___m_ShortcutKeysConsumeInputs_22;
 		return L_0;
 	}
 }
@@ -14197,7 +14521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings_set_shortcutKeysConsumeInp
 {
 	{
 		// if (m_ShortcutKeysConsumeInputs == value)
-		bool L_0 = __this->___m_ShortcutKeysConsumeInputs_21;
+		bool L_0 = __this->___m_ShortcutKeysConsumeInputs_22;
 		bool L_1 = ___0_value;
 		if ((!(((uint32_t)L_0) == ((uint32_t)L_1))))
 		{
@@ -14213,7 +14537,7 @@ IL_000a:
 	{
 		// m_ShortcutKeysConsumeInputs = value;
 		bool L_2 = ___0_value;
-		__this->___m_ShortcutKeysConsumeInputs_21 = L_2;
+		__this->___m_ShortcutKeysConsumeInputs_22 = L_2;
 		// OnChange();
 		InputSettings_OnChange_mCB0D398486EC073F501A076B2C5D0C791C565F79(__this, NULL);
 		// }
@@ -14290,7 +14614,7 @@ IL_003c:
 	{
 		// optimizedControlsFeatureEnabled = enabled;
 		bool L_9 = ___1_enabled;
-		((InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_StaticFields*)il2cpp_codegen_static_fields_for(InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_il2cpp_TypeInfo_var))->___optimizedControlsFeatureEnabled_23 = L_9;
+		((InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_StaticFields*)il2cpp_codegen_static_fields_for(InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_il2cpp_TypeInfo_var))->___optimizedControlsFeatureEnabled_24 = L_9;
 		// break;
 		goto IL_0090;
 	}
@@ -14299,7 +14623,7 @@ IL_0044:
 	{
 		// readValueCachingFeatureEnabled = enabled;
 		bool L_10 = ___1_enabled;
-		((InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_StaticFields*)il2cpp_codegen_static_fields_for(InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_il2cpp_TypeInfo_var))->___readValueCachingFeatureEnabled_24 = L_10;
+		((InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_StaticFields*)il2cpp_codegen_static_fields_for(InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_il2cpp_TypeInfo_var))->___readValueCachingFeatureEnabled_25 = L_10;
 		// break;
 		goto IL_0090;
 	}
@@ -14308,7 +14632,7 @@ IL_004c:
 	{
 		// paranoidReadValueCachingChecksEnabled = enabled;
 		bool L_11 = ___1_enabled;
-		((InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_StaticFields*)il2cpp_codegen_static_fields_for(InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_il2cpp_TypeInfo_var))->___paranoidReadValueCachingChecksEnabled_25 = L_11;
+		((InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_StaticFields*)il2cpp_codegen_static_fields_for(InputSettings_tBA8835B505722A59702A08BCBA46ECF0B0274EEF_il2cpp_TypeInfo_var))->___paranoidReadValueCachingChecksEnabled_26 = L_11;
 		// break;
 		goto IL_0090;
 	}
@@ -14316,7 +14640,7 @@ IL_004c:
 IL_0054:
 	{
 		// if (m_FeatureFlags == null)
-		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_12 = __this->___m_FeatureFlags_22;
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_12 = __this->___m_FeatureFlags_23;
 		if (L_12)
 		{
 			goto IL_0067;
@@ -14327,8 +14651,8 @@ IL_0054:
 		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_13 = (HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178*)il2cpp_codegen_object_new(HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178_il2cpp_TypeInfo_var);
 		NullCheck(L_13);
 		HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03(L_13, HashSet_1__ctor_m780CFB8A2D23543157D1A0E1FADF781E1AF81E03_RuntimeMethod_var);
-		__this->___m_FeatureFlags_22 = L_13;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_FeatureFlags_22), (void*)L_13);
+		__this->___m_FeatureFlags_23 = L_13;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_FeatureFlags_23), (void*)L_13);
 	}
 
 IL_0067:
@@ -14342,7 +14666,7 @@ IL_0067:
 	}
 	{
 		// m_FeatureFlags.Add(featureName.ToUpperInvariant());
-		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_15 = __this->___m_FeatureFlags_22;
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_15 = __this->___m_FeatureFlags_23;
 		String_t* L_16 = ___0_featureName;
 		NullCheck(L_16);
 		String_t* L_17;
@@ -14356,7 +14680,7 @@ IL_0067:
 IL_007e:
 	{
 		// m_FeatureFlags.Remove(featureName.ToUpperInvariant());
-		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_19 = __this->___m_FeatureFlags_22;
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_19 = __this->___m_FeatureFlags_23;
 		String_t* L_20 = ___0_featureName;
 		NullCheck(L_20);
 		String_t* L_21;
@@ -14385,14 +14709,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InputSettings_IsFeatureEnabled_mA9209A0E
 	}
 	{
 		// return m_FeatureFlags != null && m_FeatureFlags.Contains(featureName.ToUpperInvariant());
-		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = __this->___m_FeatureFlags_22;
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_0 = __this->___m_FeatureFlags_23;
 		if (!L_0)
 		{
 			goto IL_001a;
 		}
 	}
 	{
-		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_1 = __this->___m_FeatureFlags_22;
+		HashSet_1_tEFC6605F7DE53F71946C33FD371E53C3100F2178* L_1 = __this->___m_FeatureFlags_23;
 		String_t* L_2 = ___0_featureName;
 		NullCheck(L_2);
 		String_t* L_3;
@@ -14458,27 +14782,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InputSettings__ctor_mD3E224B130ABF473799
 		// [SerializeField] private bool m_CompensateForScreenOrientation = true;
 		__this->___m_CompensateForScreenOrientation_8 = (bool)1;
 		// [SerializeField] private float m_DefaultDeadzoneMin = 0.125f;
-		__this->___m_DefaultDeadzoneMin_11 = (0.125f);
+		__this->___m_DefaultDeadzoneMin_12 = (0.125f);
 		// [SerializeField] private float m_DefaultDeadzoneMax = 0.925f;
-		__this->___m_DefaultDeadzoneMax_12 = (0.925000012f);
+		__this->___m_DefaultDeadzoneMax_13 = (0.925000012f);
 		// [SerializeField] private float m_DefaultButtonPressPoint = 0.5f;
-		__this->___m_DefaultButtonPressPoint_13 = (0.5f);
+		__this->___m_DefaultButtonPressPoint_14 = (0.5f);
 		// [SerializeField] private float m_ButtonReleaseThreshold = 0.75f;
-		__this->___m_ButtonReleaseThreshold_14 = (0.75f);
+		__this->___m_ButtonReleaseThreshold_15 = (0.75f);
 		// [SerializeField] private float m_DefaultTapTime = 0.2f;
-		__this->___m_DefaultTapTime_15 = (0.200000003f);
+		__this->___m_DefaultTapTime_16 = (0.200000003f);
 		// [SerializeField] private float m_DefaultSlowTapTime = 0.5f;
-		__this->___m_DefaultSlowTapTime_16 = (0.5f);
+		__this->___m_DefaultSlowTapTime_17 = (0.5f);
 		// [SerializeField] private float m_DefaultHoldTime = 0.4f;
-		__this->___m_DefaultHoldTime_17 = (0.400000006f);
+		__this->___m_DefaultHoldTime_18 = (0.400000006f);
 		// [SerializeField] private float m_TapRadius = 5;
-		__this->___m_TapRadius_18 = (5.0f);
+		__this->___m_TapRadius_19 = (5.0f);
 		// [SerializeField] private float m_MultiTapDelayTime = 0.75f;
-		__this->___m_MultiTapDelayTime_19 = (0.75f);
+		__this->___m_MultiTapDelayTime_20 = (0.75f);
 		ScriptableObject__ctor_mD037FDB0B487295EA47F79A4DB1BF1846C9087FF(__this, NULL);
 		return;
 	}
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -25099,7 +25431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool PlayerInputManager_CheckIfPlayerCanJoin_
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&PlayerInput_t5155B6508FE1937D9B2380CBA545FABE36A6F81F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1D5E75E34CD22AE2C6D1A2B87A376EE84CC1DEC7);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral49CAE41E6754B5CF20D27BDC340E8E0F9F53C09C);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral8D9B00219CB862A3DCBFD543D5700AA7F7F40FE8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE24C697779110DC1879915CAA7B5EEBD6657ECC1);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
@@ -25142,16 +25474,16 @@ IL_001b:
 		}
 	}
 	{
-		// Debug.LogError("Have reached maximum player count of " + maxPlayerCount, this);
+		// Debug.LogWarning("Maximum number of supported players reached: " + maxPlayerCount, this);
 		int32_t L_5;
 		L_5 = PlayerInputManager_get_maxPlayerCount_m2B7D032BC1CDABC6B031F44AC0AD8ABA32D791E3_inline(__this, NULL);
 		V_0 = L_5;
 		String_t* L_6;
 		L_6 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_0), NULL);
 		String_t* L_7;
-		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral8D9B00219CB862A3DCBFD543D5700AA7F7F40FE8, L_6, NULL);
+		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE24C697779110DC1879915CAA7B5EEBD6657ECC1, L_6, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogError_m94F967AB31244EACE68C3BE1DD85B69ED3334C0E(L_7, __this, NULL);
+		Debug_LogWarning_m23033D7E2F0F298BE465B7F3A63CDF40A4EB70EB(L_7, __this, NULL);
 		// return false;
 		return (bool)0;
 	}
@@ -32794,6 +33126,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSupport_Initialize_m888B9E50911B0ADB8B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+
+
 // Conversion methods for marshalling of: UnityEngine.InputSystem.XR.Haptics.BufferedRumble
 IL2CPP_EXTERN_C void BufferedRumble_t9CEFFD2617629F279D1B3DAE7E39F8BB7C89CA19_marshal_pinvoke(const BufferedRumble_t9CEFFD2617629F279D1B3DAE7E39F8BB7C89CA19& unmarshaled, BufferedRumble_t9CEFFD2617629F279D1B3DAE7E39F8BB7C89CA19_marshaled_pinvoke& marshaled)
 {
@@ -32809,6 +33143,8 @@ IL2CPP_EXTERN_C void BufferedRumble_t9CEFFD2617629F279D1B3DAE7E39F8BB7C89CA19_ma
 IL2CPP_EXTERN_C void BufferedRumble_t9CEFFD2617629F279D1B3DAE7E39F8BB7C89CA19_marshal_pinvoke_cleanup(BufferedRumble_t9CEFFD2617629F279D1B3DAE7E39F8BB7C89CA19_marshaled_pinvoke& marshaled)
 {
 }
+
+
 // Conversion methods for marshalling of: UnityEngine.InputSystem.XR.Haptics.BufferedRumble
 IL2CPP_EXTERN_C void BufferedRumble_t9CEFFD2617629F279D1B3DAE7E39F8BB7C89CA19_marshal_com(const BufferedRumble_t9CEFFD2617629F279D1B3DAE7E39F8BB7C89CA19& unmarshaled, BufferedRumble_t9CEFFD2617629F279D1B3DAE7E39F8BB7C89CA19_marshaled_com& marshaled)
 {
@@ -33173,19 +33509,118 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GetCurrentHapticStateCommand_tF81AA7FA7F93C0A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::.ctor(System.UInt32,System.UInt32,System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticCapabilities__ctor_m1B34DA0AEF4E4374CFC89B2EEFBA8A1A51D22B52 (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_numChannels, uint32_t ___1_frequencyHz, uint32_t ___2_maxBufferSize, const RuntimeMethod* method) 
+// Conversion methods for marshalling of: UnityEngine.InputSystem.XR.Haptics.HapticCapabilities
+IL2CPP_EXTERN_C void HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshal_pinvoke(const HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B& unmarshaled, HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_pinvoke& marshaled)
+{
+	marshaled.___U3CnumChannelsU3Ek__BackingField_0 = unmarshaled.___U3CnumChannelsU3Ek__BackingField_0;
+	marshaled.___U3CsupportsImpulseU3Ek__BackingField_1 = static_cast<int32_t>(unmarshaled.___U3CsupportsImpulseU3Ek__BackingField_1);
+	marshaled.___U3CsupportsBufferU3Ek__BackingField_2 = static_cast<int32_t>(unmarshaled.___U3CsupportsBufferU3Ek__BackingField_2);
+	marshaled.___U3CfrequencyHzU3Ek__BackingField_3 = unmarshaled.___U3CfrequencyHzU3Ek__BackingField_3;
+	marshaled.___U3CmaxBufferSizeU3Ek__BackingField_4 = unmarshaled.___U3CmaxBufferSizeU3Ek__BackingField_4;
+	marshaled.___U3CoptimalBufferSizeU3Ek__BackingField_5 = unmarshaled.___U3CoptimalBufferSizeU3Ek__BackingField_5;
+}
+IL2CPP_EXTERN_C void HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshal_pinvoke_back(const HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_pinvoke& marshaled, HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B& unmarshaled)
+{
+	uint32_t unmarshaledU3CnumChannelsU3Ek__BackingField_temp_0 = 0;
+	unmarshaledU3CnumChannelsU3Ek__BackingField_temp_0 = marshaled.___U3CnumChannelsU3Ek__BackingField_0;
+	unmarshaled.___U3CnumChannelsU3Ek__BackingField_0 = unmarshaledU3CnumChannelsU3Ek__BackingField_temp_0;
+	bool unmarshaledU3CsupportsImpulseU3Ek__BackingField_temp_1 = false;
+	unmarshaledU3CsupportsImpulseU3Ek__BackingField_temp_1 = static_cast<bool>(marshaled.___U3CsupportsImpulseU3Ek__BackingField_1);
+	unmarshaled.___U3CsupportsImpulseU3Ek__BackingField_1 = unmarshaledU3CsupportsImpulseU3Ek__BackingField_temp_1;
+	bool unmarshaledU3CsupportsBufferU3Ek__BackingField_temp_2 = false;
+	unmarshaledU3CsupportsBufferU3Ek__BackingField_temp_2 = static_cast<bool>(marshaled.___U3CsupportsBufferU3Ek__BackingField_2);
+	unmarshaled.___U3CsupportsBufferU3Ek__BackingField_2 = unmarshaledU3CsupportsBufferU3Ek__BackingField_temp_2;
+	uint32_t unmarshaledU3CfrequencyHzU3Ek__BackingField_temp_3 = 0;
+	unmarshaledU3CfrequencyHzU3Ek__BackingField_temp_3 = marshaled.___U3CfrequencyHzU3Ek__BackingField_3;
+	unmarshaled.___U3CfrequencyHzU3Ek__BackingField_3 = unmarshaledU3CfrequencyHzU3Ek__BackingField_temp_3;
+	uint32_t unmarshaledU3CmaxBufferSizeU3Ek__BackingField_temp_4 = 0;
+	unmarshaledU3CmaxBufferSizeU3Ek__BackingField_temp_4 = marshaled.___U3CmaxBufferSizeU3Ek__BackingField_4;
+	unmarshaled.___U3CmaxBufferSizeU3Ek__BackingField_4 = unmarshaledU3CmaxBufferSizeU3Ek__BackingField_temp_4;
+	uint32_t unmarshaledU3CoptimalBufferSizeU3Ek__BackingField_temp_5 = 0;
+	unmarshaledU3CoptimalBufferSizeU3Ek__BackingField_temp_5 = marshaled.___U3CoptimalBufferSizeU3Ek__BackingField_5;
+	unmarshaled.___U3CoptimalBufferSizeU3Ek__BackingField_5 = unmarshaledU3CoptimalBufferSizeU3Ek__BackingField_temp_5;
+}
+// Conversion method for clean up from marshalling of: UnityEngine.InputSystem.XR.Haptics.HapticCapabilities
+IL2CPP_EXTERN_C void HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshal_pinvoke_cleanup(HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.InputSystem.XR.Haptics.HapticCapabilities
+IL2CPP_EXTERN_C void HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshal_com(const HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B& unmarshaled, HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_com& marshaled)
+{
+	marshaled.___U3CnumChannelsU3Ek__BackingField_0 = unmarshaled.___U3CnumChannelsU3Ek__BackingField_0;
+	marshaled.___U3CsupportsImpulseU3Ek__BackingField_1 = static_cast<int32_t>(unmarshaled.___U3CsupportsImpulseU3Ek__BackingField_1);
+	marshaled.___U3CsupportsBufferU3Ek__BackingField_2 = static_cast<int32_t>(unmarshaled.___U3CsupportsBufferU3Ek__BackingField_2);
+	marshaled.___U3CfrequencyHzU3Ek__BackingField_3 = unmarshaled.___U3CfrequencyHzU3Ek__BackingField_3;
+	marshaled.___U3CmaxBufferSizeU3Ek__BackingField_4 = unmarshaled.___U3CmaxBufferSizeU3Ek__BackingField_4;
+	marshaled.___U3CoptimalBufferSizeU3Ek__BackingField_5 = unmarshaled.___U3CoptimalBufferSizeU3Ek__BackingField_5;
+}
+IL2CPP_EXTERN_C void HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshal_com_back(const HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_com& marshaled, HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B& unmarshaled)
+{
+	uint32_t unmarshaledU3CnumChannelsU3Ek__BackingField_temp_0 = 0;
+	unmarshaledU3CnumChannelsU3Ek__BackingField_temp_0 = marshaled.___U3CnumChannelsU3Ek__BackingField_0;
+	unmarshaled.___U3CnumChannelsU3Ek__BackingField_0 = unmarshaledU3CnumChannelsU3Ek__BackingField_temp_0;
+	bool unmarshaledU3CsupportsImpulseU3Ek__BackingField_temp_1 = false;
+	unmarshaledU3CsupportsImpulseU3Ek__BackingField_temp_1 = static_cast<bool>(marshaled.___U3CsupportsImpulseU3Ek__BackingField_1);
+	unmarshaled.___U3CsupportsImpulseU3Ek__BackingField_1 = unmarshaledU3CsupportsImpulseU3Ek__BackingField_temp_1;
+	bool unmarshaledU3CsupportsBufferU3Ek__BackingField_temp_2 = false;
+	unmarshaledU3CsupportsBufferU3Ek__BackingField_temp_2 = static_cast<bool>(marshaled.___U3CsupportsBufferU3Ek__BackingField_2);
+	unmarshaled.___U3CsupportsBufferU3Ek__BackingField_2 = unmarshaledU3CsupportsBufferU3Ek__BackingField_temp_2;
+	uint32_t unmarshaledU3CfrequencyHzU3Ek__BackingField_temp_3 = 0;
+	unmarshaledU3CfrequencyHzU3Ek__BackingField_temp_3 = marshaled.___U3CfrequencyHzU3Ek__BackingField_3;
+	unmarshaled.___U3CfrequencyHzU3Ek__BackingField_3 = unmarshaledU3CfrequencyHzU3Ek__BackingField_temp_3;
+	uint32_t unmarshaledU3CmaxBufferSizeU3Ek__BackingField_temp_4 = 0;
+	unmarshaledU3CmaxBufferSizeU3Ek__BackingField_temp_4 = marshaled.___U3CmaxBufferSizeU3Ek__BackingField_4;
+	unmarshaled.___U3CmaxBufferSizeU3Ek__BackingField_4 = unmarshaledU3CmaxBufferSizeU3Ek__BackingField_temp_4;
+	uint32_t unmarshaledU3CoptimalBufferSizeU3Ek__BackingField_temp_5 = 0;
+	unmarshaledU3CoptimalBufferSizeU3Ek__BackingField_temp_5 = marshaled.___U3CoptimalBufferSizeU3Ek__BackingField_5;
+	unmarshaled.___U3CoptimalBufferSizeU3Ek__BackingField_5 = unmarshaledU3CoptimalBufferSizeU3Ek__BackingField_temp_5;
+}
+// Conversion method for clean up from marshalling of: UnityEngine.InputSystem.XR.Haptics.HapticCapabilities
+IL2CPP_EXTERN_C void HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshal_com_cleanup(HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B_marshaled_com& marshaled)
+{
+}
+// System.Void UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::.ctor(System.UInt32,System.Boolean,System.Boolean,System.UInt32,System.UInt32,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticCapabilities__ctor_mB1F96F8226ABD103387310A69DAABCCDF66CB453 (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_numChannels, bool ___1_supportsImpulse, bool ___2_supportsBuffer, uint32_t ___3_frequencyHz, uint32_t ___4_maxBufferSize, uint32_t ___5_optimalBufferSize, const RuntimeMethod* method) 
 {
 	{
 		// this.numChannels = numChannels;
 		uint32_t L_0 = ___0_numChannels;
-		HapticCapabilities_set_numChannels_mF899CD9F035E539AB94ABC32540FEB44730F4E1C_inline(__this, L_0, NULL);
+		__this->___U3CnumChannelsU3Ek__BackingField_0 = L_0;
+		// this.supportsImpulse = supportsImpulse;
+		bool L_1 = ___1_supportsImpulse;
+		__this->___U3CsupportsImpulseU3Ek__BackingField_1 = L_1;
+		// this.supportsBuffer = supportsBuffer;
+		bool L_2 = ___2_supportsBuffer;
+		__this->___U3CsupportsBufferU3Ek__BackingField_2 = L_2;
 		// this.frequencyHz = frequencyHz;
-		uint32_t L_1 = ___1_frequencyHz;
-		HapticCapabilities_set_frequencyHz_m8008FC81D26379C6C0F9BE27954F2FB0FCFCAE0A_inline(__this, L_1, NULL);
+		uint32_t L_3 = ___3_frequencyHz;
+		__this->___U3CfrequencyHzU3Ek__BackingField_3 = L_3;
 		// this.maxBufferSize = maxBufferSize;
+		uint32_t L_4 = ___4_maxBufferSize;
+		__this->___U3CmaxBufferSizeU3Ek__BackingField_4 = L_4;
+		// this.optimalBufferSize = optimalBufferSize;
+		uint32_t L_5 = ___5_optimalBufferSize;
+		__this->___U3CoptimalBufferSizeU3Ek__BackingField_5 = L_5;
+		// }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void HapticCapabilities__ctor_mB1F96F8226ABD103387310A69DAABCCDF66CB453_AdjustorThunk (RuntimeObject* __this, uint32_t ___0_numChannels, bool ___1_supportsImpulse, bool ___2_supportsBuffer, uint32_t ___3_frequencyHz, uint32_t ___4_maxBufferSize, uint32_t ___5_optimalBufferSize, const RuntimeMethod* method)
+{
+	HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B*>(__this + _offset);
+	HapticCapabilities__ctor_mB1F96F8226ABD103387310A69DAABCCDF66CB453(_thisAdjusted, ___0_numChannels, ___1_supportsImpulse, ___2_supportsBuffer, ___3_frequencyHz, ___4_maxBufferSize, ___5_optimalBufferSize, method);
+}
+// System.Void UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::.ctor(System.UInt32,System.UInt32,System.UInt32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticCapabilities__ctor_m1B34DA0AEF4E4374CFC89B2EEFBA8A1A51D22B52 (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_numChannels, uint32_t ___1_frequencyHz, uint32_t ___2_maxBufferSize, const RuntimeMethod* method) 
+{
+	{
+		// : this(numChannels, false, false, frequencyHz, maxBufferSize, 0U)
+		uint32_t L_0 = ___0_numChannels;
+		uint32_t L_1 = ___1_frequencyHz;
 		uint32_t L_2 = ___2_maxBufferSize;
-		HapticCapabilities_set_maxBufferSize_m9FD628630D8669A606580BF7B145A84CC5E0AB3D_inline(__this, L_2, NULL);
+		HapticCapabilities__ctor_mB1F96F8226ABD103387310A69DAABCCDF66CB453(__this, L_0, (bool)0, (bool)0, L_1, L_2, 0, NULL);
 		// }
 		return;
 	}
@@ -33201,7 +33636,7 @@ IL2CPP_EXTERN_C  void HapticCapabilities__ctor_m1B34DA0AEF4E4374CFC89B2EEFBA8A1A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t HapticCapabilities_get_numChannels_m05837D94F9C5669C411BD5857D277744F70A7C77 (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) 
 {
 	{
-		// public uint numChannels { get; private set; }
+		// public uint numChannels { get; }
 		uint32_t L_0 = __this->___U3CnumChannelsU3Ek__BackingField_0;
 		return L_0;
 	}
@@ -33215,29 +33650,48 @@ IL2CPP_EXTERN_C  uint32_t HapticCapabilities_get_numChannels_m05837D94F9C5669C41
 	_returnValue = HapticCapabilities_get_numChannels_m05837D94F9C5669C411BD5857D277744F70A7C77_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// System.Void UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::set_numChannels(System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticCapabilities_set_numChannels_mF899CD9F035E539AB94ABC32540FEB44730F4E1C (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_value, const RuntimeMethod* method) 
+// System.Boolean UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::get_supportsImpulse()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HapticCapabilities_get_supportsImpulse_m9216AAEBCCAA7EC250263DD5BEB55E0F155C29DC (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) 
 {
 	{
-		// public uint numChannels { get; private set; }
-		uint32_t L_0 = ___0_value;
-		__this->___U3CnumChannelsU3Ek__BackingField_0 = L_0;
-		return;
+		// public bool supportsImpulse { get; }
+		bool L_0 = __this->___U3CsupportsImpulseU3Ek__BackingField_1;
+		return L_0;
 	}
 }
-IL2CPP_EXTERN_C  void HapticCapabilities_set_numChannels_mF899CD9F035E539AB94ABC32540FEB44730F4E1C_AdjustorThunk (RuntimeObject* __this, uint32_t ___0_value, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  bool HapticCapabilities_get_supportsImpulse_m9216AAEBCCAA7EC250263DD5BEB55E0F155C29DC_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
 	HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B*>(__this + _offset);
-	HapticCapabilities_set_numChannels_mF899CD9F035E539AB94ABC32540FEB44730F4E1C_inline(_thisAdjusted, ___0_value, method);
+	bool _returnValue;
+	_returnValue = HapticCapabilities_get_supportsImpulse_m9216AAEBCCAA7EC250263DD5BEB55E0F155C29DC_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Boolean UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::get_supportsBuffer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool HapticCapabilities_get_supportsBuffer_m760F74D5BEC5F8C9950543579D6C12505FE25EB5 (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool supportsBuffer { get; }
+		bool L_0 = __this->___U3CsupportsBufferU3Ek__BackingField_2;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  bool HapticCapabilities_get_supportsBuffer_m760F74D5BEC5F8C9950543579D6C12505FE25EB5_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B*>(__this + _offset);
+	bool _returnValue;
+	_returnValue = HapticCapabilities_get_supportsBuffer_m760F74D5BEC5F8C9950543579D6C12505FE25EB5_inline(_thisAdjusted, method);
+	return _returnValue;
 }
 // System.UInt32 UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::get_frequencyHz()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t HapticCapabilities_get_frequencyHz_m0282AFC8242E2D4AEDA3F797FA1CAB7AC802436A (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) 
 {
 	{
-		// public uint frequencyHz { get; private set; }
-		uint32_t L_0 = __this->___U3CfrequencyHzU3Ek__BackingField_1;
+		// public uint frequencyHz { get; }
+		uint32_t L_0 = __this->___U3CfrequencyHzU3Ek__BackingField_3;
 		return L_0;
 	}
 }
@@ -33250,29 +33704,12 @@ IL2CPP_EXTERN_C  uint32_t HapticCapabilities_get_frequencyHz_m0282AFC8242E2D4AED
 	_returnValue = HapticCapabilities_get_frequencyHz_m0282AFC8242E2D4AEDA3F797FA1CAB7AC802436A_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// System.Void UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::set_frequencyHz(System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticCapabilities_set_frequencyHz_m8008FC81D26379C6C0F9BE27954F2FB0FCFCAE0A (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_value, const RuntimeMethod* method) 
-{
-	{
-		// public uint frequencyHz { get; private set; }
-		uint32_t L_0 = ___0_value;
-		__this->___U3CfrequencyHzU3Ek__BackingField_1 = L_0;
-		return;
-	}
-}
-IL2CPP_EXTERN_C  void HapticCapabilities_set_frequencyHz_m8008FC81D26379C6C0F9BE27954F2FB0FCFCAE0A_AdjustorThunk (RuntimeObject* __this, uint32_t ___0_value, const RuntimeMethod* method)
-{
-	HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* _thisAdjusted;
-	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B*>(__this + _offset);
-	HapticCapabilities_set_frequencyHz_m8008FC81D26379C6C0F9BE27954F2FB0FCFCAE0A_inline(_thisAdjusted, ___0_value, method);
-}
 // System.UInt32 UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::get_maxBufferSize()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t HapticCapabilities_get_maxBufferSize_mD91ABCC88FA4EE4CB9B1528231A1F7B293EA6763 (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) 
 {
 	{
-		// public uint maxBufferSize { get; private set; }
-		uint32_t L_0 = __this->___U3CmaxBufferSizeU3Ek__BackingField_2;
+		// public uint maxBufferSize { get; }
+		uint32_t L_0 = __this->___U3CmaxBufferSizeU3Ek__BackingField_4;
 		return L_0;
 	}
 }
@@ -33285,22 +33722,23 @@ IL2CPP_EXTERN_C  uint32_t HapticCapabilities_get_maxBufferSize_mD91ABCC88FA4EE4C
 	_returnValue = HapticCapabilities_get_maxBufferSize_mD91ABCC88FA4EE4CB9B1528231A1F7B293EA6763_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-// System.Void UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::set_maxBufferSize(System.UInt32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HapticCapabilities_set_maxBufferSize_m9FD628630D8669A606580BF7B145A84CC5E0AB3D (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_value, const RuntimeMethod* method) 
+// System.UInt32 UnityEngine.InputSystem.XR.Haptics.HapticCapabilities::get_optimalBufferSize()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t HapticCapabilities_get_optimalBufferSize_mA1E34F66A9C62DC16EB1B34372CFF6CDC85377CB (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) 
 {
 	{
-		// public uint maxBufferSize { get; private set; }
-		uint32_t L_0 = ___0_value;
-		__this->___U3CmaxBufferSizeU3Ek__BackingField_2 = L_0;
-		return;
+		// public uint optimalBufferSize { get; }
+		uint32_t L_0 = __this->___U3CoptimalBufferSizeU3Ek__BackingField_5;
+		return L_0;
 	}
 }
-IL2CPP_EXTERN_C  void HapticCapabilities_set_maxBufferSize_m9FD628630D8669A606580BF7B145A84CC5E0AB3D_AdjustorThunk (RuntimeObject* __this, uint32_t ___0_value, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  uint32_t HapticCapabilities_get_optimalBufferSize_mA1E34F66A9C62DC16EB1B34372CFF6CDC85377CB_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
 	HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B*>(__this + _offset);
-	HapticCapabilities_set_maxBufferSize_m9FD628630D8669A606580BF7B145A84CC5E0AB3D_inline(_thisAdjusted, ___0_value, method);
+	uint32_t _returnValue;
+	_returnValue = HapticCapabilities_get_optimalBufferSize_mA1E34F66A9C62DC16EB1B34372CFF6CDC85377CB_inline(_thisAdjusted, method);
+	return _returnValue;
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -33310,6 +33748,86 @@ IL2CPP_EXTERN_C  void HapticCapabilities_set_maxBufferSize_m9FD628630D8669A60658
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Conversion methods for marshalling of: UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand
+IL2CPP_EXTERN_C void GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshal_pinvoke(const GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE& unmarshaled, GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshaled_pinvoke& marshaled)
+{
+	marshaled.___baseCommand_1 = unmarshaled.___baseCommand_1;
+	marshaled.___numChannels_2 = unmarshaled.___numChannels_2;
+	marshaled.___supportsImpulse_3 = static_cast<int32_t>(unmarshaled.___supportsImpulse_3);
+	marshaled.___supportsBuffer_4 = static_cast<int32_t>(unmarshaled.___supportsBuffer_4);
+	marshaled.___frequencyHz_5 = unmarshaled.___frequencyHz_5;
+	marshaled.___maxBufferSize_6 = unmarshaled.___maxBufferSize_6;
+	marshaled.___optimalBufferSize_7 = unmarshaled.___optimalBufferSize_7;
+}
+IL2CPP_EXTERN_C void GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshal_pinvoke_back(const GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshaled_pinvoke& marshaled, GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE& unmarshaled)
+{
+	InputDeviceCommand_t219FD4502984D73D423496E4A2ED7FDB6CBE710E unmarshaledbaseCommand_temp_0;
+	memset((&unmarshaledbaseCommand_temp_0), 0, sizeof(unmarshaledbaseCommand_temp_0));
+	unmarshaledbaseCommand_temp_0 = marshaled.___baseCommand_1;
+	unmarshaled.___baseCommand_1 = unmarshaledbaseCommand_temp_0;
+	uint32_t unmarshalednumChannels_temp_1 = 0;
+	unmarshalednumChannels_temp_1 = marshaled.___numChannels_2;
+	unmarshaled.___numChannels_2 = unmarshalednumChannels_temp_1;
+	bool unmarshaledsupportsImpulse_temp_2 = false;
+	unmarshaledsupportsImpulse_temp_2 = static_cast<bool>(marshaled.___supportsImpulse_3);
+	unmarshaled.___supportsImpulse_3 = unmarshaledsupportsImpulse_temp_2;
+	bool unmarshaledsupportsBuffer_temp_3 = false;
+	unmarshaledsupportsBuffer_temp_3 = static_cast<bool>(marshaled.___supportsBuffer_4);
+	unmarshaled.___supportsBuffer_4 = unmarshaledsupportsBuffer_temp_3;
+	uint32_t unmarshaledfrequencyHz_temp_4 = 0;
+	unmarshaledfrequencyHz_temp_4 = marshaled.___frequencyHz_5;
+	unmarshaled.___frequencyHz_5 = unmarshaledfrequencyHz_temp_4;
+	uint32_t unmarshaledmaxBufferSize_temp_5 = 0;
+	unmarshaledmaxBufferSize_temp_5 = marshaled.___maxBufferSize_6;
+	unmarshaled.___maxBufferSize_6 = unmarshaledmaxBufferSize_temp_5;
+	uint32_t unmarshaledoptimalBufferSize_temp_6 = 0;
+	unmarshaledoptimalBufferSize_temp_6 = marshaled.___optimalBufferSize_7;
+	unmarshaled.___optimalBufferSize_7 = unmarshaledoptimalBufferSize_temp_6;
+}
+// Conversion method for clean up from marshalling of: UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand
+IL2CPP_EXTERN_C void GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshal_pinvoke_cleanup(GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand
+IL2CPP_EXTERN_C void GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshal_com(const GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE& unmarshaled, GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshaled_com& marshaled)
+{
+	marshaled.___baseCommand_1 = unmarshaled.___baseCommand_1;
+	marshaled.___numChannels_2 = unmarshaled.___numChannels_2;
+	marshaled.___supportsImpulse_3 = static_cast<int32_t>(unmarshaled.___supportsImpulse_3);
+	marshaled.___supportsBuffer_4 = static_cast<int32_t>(unmarshaled.___supportsBuffer_4);
+	marshaled.___frequencyHz_5 = unmarshaled.___frequencyHz_5;
+	marshaled.___maxBufferSize_6 = unmarshaled.___maxBufferSize_6;
+	marshaled.___optimalBufferSize_7 = unmarshaled.___optimalBufferSize_7;
+}
+IL2CPP_EXTERN_C void GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshal_com_back(const GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshaled_com& marshaled, GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE& unmarshaled)
+{
+	InputDeviceCommand_t219FD4502984D73D423496E4A2ED7FDB6CBE710E unmarshaledbaseCommand_temp_0;
+	memset((&unmarshaledbaseCommand_temp_0), 0, sizeof(unmarshaledbaseCommand_temp_0));
+	unmarshaledbaseCommand_temp_0 = marshaled.___baseCommand_1;
+	unmarshaled.___baseCommand_1 = unmarshaledbaseCommand_temp_0;
+	uint32_t unmarshalednumChannels_temp_1 = 0;
+	unmarshalednumChannels_temp_1 = marshaled.___numChannels_2;
+	unmarshaled.___numChannels_2 = unmarshalednumChannels_temp_1;
+	bool unmarshaledsupportsImpulse_temp_2 = false;
+	unmarshaledsupportsImpulse_temp_2 = static_cast<bool>(marshaled.___supportsImpulse_3);
+	unmarshaled.___supportsImpulse_3 = unmarshaledsupportsImpulse_temp_2;
+	bool unmarshaledsupportsBuffer_temp_3 = false;
+	unmarshaledsupportsBuffer_temp_3 = static_cast<bool>(marshaled.___supportsBuffer_4);
+	unmarshaled.___supportsBuffer_4 = unmarshaledsupportsBuffer_temp_3;
+	uint32_t unmarshaledfrequencyHz_temp_4 = 0;
+	unmarshaledfrequencyHz_temp_4 = marshaled.___frequencyHz_5;
+	unmarshaled.___frequencyHz_5 = unmarshaledfrequencyHz_temp_4;
+	uint32_t unmarshaledmaxBufferSize_temp_5 = 0;
+	unmarshaledmaxBufferSize_temp_5 = marshaled.___maxBufferSize_6;
+	unmarshaled.___maxBufferSize_6 = unmarshaledmaxBufferSize_temp_5;
+	uint32_t unmarshaledoptimalBufferSize_temp_6 = 0;
+	unmarshaledoptimalBufferSize_temp_6 = marshaled.___optimalBufferSize_7;
+	unmarshaled.___optimalBufferSize_7 = unmarshaledoptimalBufferSize_temp_6;
+}
+// Conversion method for clean up from marshalling of: UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand
+IL2CPP_EXTERN_C void GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshal_com_cleanup(GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE_marshaled_com& marshaled)
+{
+}
 // UnityEngine.InputSystem.Utilities.FourCC UnityEngine.InputSystem.XR.Haptics.GetHapticCapabilitiesCommand::get_Type()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED GetHapticCapabilitiesCommand_get_Type_m2DA900316CD7C3CA5A3FC4A5A7BA932FDD4210F1 (const RuntimeMethod* method) 
 {
@@ -33344,14 +33862,17 @@ IL2CPP_EXTERN_C  FourCC_tA6CAA4015BC25A7F1053B6C512202D57A9C994ED GetHapticCapab
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B GetHapticCapabilitiesCommand_get_capabilities_m1045B70C1BEEAC5CB0A1E2EA16566B355CCCFE32 (GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE* __this, const RuntimeMethod* method) 
 {
 	{
-		// public HapticCapabilities capabilities => new HapticCapabilities(numChannels, frequencyHz, maxBufferSize);
+		// public HapticCapabilities capabilities => new HapticCapabilities(numChannels, supportsImpulse, supportsBuffer, frequencyHz, maxBufferSize, optimalBufferSize);
 		uint32_t L_0 = __this->___numChannels_2;
-		uint32_t L_1 = __this->___frequencyHz_3;
-		uint32_t L_2 = __this->___maxBufferSize_4;
-		HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B L_3;
-		memset((&L_3), 0, sizeof(L_3));
-		HapticCapabilities__ctor_m1B34DA0AEF4E4374CFC89B2EEFBA8A1A51D22B52((&L_3), L_0, L_1, L_2, /*hidden argument*/NULL);
-		return L_3;
+		bool L_1 = __this->___supportsImpulse_3;
+		bool L_2 = __this->___supportsBuffer_4;
+		uint32_t L_3 = __this->___frequencyHz_5;
+		uint32_t L_4 = __this->___maxBufferSize_6;
+		uint32_t L_5 = __this->___optimalBufferSize_7;
+		HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		HapticCapabilities__ctor_mB1F96F8226ABD103387310A69DAABCCDF66CB453((&L_6), L_0, L_1, L_2, L_3, L_4, L_5, /*hidden argument*/NULL);
+		return L_6;
 	}
 }
 IL2CPP_EXTERN_C  HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B GetHapticCapabilitiesCommand_get_capabilities_m1045B70C1BEEAC5CB0A1E2EA16566B355CCCFE32_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
@@ -33378,7 +33899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GetHapticCapabilitiesCommand_t722C4E66ED17A4B
 		L_0 = GetHapticCapabilitiesCommand_get_Type_m2DA900316CD7C3CA5A3FC4A5A7BA932FDD4210F1(NULL);
 		InputDeviceCommand_t219FD4502984D73D423496E4A2ED7FDB6CBE710E L_1;
 		memset((&L_1), 0, sizeof(L_1));
-		InputDeviceCommand__ctor_m2782FEC7CC073D375910E91EBFA992FAD238FC01((&L_1), L_0, ((int32_t)20), /*hidden argument*/NULL);
+		InputDeviceCommand__ctor_m2782FEC7CC073D375910E91EBFA992FAD238FC01((&L_1), L_0, ((int32_t)28), /*hidden argument*/NULL);
 		(&V_0)->___baseCommand_1 = L_1;
 		GetHapticCapabilitiesCommand_t722C4E66ED17A4B4AFD944369D3AFABB2697F0AE L_2 = V_0;
 		return L_2;
@@ -40120,7 +40641,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Nullable_1_t11786EE914FE65E70B967
 {
 	{
 		// get => m_BindingMask;
-		Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 L_0 = __this->___m_BindingMask_8;
+		Nullable_1_t11786EE914FE65E70B9671129B0DFC4D0DE80C44 L_0 = __this->___m_BindingMask_9;
 		return L_0;
 	}
 }
@@ -40166,7 +40687,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR InputActionAsset_tF217AC5223B4AAA
 {
 	{
 		// get => m_ActionsAsset;
-		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0 = __this->___m_ActionsAsset_17;
+		InputActionAsset_tF217AC5223B4AAA46EBCB44B33E9259FB117417D* L_0 = __this->___m_ActionsAsset_18;
 		return L_0;
 	}
 }
@@ -41164,54 +41685,51 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t HapticState_get_samplesA
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HapticCapabilities_set_numChannels_mF899CD9F035E539AB94ABC32540FEB44730F4E1C_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_value, const RuntimeMethod* method) 
-{
-	{
-		// public uint numChannels { get; private set; }
-		uint32_t L_0 = ___0_value;
-		__this->___U3CnumChannelsU3Ek__BackingField_0 = L_0;
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HapticCapabilities_set_frequencyHz_m8008FC81D26379C6C0F9BE27954F2FB0FCFCAE0A_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_value, const RuntimeMethod* method) 
-{
-	{
-		// public uint frequencyHz { get; private set; }
-		uint32_t L_0 = ___0_value;
-		__this->___U3CfrequencyHzU3Ek__BackingField_1 = L_0;
-		return;
-	}
-}
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void HapticCapabilities_set_maxBufferSize_m9FD628630D8669A606580BF7B145A84CC5E0AB3D_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, uint32_t ___0_value, const RuntimeMethod* method) 
-{
-	{
-		// public uint maxBufferSize { get; private set; }
-		uint32_t L_0 = ___0_value;
-		__this->___U3CmaxBufferSizeU3Ek__BackingField_2 = L_0;
-		return;
-	}
-}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t HapticCapabilities_get_numChannels_m05837D94F9C5669C411BD5857D277744F70A7C77_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) 
 {
 	{
-		// public uint numChannels { get; private set; }
+		// public uint numChannels { get; }
 		uint32_t L_0 = __this->___U3CnumChannelsU3Ek__BackingField_0;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool HapticCapabilities_get_supportsImpulse_m9216AAEBCCAA7EC250263DD5BEB55E0F155C29DC_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool supportsImpulse { get; }
+		bool L_0 = __this->___U3CsupportsImpulseU3Ek__BackingField_1;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool HapticCapabilities_get_supportsBuffer_m760F74D5BEC5F8C9950543579D6C12505FE25EB5_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) 
+{
+	{
+		// public bool supportsBuffer { get; }
+		bool L_0 = __this->___U3CsupportsBufferU3Ek__BackingField_2;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t HapticCapabilities_get_frequencyHz_m0282AFC8242E2D4AEDA3F797FA1CAB7AC802436A_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) 
 {
 	{
-		// public uint frequencyHz { get; private set; }
-		uint32_t L_0 = __this->___U3CfrequencyHzU3Ek__BackingField_1;
+		// public uint frequencyHz { get; }
+		uint32_t L_0 = __this->___U3CfrequencyHzU3Ek__BackingField_3;
 		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t HapticCapabilities_get_maxBufferSize_mD91ABCC88FA4EE4CB9B1528231A1F7B293EA6763_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) 
 {
 	{
-		// public uint maxBufferSize { get; private set; }
-		uint32_t L_0 = __this->___U3CmaxBufferSizeU3Ek__BackingField_2;
+		// public uint maxBufferSize { get; }
+		uint32_t L_0 = __this->___U3CmaxBufferSizeU3Ek__BackingField_4;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t HapticCapabilities_get_optimalBufferSize_mA1E34F66A9C62DC16EB1B34372CFF6CDC85377CB_inline (HapticCapabilities_tB244F41618170FCA4173536CCC0F0C929D27998B* __this, const RuntimeMethod* method) 
+{
+	{
+		// public uint optimalBufferSize { get; }
+		uint32_t L_0 = __this->___U3CoptimalBufferSizeU3Ek__BackingField_5;
 		return L_0;
 	}
 }
