@@ -474,6 +474,8 @@ IL2CPP_EXTERN_C RuntimeClass* TreeViewController_t2A6E23D78D68A63B7DBFE6AE3B40DB
 IL2CPP_EXTERN_C RuntimeClass* TreeViewReorderableDragAndDropController_tB67C17EFB5927DC3ABC1BD55353D362E19655AB4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TreeView_t0EEA0F9C8FBAFE08225065A1E4EC133D718825C2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F____normalImage_0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A____m_StyleValues_0_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral014F0BCC26F75121FB244E8DCC1FD7F1829E8C98;
 IL2CPP_EXTERN_C String_t* _stringLiteral02E5935143502AD21AEC381A3556CB491D937C59;
 IL2CPP_EXTERN_C String_t* _stringLiteral06768697C7AEFC180282130D8FAE9E3B5B426E3F;
@@ -716,6 +718,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* StyleSyntaxParser_ParseProperty_mF67A796C23
 IL2CPP_EXTERN_C const RuntimeMethod* StyleSyntaxParser_ParseRanges_m743C3DEB60B2B14F2EE458B8E76BF2CB90B9ECDC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* StyleSyntaxParser_ParseTerm_mB12D7F0814E95FA103C08D9F2403A4C07FD7ABD6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeType* DataType_tB1CE55CBDC1B9C7ED5D732F01851648E9150C680_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_0_0_0_var;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_com;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_pinvoke;
 struct Delegate_t_marshaled_com;
@@ -5445,12 +5449,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GetCursorIdFunction_Invoke_m4E5796AE7
 // Conversion methods for marshalling of: UnityEngine.UIElements.StyleSheets.ScalableImage
 IL2CPP_EXTERN_C void ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_marshal_pinvoke(const ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F& unmarshaled, ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___normalImage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'normalImage' of type 'ScalableImage': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F____normalImage_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___normalImage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F____normalImage_0_FieldInfo_var, ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___normalImage_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_marshal_pinvoke_back(const ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_marshaled_pinvoke& marshaled, ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F& unmarshaled)
 {
-	Exception_t* ___normalImage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'normalImage' of type 'ScalableImage': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F____normalImage_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___normalImage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F____normalImage_0_FieldInfo_var, ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___normalImage_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.StyleSheets.ScalableImage
@@ -5460,12 +5478,26 @@ IL2CPP_EXTERN_C void ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_mar
 // Conversion methods for marshalling of: UnityEngine.UIElements.StyleSheets.ScalableImage
 IL2CPP_EXTERN_C void ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_marshal_com(const ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F& unmarshaled, ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_marshaled_com& marshaled)
 {
-	Exception_t* ___normalImage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'normalImage' of type 'ScalableImage': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F____normalImage_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___normalImage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F____normalImage_0_FieldInfo_var, ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___normalImage_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_marshal_com_back(const ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_marshaled_com& marshaled, ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F& unmarshaled)
 {
-	Exception_t* ___normalImage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'normalImage' of type 'ScalableImage': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F____normalImage_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___normalImage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F____normalImage_0_FieldInfo_var, ScalableImage_t64F0F6F75D1099EF5D595E70CA1A2A7B9914E80F_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___normalImage_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.StyleSheets.ScalableImage
@@ -15517,12 +15549,26 @@ IL_005b:
 // Conversion methods for marshalling of: UnityEngine.UIElements.Experimental.StyleValues
 IL2CPP_EXTERN_C void StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_marshal_pinvoke(const StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A& unmarshaled, StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_StyleValues_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_StyleValues' of type 'StyleValues': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A____m_StyleValues_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_StyleValues_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A____m_StyleValues_0_FieldInfo_var, StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StyleValues_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_marshal_pinvoke_back(const StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_marshaled_pinvoke& marshaled, StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A& unmarshaled)
 {
-	Exception_t* ___m_StyleValues_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_StyleValues' of type 'StyleValues': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A____m_StyleValues_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_StyleValues_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A____m_StyleValues_0_FieldInfo_var, StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StyleValues_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.Experimental.StyleValues
@@ -15532,12 +15578,26 @@ IL2CPP_EXTERN_C void StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_marsh
 // Conversion methods for marshalling of: UnityEngine.UIElements.Experimental.StyleValues
 IL2CPP_EXTERN_C void StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_marshal_com(const StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A& unmarshaled, StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_marshaled_com& marshaled)
 {
-	Exception_t* ___m_StyleValues_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_StyleValues' of type 'StyleValues': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A____m_StyleValues_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_StyleValues_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A____m_StyleValues_0_FieldInfo_var, StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StyleValues_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_marshal_com_back(const StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_marshaled_com& marshaled, StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A& unmarshaled)
 {
-	Exception_t* ___m_StyleValues_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_StyleValues' of type 'StyleValues': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A____m_StyleValues_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_StyleValues_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A____m_StyleValues_0_FieldInfo_var, StyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_StyleValues_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.Experimental.StyleValues

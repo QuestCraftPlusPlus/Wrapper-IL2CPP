@@ -534,7 +534,15 @@ IL2CPP_EXTERN_C RuntimeClass* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_
 IL2CPP_EXTERN_C RuntimeClass* VectorImageManager_tBABA8290D62F9BDB5DCE3CC8FDA877915D1DBFED_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* VertexClipEdgeU5BU5D_t996146320A0ACC313D3EF0F5791237A90C2E34AA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* VertexU5BU5D_t2C3F4FF6AFD6D7E9DD7E1D69446FD8E8FC033185_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E____row_1_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73____m_Pages_1_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4____heads_0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11____command_0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847____prev_0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE____standardMaterial_0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128____source_0_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t03ED7C6DFD030F64BE095A77446098CAA515B661____2658253827592C8000DF6C48FD5487B674D9E695DB670A56FDEAB2B7F291523E_0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF____m_Storage_0_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral061277AC0AC8110F9483A8571E64EBBD234A6D12;
 IL2CPP_EXTERN_C String_t* _stringLiteral074A05192D59E41C38A0DCFDDEAAFB6139A6F28C;
 IL2CPP_EXTERN_C String_t* _stringLiteral0A1C4B5170F3015B68F6CDA6D30295985A37FF01;
@@ -702,6 +710,14 @@ IL2CPP_EXTERN_C const RuntimeMethod* UIRVEShaderInfoAllocator_ReallyCreateStorag
 IL2CPP_EXTERN_C const RuntimeMethod* Vector3_get_Item_m163510BFC2F7BFAD1B601DC9F3606B799CF199F2_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Vector4_get_Item_mB1D001A235857569E479FB799EF77C52391D19EF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Vector4_set_Item_mF24782F861A16BB0436C2262FA916B4EE69998A6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_0_0_0_var;
 struct Alloc_t78312CFE58F38082281E80E297AE6176BD2BD8AE;;
 struct Alloc_t78312CFE58F38082281E80E297AE6176BD2BD8AE_marshaled_com;
 struct Alloc_t78312CFE58F38082281E80E297AE6176BD2BD8AE_marshaled_com;;
@@ -7164,12 +7180,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BMPAlloc__cctor_m8A6B44AEC871DB749DEF42E
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.BitmapAllocator32
 IL2CPP_EXTERN_C void BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_marshal_pinvoke(const BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73& unmarshaled, BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_Pages_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Pages' of type 'BitmapAllocator32'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73____m_Pages_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Pages_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73____m_Pages_1_FieldInfo_var, BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Pages_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_marshal_pinvoke_back(const BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_marshaled_pinvoke& marshaled, BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73& unmarshaled)
 {
-	Exception_t* ___m_Pages_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Pages' of type 'BitmapAllocator32'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73____m_Pages_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Pages_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73____m_Pages_1_FieldInfo_var, BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Pages_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.BitmapAllocator32
@@ -7179,12 +7209,26 @@ IL2CPP_EXTERN_C void BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.BitmapAllocator32
 IL2CPP_EXTERN_C void BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_marshal_com(const BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73& unmarshaled, BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_marshaled_com& marshaled)
 {
-	Exception_t* ___m_Pages_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Pages' of type 'BitmapAllocator32'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73____m_Pages_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Pages_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73____m_Pages_1_FieldInfo_var, BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Pages_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_marshal_com_back(const BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_marshaled_com& marshaled, BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73& unmarshaled)
 {
-	Exception_t* ___m_Pages_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Pages' of type 'BitmapAllocator32'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73____m_Pages_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Pages_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73____m_Pages_1_FieldInfo_var, BitmapAllocator32_t87110600670688D0E149D61E1BDA8F45ADC59C73_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Pages_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.BitmapAllocator32
@@ -7880,12 +7924,26 @@ IL_007b:
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator
 IL2CPP_EXTERN_C void UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_marshal_pinvoke(const UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF& unmarshaled, UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_Storage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Storage' of type 'UIRVEShaderInfoAllocator': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF____m_Storage_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Storage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF____m_Storage_0_FieldInfo_var, UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Storage_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_marshal_pinvoke_back(const UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_marshaled_pinvoke& marshaled, UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF& unmarshaled)
 {
-	Exception_t* ___m_Storage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Storage' of type 'UIRVEShaderInfoAllocator': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF____m_Storage_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Storage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF____m_Storage_0_FieldInfo_var, UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Storage_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator
@@ -7905,12 +7963,26 @@ IL2CPP_EXTERN_C void UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBC
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator
 IL2CPP_EXTERN_C void UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_marshal_com(const UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF& unmarshaled, UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_marshaled_com& marshaled)
 {
-	Exception_t* ___m_Storage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Storage' of type 'UIRVEShaderInfoAllocator': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF____m_Storage_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Storage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF____m_Storage_0_FieldInfo_var, UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Storage_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_marshal_com_back(const UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_marshaled_com& marshaled, UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF& unmarshaled)
 {
-	Exception_t* ___m_Storage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Storage' of type 'UIRVEShaderInfoAllocator': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF____m_Storage_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Storage_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF____m_Storage_0_FieldInfo_var, UIRVEShaderInfoAllocator_t7A9BCF1924EA027462B8DBBAC7B15BCBCB5CC3BF_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Storage_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.UIRVEShaderInfoAllocator
@@ -11379,12 +11451,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Row__cctor_m8CD0F7B739CEEE7EF11A290786CA
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.Allocator2D/Alloc2D
 IL2CPP_EXTERN_C void Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_marshal_pinvoke(const Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E& unmarshaled, Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___row_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'row' of type 'Alloc2D': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E____row_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___row_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E____row_1_FieldInfo_var, Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___row_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_marshal_pinvoke_back(const Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_marshaled_pinvoke& marshaled, Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E& unmarshaled)
 {
-	Exception_t* ___row_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'row' of type 'Alloc2D': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E____row_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___row_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E____row_1_FieldInfo_var, Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___row_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.Allocator2D/Alloc2D
@@ -11396,12 +11482,26 @@ IL2CPP_EXTERN_C void Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_marshal_p
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.Allocator2D/Alloc2D
 IL2CPP_EXTERN_C void Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_marshal_com(const Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E& unmarshaled, Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_marshaled_com& marshaled)
 {
-	Exception_t* ___row_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'row' of type 'Alloc2D': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E____row_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___row_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E____row_1_FieldInfo_var, Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___row_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_marshal_com_back(const Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_marshaled_com& marshaled, Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E& unmarshaled)
 {
-	Exception_t* ___row_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'row' of type 'Alloc2D': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E____row_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___row_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E____row_1_FieldInfo_var, Alloc2D_tB9971776E3506C8F38C7F3C66690F9AC0322542E_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___row_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.Allocator2D/Alloc2D
@@ -16673,12 +16773,26 @@ IL_003a:
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.RenderChain/DepthOrderedDirtyTracking
 IL2CPP_EXTERN_C void DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_marshal_pinvoke(const DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4& unmarshaled, DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___heads_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'heads' of type 'DepthOrderedDirtyTracking'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4____heads_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___heads_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4____heads_0_FieldInfo_var, DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___heads_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_marshal_pinvoke_back(const DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_marshaled_pinvoke& marshaled, DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4& unmarshaled)
 {
-	Exception_t* ___heads_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'heads' of type 'DepthOrderedDirtyTracking'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4____heads_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___heads_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4____heads_0_FieldInfo_var, DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___heads_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.RenderChain/DepthOrderedDirtyTracking
@@ -16688,12 +16802,26 @@ IL2CPP_EXTERN_C void DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BA
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.RenderChain/DepthOrderedDirtyTracking
 IL2CPP_EXTERN_C void DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_marshal_com(const DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4& unmarshaled, DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_marshaled_com& marshaled)
 {
-	Exception_t* ___heads_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'heads' of type 'DepthOrderedDirtyTracking'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4____heads_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___heads_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4____heads_0_FieldInfo_var, DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___heads_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_marshal_com_back(const DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_marshaled_com& marshaled, DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4& unmarshaled)
 {
-	Exception_t* ___heads_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'heads' of type 'DepthOrderedDirtyTracking'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4____heads_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___heads_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4____heads_0_FieldInfo_var, DepthOrderedDirtyTracking_t7972148BB4524E0E788C8D94A005C3BAF8C189A4_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___heads_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.RenderChain/DepthOrderedDirtyTracking
@@ -17375,12 +17503,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderChainStaticIndexAllocator__cctor_m
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.RenderChain/RenderNodeData
 IL2CPP_EXTERN_C void RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_marshal_pinvoke(const RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE& unmarshaled, RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___standardMaterial_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'standardMaterial' of type 'RenderNodeData': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE____standardMaterial_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___standardMaterial_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE____standardMaterial_0_FieldInfo_var, RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___standardMaterial_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_marshal_pinvoke_back(const RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_marshaled_pinvoke& marshaled, RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE& unmarshaled)
 {
-	Exception_t* ___standardMaterial_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'standardMaterial' of type 'RenderNodeData': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE____standardMaterial_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___standardMaterial_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE____standardMaterial_0_FieldInfo_var, RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___standardMaterial_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.RenderChain/RenderNodeData
@@ -17390,12 +17532,26 @@ IL2CPP_EXTERN_C void RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_ma
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.RenderChain/RenderNodeData
 IL2CPP_EXTERN_C void RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_marshal_com(const RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE& unmarshaled, RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_marshaled_com& marshaled)
 {
-	Exception_t* ___standardMaterial_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'standardMaterial' of type 'RenderNodeData': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE____standardMaterial_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___standardMaterial_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE____standardMaterial_0_FieldInfo_var, RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___standardMaterial_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_marshal_com_back(const RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_marshaled_com& marshaled, RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE& unmarshaled)
 {
-	Exception_t* ___standardMaterial_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'standardMaterial' of type 'RenderNodeData': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE____standardMaterial_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___standardMaterial_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE____standardMaterial_0_FieldInfo_var, RenderNodeData_t7527D1643CC280CE2B2E40AB9F5154615B7A99AE_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___standardMaterial_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.RenderChain/RenderNodeData
@@ -17486,12 +17642,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3C_ctorU3Eb__37_1_m65507AEC75FF
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.RenderChainVEData
 IL2CPP_EXTERN_C void RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_marshal_pinvoke(const RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847& unmarshaled, RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___prev_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'prev' of type 'RenderChainVEData': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847____prev_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___prev_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847____prev_0_FieldInfo_var, RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___prev_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_marshal_pinvoke_back(const RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_marshaled_pinvoke& marshaled, RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847& unmarshaled)
 {
-	Exception_t* ___prev_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'prev' of type 'RenderChainVEData': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847____prev_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___prev_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847____prev_0_FieldInfo_var, RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___prev_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.RenderChainVEData
@@ -17501,12 +17671,26 @@ IL2CPP_EXTERN_C void RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.RenderChainVEData
 IL2CPP_EXTERN_C void RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_marshal_com(const RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847& unmarshaled, RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_marshaled_com& marshaled)
 {
-	Exception_t* ___prev_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'prev' of type 'RenderChainVEData': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847____prev_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___prev_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847____prev_0_FieldInfo_var, RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___prev_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_marshal_com_back(const RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_marshaled_com& marshaled, RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847& unmarshaled)
 {
-	Exception_t* ___prev_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'prev' of type 'RenderChainVEData': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847____prev_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___prev_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847____prev_0_FieldInfo_var, RenderChainVEData_t582DE9DA38C6B608A9A38286FCF6FA70398B5847_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___prev_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.RenderChainVEData
@@ -17654,12 +17838,26 @@ IL_0016:
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.RenderChainTextEntry
 IL2CPP_EXTERN_C void RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_marshal_pinvoke(const RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11& unmarshaled, RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___command_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'command' of type 'RenderChainTextEntry': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11____command_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___command_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11____command_0_FieldInfo_var, RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___command_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_marshal_pinvoke_back(const RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_marshaled_pinvoke& marshaled, RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11& unmarshaled)
 {
-	Exception_t* ___command_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'command' of type 'RenderChainTextEntry': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11____command_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___command_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11____command_0_FieldInfo_var, RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___command_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.RenderChainTextEntry
@@ -17669,12 +17867,26 @@ IL2CPP_EXTERN_C void RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.RenderChainTextEntry
 IL2CPP_EXTERN_C void RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_marshal_com(const RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11& unmarshaled, RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_marshaled_com& marshaled)
 {
-	Exception_t* ___command_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'command' of type 'RenderChainTextEntry': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11____command_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___command_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11____command_0_FieldInfo_var, RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___command_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_marshal_com_back(const RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_marshaled_com& marshaled, RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11& unmarshaled)
 {
-	Exception_t* ___command_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'command' of type 'RenderChainTextEntry': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11____command_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___command_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11____command_0_FieldInfo_var, RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9D11_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___command_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.RenderChainTextEntry
@@ -17692,12 +17904,26 @@ IL2CPP_EXTERN_C void RenderChainTextEntry_t3B07A86ED897E1859552D13B1CF046F585CF9
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.TextureEntry
 IL2CPP_EXTERN_C void TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_marshal_pinvoke(const TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128& unmarshaled, TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___source_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'source' of type 'TextureEntry': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128____source_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___source_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128____source_0_FieldInfo_var, TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___source_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_marshal_pinvoke_back(const TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_marshaled_pinvoke& marshaled, TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128& unmarshaled)
 {
-	Exception_t* ___source_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'source' of type 'TextureEntry': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128____source_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___source_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128____source_0_FieldInfo_var, TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___source_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.TextureEntry
@@ -17707,12 +17933,26 @@ IL2CPP_EXTERN_C void TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_mars
 // Conversion methods for marshalling of: UnityEngine.UIElements.UIR.TextureEntry
 IL2CPP_EXTERN_C void TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_marshal_com(const TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128& unmarshaled, TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_marshaled_com& marshaled)
 {
-	Exception_t* ___source_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'source' of type 'TextureEntry': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128____source_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___source_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128____source_0_FieldInfo_var, TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___source_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_marshal_com_back(const TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_marshaled_com& marshaled, TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128& unmarshaled)
 {
-	Exception_t* ___source_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'source' of type 'TextureEntry': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128____source_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___source_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128____source_0_FieldInfo_var, TextureEntry_tDA3A5BB083FA16C7123AF227C5D7F78860665128_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___source_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.UIR.TextureEntry

@@ -126,10 +126,14 @@ struct ExtractKeyDelegate_tF846F349E00D201712A8EEA75D152D36A0BA7FEB;
 struct ExtractKeyDelegate_t2CB1F734FE7BBA8353A1EB62ED27544C812D4424;
 // System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XAttribute>
 struct IEnumerable_1_t148EAB2068C5F48E82A9E0C643BB154B8BB34257;
+// System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XElement>
+struct IEnumerable_1_t5438E660D8FD06D41BDD3291D925D0AC763B9475;
 // System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XNode>
 struct IEnumerable_1_t3CF62242A258E986307D7CCF84A4C03FB96055D8;
 // System.Collections.Generic.IEnumerator`1<System.Xml.Linq.XAttribute>
 struct IEnumerator_1_t48AB7213FE0C045660B7F1D0FEA232BA22210BC4;
+// System.Collections.Generic.IEnumerator`1<System.Xml.Linq.XElement>
+struct IEnumerator_1_tCB2F8B7A5F196EA99607A375589F826156C05211;
 // System.Collections.Generic.IEnumerator`1<System.Xml.Linq.XNode>
 struct IEnumerator_1_t14D6DCE9D9AA35992A6A7A1E7E89CCF8C2A477BF;
 // System.Collections.Generic.List`1<System.Xml.XmlQualifiedName>
@@ -296,6 +300,8 @@ struct XmlWriter_tCBC8D0C4891828A0A384C68D0414337F20E1A17F;
 struct XmlWriterSettings_t4C33BC8989A2AF592E88EAE69930915E6D960674;
 // System.Xml.Linq.NamespaceResolver/NamespaceDeclaration
 struct NamespaceDeclaration_t1B428579610F47A74ABF90A16624C48E27796DC9;
+// System.Xml.Linq.XContainer/<GetElements>d__39
+struct U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE;
 // System.Xml.Linq.XContainer/<Nodes>d__18
 struct U3CNodesU3Ed__18_t7A83FD09099FD062B2BCC201FEC49C58CF13C4C1;
 // System.Xml.Linq.XContainer/ContentReader
@@ -336,6 +342,7 @@ IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CGetAttributesU3Ed__116_t349AC65AB20D47B0EFABF0BA61E89C063BEE2E84_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CNodesU3Ed__18_t7A83FD09099FD062B2BCC201FEC49C58CF13C4C1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XAttribute_tA7C325029CA82AA067080AEA6BDDC52E08987FDF_il2cpp_TypeInfo_var;
@@ -358,6 +365,9 @@ IL2CPP_EXTERN_C RuntimeClass* XText_t006159E7F735736D41BBC0738FFB066A14B31AE2_il
 IL2CPP_EXTERN_C RuntimeClass* XmlConvert_t5D100AFD62FF717BD4F8A6CABA9EDF7A5DF719EA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XmlNodeType_tCA25567E42A464038FDA6BA318EC0A9627B4CB95_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XmlWriterSettings_t4C33BC8989A2AF592E88EAE69930915E6D960674_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_____writer_0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_____ns_0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_____declaration_1_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral0585B1F8C119DD15D843D55F7CCBF9D9162B9AC8;
 IL2CPP_EXTERN_C String_t* _stringLiteral0C3C6829C3CCF8020C6AC45B87963ADC095CD44A;
 IL2CPP_EXTERN_C String_t* _stringLiteral11680B2FB0D0FC01D9AFDF475517284900ACFB79;
@@ -408,6 +418,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* ContentReader_ReadContentFrom_m08791D2D38E6
 IL2CPP_EXTERN_C const RuntimeMethod* ContentReader_ReadContentFrom_mDACD1907690D92E4A5C7ABE5E69FADD75F0EBB99_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ThrowStub_ThrowNotSupportedException_m9860569D0F80DAC07D9ECCCAFC15125E0A3603C1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CGetAttributesU3Ed__116_System_Collections_IEnumerator_Reset_mFD66D66F520409BAE9C9D6C64D451A84A8014589_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CGetElementsU3Ed__39_System_Collections_IEnumerator_Reset_m390572B819FF535F7725C97131B5736269E04741_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CNodesU3Ed__18_System_Collections_IEnumerator_Reset_m4BBFA6E48A0D3DC934C0569BCC63329A42285C8A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* XAttribute_ValidateAttribute_m70D9985C6D278228512D45C5566495AF457A2071_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* XAttribute__ctor_m913E6ED815250651BF84B13AE1C1B79C6C7F9CE0_RuntimeMethod_var;
@@ -469,6 +480,9 @@ IL2CPP_EXTERN_C const RuntimeMethod* XText_WriteTo_m8DA512ED0623E5D736844AEF4F95
 IL2CPP_EXTERN_C const RuntimeMethod* XText__ctor_m30153536CE7D619BF5609B3D3453109B3ECDD28D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* XText__ctor_m57E9875B16480CE76D1F612F68AC85B2EAFBADF8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* XText_set_Value_m285A62B03AEFA17C99B9637F5E9BD62A5E707C38_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* SaveOptions_t9AB03C2B1CF04E8EFD8DE36C647D84C22095F332_0_0_0_var;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke;
@@ -854,6 +868,25 @@ struct NamespaceDeclaration_t1B428579610F47A74ABF90A16624C48E27796DC9  : public 
 	int32_t ___scope_2;
 	// System.Xml.Linq.NamespaceResolver/NamespaceDeclaration System.Xml.Linq.NamespaceResolver/NamespaceDeclaration::prev
 	NamespaceDeclaration_t1B428579610F47A74ABF90A16624C48E27796DC9* ___prev_3;
+};
+
+// System.Xml.Linq.XContainer/<GetElements>d__39
+struct U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE  : public RuntimeObject
+{
+	// System.Int32 System.Xml.Linq.XContainer/<GetElements>d__39::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Xml.Linq.XElement System.Xml.Linq.XContainer/<GetElements>d__39::<>2__current
+	XElement_t545ABA4BFF2045168A2E472A68FE2FCAA5E1F909* ___U3CU3E2__current_1;
+	// System.Int32 System.Xml.Linq.XContainer/<GetElements>d__39::<>l__initialThreadId
+	int32_t ___U3CU3El__initialThreadId_2;
+	// System.Xml.Linq.XContainer System.Xml.Linq.XContainer/<GetElements>d__39::<>4__this
+	XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF* ___U3CU3E4__this_3;
+	// System.Xml.Linq.XName System.Xml.Linq.XContainer/<GetElements>d__39::name
+	XName_tAF6D9533A7D11AC27118F656985AC325C2A50E5C* ___name_4;
+	// System.Xml.Linq.XName System.Xml.Linq.XContainer/<GetElements>d__39::<>3__name
+	XName_tAF6D9533A7D11AC27118F656985AC325C2A50E5C* ___U3CU3E3__name_5;
+	// System.Xml.Linq.XNode System.Xml.Linq.XContainer/<GetElements>d__39::<n>5__2
+	XNode_t185C922661054AAD14F49676DD6F3CB10D652A30* ___U3CnU3E5__2_6;
 };
 
 // System.Xml.Linq.XContainer/<Nodes>d__18
@@ -1887,6 +1920,10 @@ struct XmlReader_t4C709DEF5F01606ECB60B638F1BD6F6E0A9116FD_StaticFields
 
 // System.Xml.Linq.NamespaceResolver/NamespaceDeclaration
 
+// System.Xml.Linq.XContainer/<GetElements>d__39
+
+// System.Xml.Linq.XContainer/<GetElements>d__39
+
 // System.Xml.Linq.XContainer/<Nodes>d__18
 
 // System.Xml.Linq.XContainer/<Nodes>d__18
@@ -2357,6 +2394,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XContainer_AddString_m5330FF509CFD4A6CD5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XElement__ctor_m75A0943E2A1BF80A57A376F06DD505B4504D66EE (XElement_t545ABA4BFF2045168A2E472A68FE2FCAA5E1F909* __this, XStreamingElement_tBFE55346CC9502AAFB3E9818881332DC4C984664* ___0_other, const RuntimeMethod* method) ;
 // System.Void System.Xml.Linq.XContainer::Add(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XContainer_Add_m26111A020919619F03525ED30091D4501090075B (XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF* __this, RuntimeObject* ___0_content, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XElement> System.Xml.Linq.XContainer::GetElements(System.Xml.Linq.XName)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XContainer_GetElements_m59C82E873B13E464F205397CA996EDC609309525 (XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF* __this, XName_tAF6D9533A7D11AC27118F656985AC325C2A50E5C* ___0_name, const RuntimeMethod* method) ;
 // System.Void System.Xml.Linq.XContainer/<Nodes>d__18::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CNodesU3Ed__18__ctor_mAE3AC8E1B1C44851E8725187A32151589F12DDC7 (U3CNodesU3Ed__18_t7A83FD09099FD062B2BCC201FEC49C58CF13C4C1* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.Void System.Xml.Linq.XContainer::AddNodeSkipNotify(System.Xml.Linq.XNode)
@@ -2383,6 +2422,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XText_set_Value_m285A62B03AEFA17C99B9637
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D (StringBuilder_t* __this, String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Boolean System.String::IsNullOrEmpty(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
+// System.Void System.Xml.Linq.XContainer/<GetElements>d__39::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetElementsU3Ed__39__ctor_m54A0A453A0F03E195F376A2DF0D621C1E18658C4 (U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
 // System.String System.Xml.XmlConvert::ToString(System.Double)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XmlConvert_ToString_m04C12A2A45109D8E79C729DE12EF0A29301C2A2B (double ___0_value, const RuntimeMethod* method) ;
 // System.String System.Xml.XmlConvert::ToString(System.Single)
@@ -2443,6 +2484,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XNode_t185C922661054AAD14F49676DD6F3CB10D652A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
 // System.Collections.Generic.IEnumerator`1<System.Xml.Linq.XNode> System.Xml.Linq.XContainer/<Nodes>d__18::System.Collections.Generic.IEnumerable<System.Xml.Linq.XNode>.GetEnumerator()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CNodesU3Ed__18_System_Collections_Generic_IEnumerableU3CSystem_Xml_Linq_XNodeU3E_GetEnumerator_m018F008AB15C7FB2F855A224C8B8E999D4BD1325 (U3CNodesU3Ed__18_t7A83FD09099FD062B2BCC201FEC49C58CF13C4C1* __this, const RuntimeMethod* method) ;
+// System.Collections.Generic.IEnumerator`1<System.Xml.Linq.XElement> System.Xml.Linq.XContainer/<GetElements>d__39::System.Collections.Generic.IEnumerable<System.Xml.Linq.XElement>.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetElementsU3Ed__39_System_Collections_Generic_IEnumerableU3CSystem_Xml_Linq_XElementU3E_GetEnumerator_m84BA8E5E9B89708B4DE59BA3801F7E96F5AB6BEB (U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* __this, const RuntimeMethod* method) ;
 // System.Text.StringBuilder System.Text.StringBuilderCache::Acquire(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringBuilder_t* StringBuilderCache_Acquire_m56CF0EE17E4DBF597E4A74230E25A18E9D4B77BE (int32_t ___0_capacity, const RuntimeMethod* method) ;
 // System.Text.StringBuilder System.Text.StringBuilder::Append(System.Char)
@@ -4026,6 +4069,15 @@ IL_00dd:
 		return;
 	}
 }
+// System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XElement> System.Xml.Linq.XContainer::Elements()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XContainer_Elements_m24126A23A7ADDCE7A294BC28CC1D1D91A81BB9C3 (XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0;
+		L_0 = XContainer_GetElements_m59C82E873B13E464F205397CA996EDC609309525(__this, (XName_tAF6D9533A7D11AC27118F656985AC325C2A50E5C*)NULL, NULL);
+		return L_0;
+	}
+}
 // System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XNode> System.Xml.Linq.XContainer::Nodes()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XContainer_Nodes_mBB3D95BB437752701F9A687E56EA226C0F27EFE4 (XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF* __this, const RuntimeMethod* method) 
 {
@@ -4930,6 +4982,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XContainer_ConvertTextToNode_m02D880D745
 IL_0030:
 	{
 		return;
+	}
+}
+// System.Collections.Generic.IEnumerable`1<System.Xml.Linq.XElement> System.Xml.Linq.XContainer::GetElements(System.Xml.Linq.XName)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XContainer_GetElements_m59C82E873B13E464F205397CA996EDC609309525 (XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF* __this, XName_tAF6D9533A7D11AC27118F656985AC325C2A50E5C* ___0_name, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* L_0 = (U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE*)il2cpp_codegen_object_new(U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE_il2cpp_TypeInfo_var);
+		NullCheck(L_0);
+		U3CGetElementsU3Ed__39__ctor_m54A0A453A0F03E195F376A2DF0D621C1E18658C4(L_0, ((int32_t)-2), NULL);
+		U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this_3 = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this_3), (void*)__this);
+		U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* L_2 = L_1;
+		XName_tAF6D9533A7D11AC27118F656985AC325C2A50E5C* L_3 = ___0_name;
+		NullCheck(L_2);
+		L_2->___U3CU3E3__name_5 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&L_2->___U3CU3E3__name_5), (void*)L_3);
+		return L_2;
 	}
 }
 // System.String System.Xml.Linq.XContainer::GetStringValue(System.Object)
@@ -6907,6 +6984,253 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CNodesU3Ed__18_System_Collec
 	{
 		RuntimeObject* L_0;
 		L_0 = U3CNodesU3Ed__18_System_Collections_Generic_IEnumerableU3CSystem_Xml_Linq_XNodeU3E_GetEnumerator_m018F008AB15C7FB2F855A224C8B8E999D4BD1325(__this, NULL);
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void System.Xml.Linq.XContainer/<GetElements>d__39::.ctor(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetElementsU3Ed__39__ctor_m54A0A453A0F03E195F376A2DF0D621C1E18658C4 (U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state_0 = L_0;
+		int32_t L_1;
+		L_1 = Environment_get_CurrentManagedThreadId_m66483AADCCC13272EBDCD94D31D2E52603C24BDF(NULL);
+		__this->___U3CU3El__initialThreadId_2 = L_1;
+		return;
+	}
+}
+// System.Void System.Xml.Linq.XContainer/<GetElements>d__39::System.IDisposable.Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetElementsU3Ed__39_System_IDisposable_Dispose_mABB3860C03BD058A45202F4E08B315F4FD7BB9D7 (U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+// System.Boolean System.Xml.Linq.XContainer/<GetElements>d__39::MoveNext()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CGetElementsU3Ed__39_MoveNext_m4D4712D2713B742FB441F663AE0176CDB957D3F1 (U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XElement_t545ABA4BFF2045168A2E472A68FE2FCAA5E1F909_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&XNode_t185C922661054AAD14F49676DD6F3CB10D652A30_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF* V_1 = NULL;
+	XElement_t545ABA4BFF2045168A2E472A68FE2FCAA5E1F909* V_2 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		V_0 = L_0;
+		XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF* L_1 = __this->___U3CU3E4__this_3;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0088;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+		XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF* L_4 = V_1;
+		NullCheck(L_4);
+		RuntimeObject* L_5 = L_4->___content_3;
+		__this->___U3CnU3E5__2_6 = ((XNode_t185C922661054AAD14F49676DD6F3CB10D652A30*)IsInstClass((RuntimeObject*)L_5, XNode_t185C922661054AAD14F49676DD6F3CB10D652A30_il2cpp_TypeInfo_var));
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CnU3E5__2_6), (void*)((XNode_t185C922661054AAD14F49676DD6F3CB10D652A30*)IsInstClass((RuntimeObject*)L_5, XNode_t185C922661054AAD14F49676DD6F3CB10D652A30_il2cpp_TypeInfo_var)));
+		XNode_t185C922661054AAD14F49676DD6F3CB10D652A30* L_6 = __this->___U3CnU3E5__2_6;
+		if (!L_6)
+		{
+			goto IL_00ab;
+		}
+	}
+
+IL_0037:
+	{
+		XNode_t185C922661054AAD14F49676DD6F3CB10D652A30* L_7 = __this->___U3CnU3E5__2_6;
+		NullCheck(L_7);
+		XNode_t185C922661054AAD14F49676DD6F3CB10D652A30* L_8 = L_7->___next_2;
+		__this->___U3CnU3E5__2_6 = L_8;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CnU3E5__2_6), (void*)L_8);
+		XNode_t185C922661054AAD14F49676DD6F3CB10D652A30* L_9 = __this->___U3CnU3E5__2_6;
+		V_2 = ((XElement_t545ABA4BFF2045168A2E472A68FE2FCAA5E1F909*)IsInstClass((RuntimeObject*)L_9, XElement_t545ABA4BFF2045168A2E472A68FE2FCAA5E1F909_il2cpp_TypeInfo_var));
+		XElement_t545ABA4BFF2045168A2E472A68FE2FCAA5E1F909* L_10 = V_2;
+		if (!L_10)
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		XName_tAF6D9533A7D11AC27118F656985AC325C2A50E5C* L_11 = __this->___name_4;
+		bool L_12;
+		L_12 = XName_op_Equality_m3F2AF3BB435B0F79A8D197D2FB22CDB8E150DBC0(L_11, (XName_tAF6D9533A7D11AC27118F656985AC325C2A50E5C*)NULL, NULL);
+		if (L_12)
+		{
+			goto IL_0078;
+		}
+	}
+	{
+		XElement_t545ABA4BFF2045168A2E472A68FE2FCAA5E1F909* L_13 = V_2;
+		NullCheck(L_13);
+		XName_tAF6D9533A7D11AC27118F656985AC325C2A50E5C* L_14 = L_13->___name_4;
+		XName_tAF6D9533A7D11AC27118F656985AC325C2A50E5C* L_15 = __this->___name_4;
+		bool L_16;
+		L_16 = XName_op_Equality_m3F2AF3BB435B0F79A8D197D2FB22CDB8E150DBC0(L_14, L_15, NULL);
+		if (!L_16)
+		{
+			goto IL_008f;
+		}
+	}
+
+IL_0078:
+	{
+		XElement_t545ABA4BFF2045168A2E472A68FE2FCAA5E1F909* L_17 = V_2;
+		__this->___U3CU3E2__current_1 = L_17;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current_1), (void*)L_17);
+		__this->___U3CU3E1__state_0 = 1;
+		return (bool)1;
+	}
+
+IL_0088:
+	{
+		__this->___U3CU3E1__state_0 = (-1);
+	}
+
+IL_008f:
+	{
+		XNode_t185C922661054AAD14F49676DD6F3CB10D652A30* L_18 = __this->___U3CnU3E5__2_6;
+		NullCheck(L_18);
+		XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF* L_19 = ((XObject_t1E867FBE626AA0DC878BDDFC1ABCF19F1A4B5C29*)L_18)->___parent_0;
+		XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF* L_20 = V_1;
+		if ((!(((RuntimeObject*)(XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF*)L_19) == ((RuntimeObject*)(XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF*)L_20))))
+		{
+			goto IL_00ab;
+		}
+	}
+	{
+		XNode_t185C922661054AAD14F49676DD6F3CB10D652A30* L_21 = __this->___U3CnU3E5__2_6;
+		XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF* L_22 = V_1;
+		NullCheck(L_22);
+		RuntimeObject* L_23 = L_22->___content_3;
+		if ((!(((RuntimeObject*)(XNode_t185C922661054AAD14F49676DD6F3CB10D652A30*)L_21) == ((RuntimeObject*)(RuntimeObject*)L_23))))
+		{
+			goto IL_0037;
+		}
+	}
+
+IL_00ab:
+	{
+		return (bool)0;
+	}
+}
+// System.Xml.Linq.XElement System.Xml.Linq.XContainer/<GetElements>d__39::System.Collections.Generic.IEnumerator<System.Xml.Linq.XElement>.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XElement_t545ABA4BFF2045168A2E472A68FE2FCAA5E1F909* U3CGetElementsU3Ed__39_System_Collections_Generic_IEnumeratorU3CSystem_Xml_Linq_XElementU3E_get_Current_m480585A7C16DF610C4517F92A96FF219F1E0F865 (U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* __this, const RuntimeMethod* method) 
+{
+	{
+		XElement_t545ABA4BFF2045168A2E472A68FE2FCAA5E1F909* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Void System.Xml.Linq.XContainer/<GetElements>d__39::System.Collections.IEnumerator.Reset()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CGetElementsU3Ed__39_System_Collections_IEnumerator_Reset_m390572B819FF535F7725C97131B5736269E04741 (U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NullCheck(L_0);
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CGetElementsU3Ed__39_System_Collections_IEnumerator_Reset_m390572B819FF535F7725C97131B5736269E04741_RuntimeMethod_var)));
+	}
+}
+// System.Object System.Xml.Linq.XContainer/<GetElements>d__39::System.Collections.IEnumerator.get_Current()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetElementsU3Ed__39_System_Collections_IEnumerator_get_Current_m7E6273D8E3A56A9E4561B426DDCEABE94BB40C1F (U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* __this, const RuntimeMethod* method) 
+{
+	{
+		XElement_t545ABA4BFF2045168A2E472A68FE2FCAA5E1F909* L_0 = __this->___U3CU3E2__current_1;
+		return L_0;
+	}
+}
+// System.Collections.Generic.IEnumerator`1<System.Xml.Linq.XElement> System.Xml.Linq.XContainer/<GetElements>d__39::System.Collections.Generic.IEnumerable<System.Xml.Linq.XElement>.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetElementsU3Ed__39_System_Collections_Generic_IEnumerableU3CSystem_Xml_Linq_XElementU3E_GetEnumerator_m84BA8E5E9B89708B4DE59BA3801F7E96F5AB6BEB (U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* V_0 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state_0;
+		if ((!(((uint32_t)L_0) == ((uint32_t)((int32_t)-2)))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		int32_t L_1 = __this->___U3CU3El__initialThreadId_2;
+		int32_t L_2;
+		L_2 = Environment_get_CurrentManagedThreadId_m66483AADCCC13272EBDCD94D31D2E52603C24BDF(NULL);
+		if ((!(((uint32_t)L_1) == ((uint32_t)L_2))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		__this->___U3CU3E1__state_0 = 0;
+		V_0 = __this;
+		goto IL_0035;
+	}
+
+IL_0022:
+	{
+		U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* L_3 = (U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE*)il2cpp_codegen_object_new(U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE_il2cpp_TypeInfo_var);
+		NullCheck(L_3);
+		U3CGetElementsU3Ed__39__ctor_m54A0A453A0F03E195F376A2DF0D621C1E18658C4(L_3, 0, NULL);
+		V_0 = L_3;
+		U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* L_4 = V_0;
+		XContainer_tF94A2D69B11B71834E4E5531DD59E627CBFE2BBF* L_5 = __this->___U3CU3E4__this_3;
+		NullCheck(L_4);
+		L_4->___U3CU3E4__this_3 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&L_4->___U3CU3E4__this_3), (void*)L_5);
+	}
+
+IL_0035:
+	{
+		U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* L_6 = V_0;
+		XName_tAF6D9533A7D11AC27118F656985AC325C2A50E5C* L_7 = __this->___U3CU3E3__name_5;
+		NullCheck(L_6);
+		L_6->___name_4 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&L_6->___name_4), (void*)L_7);
+		U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* L_8 = V_0;
+		return L_8;
+	}
+}
+// System.Collections.IEnumerator System.Xml.Linq.XContainer/<GetElements>d__39::System.Collections.IEnumerable.GetEnumerator()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetElementsU3Ed__39_System_Collections_IEnumerable_GetEnumerator_mE8974A462D469EE11D38CDBEA5418A4B0AED778B (U3CGetElementsU3Ed__39_tFD2A30A85B2399A484C549F702CAC469B5B171FE* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0;
+		L_0 = U3CGetElementsU3Ed__39_System_Collections_Generic_IEnumerableU3CSystem_Xml_Linq_XElementU3E_GetEnumerator_m84BA8E5E9B89708B4DE59BA3801F7E96F5AB6BEB(__this, NULL);
 		return L_0;
 	}
 }
@@ -9349,12 +9673,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CGetAttributesU3Ed__116_Syst
 // Conversion methods for marshalling of: System.Xml.Linq.NamespaceCache
 IL2CPP_EXTERN_C void NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_marshal_pinvoke(const NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E& unmarshaled, NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ____ns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_ns' of type 'NamespaceCache': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_____ns_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____ns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_____ns_0_FieldInfo_var, NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____ns_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_marshal_pinvoke_back(const NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_marshaled_pinvoke& marshaled, NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E& unmarshaled)
 {
-	Exception_t* ____ns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_ns' of type 'NamespaceCache': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_____ns_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____ns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_____ns_0_FieldInfo_var, NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____ns_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Xml.Linq.NamespaceCache
@@ -9364,12 +9702,26 @@ IL2CPP_EXTERN_C void NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_ma
 // Conversion methods for marshalling of: System.Xml.Linq.NamespaceCache
 IL2CPP_EXTERN_C void NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_marshal_com(const NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E& unmarshaled, NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_marshaled_com& marshaled)
 {
-	Exception_t* ____ns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_ns' of type 'NamespaceCache': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_____ns_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____ns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_____ns_0_FieldInfo_var, NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____ns_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_marshal_com_back(const NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_marshaled_com& marshaled, NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E& unmarshaled)
 {
-	Exception_t* ____ns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_ns' of type 'NamespaceCache': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_____ns_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____ns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_____ns_0_FieldInfo_var, NamespaceCache_tA4C61EA86BE904343F818AF0B22EC00A2A272B5E_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____ns_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Xml.Linq.NamespaceCache
@@ -9428,12 +9780,26 @@ IL2CPP_EXTERN_C  XNamespace_t86B6F8515F5E20D387B83EBDE0890C4559A4012C* Namespace
 // Conversion methods for marshalling of: System.Xml.Linq.ElementWriter
 IL2CPP_EXTERN_C void ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_marshal_pinvoke(const ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E& unmarshaled, ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ____writer_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_writer' of type 'ElementWriter': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_____writer_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____writer_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_____writer_0_FieldInfo_var, ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____writer_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_marshal_pinvoke_back(const ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_marshaled_pinvoke& marshaled, ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E& unmarshaled)
 {
-	Exception_t* ____writer_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_writer' of type 'ElementWriter': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_____writer_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____writer_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_____writer_0_FieldInfo_var, ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____writer_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Xml.Linq.ElementWriter
@@ -9445,12 +9811,26 @@ IL2CPP_EXTERN_C void ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_mar
 // Conversion methods for marshalling of: System.Xml.Linq.ElementWriter
 IL2CPP_EXTERN_C void ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_marshal_com(const ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E& unmarshaled, ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_marshaled_com& marshaled)
 {
-	Exception_t* ____writer_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_writer' of type 'ElementWriter': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_____writer_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____writer_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_____writer_0_FieldInfo_var, ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____writer_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_marshal_com_back(const ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_marshaled_com& marshaled, ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E& unmarshaled)
 {
-	Exception_t* ____writer_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_writer' of type 'ElementWriter': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_____writer_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____writer_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_____writer_0_FieldInfo_var, ElementWriter_t8A2F575C32A5E65A6A4AA13994BCB24D1CB4CC3E_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____writer_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Xml.Linq.ElementWriter
@@ -10193,12 +10573,26 @@ IL2CPP_EXTERN_C  void ElementWriter_WriteStartElement_m2B5053DBE09413D2F2284EE44
 // Conversion methods for marshalling of: System.Xml.Linq.NamespaceResolver
 IL2CPP_EXTERN_C void NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_marshal_pinvoke(const NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46& unmarshaled, NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ____declaration_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_declaration' of type 'NamespaceResolver': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_____declaration_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____declaration_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_____declaration_1_FieldInfo_var, NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____declaration_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_marshal_pinvoke_back(const NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_marshaled_pinvoke& marshaled, NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46& unmarshaled)
 {
-	Exception_t* ____declaration_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_declaration' of type 'NamespaceResolver': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_____declaration_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____declaration_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_____declaration_1_FieldInfo_var, NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____declaration_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Xml.Linq.NamespaceResolver
@@ -10208,12 +10602,26 @@ IL2CPP_EXTERN_C void NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46
 // Conversion methods for marshalling of: System.Xml.Linq.NamespaceResolver
 IL2CPP_EXTERN_C void NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_marshal_com(const NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46& unmarshaled, NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_marshaled_com& marshaled)
 {
-	Exception_t* ____declaration_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_declaration' of type 'NamespaceResolver': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_____declaration_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____declaration_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_____declaration_1_FieldInfo_var, NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____declaration_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_marshal_com_back(const NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_marshaled_com& marshaled, NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46& unmarshaled)
 {
-	Exception_t* ____declaration_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_declaration' of type 'NamespaceResolver': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_____declaration_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____declaration_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_____declaration_1_FieldInfo_var, NamespaceResolver_tD689E47F9BD1966D743E2401E5C7D387FC5A4E46_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____declaration_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Xml.Linq.NamespaceResolver

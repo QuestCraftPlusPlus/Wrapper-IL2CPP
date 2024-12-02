@@ -151,6 +151,7 @@ IL2CPP_EXTERN_C RuntimeClass* SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33
 IL2CPP_EXTERN_C RuntimeClass* TrackingStateEventType_tB20EB5D5E27ACC8D551C965C01143C58A99AAC3F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XRInputSubsystem_tFECE6683FCAEBF05BAD05E5D612690095D8BAD34_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C____U3CMeshU3Ek__BackingField_1_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral03F95F266081C6100AE45DE907603B48AEA88377;
 IL2CPP_EXTERN_C String_t* _stringLiteral227D9F9D7F0691964EAA2E30C2C2DC14C04A3D05;
 IL2CPP_EXTERN_C String_t* _stringLiteral24B00BEE43751066E2697652F1D6D262C07E28BF;
@@ -258,6 +259,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m81D40B541187099D5EDD207395C9F
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m90BE1F9C540971223AE0CE4E333ACFC27CDA0275_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m099EE1B978423A69DAE032836B6FC9A39F7D1EE6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mF7ACC153F11A3260DAACDCA56B0A70A4BFA61EA4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -1049,6 +1051,13 @@ struct IntegratedSubsystemDescriptor_t9232963B842E01748A8E032928DC8E35DF00C10D_m
 struct IntegratedSubsystemDescriptor_t9232963B842E01748A8E032928DC8E35DF00C10D_marshaled_com
 {
 	intptr_t ___m_Ptr_0;
+};
+
+// UnityEngine.XR.MeshChangeState
+struct MeshChangeState_t4CCBA82867A78CD1241B037198571A5365D7910C 
+{
+	// System.Int32 UnityEngine.XR.MeshChangeState::value__
+	int32_t ___value___2;
 };
 
 // UnityEngine.XR.MeshGenerationStatus
@@ -1981,6 +1990,10 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
 // UnityEngine.IntegratedSubsystem
 
 // UnityEngine.IntegratedSubsystem
+
+// UnityEngine.XR.MeshChangeState
+
+// UnityEngine.XR.MeshChangeState
 
 // UnityEngine.XR.MeshGenerationStatus
 
@@ -6902,12 +6915,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t HashCodeHelper_Combine_mBF383AC565B49
 // Conversion methods for marshalling of: UnityEngine.XR.MeshGenerationResult
 IL2CPP_EXTERN_C void MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_marshal_pinvoke(const MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C& unmarshaled, MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___U3CMeshU3Ek__BackingField_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '<Mesh>k__BackingField' of type 'MeshGenerationResult': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C____U3CMeshU3Ek__BackingField_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CMeshU3Ek__BackingField_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C____U3CMeshU3Ek__BackingField_1_FieldInfo_var, MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CMeshU3Ek__BackingField_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_marshal_pinvoke_back(const MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_marshaled_pinvoke& marshaled, MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C& unmarshaled)
 {
-	Exception_t* ___U3CMeshU3Ek__BackingField_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '<Mesh>k__BackingField' of type 'MeshGenerationResult': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C____U3CMeshU3Ek__BackingField_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CMeshU3Ek__BackingField_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C____U3CMeshU3Ek__BackingField_1_FieldInfo_var, MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CMeshU3Ek__BackingField_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.XR.MeshGenerationResult
@@ -6917,12 +6944,26 @@ IL2CPP_EXTERN_C void MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3
 // Conversion methods for marshalling of: UnityEngine.XR.MeshGenerationResult
 IL2CPP_EXTERN_C void MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_marshal_com(const MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C& unmarshaled, MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_marshaled_com& marshaled)
 {
-	Exception_t* ___U3CMeshU3Ek__BackingField_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '<Mesh>k__BackingField' of type 'MeshGenerationResult': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C____U3CMeshU3Ek__BackingField_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CMeshU3Ek__BackingField_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C____U3CMeshU3Ek__BackingField_1_FieldInfo_var, MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CMeshU3Ek__BackingField_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_marshal_com_back(const MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_marshaled_com& marshaled, MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C& unmarshaled)
 {
-	Exception_t* ___U3CMeshU3Ek__BackingField_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '<Mesh>k__BackingField' of type 'MeshGenerationResult': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C____U3CMeshU3Ek__BackingField_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___U3CMeshU3Ek__BackingField_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C____U3CMeshU3Ek__BackingField_1_FieldInfo_var, MeshGenerationResult_tD5A6D639B2CF1A3F855AFB41861DEC48DC0D3A9C_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___U3CMeshU3Ek__BackingField_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.XR.MeshGenerationResult
@@ -7335,6 +7376,14 @@ IL2CPP_EXTERN_C  int32_t MeshGenerationResult_GetHashCode_mA542C935FE2ABB8EC0A3C
 	_returnValue = MeshGenerationResult_GetHashCode_mA542C935FE2ABB8EC0A3CE001267176095F7DCBC(_thisAdjusted, method);
 	return _returnValue;
 }
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

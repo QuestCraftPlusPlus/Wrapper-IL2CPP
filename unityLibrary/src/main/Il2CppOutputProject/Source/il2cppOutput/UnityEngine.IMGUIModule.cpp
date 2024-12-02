@@ -305,6 +305,9 @@ IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95____m_SourceStyle_1_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580____m_Normal_1_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478____topLevel_1_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral00B28FF06B788B9B67C6B259800F404F9F3761FD;
 IL2CPP_EXTERN_C String_t* _stringLiteral010AFEFEB861AC9FACA8EBF9C6C9CC1C80C4A78A;
 IL2CPP_EXTERN_C String_t* _stringLiteral0150AFA3D0411ED67D7C3CBAC0A989FC1A7CEAE3;
@@ -437,6 +440,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteralF25B95468DAA02EC9AF41A21C2F589D8847BC27F
 IL2CPP_EXTERN_C String_t* _stringLiteralFA1435556F32329DD212289449459CCFA67730F8;
 IL2CPP_EXTERN_C String_t* _stringLiteralFA62FBFE4E50CD6BF703F0C9569D92C185108758;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_m4C890AEA2FD3BA3DE92C9B54D52C89720AD6F9AD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_ContainsKey_mB029688B9FE1200528D7FF41FBBC0445E4F9A439_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_Remove_m6CF5D1A13805195F16587BF68CADB4FD028F5FB0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2_TryGetValue_mF6FAFEDDE37A2FE277E1ABFF79B29FD0700A91F8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m25295236FCA3F3483154632E7D7193F3A4963070_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Dictionary_2__ctor_m26D30094F62EB94273B024DB6AD146CD142F4202_RuntimeMethod_var;
@@ -452,8 +457,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1_GetEnumerator_m14998F11E1FAE434729EE
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m685E773E1D777772A2633097DD151A2A9E640D72_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m153018B4392442CB2A61FDE8F54D648A39BD4F4E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m16B6735ABC6797DEC0C384CD67F15DDE9A5C1360_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* GUITargetAttribute_t3F08CE7E00D79CB555B94AA7FA1BCB4B144B922B_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* KeyCode_t75B9ECCC26D858F55040DDFF9523681E996D17E9_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -911,6 +919,35 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		};
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
+};
+
+// UnityEngine.GUILayoutUtility/LayoutCacheState
+struct LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478 
+{
+	// System.Int32 UnityEngine.GUILayoutUtility/LayoutCacheState::id
+	int32_t ___id_0;
+	// UnityEngine.GUILayoutGroup UnityEngine.GUILayoutUtility/LayoutCacheState::topLevel
+	GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* ___topLevel_1;
+	// UnityEngineInternal.GenericStack UnityEngine.GUILayoutUtility/LayoutCacheState::layoutGroups
+	GenericStack_t1FB49AB7D847C97ABAA97AB232CA416CABD24C49* ___layoutGroups_2;
+	// UnityEngine.GUILayoutGroup UnityEngine.GUILayoutUtility/LayoutCacheState::windows
+	GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* ___windows_3;
+};
+// Native definition for P/Invoke marshalling of UnityEngine.GUILayoutUtility/LayoutCacheState
+struct LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshaled_pinvoke
+{
+	int32_t ___id_0;
+	GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* ___topLevel_1;
+	GenericStack_t1FB49AB7D847C97ABAA97AB232CA416CABD24C49* ___layoutGroups_2;
+	GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* ___windows_3;
+};
+// Native definition for COM marshalling of UnityEngine.GUILayoutUtility/LayoutCacheState
+struct LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshaled_com
+{
+	int32_t ___id_0;
+	GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* ___topLevel_1;
+	GenericStack_t1FB49AB7D847C97ABAA97AB232CA416CABD24C49* ___layoutGroups_2;
+	GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* ___windows_3;
 };
 
 // System.Reflection.BindingFlags
@@ -2103,6 +2140,10 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
 
 // System.Void
 
+// UnityEngine.GUILayoutUtility/LayoutCacheState
+
+// UnityEngine.GUILayoutUtility/LayoutCacheState
+
 // System.Reflection.BindingFlags
 
 // System.Reflection.BindingFlags
@@ -2551,6 +2592,10 @@ IL2CPP_EXTERN_C void RectOffset_t6358774A0DEEABA4586840CB9BC7DC88B39660B5_marsha
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_TryGetValue_m7316301B8CF47FB538886B229B2749EC160B9D5C_gshared (Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* __this, int32_t ___0_key, RuntimeObject** ___1_value, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::set_Item(TKey,TValue)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2_set_Item_m2888D71A14F2B8510102F24FEE90552E91B124C1_gshared (Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* __this, int32_t ___0_key, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::ContainsKey(TKey)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_ContainsKey_mED5C451F158CDDD2B3F4B0720CD248DA9DB27B25_gshared (Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* __this, int32_t ___0_key, const RuntimeMethod* method) ;
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::Remove(TKey)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Dictionary_2_Remove_m12BAB2F82E34CAA21A7245AB61E48F106340C1A4_gshared (Dictionary_2_tA75D1125AC9BE8F005BA9B868B373398E643C907* __this, int32_t ___0_key, const RuntimeMethod* method) ;
 // System.Collections.Generic.List`1/Enumerator<T> System.Collections.Generic.List`1<System.Object>::GetEnumerator()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Enumerator_t9473BAB568A27E2339D48C1F91319E0F6D244D7A List_1_GetEnumerator_mD8294A7FA2BEB1929487127D476F8EC1CDC23BFC_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1/Enumerator<System.Object>::Dispose()
@@ -2593,12 +2638,24 @@ inline bool Dictionary_2_TryGetValue_mF6FAFEDDE37A2FE277E1ABFF79B29FD0700A91F8 (
 {
 	return ((  bool (*) (Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598*, int32_t, LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60**, const RuntimeMethod*))Dictionary_2_TryGetValue_m7316301B8CF47FB538886B229B2749EC160B9D5C_gshared)(__this, ___0_key, ___1_value, method);
 }
+// UnityEngine.GUILayoutUtility/LayoutCache UnityEngine.GUILayoutUtility::GetLayoutCache(System.Int32,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* GUILayoutUtility_GetLayoutCache_m6086C9523E16ECC3FF4613F5A2441351CF4B2878 (int32_t ___0_instanceID, bool ___1_isWindow, const RuntimeMethod* method) ;
 // System.Void UnityEngine.GUILayoutUtility/LayoutCache::.ctor(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutCache__ctor_m73B4DC62A0A7669976C8444DDB54EF8D55BF3E0B (LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* __this, int32_t ___0_instanceID, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::set_Item(TKey,TValue)
 inline void Dictionary_2_set_Item_m6920FD9D9518E101681E8F562ED9732085222C10 (Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* __this, int32_t ___0_key, LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* ___1_value, const RuntimeMethod* method)
 {
 	((  void (*) (Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598*, int32_t, LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60*, const RuntimeMethod*))Dictionary_2_set_Item_m2888D71A14F2B8510102F24FEE90552E91B124C1_gshared)(__this, ___0_key, ___1_value, method);
+}
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::ContainsKey(TKey)
+inline bool Dictionary_2_ContainsKey_mB029688B9FE1200528D7FF41FBBC0445E4F9A439 (Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* __this, int32_t ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598*, int32_t, const RuntimeMethod*))Dictionary_2_ContainsKey_mED5C451F158CDDD2B3F4B0720CD248DA9DB27B25_gshared)(__this, ___0_key, method);
+}
+// System.Boolean System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>::Remove(TKey)
+inline bool Dictionary_2_Remove_m6CF5D1A13805195F16587BF68CADB4FD028F5FB0 (Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* __this, int32_t ___0_key, const RuntimeMethod* method)
+{
+	return ((  bool (*) (Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598*, int32_t, const RuntimeMethod*))Dictionary_2_Remove_m12BAB2F82E34CAA21A7245AB61E48F106340C1A4_gshared)(__this, ___0_key, method);
 }
 // UnityEngine.GUILayoutUtility/LayoutCache UnityEngine.GUILayoutUtility::SelectIDList(System.Int32,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* GUILayoutUtility_SelectIDList_m601F4AA990B7FD59A779F5375EC55ADDB86927A9 (int32_t ___0_instanceID, bool ___1_isWindow, const RuntimeMethod* method) ;
@@ -2667,6 +2724,10 @@ inline void Dictionary_2__ctor_m26D30094F62EB94273B024DB6AD146CD142F4202 (Dictio
 }
 // System.Void UnityEngine.Rect::.ctor(System.Single,System.Single,System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23 (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) ;
+// System.Int32 UnityEngine.GUILayoutUtility/LayoutCache::get_id()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LayoutCache_get_id_mC223564DD70C5633178B4A99121331CA58F866A1_inline (LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.GUILayoutUtility/LayoutCacheState::.ctor(UnityEngine.GUILayoutUtility/LayoutCache)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutCacheState__ctor_m01CFF2336336AD63861C0A66669C2176D226B649 (LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478* __this, LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* ___0_cache, const RuntimeMethod* method) ;
 // System.Void UnityEngineInternal.GenericStack::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GenericStack__ctor_mD21753D674298C09F3684F19DD42680323055586 (GenericStack_t1FB49AB7D847C97ABAA97AB232CA416CABD24C49* __this, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
@@ -3187,6 +3248,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIUtility_Internal_ExitGUI_m5B145534F61
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIUtility_ResetGlobalState_mD0A482A31337B6200F644995345CF56849913928 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.GUILayoutUtility::Begin(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUILayoutUtility_Begin_m701551F1F833A31A154BFFC9F6F3143A12A33061 (int32_t ___0_instanceID, const RuntimeMethod* method) ;
+// System.Void UnityEngine.GUILayoutUtility::RemoveSelectedIdList(System.Int32,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUILayoutUtility_RemoveSelectedIdList_m701496086D15B8BF1C936EB431AFBC6627A787FD (int32_t ___0_instanceID, bool ___1_isWindow, const RuntimeMethod* method) ;
 // System.Void UnityEngine.GUILayoutUtility::LayoutFromEditorWindow()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUILayoutUtility_LayoutFromEditorWindow_m0D41A3D7897D91D4420C722C47502FCBA0352804 (const RuntimeMethod* method) ;
 // System.Void UnityEngine.GUIContent::ClearStaticCache()
@@ -3489,13 +3552,66 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUILayoutUtility_Internal_MoveWindow_mAD
 		return;
 	}
 }
+// UnityEngine.GUILayoutUtility/LayoutCache UnityEngine.GUILayoutUtility::GetLayoutCache(System.Int32,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* GUILayoutUtility_GetLayoutCache_m6086C9523E16ECC3FF4613F5A2441351CF4B2878 (int32_t ___0_instanceID, bool ___1_isWindow, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_mF6FAFEDDE37A2FE277E1ABFF79B29FD0700A91F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* V_0 = NULL;
+	LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* V_1 = NULL;
+	LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* V_2 = NULL;
+	Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* G_B3_0 = NULL;
+	{
+		bool L_0 = ___1_isWindow;
+		if (L_0)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var);
+		Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* L_1 = ((GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_StaticFields*)il2cpp_codegen_static_fields_for(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var))->___s_StoredLayouts_0;
+		G_B3_0 = L_1;
+		goto IL_0010;
+	}
+
+IL_000b:
+	{
+		il2cpp_codegen_runtime_class_init_inline(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var);
+		Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* L_2 = ((GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_StaticFields*)il2cpp_codegen_static_fields_for(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var))->___s_StoredWindows_1;
+		G_B3_0 = L_2;
+	}
+
+IL_0010:
+	{
+		V_0 = G_B3_0;
+		Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* L_3 = V_0;
+		int32_t L_4 = ___0_instanceID;
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = Dictionary_2_TryGetValue_mF6FAFEDDE37A2FE277E1ABFF79B29FD0700A91F8(L_3, L_4, (&V_1), Dictionary_2_TryGetValue_mF6FAFEDDE37A2FE277E1ABFF79B29FD0700A91F8_RuntimeMethod_var);
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_6 = V_1;
+		V_2 = L_6;
+		goto IL_001f;
+	}
+
+IL_001f:
+	{
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_7 = V_2;
+		return L_7;
+	}
+}
 // UnityEngine.GUILayoutUtility/LayoutCache UnityEngine.GUILayoutUtility::SelectIDList(System.Int32,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* GUILayoutUtility_SelectIDList_m601F4AA990B7FD59A779F5375EC55ADDB86927A9 (int32_t ___0_instanceID, bool ___1_isWindow, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_TryGetValue_mF6FAFEDDE37A2FE277E1ABFF79B29FD0700A91F8_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_set_Item_m6920FD9D9518E101681E8F562ED9732085222C10_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60_il2cpp_TypeInfo_var);
@@ -3530,64 +3646,129 @@ IL_000b:
 IL_0010:
 	{
 		V_0 = G_B3_0;
-		Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* L_3 = V_0;
-		int32_t L_4 = ___0_instanceID;
-		NullCheck(L_3);
-		bool L_5;
-		L_5 = Dictionary_2_TryGetValue_mF6FAFEDDE37A2FE277E1ABFF79B29FD0700A91F8(L_3, L_4, (&V_1), Dictionary_2_TryGetValue_mF6FAFEDDE37A2FE277E1ABFF79B29FD0700A91F8_RuntimeMethod_var);
-		V_2 = (bool)((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
-		bool L_6 = V_2;
-		if (!L_6)
+		int32_t L_3 = ___0_instanceID;
+		bool L_4 = ___1_isWindow;
+		il2cpp_codegen_runtime_class_init_inline(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var);
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_5;
+		L_5 = GUILayoutUtility_GetLayoutCache_m6086C9523E16ECC3FF4613F5A2441351CF4B2878(L_3, L_4, NULL);
+		V_1 = L_5;
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_6 = V_1;
+		V_2 = (bool)((((RuntimeObject*)(LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60*)L_6) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0);
+		bool L_7 = V_2;
+		if (!L_7)
 		{
 			goto IL_0033;
 		}
 	}
 	{
-		int32_t L_7 = ___0_instanceID;
-		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_8 = (LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60*)il2cpp_codegen_object_new(LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60_il2cpp_TypeInfo_var);
-		NullCheck(L_8);
-		LayoutCache__ctor_m73B4DC62A0A7669976C8444DDB54EF8D55BF3E0B(L_8, L_7, NULL);
-		V_1 = L_8;
-		Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* L_9 = V_0;
-		int32_t L_10 = ___0_instanceID;
-		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_11 = V_1;
+		int32_t L_8 = ___0_instanceID;
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_9 = (LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60*)il2cpp_codegen_object_new(LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60_il2cpp_TypeInfo_var);
 		NullCheck(L_9);
-		Dictionary_2_set_Item_m6920FD9D9518E101681E8F562ED9732085222C10(L_9, L_10, L_11, Dictionary_2_set_Item_m6920FD9D9518E101681E8F562ED9732085222C10_RuntimeMethod_var);
+		LayoutCache__ctor_m73B4DC62A0A7669976C8444DDB54EF8D55BF3E0B(L_9, L_8, NULL);
+		V_1 = L_9;
+		Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* L_10 = V_0;
+		int32_t L_11 = ___0_instanceID;
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_12 = V_1;
+		NullCheck(L_10);
+		Dictionary_2_set_Item_m6920FD9D9518E101681E8F562ED9732085222C10(L_10, L_11, L_12, Dictionary_2_set_Item_m6920FD9D9518E101681E8F562ED9732085222C10_RuntimeMethod_var);
 	}
 
 IL_0033:
 	{
 		il2cpp_codegen_runtime_class_init_inline(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var);
-		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_12 = ((GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_StaticFields*)il2cpp_codegen_static_fields_for(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var))->___current_2;
-		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_13 = V_1;
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_13 = ((GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_StaticFields*)il2cpp_codegen_static_fields_for(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var))->___current_2;
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_14 = V_1;
+		NullCheck(L_14);
+		GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* L_15 = L_14->___topLevel_1;
 		NullCheck(L_13);
-		GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* L_14 = L_13->___topLevel_1;
-		NullCheck(L_12);
-		L_12->___topLevel_1 = L_14;
-		Il2CppCodeGenWriteBarrier((void**)(&L_12->___topLevel_1), (void*)L_14);
-		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_15 = ((GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_StaticFields*)il2cpp_codegen_static_fields_for(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var))->___current_2;
-		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_16 = V_1;
+		L_13->___topLevel_1 = L_15;
+		Il2CppCodeGenWriteBarrier((void**)(&L_13->___topLevel_1), (void*)L_15);
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_16 = ((GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_StaticFields*)il2cpp_codegen_static_fields_for(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var))->___current_2;
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_17 = V_1;
+		NullCheck(L_17);
+		GenericStack_t1FB49AB7D847C97ABAA97AB232CA416CABD24C49* L_18 = L_17->___layoutGroups_2;
 		NullCheck(L_16);
-		GenericStack_t1FB49AB7D847C97ABAA97AB232CA416CABD24C49* L_17 = L_16->___layoutGroups_2;
-		NullCheck(L_15);
-		L_15->___layoutGroups_2 = L_17;
-		Il2CppCodeGenWriteBarrier((void**)(&L_15->___layoutGroups_2), (void*)L_17);
-		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_18 = ((GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_StaticFields*)il2cpp_codegen_static_fields_for(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var))->___current_2;
-		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_19 = V_1;
+		L_16->___layoutGroups_2 = L_18;
+		Il2CppCodeGenWriteBarrier((void**)(&L_16->___layoutGroups_2), (void*)L_18);
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_19 = ((GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_StaticFields*)il2cpp_codegen_static_fields_for(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var))->___current_2;
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_20 = V_1;
+		NullCheck(L_20);
+		GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* L_21 = L_20->___windows_3;
 		NullCheck(L_19);
-		GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* L_20 = L_19->___windows_3;
-		NullCheck(L_18);
-		L_18->___windows_3 = L_20;
-		Il2CppCodeGenWriteBarrier((void**)(&L_18->___windows_3), (void*)L_20);
-		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_21 = V_1;
-		V_3 = L_21;
+		L_19->___windows_3 = L_21;
+		Il2CppCodeGenWriteBarrier((void**)(&L_19->___windows_3), (void*)L_21);
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_22 = V_1;
+		V_3 = L_22;
 		goto IL_0067;
 	}
 
 IL_0067:
 	{
-		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_22 = V_3;
-		return L_22;
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_23 = V_3;
+		return L_23;
+	}
+}
+// System.Void UnityEngine.GUILayoutUtility::RemoveSelectedIdList(System.Int32,System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUILayoutUtility_RemoveSelectedIdList_m701496086D15B8BF1C936EB431AFBC6627A787FD (int32_t ___0_instanceID, bool ___1_isWindow, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_ContainsKey_mB029688B9FE1200528D7FF41FBBC0445E4F9A439_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Dictionary_2_Remove_m6CF5D1A13805195F16587BF68CADB4FD028F5FB0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* V_0 = NULL;
+	bool V_1 = false;
+	Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* G_B3_0 = NULL;
+	{
+		bool L_0 = ___1_isWindow;
+		if (L_0)
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		il2cpp_codegen_runtime_class_init_inline(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var);
+		Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* L_1 = ((GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_StaticFields*)il2cpp_codegen_static_fields_for(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var))->___s_StoredLayouts_0;
+		G_B3_0 = L_1;
+		goto IL_0010;
+	}
+
+IL_000b:
+	{
+		il2cpp_codegen_runtime_class_init_inline(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var);
+		Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* L_2 = ((GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_StaticFields*)il2cpp_codegen_static_fields_for(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var))->___s_StoredWindows_1;
+		G_B3_0 = L_2;
+	}
+
+IL_0010:
+	{
+		V_0 = G_B3_0;
+		Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* L_3 = V_0;
+		int32_t L_4 = ___0_instanceID;
+		NullCheck(L_3);
+		bool L_5;
+		L_5 = Dictionary_2_ContainsKey_mB029688B9FE1200528D7FF41FBBC0445E4F9A439(L_3, L_4, Dictionary_2_ContainsKey_mB029688B9FE1200528D7FF41FBBC0445E4F9A439_RuntimeMethod_var);
+		V_1 = L_5;
+		bool L_6 = V_1;
+		if (!L_6)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		Dictionary_2_tD74A089D3CFE69E54B1617003276B07F5B82B598* L_7 = V_0;
+		int32_t L_8 = ___0_instanceID;
+		NullCheck(L_7);
+		bool L_9;
+		L_9 = Dictionary_2_Remove_m6CF5D1A13805195F16587BF68CADB4FD028F5FB0(L_7, L_8, Dictionary_2_Remove_m6CF5D1A13805195F16587BF68CADB4FD028F5FB0_RuntimeMethod_var);
+	}
+
+IL_0026:
+	{
+		return;
 	}
 }
 // System.Void UnityEngine.GUILayoutUtility::Begin(System.Int32)
@@ -4434,6 +4615,114 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUILayoutUtility_Internal_MoveWindow_Inj
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// Conversion methods for marshalling of: UnityEngine.GUILayoutUtility/LayoutCacheState
+IL2CPP_EXTERN_C void LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshal_pinvoke(const LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478& unmarshaled, LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshaled_pinvoke& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478____topLevel_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___topLevel_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478____topLevel_1_FieldInfo_var, LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___topLevel_1Exception, NULL);
+}
+IL2CPP_EXTERN_C void LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshal_pinvoke_back(const LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshaled_pinvoke& marshaled, LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478____topLevel_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___topLevel_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478____topLevel_1_FieldInfo_var, LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___topLevel_1Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.GUILayoutUtility/LayoutCacheState
+IL2CPP_EXTERN_C void LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshal_pinvoke_cleanup(LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: UnityEngine.GUILayoutUtility/LayoutCacheState
+IL2CPP_EXTERN_C void LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshal_com(const LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478& unmarshaled, LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshaled_com& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478____topLevel_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___topLevel_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478____topLevel_1_FieldInfo_var, LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___topLevel_1Exception, NULL);
+}
+IL2CPP_EXTERN_C void LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshal_com_back(const LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshaled_com& marshaled, LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478____topLevel_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___topLevel_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478____topLevel_1_FieldInfo_var, LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(___topLevel_1Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: UnityEngine.GUILayoutUtility/LayoutCacheState
+IL2CPP_EXTERN_C void LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshal_com_cleanup(LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478_marshaled_com& marshaled)
+{
+}
+// System.Void UnityEngine.GUILayoutUtility/LayoutCacheState::.ctor(UnityEngine.GUILayoutUtility/LayoutCache)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutCacheState__ctor_m01CFF2336336AD63861C0A66669C2176D226B649 (LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478* __this, LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* ___0_cache, const RuntimeMethod* method) 
+{
+	{
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_0 = ___0_cache;
+		NullCheck(L_0);
+		int32_t L_1;
+		L_1 = LayoutCache_get_id_mC223564DD70C5633178B4A99121331CA58F866A1_inline(L_0, NULL);
+		__this->___id_0 = L_1;
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_2 = ___0_cache;
+		NullCheck(L_2);
+		GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* L_3 = L_2->___topLevel_1;
+		__this->___topLevel_1 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___topLevel_1), (void*)L_3);
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_4 = ___0_cache;
+		NullCheck(L_4);
+		GenericStack_t1FB49AB7D847C97ABAA97AB232CA416CABD24C49* L_5 = L_4->___layoutGroups_2;
+		__this->___layoutGroups_2 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___layoutGroups_2), (void*)L_5);
+		LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* L_6 = ___0_cache;
+		NullCheck(L_6);
+		GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* L_7 = L_6->___windows_3;
+		__this->___windows_3 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___windows_3), (void*)L_7);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void LayoutCacheState__ctor_m01CFF2336336AD63861C0A66669C2176D226B649_AdjustorThunk (RuntimeObject* __this, LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* ___0_cache, const RuntimeMethod* method)
+{
+	LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478*>(__this + _offset);
+	LayoutCacheState__ctor_m01CFF2336336AD63861C0A66669C2176D226B649(_thisAdjusted, ___0_cache, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int32 UnityEngine.GUILayoutUtility/LayoutCache::get_id()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LayoutCache_get_id_mC223564DD70C5633178B4A99121331CA58F866A1 (LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CidU3Ek__BackingField_0;
+		return L_0;
+	}
+}
 // System.Void UnityEngine.GUILayoutUtility/LayoutCache::set_id(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutCache_set_id_m532720FF0F65E8039E37D015910E2F1AE1C9F4FB (LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
@@ -4441,6 +4730,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutCache_set_id_m532720FF0F65E8039E37
 		int32_t L_0 = ___0_value;
 		__this->___U3CidU3Ek__BackingField_0 = L_0;
 		return;
+	}
+}
+// UnityEngine.GUILayoutUtility/LayoutCacheState UnityEngine.GUILayoutUtility/LayoutCache::get_State()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478 LayoutCache_get_State_m02A0EC32067A64E78ED5015914ADD44FEA742B71 (LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* __this, const RuntimeMethod* method) 
+{
+	{
+		LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		LayoutCacheState__ctor_m01CFF2336336AD63861C0A66669C2176D226B649((&L_0), __this, /*hidden argument*/NULL);
+		return L_0;
 	}
 }
 // System.Void UnityEngine.GUILayoutUtility/LayoutCache::.ctor(System.Int32)
@@ -4476,6 +4775,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutCache__ctor_m73B4DC62A0A7669976C84
 		GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* L_5 = __this->___topLevel_1;
 		NullCheck(L_4);
 		VirtualActionInvoker1< RuntimeObject* >::Invoke(19 /* System.Void System.Collections.Stack::Push(System.Object) */, L_4, L_5);
+		return;
+	}
+}
+// System.Void UnityEngine.GUILayoutUtility/LayoutCache::CopyState(UnityEngine.GUILayoutUtility/LayoutCacheState)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LayoutCache_CopyState_mF256F33437826BC3C529C46B25B1D23BC0FD1597 (LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* __this, LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478 ___0_other, const RuntimeMethod* method) 
+{
+	{
+		LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478 L_0 = ___0_other;
+		int32_t L_1 = L_0.___id_0;
+		LayoutCache_set_id_m532720FF0F65E8039E37D015910E2F1AE1C9F4FB_inline(__this, L_1, NULL);
+		LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478 L_2 = ___0_other;
+		GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* L_3 = L_2.___topLevel_1;
+		__this->___topLevel_1 = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___topLevel_1), (void*)L_3);
+		LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478 L_4 = ___0_other;
+		GenericStack_t1FB49AB7D847C97ABAA97AB232CA416CABD24C49* L_5 = L_4.___layoutGroups_2;
+		__this->___layoutGroups_2 = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___layoutGroups_2), (void*)L_5);
+		LayoutCacheState_t5BDD366BB21F71D46FB9ED907554C06E6967A478 L_6 = ___0_other;
+		GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* L_7 = L_6.___windows_3;
+		__this->___windows_3 = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___windows_3), (void*)L_7);
 		return;
 	}
 }
@@ -17207,6 +17528,22 @@ IL_0024:
 		return;
 	}
 }
+// System.Void UnityEngine.GUIUtility::DestroyGUI(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIUtility_DestroyGUI_m5F94109C61BC0394F8936C899273093A6008702C (int32_t ___0_instanceID, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		int32_t L_0 = ___0_instanceID;
+		il2cpp_codegen_runtime_class_init_inline(GUILayoutUtility_t48D00CD11CFC1E09E8EC2E51D59E735F5D24836F_il2cpp_TypeInfo_var);
+		GUILayoutUtility_RemoveSelectedIdList_m701496086D15B8BF1C936EB431AFBC6627A787FD(L_0, (bool)0, NULL);
+		return;
+	}
+}
 // System.Void UnityEngine.GUIUtility::EndGUI(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIUtility_EndGUI_mB34E82D4DD7A0AD22012DBAC207F605A68EA5E2E (int32_t ___0_layoutType, const RuntimeMethod* method) 
 {
@@ -21296,12 +21633,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollViewState__ctor_m9619262C4C72300A8
 // Conversion methods for marshalling of: UnityEngine.GUIStyleState
 IL2CPP_EXTERN_C void GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_marshal_pinvoke(const GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95& unmarshaled, GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_SourceStyle_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SourceStyle' of type 'GUIStyleState': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95____m_SourceStyle_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_SourceStyle_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95____m_SourceStyle_1_FieldInfo_var, GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SourceStyle_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_marshal_pinvoke_back(const GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_marshaled_pinvoke& marshaled, GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95& unmarshaled)
 {
-	Exception_t* ___m_SourceStyle_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SourceStyle' of type 'GUIStyleState': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95____m_SourceStyle_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_SourceStyle_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95____m_SourceStyle_1_FieldInfo_var, GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SourceStyle_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.GUIStyleState
@@ -21313,12 +21664,26 @@ IL2CPP_EXTERN_C void GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_mar
 // Conversion methods for marshalling of: UnityEngine.GUIStyleState
 IL2CPP_EXTERN_C void GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_marshal_com(const GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95& unmarshaled, GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_marshaled_com& marshaled)
 {
-	Exception_t* ___m_SourceStyle_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SourceStyle' of type 'GUIStyleState': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95____m_SourceStyle_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_SourceStyle_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95____m_SourceStyle_1_FieldInfo_var, GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SourceStyle_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_marshal_com_back(const GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_marshaled_com& marshaled, GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95& unmarshaled)
 {
-	Exception_t* ___m_SourceStyle_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SourceStyle' of type 'GUIStyleState': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95____m_SourceStyle_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_SourceStyle_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95____m_SourceStyle_1_FieldInfo_var, GUIStyleState_t7A948723D9DCDFD8EE4F418B6EC909C18E023F95_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SourceStyle_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.GUIStyleState
@@ -21524,12 +21889,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUIStyleState_set_textColor_Injected_m2E
 // Conversion methods for marshalling of: UnityEngine.GUIStyle
 IL2CPP_EXTERN_C void GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_marshal_pinvoke(const GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580& unmarshaled, GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_Normal_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Normal' of type 'GUIStyle': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580____m_Normal_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Normal_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580____m_Normal_1_FieldInfo_var, GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Normal_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_marshal_pinvoke_back(const GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_marshaled_pinvoke& marshaled, GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580& unmarshaled)
 {
-	Exception_t* ___m_Normal_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Normal' of type 'GUIStyle': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580____m_Normal_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Normal_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580____m_Normal_1_FieldInfo_var, GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Normal_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.GUIStyle
@@ -21563,12 +21942,26 @@ IL2CPP_EXTERN_C void GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_marshal_
 // Conversion methods for marshalling of: UnityEngine.GUIStyle
 IL2CPP_EXTERN_C void GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_marshal_com(const GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580& unmarshaled, GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_marshaled_com& marshaled)
 {
-	Exception_t* ___m_Normal_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Normal' of type 'GUIStyle': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580____m_Normal_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Normal_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580____m_Normal_1_FieldInfo_var, GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Normal_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_marshal_com_back(const GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_marshaled_com& marshaled, GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580& unmarshaled)
 {
-	Exception_t* ___m_Normal_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Normal' of type 'GUIStyle': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580____m_Normal_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Normal_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580____m_Normal_1_FieldInfo_var, GUIStyle_t20BA2F9F3FE9D13AAA607EEEBE5547835A6F6580_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Normal_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.GUIStyle
@@ -22655,6 +23048,13 @@ IL_001d:
 	{
 		float L_9 = V_2;
 		return L_9;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LayoutCache_get_id_mC223564DD70C5633178B4A99121331CA58F866A1_inline (LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CidU3Ek__BackingField_0;
+		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LayoutCache_set_id_m532720FF0F65E8039E37D015910E2F1AE1C9F4FB_inline (LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60* __this, int32_t ___0_value, const RuntimeMethod* method) 

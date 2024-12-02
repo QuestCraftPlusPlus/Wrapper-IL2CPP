@@ -643,6 +643,8 @@ IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tB8127E34FCC2CA7AC281B4957191BEFF3918B5E3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tD622A96437AE64F04CC6B3A2C6F14D4CF28C7144_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UniqueConstraint_tE48A79D2F7DE0EA4A3F1BF5BB322C383E60465F6_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_____column_0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_____columns_0_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral03ABD786B838D820F9D786EE73B622D350ED7C24;
 IL2CPP_EXTERN_C String_t* _stringLiteral094CB6EDE9E5FBB44806C647710C50635DB33051;
 IL2CPP_EXTERN_C String_t* _stringLiteral0AEBC06C18334ED592822188857FCE2BBCE14A83;
@@ -884,6 +886,8 @@ IL2CPP_EXTERN_C const RuntimeType* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 IL2CPP_EXTERN_C const RuntimeType* Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Char_t521A6F19B456D956AF452D926C32709DC03D6B17_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Color_t677510AC0B9290AFBF973DC2AD88ABBD71691661_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* DataRowView_t51724505EADBB0C11EEA0252510644143191B23B_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_0_0_0_var;
@@ -4952,8 +4956,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AttributeCollection__ctor_m6987DEDDE616B
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* DataColumnPropertyDescriptor_get_Column_m38101A0B207097F383E796229371C92A01347542_inline (DataColumnPropertyDescriptor_tE3123E3564D152BE2D346B300BA8C33FF9A9C0B3* __this, const RuntimeMethod* method) ;
 // System.Boolean System.Data.DataColumn::get_ReadOnly()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool DataColumn_get_ReadOnly_m3D18371BFD67B334A1D5690EE6EDAF45F020A44C_inline (DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Data.DataColumn::get_IsSqlType()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool DataColumn_get_IsSqlType_mEDE217AD628A156AB2E17A12CB15EAE1A8B3BF2D_inline (DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* __this, const RuntimeMethod* method) ;
 // System.Object System.Data.DataRowView::GetColumnValue(System.Data.DataColumn)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DataRowView_GetColumnValue_m044EB4533726BDAAE17BAA174D3E779E80DAE058 (DataRowView_t51724505EADBB0C11EEA0252510644143191B23B* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, const RuntimeMethod* method) ;
+// System.Boolean System.Data.Common.DataStorage::IsObjectNull(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DataStorage_IsObjectNull_m4F1B79715B2AF6E8D214EDEAA00F9DD51BFDE379 (RuntimeObject* ___0_value, const RuntimeMethod* method) ;
 // System.Void System.Data.DataRowView::SetColumnValue(System.Data.DataColumn,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataRowView_SetColumnValue_m7B647619FF93BF2DC2D4270434A9B224B33EA972 (DataRowView_t51724505EADBB0C11EEA0252510644143191B23B* __this, DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* ___0_column, RuntimeObject* ___1_value, const RuntimeMethod* method) ;
 // System.Void System.Data.DataError::SetText(System.String)
@@ -5031,8 +5039,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataRelation_Create_m5C5839D27A6699AA041
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataRelation__ctor_m22D0A5B17132BB106550D84FFAA162CBB226BE3F (DataRelation_tCB36A11AB39874353B080F3CD6432C4F9828C656* __this, String_t* ___0_relationName, DataColumnU5BU5D_t4600ECA5C95E7699298FCD6D677AEAD7D9F5F0CA* ___1_parentColumns, DataColumnU5BU5D_t4600ECA5C95E7699298FCD6D677AEAD7D9F5F0CA* ___2_childColumns, bool ___3_createConstraints, const RuntimeMethod* method) ;
 // System.Void System.Data.DataRelation::CheckStateForProperty()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataRelation_CheckStateForProperty_m5C71401F8212CF607805CEA0E055684A1F6839FB (DataRelation_tCB36A11AB39874353B080F3CD6432C4F9828C656* __this, const RuntimeMethod* method) ;
-// System.Boolean System.Data.Common.DataStorage::IsObjectNull(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DataStorage_IsObjectNull_m4F1B79715B2AF6E8D214EDEAA00F9DD51BFDE379 (RuntimeObject* ___0_value, const RuntimeMethod* method) ;
 // System.Object[] System.Data.DataRow::GetKeyValues(System.Data.DataKey,System.Data.DataRowVersion)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* DataRow_GetKeyValues_mE3C911A9CC19ED1F1D13228C3ADE407CF2184320 (DataRow_t4C2743279B40E332809F4E6EE3443B75E4C38388* __this, DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A ___0_key, int32_t ___1_version, const RuntimeMethod* method) ;
 // System.Boolean System.Data.DataRelation::IsKeyNull(System.Object[])
@@ -7287,7 +7293,7 @@ IL_0013:
 		CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0* L_5 = ___3_locale;
 		NullCheck(L_5);
 		CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* L_6;
-		L_6 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(12 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_5);
+		L_6 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(13 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_5);
 		String_t* L_7 = ___0_s1;
 		String_t* L_8 = ___1_s2;
 		NullCheck(L_6);
@@ -7843,6 +7849,13 @@ IL_0040:
 	{
 		StandardValuesCollection_tC5F10128EB5F9B6E4E5519E6AE47DA01384F91E3* L_9 = __this->____values_3;
 		return L_9;
+	}
+}
+// System.Boolean System.Data.ColumnTypeConverter::GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColumnTypeConverter_GetStandardValuesExclusive_m89AA1B297BEC13ED9361589431B2B7900E39A95A (ColumnTypeConverter_t1101FCEB013096E798CD45B1CC27756BC47667BF* __this, RuntimeObject* ___0_context, const RuntimeMethod* method) 
+{
+	{
+		return (bool)1;
 	}
 }
 // System.Boolean System.Data.ColumnTypeConverter::GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext)
@@ -15147,6 +15160,57 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DataColumnPropertyDescriptor_GetHashC
 		return L_1;
 	}
 }
+// System.Boolean System.Data.DataColumnPropertyDescriptor::CanResetValue(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DataColumnPropertyDescriptor_CanResetValue_m7F47B15EDE96517A9E2D541442405864DF4BDEC8 (DataColumnPropertyDescriptor_tE3123E3564D152BE2D346B300BA8C33FF9A9C0B3* __this, RuntimeObject* ___0_component, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DataRowView_t51724505EADBB0C11EEA0252510644143191B23B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DataStorage_t862E6C556F9F1FB0BA5A4F51D926C40944A1EC7A_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	DataRowView_t51724505EADBB0C11EEA0252510644143191B23B* V_0 = NULL;
+	{
+		RuntimeObject* L_0 = ___0_component;
+		V_0 = ((DataRowView_t51724505EADBB0C11EEA0252510644143191B23B*)CastclassClass((RuntimeObject*)L_0, DataRowView_t51724505EADBB0C11EEA0252510644143191B23B_il2cpp_TypeInfo_var));
+		DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* L_1;
+		L_1 = DataColumnPropertyDescriptor_get_Column_m38101A0B207097F383E796229371C92A01347542_inline(__this, NULL);
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = DataColumn_get_IsSqlType_mEDE217AD628A156AB2E17A12CB15EAE1A8B3BF2D_inline(L_1, NULL);
+		if (L_2)
+		{
+			goto IL_002b;
+		}
+	}
+	{
+		DataRowView_t51724505EADBB0C11EEA0252510644143191B23B* L_3 = V_0;
+		DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* L_4;
+		L_4 = DataColumnPropertyDescriptor_get_Column_m38101A0B207097F383E796229371C92A01347542_inline(__this, NULL);
+		NullCheck(L_3);
+		RuntimeObject* L_5;
+		L_5 = DataRowView_GetColumnValue_m044EB4533726BDAAE17BAA174D3E779E80DAE058(L_3, L_4, NULL);
+		il2cpp_codegen_runtime_class_init_inline(DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC_il2cpp_TypeInfo_var);
+		DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC* L_6 = ((DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC_StaticFields*)il2cpp_codegen_static_fields_for(DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC_il2cpp_TypeInfo_var))->___Value_0;
+		return (bool)((((int32_t)((((RuntimeObject*)(RuntimeObject*)L_5) == ((RuntimeObject*)(DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC*)L_6))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+
+IL_002b:
+	{
+		DataRowView_t51724505EADBB0C11EEA0252510644143191B23B* L_7 = V_0;
+		DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* L_8;
+		L_8 = DataColumnPropertyDescriptor_get_Column_m38101A0B207097F383E796229371C92A01347542_inline(__this, NULL);
+		NullCheck(L_7);
+		RuntimeObject* L_9;
+		L_9 = DataRowView_GetColumnValue_m044EB4533726BDAAE17BAA174D3E779E80DAE058(L_7, L_8, NULL);
+		il2cpp_codegen_runtime_class_init_inline(DataStorage_t862E6C556F9F1FB0BA5A4F51D926C40944A1EC7A_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = DataStorage_IsObjectNull_m4F1B79715B2AF6E8D214EDEAA00F9DD51BFDE379(L_9, NULL);
+		return (bool)((((int32_t)L_10) == ((int32_t)0))? 1 : 0);
+	}
+}
 // System.Object System.Data.DataColumnPropertyDescriptor::GetValue(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DataColumnPropertyDescriptor_GetValue_m27497F09F6055953825D3A61D6341F8AA48A4517 (DataColumnPropertyDescriptor_tE3123E3564D152BE2D346B300BA8C33FF9A9C0B3* __this, RuntimeObject* ___0_component, const RuntimeMethod* method) 
 {
@@ -15164,6 +15228,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DataColumnPropertyDescriptor_G
 		RuntimeObject* L_2;
 		L_2 = DataRowView_GetColumnValue_m044EB4533726BDAAE17BAA174D3E779E80DAE058(((DataRowView_t51724505EADBB0C11EEA0252510644143191B23B*)CastclassClass((RuntimeObject*)L_0, DataRowView_t51724505EADBB0C11EEA0252510644143191B23B_il2cpp_TypeInfo_var)), L_1, NULL);
 		return L_2;
+	}
+}
+// System.Void System.Data.DataColumnPropertyDescriptor::ResetValue(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataColumnPropertyDescriptor_ResetValue_mBEF350976601EDC53922077AE869B998E02784F4 (DataColumnPropertyDescriptor_tE3123E3564D152BE2D346B300BA8C33FF9A9C0B3* __this, RuntimeObject* ___0_component, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DataRowView_t51724505EADBB0C11EEA0252510644143191B23B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		RuntimeObject* L_0 = ___0_component;
+		DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* L_1;
+		L_1 = DataColumnPropertyDescriptor_get_Column_m38101A0B207097F383E796229371C92A01347542_inline(__this, NULL);
+		il2cpp_codegen_runtime_class_init_inline(DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC_il2cpp_TypeInfo_var);
+		DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC* L_2 = ((DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC_StaticFields*)il2cpp_codegen_static_fields_for(DBNull_t33A9BF6787D27894A593CF4A5E58B8DDC63BBEFC_il2cpp_TypeInfo_var))->___Value_0;
+		NullCheck(((DataRowView_t51724505EADBB0C11EEA0252510644143191B23B*)CastclassClass((RuntimeObject*)L_0, DataRowView_t51724505EADBB0C11EEA0252510644143191B23B_il2cpp_TypeInfo_var)));
+		DataRowView_SetColumnValue_m7B647619FF93BF2DC2D4270434A9B224B33EA972(((DataRowView_t51724505EADBB0C11EEA0252510644143191B23B*)CastclassClass((RuntimeObject*)L_0, DataRowView_t51724505EADBB0C11EEA0252510644143191B23B_il2cpp_TypeInfo_var)), L_1, L_2, NULL);
+		return;
 	}
 }
 // System.Void System.Data.DataColumnPropertyDescriptor::SetValue(System.Object,System.Object)
@@ -15186,7 +15271,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataColumnPropertyDescriptor_SetValue_mD
 		RuntimeObject* L_3 = ___0_component;
 		il2cpp_codegen_runtime_class_init_inline(EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var);
 		EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* L_4 = ((EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_StaticFields*)il2cpp_codegen_static_fields_for(EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377_il2cpp_TypeInfo_var))->___Empty_0;
-		VirtualActionInvoker2< RuntimeObject*, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* >::Invoke(18 /* System.Void System.ComponentModel.PropertyDescriptor::OnValueChanged(System.Object,System.EventArgs) */, __this, L_3, L_4);
+		VirtualActionInvoker2< RuntimeObject*, EventArgs_t37273F03EAC87217701DD431B190FBD84AD7C377* >::Invoke(19 /* System.Void System.ComponentModel.PropertyDescriptor::OnValueChanged(System.Object,System.EventArgs) */, __this, L_3, L_4);
 		return;
 	}
 }
@@ -15721,12 +15806,26 @@ IL_0075:
 // Conversion methods for marshalling of: System.Data.DataError/ColumnError
 IL2CPP_EXTERN_C void ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_marshal_pinvoke(const ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274& unmarshaled, ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ____column_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_column' of type 'ColumnError': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_____column_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____column_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_____column_0_FieldInfo_var, ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____column_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_marshal_pinvoke_back(const ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_marshaled_pinvoke& marshaled, ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274& unmarshaled)
 {
-	Exception_t* ____column_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_column' of type 'ColumnError': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_____column_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____column_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_____column_0_FieldInfo_var, ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____column_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Data.DataError/ColumnError
@@ -15736,12 +15835,26 @@ IL2CPP_EXTERN_C void ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_marsh
 // Conversion methods for marshalling of: System.Data.DataError/ColumnError
 IL2CPP_EXTERN_C void ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_marshal_com(const ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274& unmarshaled, ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_marshaled_com& marshaled)
 {
-	Exception_t* ____column_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_column' of type 'ColumnError': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_____column_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____column_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_____column_0_FieldInfo_var, ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____column_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_marshal_com_back(const ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_marshaled_com& marshaled, ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274& unmarshaled)
 {
-	Exception_t* ____column_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_column' of type 'ColumnError': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_____column_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____column_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_____column_0_FieldInfo_var, ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____column_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Data.DataError/ColumnError
@@ -15759,12 +15872,26 @@ IL2CPP_EXTERN_C void ColumnError_t3D871FBB7F0AF24C2D8AF6F334C1D65729079274_marsh
 // Conversion methods for marshalling of: System.Data.DataKey
 IL2CPP_EXTERN_C void DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_marshal_pinvoke(const DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A& unmarshaled, DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ____columns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_columns' of type 'DataKey': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_____columns_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____columns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_____columns_0_FieldInfo_var, DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____columns_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_marshal_pinvoke_back(const DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_marshaled_pinvoke& marshaled, DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A& unmarshaled)
 {
-	Exception_t* ____columns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_columns' of type 'DataKey': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_____columns_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____columns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_____columns_0_FieldInfo_var, DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____columns_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Data.DataKey
@@ -15774,12 +15901,26 @@ IL2CPP_EXTERN_C void DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_marshal_p
 // Conversion methods for marshalling of: System.Data.DataKey
 IL2CPP_EXTERN_C void DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_marshal_com(const DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A& unmarshaled, DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_marshaled_com& marshaled)
 {
-	Exception_t* ____columns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_columns' of type 'DataKey': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_____columns_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____columns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_____columns_0_FieldInfo_var, DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____columns_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_marshal_com_back(const DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_marshaled_com& marshaled, DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A& unmarshaled)
 {
-	Exception_t* ____columns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_columns' of type 'DataKey': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_____columns_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____columns_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_____columns_0_FieldInfo_var, DataKey_tC6DF14FCD651ACE82D9C872CFC449847B000F73A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____columns_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Data.DataKey
@@ -19595,7 +19736,7 @@ IL_00da:
 		PropertyCollection_t531D3CA9714C3D7818C1B1C139A9C4F04B73EE7C* L_59 = __this->____extendedProperties_1;
 		NullCheck(L_59);
 		RuntimeObject* L_60;
-		L_60 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(37 /* System.Collections.ICollection System.Collections.Hashtable::get_Keys() */, L_59);
+		L_60 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(38 /* System.Collections.ICollection System.Collections.Hashtable::get_Keys() */, L_59);
 		NullCheck(L_60);
 		RuntimeObject* L_61;
 		L_61 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t6331596D5DD37C462B1B8D49CF6B319B00AB7131_il2cpp_TypeInfo_var, L_60);
@@ -19650,9 +19791,9 @@ IL_0129_1:
 				RuntimeObject* L_71 = V_9;
 				NullCheck(L_70);
 				RuntimeObject* L_72;
-				L_72 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_70, L_71);
+				L_72 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_70, L_71);
 				NullCheck(L_68);
-				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_68, L_69, L_72);
+				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(31 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_68, L_69, L_72);
 			}
 
 IL_014d_1:
@@ -22744,6 +22885,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DataRelationPropertyDescriptor_GetHas
 		return L_1;
 	}
 }
+// System.Boolean System.Data.DataRelationPropertyDescriptor::CanResetValue(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DataRelationPropertyDescriptor_CanResetValue_m72DFB9DE90D6B3A241B956A18F2ED11F0B94AE90 (DataRelationPropertyDescriptor_tD2A16A5E7FA286C7D9C3C16E0D4C60A7FD2AC5D9* __this, RuntimeObject* ___0_component, const RuntimeMethod* method) 
+{
+	{
+		return (bool)0;
+	}
+}
 // System.Object System.Data.DataRelationPropertyDescriptor::GetValue(System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DataRelationPropertyDescriptor_GetValue_m83E399B2DE9C61D33AABE8C4BC4EADDA4515FCE1 (DataRelationPropertyDescriptor_tD2A16A5E7FA286C7D9C3C16E0D4C60A7FD2AC5D9* __this, RuntimeObject* ___0_component, const RuntimeMethod* method) 
 {
@@ -22761,6 +22909,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DataRelationPropertyDescriptor
 		DataView_t882C19B1455AFCE770D60A43A690096801824A50* L_2;
 		L_2 = DataRowView_CreateChildView_m8B70BAAA0ECC875C7EBA045505DE6FCB6AE534D2(((DataRowView_t51724505EADBB0C11EEA0252510644143191B23B*)CastclassClass((RuntimeObject*)L_0, DataRowView_t51724505EADBB0C11EEA0252510644143191B23B_il2cpp_TypeInfo_var)), L_1, NULL);
 		return L_2;
+	}
+}
+// System.Void System.Data.DataRelationPropertyDescriptor::ResetValue(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataRelationPropertyDescriptor_ResetValue_m189606CBA9B5E938B0DD092EE7572B2E9FAA35B4 (DataRelationPropertyDescriptor_tD2A16A5E7FA286C7D9C3C16E0D4C60A7FD2AC5D9* __this, RuntimeObject* ___0_component, const RuntimeMethod* method) 
+{
+	{
+		return;
 	}
 }
 // System.Void System.Data.DataRelationPropertyDescriptor::SetValue(System.Object,System.Object)
@@ -31279,6 +31434,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool DataColumn_get_ReadOnly_m3D1
 {
 	{
 		bool L_0 = __this->____readOnly_13;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool DataColumn_get_IsSqlType_mEDE217AD628A156AB2E17A12CB15EAE1A8B3BF2D_inline (DataColumn_t07796C0DD83AD590E7C821E08FE04A38FE8B1A66* __this, const RuntimeMethod* method) 
+{
+	{
+		bool L_0 = __this->____isSqlType_20;
 		return L_0;
 	}
 }

@@ -201,6 +201,7 @@ IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_i
 IL2CPP_EXTERN_C RuntimeClass* ShorthandApplicator_t24FC10A4D423202A1206E72BFBB01E0F6B2943DA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StylePropertyId_tA3B8A5213F5BA43F9C5443B27B165D744713BE69_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C____inheritedData_0_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral1D1CE6A47FAB0FED722281ABDA6CBDA9EB4A0E81;
 IL2CPP_EXTERN_C String_t* _stringLiteral4A32683C07BC7B35BD0CFEF74F95165902D6A9ED;
 IL2CPP_EXTERN_C String_t* _stringLiteral4F1B36F5E07818241BB159F4FFA2D9495BD3F953;
@@ -278,6 +279,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* StyleDataRef_1_Write_m84DD41705A3BBC589B371
 IL2CPP_EXTERN_C const RuntimeMethod* StyleValueExtensions_CopyFrom_TisEasingFunction_t5197D3B06056326A8B5C96032CDEBD5D3BDCA7A4_mACDC9D4A32D1E13BF2D1D8ED03234AEDED6FB906_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* StyleValueExtensions_CopyFrom_TisStylePropertyName_tCBE2B561C690538C8514BF56426AC486DC35B6FF_mD4D2A2F9DB6ADD966604C4BE281C7287E8A987EC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* StyleValueExtensions_CopyFrom_TisTimeValue_t45AE43B219493F9459363F32C79E8986B5F82E0E_m4011A7CF480EC3F17852C0A8AEA06FF135F292EF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_0_0_0_var;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1;;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_com;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_com;;
@@ -3660,12 +3662,26 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B2
 // Conversion methods for marshalling of: UnityEngine.UIElements.ComputedStyle
 IL2CPP_EXTERN_C void ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_marshal_pinvoke(const ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C& unmarshaled, ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___inheritedData_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'inheritedData' of type 'ComputedStyle'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C____inheritedData_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___inheritedData_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C____inheritedData_0_FieldInfo_var, ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___inheritedData_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_marshal_pinvoke_back(const ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_marshaled_pinvoke& marshaled, ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C& unmarshaled)
 {
-	Exception_t* ___inheritedData_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'inheritedData' of type 'ComputedStyle'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C____inheritedData_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___inheritedData_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C____inheritedData_0_FieldInfo_var, ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___inheritedData_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.ComputedStyle
@@ -3677,12 +3693,26 @@ IL2CPP_EXTERN_C void ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_mar
 // Conversion methods for marshalling of: UnityEngine.UIElements.ComputedStyle
 IL2CPP_EXTERN_C void ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_marshal_com(const ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C& unmarshaled, ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_marshaled_com& marshaled)
 {
-	Exception_t* ___inheritedData_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'inheritedData' of type 'ComputedStyle'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C____inheritedData_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___inheritedData_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C____inheritedData_0_FieldInfo_var, ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___inheritedData_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_marshal_com_back(const ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_marshaled_com& marshaled, ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C& unmarshaled)
 {
-	Exception_t* ___inheritedData_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'inheritedData' of type 'ComputedStyle'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C____inheritedData_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___inheritedData_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C____inheritedData_0_FieldInfo_var, ComputedStyle_t8B08CCCEE20525528B3FFDAC6D3F58F101AAF54C_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___inheritedData_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.ComputedStyle

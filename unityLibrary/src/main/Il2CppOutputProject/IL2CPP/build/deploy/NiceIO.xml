@@ -314,12 +314,13 @@
             <param name="directory">The path fragment to append.</param>
             <returns>The path to the created directory, for chaining further operations.</returns>
         </member>
-        <member name="M:NiceIO.NPath.CreateSymbolicLink(NiceIO.NPath,System.Boolean)">
+        <member name="M:NiceIO.NPath.CreateSymbolicLink(NiceIO.NPath,System.Boolean,System.Boolean)">
             <summary>
             Create this path as a symbolic link to another file or directory.
             </summary>
             <param name="targetPath">The path that this path should be a symbolic link to. Can be relative or absolute.</param>
             <param name="targetIsFile">Specifies whether this link is to a file or to a directory (required on Windows). Defaults to file.</param>
+            <param name="windowsKeepRelativeTargets">Specifies whether this link target should be kept as relative instead of converting it to an absolute long path (only relevant on Windows). Defaults to false.</param>
             <returns>The path to the created symbolic link, for chaining further operations.</returns>
         </member>
         <member name="P:NiceIO.NPath.IsSymbolicLink">
@@ -389,6 +390,11 @@
             The current directory in use by the process.
             </summary>
             <remarks>Note that every read from this property will result in an operating system query, unless <see cref="M:NiceIO.NPath.WithFrozenCurrentDirectory(NiceIO.NPath)">WithFrozenCurrentDirectory</see> is used.</remarks>
+        </member>
+        <member name="P:NiceIO.NPath.LinkTarget">
+            <summary>
+            Symbolic link target.
+            </summary>
         </member>
         <member name="M:NiceIO.NPath.SetCurrentDirectory(NiceIO.NPath)">
             <summary>
@@ -695,6 +701,9 @@
             <inheritdoc />
         </member>
         <member name="M:NiceIO.NPath.RelayingFileSystem.CreateSymbolicLink(NiceIO.NPath,NiceIO.NPath,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="M:NiceIO.NPath.RelayingFileSystem.GetSymbolicLinkTarget(NiceIO.NPath)">
             <inheritdoc />
         </member>
         <member name="M:NiceIO.NPath.WithFrozenCurrentDirectory(NiceIO.NPath)">

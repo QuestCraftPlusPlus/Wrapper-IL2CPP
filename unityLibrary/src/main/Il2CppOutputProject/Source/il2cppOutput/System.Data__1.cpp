@@ -730,6 +730,8 @@ IL2CPP_EXTERN_C RuntimeClass* XmlSchema_t5C9506D00418BF5FD524254D0C6C405C620C941
 IL2CPP_EXTERN_C RuntimeClass* XmlTextReader_tC907887DA34B51126640DA590B4C9358DF45738B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XmlTextWriter_t9CB64E379F8FE646DA31698A03CE6AF8A594A73B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XmlTreeGen_tDABA250349A4B0B3B1F62AF7136D3D7609FFF897_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_____targetDS_0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_____targetTable_0_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral001C16D5156677BBD0D6755FAD98AA3D1A7900FE;
 IL2CPP_EXTERN_C String_t* _stringLiteral003254F0A664E8F2FCE7612D77FA72CF6CDE7612;
 IL2CPP_EXTERN_C String_t* _stringLiteral00ED73672E9AF60E9A4006503ADF77F7FAE9111C;
@@ -1160,6 +1162,7 @@ IL2CPP_EXTERN_C const RuntimeType* Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DD
 IL2CPP_EXTERN_C const RuntimeType* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Char_t521A6F19B456D956AF452D926C32709DC03D6B17_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* ConstNode_t9063DADCD9C2FC188F898B8EFBD918E634BE0426_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* DataSet_t1F72E9737C995EBFDCF793C87CAC3196EA02411B_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* DateTimeOffset_t4EE701FE2F386D6F932FAC9B11E4B74A5B30F0A4_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D_0_0_0_var;
@@ -1170,6 +1173,7 @@ IL2CPP_EXTERN_C const RuntimeType* Int32_t680FF22E76F6EFAD4375103CBBFFA042134938
 IL2CPP_EXTERN_C const RuntimeType* Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* NameNode_tFFE53AC842315A80CB3A2EC2BB84167C7F52DA05_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* PropertyCollection_t531D3CA9714C3D7818C1B1C139A9C4F04B73EE7C_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* RuntimeObject_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* SqlDecimal_t7A833A6D857AB79C4B2E4011CB728AEC6954D406_0_0_0_var;
@@ -12948,7 +12952,7 @@ IL_00b1:
 		PropertyCollection_t531D3CA9714C3D7818C1B1C139A9C4F04B73EE7C* L_40 = __this->____extendedProperties_27;
 		NullCheck(L_40);
 		RuntimeObject* L_41;
-		L_41 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(37 /* System.Collections.ICollection System.Collections.Hashtable::get_Keys() */, L_40);
+		L_41 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(38 /* System.Collections.ICollection System.Collections.Hashtable::get_Keys() */, L_40);
 		NullCheck(L_41);
 		RuntimeObject* L_42;
 		L_42 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t6331596D5DD37C462B1B8D49CF6B319B00AB7131_il2cpp_TypeInfo_var, L_41);
@@ -13003,9 +13007,9 @@ IL_010d_1:
 				RuntimeObject* L_52 = V_2;
 				NullCheck(L_51);
 				RuntimeObject* L_53;
-				L_53 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_51, L_52);
+				L_53 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_51, L_52);
 				NullCheck(L_49);
-				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_49, L_50, L_53);
+				VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(31 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_49, L_50, L_53);
 			}
 
 IL_012c_1:
@@ -23911,7 +23915,7 @@ IL_01c5_1:
 				PropertyCollection_t531D3CA9714C3D7818C1B1C139A9C4F04B73EE7C* L_94 = __this->____extendedProperties_6;
 				NullCheck(L_94);
 				RuntimeObject* L_95;
-				L_95 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(37 /* System.Collections.ICollection System.Collections.Hashtable::get_Keys() */, L_94);
+				L_95 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(38 /* System.Collections.ICollection System.Collections.Hashtable::get_Keys() */, L_94);
 				NullCheck(L_95);
 				RuntimeObject* L_96;
 				L_96 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t6331596D5DD37C462B1B8D49CF6B319B00AB7131_il2cpp_TypeInfo_var, L_95);
@@ -23966,9 +23970,9 @@ IL_01eb_2:
 						RuntimeObject* L_106 = V_13;
 						NullCheck(L_105);
 						RuntimeObject* L_107;
-						L_107 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_105, L_106);
+						L_107 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_105, L_106);
 						NullCheck(L_103);
-						VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_103, L_104, L_107);
+						VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(31 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_103, L_104, L_107);
 					}
 
 IL_020e_2:
@@ -30665,12 +30669,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DataSet_get_ObjectID_mA76DF14B493013F
 // Conversion methods for marshalling of: System.Data.DataTable/RowDiffIdUsageSection
 IL2CPP_EXTERN_C void RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_marshal_pinvoke(const RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D& unmarshaled, RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ____targetTable_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_targetTable' of type 'RowDiffIdUsageSection': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_____targetTable_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____targetTable_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_____targetTable_0_FieldInfo_var, RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____targetTable_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_marshal_pinvoke_back(const RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_marshaled_pinvoke& marshaled, RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D& unmarshaled)
 {
-	Exception_t* ____targetTable_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_targetTable' of type 'RowDiffIdUsageSection': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_____targetTable_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____targetTable_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_____targetTable_0_FieldInfo_var, RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____targetTable_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Data.DataTable/RowDiffIdUsageSection
@@ -30680,12 +30698,26 @@ IL2CPP_EXTERN_C void RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3
 // Conversion methods for marshalling of: System.Data.DataTable/RowDiffIdUsageSection
 IL2CPP_EXTERN_C void RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_marshal_com(const RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D& unmarshaled, RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_marshaled_com& marshaled)
 {
-	Exception_t* ____targetTable_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_targetTable' of type 'RowDiffIdUsageSection': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_____targetTable_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____targetTable_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_____targetTable_0_FieldInfo_var, RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____targetTable_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_marshal_com_back(const RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_marshaled_com& marshaled, RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D& unmarshaled)
 {
-	Exception_t* ____targetTable_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_targetTable' of type 'RowDiffIdUsageSection': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_____targetTable_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____targetTable_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_____targetTable_0_FieldInfo_var, RowDiffIdUsageSection_t157154888DA88AD7D8A00E97657B47BCFEE3AF0D_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____targetTable_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Data.DataTable/RowDiffIdUsageSection
@@ -30724,12 +30756,26 @@ IL2CPP_EXTERN_C  void RowDiffIdUsageSection_Prepare_mBDBD6713E3628B7B82DAE6120A7
 // Conversion methods for marshalling of: System.Data.DataTable/DSRowDiffIdUsageSection
 IL2CPP_EXTERN_C void DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_marshal_pinvoke(const DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A& unmarshaled, DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ____targetDS_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_targetDS' of type 'DSRowDiffIdUsageSection': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_____targetDS_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____targetDS_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_____targetDS_0_FieldInfo_var, DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____targetDS_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_marshal_pinvoke_back(const DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_marshaled_pinvoke& marshaled, DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A& unmarshaled)
 {
-	Exception_t* ____targetDS_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_targetDS' of type 'DSRowDiffIdUsageSection': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_____targetDS_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____targetDS_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_____targetDS_0_FieldInfo_var, DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____targetDS_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Data.DataTable/DSRowDiffIdUsageSection
@@ -30739,12 +30785,26 @@ IL2CPP_EXTERN_C void DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF77
 // Conversion methods for marshalling of: System.Data.DataTable/DSRowDiffIdUsageSection
 IL2CPP_EXTERN_C void DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_marshal_com(const DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A& unmarshaled, DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_marshaled_com& marshaled)
 {
-	Exception_t* ____targetDS_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_targetDS' of type 'DSRowDiffIdUsageSection': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_____targetDS_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____targetDS_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_____targetDS_0_FieldInfo_var, DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____targetDS_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_marshal_com_back(const DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_marshaled_com& marshaled, DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A& unmarshaled)
 {
-	Exception_t* ____targetDS_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_targetDS' of type 'DSRowDiffIdUsageSection': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_____targetDS_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____targetDS_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_____targetDS_0_FieldInfo_var, DSRowDiffIdUsageSection_tAA85427FBBFA116FDA0BD0EA17A579EF777C716A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____targetDS_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Data.DataTable/DSRowDiffIdUsageSection

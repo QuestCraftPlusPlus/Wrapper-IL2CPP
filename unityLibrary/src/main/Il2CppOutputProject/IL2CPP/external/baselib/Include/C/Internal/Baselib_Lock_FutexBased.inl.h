@@ -48,7 +48,7 @@ BASELIB_INLINE_API void Baselib_Lock_Acquire(Baselib_Lock* lock)
     while (OPTIMIZER_LIKELY(previousState != Detail_Baselib_Lock_UNLOCKED))
     {
         Baselib_SystemFutex_Wait(&lock->state, Detail_Baselib_Lock_CONTENDED, UINT32_MAX);
-        previousState = Baselib_atomic_exchange_32_relaxed(&lock->state, Detail_Baselib_Lock_CONTENDED);
+        previousState = Baselib_atomic_exchange_32_acquire(&lock->state, Detail_Baselib_Lock_CONTENDED);
     }
 }
 
@@ -71,7 +71,7 @@ BASELIB_INLINE_API bool Baselib_Lock_TryTimedAcquire(Baselib_Lock* lock, const u
     do
     {
         Baselib_SystemFutex_Wait(&lock->state, Detail_Baselib_Lock_CONTENDED, timeoutInMilliseconds);
-        const int32_t previousState = Baselib_atomic_exchange_32_relaxed(&lock->state, Detail_Baselib_Lock_CONTENDED);
+        const int32_t previousState = Baselib_atomic_exchange_32_acquire(&lock->state, Detail_Baselib_Lock_CONTENDED);
         if (previousState == Detail_Baselib_Lock_UNLOCKED)
             return true;
         timeLeft = Baselib_CountdownTimer_GetTimeLeftInMilliseconds(timer);

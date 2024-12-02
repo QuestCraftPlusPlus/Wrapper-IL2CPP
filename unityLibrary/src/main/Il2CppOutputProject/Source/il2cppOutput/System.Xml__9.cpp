@@ -747,6 +747,8 @@ IL2CPP_EXTERN_C RuntimeClass* XmlUntypedConverter_tB707BD09CB81865831777481D33D7
 IL2CPP_EXTERN_C RuntimeClass* XsdDateTimeFlags_t69F10B0961FFA92954C37D538C4B5D5FAD9F1F76_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XsdDateTime_t232255D69CF1B25B380F0C9D87D0002844A1E8BB_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XsdSimpleValue_t8F48455D05E9F36B7C228A02F7FC71FA560DAE50_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663____datatype_0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F____curpos_0_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral007174B876FA7EECC4152046B9308966D3E2B5B8;
 IL2CPP_EXTERN_C String_t* _stringLiteral00C7D781B228BE04E3344D0B2E3E72A1E1C171F5;
 IL2CPP_EXTERN_C String_t* _stringLiteral00E0BD705E1177CE462A988F739408E7F5C6AF9F;
@@ -1000,6 +1002,7 @@ IL2CPP_EXTERN_C const RuntimeType* DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199
 IL2CPP_EXTERN_C const RuntimeType* Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* GuidU5BU5D_t0B65C049D6CE72B5A2BF6E42AE9C98CEC1BE6B42_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Guid_t_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Int16U5BU5D_t8175CE8DD9C9F9FB0CF4F58E45BC570575B43CFB_0_0_0_var;
@@ -1009,6 +1012,7 @@ IL2CPP_EXTERN_C const RuntimeType* Int32_t680FF22E76F6EFAD4375103CBBFFA042134938
 IL2CPP_EXTERN_C const RuntimeType* Int64U5BU5D_tAEDFCBDB5414E2A140A6F34C0538BF97FCF67A1D_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Int64_t092CFB123BE63C28ACDAF65C68F21A526050DBA3_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* RuntimeObject_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* SByteU5BU5D_t88116DA68378C3333DB73E7D36C1A06AFAA91913_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* SByte_tFEFFEF5D2FEBF5207950AE6FAC150FC53B668DB5_0_0_0_var;
@@ -2878,19 +2882,19 @@ struct Type_t  : public MemberInfo_t
 struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
 {
 	// System.String System.Uri::m_String
-	String_t* ___m_String_13;
+	String_t* ___m_String_16;
 	// System.String System.Uri::m_originalUnicodeString
-	String_t* ___m_originalUnicodeString_14;
+	String_t* ___m_originalUnicodeString_17;
 	// System.UriParser System.Uri::m_Syntax
-	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax_15;
+	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax_18;
 	// System.String System.Uri::m_DnsSafeHost
-	String_t* ___m_DnsSafeHost_16;
+	String_t* ___m_DnsSafeHost_19;
 	// System.Uri/Flags System.Uri::m_Flags
-	uint64_t ___m_Flags_17;
+	uint64_t ___m_Flags_20;
 	// System.Uri/UriInfo System.Uri::m_Info
-	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info_18;
+	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info_21;
 	// System.Boolean System.Uri::m_iriParsing
-	bool ___m_iriParsing_19;
+	bool ___m_iriParsing_22;
 };
 
 // System.Xml.Schema.ValidationState
@@ -4539,23 +4543,23 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 	// System.String System.Uri::SchemeDelimiter
 	String_t* ___SchemeDelimiter_12;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitialized
-	bool ___s_ConfigInitialized_20;
+	bool ___s_ConfigInitialized_23;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitializing
-	bool ___s_ConfigInitializing_21;
+	bool ___s_ConfigInitializing_24;
 	// System.UriIdnScope modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IdnScope
-	int32_t ___s_IdnScope_22;
+	int32_t ___s_IdnScope_25;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IriParsing
-	bool ___s_IriParsing_23;
+	bool ___s_IriParsing_26;
 	// System.Boolean System.Uri::useDotNetRelativeOrAbsolute
-	bool ___useDotNetRelativeOrAbsolute_24;
+	bool ___useDotNetRelativeOrAbsolute_27;
 	// System.Boolean System.Uri::IsWindowsFileSystem
-	bool ___IsWindowsFileSystem_25;
+	bool ___IsWindowsFileSystem_29;
 	// System.Object System.Uri::s_initLock
-	RuntimeObject* ___s_initLock_26;
+	RuntimeObject* ___s_initLock_30;
 	// System.Char[] System.Uri::HexLowerChars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_27;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_34;
 	// System.Char[] System.Uri::_WSchars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_28;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_35;
 };
 
 // System.Uri
@@ -6980,12 +6984,26 @@ IL_004d:
 // Conversion methods for marshalling of: System.Xml.Schema.RangePositionInfo
 IL2CPP_EXTERN_C void RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_marshal_pinvoke(const RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F& unmarshaled, RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___curpos_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'curpos' of type 'RangePositionInfo': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F____curpos_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___curpos_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F____curpos_0_FieldInfo_var, RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___curpos_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_marshal_pinvoke_back(const RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_marshaled_pinvoke& marshaled, RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F& unmarshaled)
 {
-	Exception_t* ___curpos_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'curpos' of type 'RangePositionInfo': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F____curpos_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___curpos_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F____curpos_0_FieldInfo_var, RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___curpos_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Xml.Schema.RangePositionInfo
@@ -6995,12 +7013,26 @@ IL2CPP_EXTERN_C void RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F
 // Conversion methods for marshalling of: System.Xml.Schema.RangePositionInfo
 IL2CPP_EXTERN_C void RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_marshal_com(const RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F& unmarshaled, RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_marshaled_com& marshaled)
 {
-	Exception_t* ___curpos_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'curpos' of type 'RangePositionInfo': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F____curpos_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___curpos_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F____curpos_0_FieldInfo_var, RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___curpos_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_marshal_com_back(const RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_marshaled_com& marshaled, RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F& unmarshaled)
 {
-	Exception_t* ___curpos_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'curpos' of type 'RangePositionInfo': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F____curpos_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___curpos_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F____curpos_0_FieldInfo_var, RangePositionInfo_t27BA7EB1EC12061DD5ACFD24BD71A915D412223F_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___curpos_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Xml.Schema.RangePositionInfo
@@ -8283,7 +8315,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AllElementsContentValidator_AddElement_m
 		XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9* L_1 = ___0_name;
 		NullCheck(L_0);
 		RuntimeObject* L_2;
-		L_2 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_0, L_1);
 		if (!L_2)
 		{
 			goto IL_0010;
@@ -8298,7 +8330,7 @@ IL_0010:
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_3 = __this->___elements_7;
 		NullCheck(L_3);
 		int32_t L_4;
-		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(41 /* System.Int32 System.Collections.Hashtable::get_Count() */, L_3);
+		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(42 /* System.Int32 System.Collections.Hashtable::get_Count() */, L_3);
 		V_0 = L_4;
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_5 = __this->___elements_7;
 		XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9* L_6 = ___0_name;
@@ -8368,7 +8400,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AllElementsContentValidator_InitValidati
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_1 = __this->___elements_7;
 		NullCheck(L_1);
 		int32_t L_2;
-		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(41 /* System.Int32 System.Collections.Hashtable::get_Count() */, L_1);
+		L_2 = VirtualFuncInvoker0< int32_t >::Invoke(42 /* System.Int32 System.Collections.Hashtable::get_Count() */, L_1);
 		BitSet_t89F906D542C052F4565FBEF32E1E9713B966026B* L_3 = (BitSet_t89F906D542C052F4565FBEF32E1E9713B966026B*)il2cpp_codegen_object_new(BitSet_t89F906D542C052F4565FBEF32E1E9713B966026B_il2cpp_TypeInfo_var);
 		NullCheck(L_3);
 		BitSet__ctor_mDDB46E0F5D8D86AD7A8F144278672ABF09CA5797(L_3, L_2, NULL);
@@ -8398,7 +8430,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AllElementsContentValidator_Va
 		XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9* L_1 = ___0_name;
 		NullCheck(L_0);
 		RuntimeObject* L_2;
-		L_2 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_0, L_1);
 		V_0 = L_2;
 		int32_t* L_3 = ___2_errorCode;
 		*((int32_t*)L_3) = (int32_t)0;
@@ -8559,7 +8591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_0 = __this->___elements_7;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
-		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(31 /* System.Collections.IDictionaryEnumerator System.Collections.Hashtable::GetEnumerator() */, L_0);
+		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(32 /* System.Collections.IDictionaryEnumerator System.Collections.Hashtable::GetEnumerator() */, L_0);
 		V_1 = L_1;
 	}
 	{
@@ -8715,7 +8747,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArrayList_t7A8E5AF0C4378015B5731ABE2BED8F2782
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_1 = __this->___elements_7;
 		NullCheck(L_1);
 		RuntimeObject* L_2;
-		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(31 /* System.Collections.IDictionaryEnumerator System.Collections.Hashtable::GetEnumerator() */, L_1);
+		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(32 /* System.Collections.IDictionaryEnumerator System.Collections.Hashtable::GetEnumerator() */, L_1);
 		V_1 = L_2;
 	}
 	{
@@ -10803,7 +10835,7 @@ IL_00c7:
 		XmlQualifiedName__ctor_m65632114A1726D9FAD0338BC2A8C28BB9D262C7B(L_53, L_52, _stringLiteralE249DDFD90EBFAAEE63734F28F6668A2FB5BD5AF, NULL);
 		NullCheck(L_50);
 		RuntimeObject* L_54;
-		L_54 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_50, L_53);
+		L_54 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_50, L_53);
 		V_6 = ((XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8*)CastclassClass((RuntimeObject*)L_54, XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8_il2cpp_TypeInfo_var));
 		SchemaDatatypeMap_tAA8223F7AC0727CF0BCA97B3E2C909B387EACBDE* L_55 = V_1;
 		NullCheck(L_55);
@@ -10842,7 +10874,7 @@ IL_010f:
 		XmlQualifiedName__ctor_m65632114A1726D9FAD0338BC2A8C28BB9D262C7B(L_66, L_65, _stringLiteralE249DDFD90EBFAAEE63734F28F6668A2FB5BD5AF, NULL);
 		NullCheck(L_59);
 		RuntimeObject* L_67;
-		L_67 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_59, L_66);
+		L_67 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_59, L_66);
 		V_7 = ((XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8*)CastclassClass((RuntimeObject*)L_67, XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8_il2cpp_TypeInfo_var));
 		XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8* L_68 = V_6;
 		XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8* L_69 = V_7;
@@ -11024,7 +11056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40
 		XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9* L_1 = ___0_qname;
 		NullCheck(L_0);
 		RuntimeObject* L_2;
-		L_2 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_0, L_1);
+		L_2 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_0, L_1);
 		return ((XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8*)CastclassClass((RuntimeObject*)L_2, XmlSchemaSimpleType_tA52BBE2D61DAD61BD3FCDF40E1CD9F41388F7FA8_il2cpp_TypeInfo_var));
 	}
 }
@@ -23261,7 +23293,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* DtdValidator_FindId_mB6BFDF7F7
 		String_t* L_2 = ___0_name;
 		NullCheck(L_1);
 		RuntimeObject* L_3;
-		L_3 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_1, L_2);
+		L_3 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_1, L_2);
 		return L_3;
 	}
 
@@ -24742,12 +24774,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FacetsChecker__ctor_mEAF772426C3450A0791
 // Conversion methods for marshalling of: System.Xml.Schema.FacetsChecker/FacetsCompiler
 IL2CPP_EXTERN_C void FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_marshal_pinvoke(const FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663& unmarshaled, FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___datatype_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'datatype' of type 'FacetsCompiler': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663____datatype_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___datatype_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663____datatype_0_FieldInfo_var, FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___datatype_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_marshal_pinvoke_back(const FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_marshaled_pinvoke& marshaled, FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663& unmarshaled)
 {
-	Exception_t* ___datatype_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'datatype' of type 'FacetsCompiler': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663____datatype_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___datatype_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663____datatype_0_FieldInfo_var, FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___datatype_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Xml.Schema.FacetsChecker/FacetsCompiler
@@ -24757,12 +24803,26 @@ IL2CPP_EXTERN_C void FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_ma
 // Conversion methods for marshalling of: System.Xml.Schema.FacetsChecker/FacetsCompiler
 IL2CPP_EXTERN_C void FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_marshal_com(const FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663& unmarshaled, FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_marshaled_com& marshaled)
 {
-	Exception_t* ___datatype_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'datatype' of type 'FacetsCompiler': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663____datatype_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___datatype_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663____datatype_0_FieldInfo_var, FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___datatype_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_marshal_com_back(const FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_marshaled_com& marshaled, FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663& unmarshaled)
 {
-	Exception_t* ___datatype_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'datatype' of type 'FacetsCompiler': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663____datatype_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___datatype_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663____datatype_0_FieldInfo_var, FacetsCompiler_t65A6917F6CE74E049E1914BB6CB0BEE4BF463663_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___datatype_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Xml.Schema.FacetsChecker/FacetsCompiler

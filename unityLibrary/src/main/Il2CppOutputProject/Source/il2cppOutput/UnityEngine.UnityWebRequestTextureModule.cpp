@@ -51,7 +51,9 @@ IL2CPP_EXTERN_C RuntimeClass* DownloadHandlerTexture_t45E2D719000AA1594E648810F0
 IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C____mTexture_2_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral3781CFEEF925855A4B7284E1783A7D715A6333F6;
+IL2CPP_EXTERN_C const RuntimeType* DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_0_0_0_var;
 struct CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_com;
 struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB_marshaled_com;
 struct UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_com;
@@ -257,11 +259,11 @@ struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F  : public Runti
 	// System.Uri UnityEngine.Networking.UnityWebRequest::m_Uri
 	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___m_Uri_4;
 	// System.Boolean UnityEngine.Networking.UnityWebRequest::<disposeCertificateHandlerOnDispose>k__BackingField
-	bool ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField_5;
+	bool ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField_11;
 	// System.Boolean UnityEngine.Networking.UnityWebRequest::<disposeDownloadHandlerOnDispose>k__BackingField
-	bool ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField_6;
+	bool ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField_12;
 	// System.Boolean UnityEngine.Networking.UnityWebRequest::<disposeUploadHandlerOnDispose>k__BackingField
-	bool ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField_7;
+	bool ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField_13;
 };
 // Native definition for P/Invoke marshalling of UnityEngine.Networking.UnityWebRequest
 struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_marshaled_pinvoke
@@ -271,9 +273,9 @@ struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_marshaled_pinvo
 	UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_pinvoke ___m_UploadHandler_2;
 	CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_pinvoke ___m_CertificateHandler_3;
 	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___m_Uri_4;
-	int32_t ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField_5;
-	int32_t ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField_6;
-	int32_t ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField_7;
+	int32_t ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField_11;
+	int32_t ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField_12;
+	int32_t ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField_13;
 };
 // Native definition for COM marshalling of UnityEngine.Networking.UnityWebRequest
 struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_marshaled_com
@@ -283,9 +285,9 @@ struct UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F_marshaled_com
 	UploadHandler_t7E504B1A83346248A0C8C4AF73A893226CB83EF6_marshaled_com* ___m_UploadHandler_2;
 	CertificateHandler_t148B524FA5DB39F3ABADB181CD420FC505C33804_marshaled_com* ___m_CertificateHandler_3;
 	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___m_Uri_4;
-	int32_t ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField_5;
-	int32_t ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField_6;
-	int32_t ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField_7;
+	int32_t ___U3CdisposeCertificateHandlerOnDisposeU3Ek__BackingField_11;
+	int32_t ___U3CdisposeDownloadHandlerOnDisposeU3Ek__BackingField_12;
+	int32_t ___U3CdisposeUploadHandlerOnDisposeU3Ek__BackingField_13;
 };
 
 // UnityEngine.Networking.DownloadHandlerTexture
@@ -545,12 +547,26 @@ IL_0019:
 // Conversion methods for marshalling of: UnityEngine.Networking.DownloadHandlerTexture
 IL2CPP_EXTERN_C void DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_marshal_pinvoke(const DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C& unmarshaled, DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___mTexture_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'mTexture' of type 'DownloadHandlerTexture': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C____mTexture_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___mTexture_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C____mTexture_2_FieldInfo_var, DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___mTexture_2Exception, NULL);
 }
 IL2CPP_EXTERN_C void DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_marshal_pinvoke_back(const DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_marshaled_pinvoke& marshaled, DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C& unmarshaled)
 {
-	Exception_t* ___mTexture_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'mTexture' of type 'DownloadHandlerTexture': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C____mTexture_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___mTexture_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C____mTexture_2_FieldInfo_var, DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___mTexture_2Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.Networking.DownloadHandlerTexture
@@ -560,12 +576,26 @@ IL2CPP_EXTERN_C void DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7
 // Conversion methods for marshalling of: UnityEngine.Networking.DownloadHandlerTexture
 IL2CPP_EXTERN_C void DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_marshal_com(const DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C& unmarshaled, DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_marshaled_com& marshaled)
 {
-	Exception_t* ___mTexture_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'mTexture' of type 'DownloadHandlerTexture': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C____mTexture_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___mTexture_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C____mTexture_2_FieldInfo_var, DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___mTexture_2Exception, NULL);
 }
 IL2CPP_EXTERN_C void DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_marshal_com_back(const DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_marshaled_com& marshaled, DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C& unmarshaled)
 {
-	Exception_t* ___mTexture_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'mTexture' of type 'DownloadHandlerTexture': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C____mTexture_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___mTexture_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C____mTexture_2_FieldInfo_var, DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___mTexture_2Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.Networking.DownloadHandlerTexture

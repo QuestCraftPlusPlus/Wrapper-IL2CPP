@@ -333,6 +333,7 @@ IL2CPP_EXTERN_C RuntimeClass* Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_
 IL2CPP_EXTERN_C RuntimeClass* WeakReference_tD4B0518CE911FFD9FAAB3FCD492644A354312D8E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* YogaConfig_tE8B56F99460C291C1F7F46DBD8BAC9F0B653A345_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* YogaValue_t9066126971BFC18D9B4A8AB11435557F19598F8C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062____font_1_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral2EB7EACAE6B3BFBFD70862A8840592343396CF46;
 IL2CPP_EXTERN_C String_t* _stringLiteral3E4595538801AB36CCD7E4EFDA9DD0272DEA19EF;
 IL2CPP_EXTERN_C String_t* _stringLiteral52BC61F0345FADE03AB730C8F5BC70C5256D169E;
@@ -352,6 +353,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* YogaConfig__ctor_mA5B9DCE1F40B5A6948D3D8848
 IL2CPP_EXTERN_C const RuntimeMethod* YogaNode_BaselineInternal_m1CB75FF4F21CC040899903C1BAA548691A94D757_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* YogaNode_MeasureInternal_m48B8FB32DE181D6CF67675FE8FCE8B5947CCBFF0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* YogaNode__ctor_m824433D9174C4325E87EC380CD5EB5F10C20A35C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -5951,12 +5953,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIElementsRuntimeUtilityNative_VisualEle
 // Conversion methods for marshalling of: UnityEngine.UIElements.TextNativeSettings
 IL2CPP_EXTERN_C void TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_marshal_pinvoke(const TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062& unmarshaled, TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___font_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'TextNativeSettings': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062____font_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___font_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062____font_1_FieldInfo_var, TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___font_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_marshal_pinvoke_back(const TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_marshaled_pinvoke& marshaled, TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062& unmarshaled)
 {
-	Exception_t* ___font_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'TextNativeSettings': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062____font_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___font_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062____font_1_FieldInfo_var, TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___font_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.TextNativeSettings
@@ -5966,12 +5982,26 @@ IL2CPP_EXTERN_C void TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF4006
 // Conversion methods for marshalling of: UnityEngine.UIElements.TextNativeSettings
 IL2CPP_EXTERN_C void TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_marshal_com(const TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062& unmarshaled, TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_marshaled_com& marshaled)
 {
-	Exception_t* ___font_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'TextNativeSettings': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062____font_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___font_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062____font_1_FieldInfo_var, TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___font_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_marshal_com_back(const TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_marshaled_com& marshaled, TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062& unmarshaled)
 {
-	Exception_t* ___font_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'TextNativeSettings': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062____font_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___font_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062____font_1_FieldInfo_var, TextNativeSettings_tE9D302AD381537B4FD42C3D02583F719CFF40062_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___font_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.TextNativeSettings

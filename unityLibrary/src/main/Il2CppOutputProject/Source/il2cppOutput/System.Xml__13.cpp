@@ -821,6 +821,7 @@ IL2CPP_EXTERN_C RuntimeClass* XmlSerializerNamespaces_t55D593FB2AB45488862F2C620
 IL2CPP_EXTERN_C RuntimeClass* XmlTextReader_tC907887DA34B51126640DA590B4C9358DF45738B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XmlTypeCode_tCA027FC382F4E2DBDF63CB305D942DDFC072E064_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_tBAB6DC40B1709E21296656960228A17F1BE57FD7____2AE470BFECE0EB971895252403237B3B989F74AD83E2B858E9CEA0482E776123_7_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B____dtVal_4_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral072BA90B274B502615639084DC3D7FCC63407A24;
 IL2CPP_EXTERN_C String_t* _stringLiteral08A1EB113DF82B58A84F5BE15CA68E169597DE5A;
 IL2CPP_EXTERN_C String_t* _stringLiteral0BA9045FCB28C8C8B2ACED641BB5013BAC05D492;
@@ -1038,6 +1039,7 @@ IL2CPP_EXTERN_C const RuntimeType* IEnumerable_t6331596D5DD37C462B1B8D49CF6B319B
 IL2CPP_EXTERN_C const RuntimeType* Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* String_t_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* XPathItem_tF0126CC493F2BFDDDFB5B0D05EAE05E8EF8AE1B7_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* XmlAtomicValue_t916FF4B4DC387DA422F7E2C2326D6B28CFFCDE56_0_0_0_var;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
@@ -3709,19 +3711,19 @@ struct Type_t  : public MemberInfo_t
 struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
 {
 	// System.String System.Uri::m_String
-	String_t* ___m_String_13;
+	String_t* ___m_String_16;
 	// System.String System.Uri::m_originalUnicodeString
-	String_t* ___m_originalUnicodeString_14;
+	String_t* ___m_originalUnicodeString_17;
 	// System.UriParser System.Uri::m_Syntax
-	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax_15;
+	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax_18;
 	// System.String System.Uri::m_DnsSafeHost
-	String_t* ___m_DnsSafeHost_16;
+	String_t* ___m_DnsSafeHost_19;
 	// System.Uri/Flags System.Uri::m_Flags
-	uint64_t ___m_Flags_17;
+	uint64_t ___m_Flags_20;
 	// System.Uri/UriInfo System.Uri::m_Info
-	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info_18;
+	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info_21;
 	// System.Boolean System.Uri::m_iriParsing
-	bool ___m_iriParsing_19;
+	bool ___m_iriParsing_22;
 };
 
 // System.Xml.Schema.ValidationEventArgs
@@ -5390,23 +5392,23 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 	// System.String System.Uri::SchemeDelimiter
 	String_t* ___SchemeDelimiter_12;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitialized
-	bool ___s_ConfigInitialized_20;
+	bool ___s_ConfigInitialized_23;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitializing
-	bool ___s_ConfigInitializing_21;
+	bool ___s_ConfigInitializing_24;
 	// System.UriIdnScope modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IdnScope
-	int32_t ___s_IdnScope_22;
+	int32_t ___s_IdnScope_25;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IriParsing
-	bool ___s_IriParsing_23;
+	bool ___s_IriParsing_26;
 	// System.Boolean System.Uri::useDotNetRelativeOrAbsolute
-	bool ___useDotNetRelativeOrAbsolute_24;
+	bool ___useDotNetRelativeOrAbsolute_27;
 	// System.Boolean System.Uri::IsWindowsFileSystem
-	bool ___IsWindowsFileSystem_25;
+	bool ___IsWindowsFileSystem_29;
 	// System.Object System.Uri::s_initLock
-	RuntimeObject* ___s_initLock_26;
+	RuntimeObject* ___s_initLock_30;
 	// System.Char[] System.Uri::HexLowerChars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_27;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_34;
 	// System.Char[] System.Uri::_WSchars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_28;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_35;
 };
 
 // System.Uri
@@ -8488,7 +8490,7 @@ IL_00a2:
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_40 = L_39->____UndeclaredElements_35;
 		NullCheck(L_40);
 		RuntimeObject* L_41;
-		L_41 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(38 /* System.Collections.ICollection System.Collections.Hashtable::get_Values() */, L_40);
+		L_41 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(39 /* System.Collections.ICollection System.Collections.Hashtable::get_Values() */, L_40);
 		NullCheck(L_41);
 		RuntimeObject* L_42;
 		L_42 = InterfaceFuncInvoker0< RuntimeObject* >::Invoke(0 /* System.Collections.IEnumerator System.Collections.IEnumerable::GetEnumerator() */, IEnumerable_t6331596D5DD37C462B1B8D49CF6B319B00AB7131_il2cpp_TypeInfo_var, L_41);
@@ -8752,7 +8754,7 @@ IL_0031:
 		XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9* L_28 = V_0;
 		NullCheck(L_27);
 		RuntimeObject* L_29;
-		L_29 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_27, L_28);
+		L_29 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_27, L_28);
 		if (!L_29)
 		{
 			goto IL_0089;
@@ -8764,7 +8766,7 @@ IL_0031:
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_31 = L_30->____UndeclaredElements_35;
 		XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9* L_32 = V_0;
 		NullCheck(L_31);
-		VirtualActionInvoker1< RuntimeObject* >::Invoke(39 /* System.Void System.Collections.Hashtable::Remove(System.Object) */, L_31, L_32);
+		VirtualActionInvoker1< RuntimeObject* >::Invoke(40 /* System.Void System.Collections.Hashtable::Remove(System.Object) */, L_31, L_32);
 	}
 
 IL_0089:
@@ -9479,7 +9481,7 @@ IL_0035:
 		XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9* L_19 = V_4;
 		NullCheck(L_18);
 		RuntimeObject* L_20;
-		L_20 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_18, L_19);
+		L_20 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_18, L_19);
 		V_3 = ((SchemaAttDef_tC497C6246FCEF4C205C09DC0A9D186A4C2E81553*)CastclassSealed((RuntimeObject*)L_20, SchemaAttDef_tC497C6246FCEF4C205C09DC0A9D186A4C2E81553_il2cpp_TypeInfo_var));
 		SchemaAttDef_tC497C6246FCEF4C205C09DC0A9D186A4C2E81553* L_21 = V_3;
 		if (!L_21)
@@ -9953,7 +9955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XdrBuilder_XDR_BuildAttributeType_Name_m
 		XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9* L_17 = V_0;
 		NullCheck(L_16);
 		RuntimeObject* L_18;
-		L_18 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_16, L_17);
+		L_18 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_16, L_17);
 		if (L_18)
 		{
 			goto IL_006d;
@@ -10614,7 +10616,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XdrBuilder_XDR_BuildElement_Type_mC6650C
 		XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9* L_8 = V_0;
 		NullCheck(L_7);
 		RuntimeObject* L_9;
-		L_9 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_7, L_8);
+		L_9 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_7, L_8);
 		V_1 = ((SchemaElementDecl_t985EC0AC51DF3E0339341916D061539CF41846AD*)CastclassSealed((RuntimeObject*)L_9, SchemaElementDecl_t985EC0AC51DF3E0339341916D061539CF41846AD_il2cpp_TypeInfo_var));
 		SchemaElementDecl_t985EC0AC51DF3E0339341916D061539CF41846AD* L_10 = V_1;
 		if (L_10)
@@ -10962,7 +10964,7 @@ IL_001d:
 		XmlQualifiedName_t2794880B373257E4108CC3F36D7373A343ACC5B9* L_17 = V_1;
 		NullCheck(L_16);
 		RuntimeObject* L_18;
-		L_18 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_16, L_17);
+		L_18 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_16, L_17);
 		V_0 = ((SchemaAttDef_tC497C6246FCEF4C205C09DC0A9D186A4C2E81553*)CastclassSealed((RuntimeObject*)L_18, SchemaAttDef_tC497C6246FCEF4C205C09DC0A9D186A4C2E81553_il2cpp_TypeInfo_var));
 	}
 
@@ -17240,7 +17242,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* XdrValidator_FindId_m0CCE01623
 		String_t* L_2 = ___0_name;
 		NullCheck(L_1);
 		RuntimeObject* L_3;
-		L_3 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_1, L_2);
+		L_3 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_1, L_2);
 		return L_3;
 	}
 
@@ -19132,12 +19134,26 @@ IL_0024:
 // Conversion methods for marshalling of: System.Xml.Schema.XmlAtomicValue/Union
 IL2CPP_EXTERN_C void Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_marshal_pinvoke(const Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B& unmarshaled, Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___dtVal_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'dtVal' of type 'Union'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B____dtVal_4_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___dtVal_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B____dtVal_4_FieldInfo_var, Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___dtVal_4Exception, NULL);
 }
 IL2CPP_EXTERN_C void Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_marshal_pinvoke_back(const Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_marshaled_pinvoke& marshaled, Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B& unmarshaled)
 {
-	Exception_t* ___dtVal_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'dtVal' of type 'Union'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B____dtVal_4_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___dtVal_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B____dtVal_4_FieldInfo_var, Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___dtVal_4Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Xml.Schema.XmlAtomicValue/Union
@@ -19147,12 +19163,26 @@ IL2CPP_EXTERN_C void Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_marshal_pin
 // Conversion methods for marshalling of: System.Xml.Schema.XmlAtomicValue/Union
 IL2CPP_EXTERN_C void Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_marshal_com(const Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B& unmarshaled, Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_marshaled_com& marshaled)
 {
-	Exception_t* ___dtVal_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'dtVal' of type 'Union'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B____dtVal_4_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___dtVal_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B____dtVal_4_FieldInfo_var, Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___dtVal_4Exception, NULL);
 }
 IL2CPP_EXTERN_C void Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_marshal_com_back(const Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_marshaled_com& marshaled, Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B& unmarshaled)
 {
-	Exception_t* ___dtVal_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'dtVal' of type 'Union'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B____dtVal_4_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___dtVal_4Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B____dtVal_4_FieldInfo_var, Union_tB0D56D753DC8A0B45FCAF1229929BAA3E2B9293B_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___dtVal_4Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Xml.Schema.XmlAtomicValue/Union
@@ -22350,7 +22380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XmlSchemaCollection_get_Count_m23A2AE
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_0 = __this->___collection_0;
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(41 /* System.Int32 System.Collections.Hashtable::get_Count() */, L_0);
+		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(42 /* System.Int32 System.Collections.Hashtable::get_Count() */, L_0);
 		return L_1;
 	}
 }
@@ -22415,7 +22445,7 @@ IL_0011:
 	{
 		NullCheck(G_B3_1);
 		RuntimeObject* L_4;
-		L_4 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, G_B3_1, G_B3_0);
+		L_4 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, G_B3_1, G_B3_0);
 		V_0 = ((XmlSchemaCollectionNode_t234928AAC72E6433960EC2DBE5E4DB8852575E17*)CastclassSealed((RuntimeObject*)L_4, XmlSchemaCollectionNode_t234928AAC72E6433960EC2DBE5E4DB8852575E17_il2cpp_TypeInfo_var));
 		XmlSchemaCollectionNode_t234928AAC72E6433960EC2DBE5E4DB8852575E17* L_5 = V_0;
 		if (L_5)
@@ -22590,7 +22620,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XmlSchemaCollection_System_Collection
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_0 = __this->___collection_0;
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(41 /* System.Int32 System.Collections.Hashtable::get_Count() */, L_0);
+		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(42 /* System.Int32 System.Collections.Hashtable::get_Count() */, L_0);
 		return L_1;
 	}
 }
@@ -22637,7 +22667,7 @@ IL_0011:
 	{
 		NullCheck(G_B3_1);
 		RuntimeObject* L_4;
-		L_4 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, G_B3_1, G_B3_0);
+		L_4 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, G_B3_1, G_B3_0);
 		V_0 = ((XmlSchemaCollectionNode_t234928AAC72E6433960EC2DBE5E4DB8852575E17*)CastclassSealed((RuntimeObject*)L_4, XmlSchemaCollectionNode_t234928AAC72E6433960EC2DBE5E4DB8852575E17_il2cpp_TypeInfo_var));
 		XmlSchemaCollectionNode_t234928AAC72E6433960EC2DBE5E4DB8852575E17* L_5 = V_0;
 		if (L_5)
@@ -22919,7 +22949,7 @@ IL_0056:
 				String_t* L_6 = ___0_ns;
 				NullCheck(L_5);
 				RuntimeObject* L_7;
-				L_7 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_5, L_6);
+				L_7 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_5, L_6);
 				if (!L_7)
 				{
 					goto IL_0034_1;
@@ -22929,7 +22959,7 @@ IL_0056:
 				Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_8 = __this->___collection_0;
 				String_t* L_9 = ___0_ns;
 				NullCheck(L_8);
-				VirtualActionInvoker1< RuntimeObject* >::Invoke(39 /* System.Void System.Collections.Hashtable::Remove(System.Object) */, L_8, L_9);
+				VirtualActionInvoker1< RuntimeObject* >::Invoke(40 /* System.Void System.Collections.Hashtable::Remove(System.Object) */, L_8, L_9);
 			}
 
 IL_0034_1:
@@ -23049,7 +23079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlSchemaCollectionEnumerator__ctor_mCFD
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_0 = ___0_collection;
 		NullCheck(L_0);
 		RuntimeObject* L_1;
-		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(31 /* System.Collections.IDictionaryEnumerator System.Collections.Hashtable::GetEnumerator() */, L_0);
+		L_1 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(32 /* System.Collections.IDictionaryEnumerator System.Collections.Hashtable::GetEnumerator() */, L_0);
 		__this->___enumerator_0 = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___enumerator_0), (void*)L_1);
 		return;

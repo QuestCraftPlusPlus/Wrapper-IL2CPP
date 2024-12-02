@@ -10,15 +10,29 @@
 #include <limits>
 
 
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
 
 // System.Byte[]
 struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+// System.Char[]
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
 // System.IntPtr[]
 struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
 // System.Diagnostics.StackTrace[]
 struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
 // System.Collections.IDictionary
 struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+// System.Buffers.IPinnable
+struct IPinnable_tA3989EA495C0118966BAAF8848C0009947BB49C0;
 // System.PlatformNotSupportedException
 struct PlatformNotSupportedException_tD2BD7EB9278518AA5FE8AE75AD5D0D4298A4631A;
 // System.Runtime.Serialization.SafeSerializationManager
@@ -28,8 +42,11 @@ struct String_t;
 // System.Void
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 
+IL2CPP_EXTERN_C RuntimeClass* IPinnable_tA3989EA495C0118966BAAF8848C0009947BB49C0_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* PlatformNotSupportedException_tD2BD7EB9278518AA5FE8AE75AD5D0D4298A4631A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_____pinnable_2_FieldInfo_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ThrowStub_ThrowNotSupportedException_m02C318CA8F5812C025CBEDEA07A5DE5D0FDBB25F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_0_0_0_var;
 struct Exception_t_marshaled_com;
 struct Exception_t_marshaled_pinvoke;
 
@@ -67,6 +84,11 @@ struct String_t  : public RuntimeObject
 	Il2CppChar ____firstChar_5;
 };
 
+// System.Buffers.Utilities
+struct Utilities_t47DFEED0E704B42BDB4499194D7C812E763E6186  : public RuntimeObject
+{
+};
+
 // System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
 {
@@ -80,11 +102,31 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 {
 };
 
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	// System.Boolean System.Boolean::m_value
+	bool ___m_value_0;
+};
+
 // System.Char
 struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17 
 {
 	// System.Char System.Char::m_value
 	Il2CppChar ___m_value_0;
+};
+
+// System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+// Native definition for P/Invoke marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+// Native definition for COM marshalling of System.Enum
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
 };
 
 // System.Int32
@@ -1021,6 +1063,45 @@ struct Exception_t_marshaled_com
 	int32_t ___caught_in_unmanaged_16;
 };
 
+// System.Runtime.InteropServices.GCHandle
+struct GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC 
+{
+	// System.IntPtr System.Runtime.InteropServices.GCHandle::handle
+	intptr_t ___handle_0;
+};
+
+// System.Buffers.ArrayPoolEventSource/BufferAllocatedReason
+struct BufferAllocatedReason_tC634777F90531E955A9AFAE98241EDB0DFA88FAC 
+{
+	// System.Int32 System.Buffers.ArrayPoolEventSource/BufferAllocatedReason::value__
+	int32_t ___value___2;
+};
+
+// System.Buffers.MemoryHandle
+struct MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD 
+{
+	// System.Void* System.Buffers.MemoryHandle::_pointer
+	void* ____pointer_0;
+	// System.Runtime.InteropServices.GCHandle System.Buffers.MemoryHandle::_handle
+	GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ____handle_1;
+	// System.Buffers.IPinnable System.Buffers.MemoryHandle::_pinnable
+	RuntimeObject* ____pinnable_2;
+};
+// Native definition for P/Invoke marshalling of System.Buffers.MemoryHandle
+struct MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshaled_pinvoke
+{
+	void* ____pointer_0;
+	GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ____handle_1;
+	RuntimeObject* ____pinnable_2;
+};
+// Native definition for COM marshalling of System.Buffers.MemoryHandle
+struct MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshaled_com
+{
+	void* ____pointer_0;
+	GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ____handle_1;
+	RuntimeObject* ____pinnable_2;
+};
+
 // System.SystemException
 struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
 {
@@ -1317,6 +1398,21 @@ struct String_t_StaticFields
 
 // System.String
 
+// System.Buffers.Utilities
+
+// System.Buffers.Utilities
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
 // System.Char
 struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 {
@@ -1562,6 +1658,18 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 
 // <PrivateImplementationDetails>/__StaticArrayInitTypeSize=998
 
+// System.Runtime.InteropServices.GCHandle
+
+// System.Runtime.InteropServices.GCHandle
+
+// System.Buffers.ArrayPoolEventSource/BufferAllocatedReason
+
+// System.Buffers.ArrayPoolEventSource/BufferAllocatedReason
+
+// System.Buffers.MemoryHandle
+
+// System.Buffers.MemoryHandle
+
 // System.PlatformNotSupportedException
 
 // System.PlatformNotSupportedException
@@ -1575,6 +1683,16 @@ struct Char_t521A6F19B456D956AF452D926C32709DC03D6B17_StaticFields
 
 
 
+// System.Void System.Buffers.MemoryHandle::.ctor(System.Void*,System.Runtime.InteropServices.GCHandle,System.Buffers.IPinnable)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryHandle__ctor_mBC4C2B7E7F10F5F93EFCF6A3A24D41CE79916C91 (MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD* __this, void* ___0_pointer, GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ___1_handle, RuntimeObject* ___2_pinnable, const RuntimeMethod* method) ;
+// System.Void* System.Buffers.MemoryHandle::get_Pointer()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* MemoryHandle_get_Pointer_mB37B69B8014746F855683C47FF2E6EC46D656CA8_inline (MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD* __this, const RuntimeMethod* method) ;
+// System.Boolean System.Runtime.InteropServices.GCHandle::get_IsAllocated()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GCHandle_get_IsAllocated_m241908103D8D867E11CCAB73C918729825E86843 (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* __this, const RuntimeMethod* method) ;
+// System.Void System.Runtime.InteropServices.GCHandle::Free()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GCHandle_Free_m1320A260E487EB1EA6D95F9E54BFFCB5A4EF83A3 (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* __this, const RuntimeMethod* method) ;
+// System.Void System.Buffers.MemoryHandle::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryHandle_Dispose_m1F3EAA54B49EACFC7E489AEF1FF630553FEBE229 (MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD* __this, const RuntimeMethod* method) ;
 // System.UInt32 System.Buffers.Binary.BinaryPrimitives::ReverseEndianness(System.UInt32)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t BinaryPrimitives_ReverseEndianness_mCCA2099164ECA9672968898DD996A9F04B392FFF_inline (uint32_t ___0_value, const RuntimeMethod* method) ;
 // System.Char System.String::get_Chars(System.Int32)
@@ -1583,6 +1701,274 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar String_get_Chars_mC49DF0CD2D3BE7BE
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) ;
 // System.Void System.PlatformNotSupportedException::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlatformNotSupportedException__ctor_mD5DBE8E9A6FF4B75EF02671029C6D67A51EAFBD1 (PlatformNotSupportedException_tD2BD7EB9278518AA5FE8AE75AD5D0D4298A4631A* __this, const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Conversion methods for marshalling of: System.Buffers.MemoryHandle
+IL2CPP_EXTERN_C void MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshal_pinvoke(const MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD& unmarshaled, MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshaled_pinvoke& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_____pinnable_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____pinnable_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_____pinnable_2_FieldInfo_var, MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(____pinnable_2Exception, NULL);
+}
+IL2CPP_EXTERN_C void MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshal_pinvoke_back(const MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshaled_pinvoke& marshaled, MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_____pinnable_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____pinnable_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_____pinnable_2_FieldInfo_var, MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(____pinnable_2Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: System.Buffers.MemoryHandle
+IL2CPP_EXTERN_C void MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshal_pinvoke_cleanup(MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshaled_pinvoke& marshaled)
+{
+}
+// Conversion methods for marshalling of: System.Buffers.MemoryHandle
+IL2CPP_EXTERN_C void MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshal_com(const MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD& unmarshaled, MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshaled_com& marshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_____pinnable_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____pinnable_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_____pinnable_2_FieldInfo_var, MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(____pinnable_2Exception, NULL);
+}
+IL2CPP_EXTERN_C void MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshal_com_back(const MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshaled_com& marshaled, MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD& unmarshaled)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_____pinnable_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____pinnable_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_____pinnable_2_FieldInfo_var, MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_0_0_0_var);
+	IL2CPP_RAISE_MANAGED_EXCEPTION(____pinnable_2Exception, NULL);
+}
+// Conversion method for clean up from marshalling of: System.Buffers.MemoryHandle
+IL2CPP_EXTERN_C void MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshal_com_cleanup(MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD_marshaled_com& marshaled)
+{
+}
+// System.Void System.Buffers.MemoryHandle::.ctor(System.Void*,System.Runtime.InteropServices.GCHandle,System.Buffers.IPinnable)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryHandle__ctor_mBC4C2B7E7F10F5F93EFCF6A3A24D41CE79916C91 (MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD* __this, void* ___0_pointer, GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ___1_handle, RuntimeObject* ___2_pinnable, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___0_pointer;
+		__this->____pointer_0 = L_0;
+		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC L_1 = ___1_handle;
+		__this->____handle_1 = L_1;
+		RuntimeObject* L_2 = ___2_pinnable;
+		__this->____pinnable_2 = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____pinnable_2), (void*)L_2);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MemoryHandle__ctor_mBC4C2B7E7F10F5F93EFCF6A3A24D41CE79916C91_AdjustorThunk (RuntimeObject* __this, void* ___0_pointer, GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC ___1_handle, RuntimeObject* ___2_pinnable, const RuntimeMethod* method)
+{
+	MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD*>(__this + _offset);
+	MemoryHandle__ctor_mBC4C2B7E7F10F5F93EFCF6A3A24D41CE79916C91(_thisAdjusted, ___0_pointer, ___1_handle, ___2_pinnable, method);
+}
+// System.Void* System.Buffers.MemoryHandle::get_Pointer()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* MemoryHandle_get_Pointer_mB37B69B8014746F855683C47FF2E6EC46D656CA8 (MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD* __this, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = __this->____pointer_0;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C  void* MemoryHandle_get_Pointer_mB37B69B8014746F855683C47FF2E6EC46D656CA8_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD*>(__this + _offset);
+	void* _returnValue;
+	_returnValue = MemoryHandle_get_Pointer_mB37B69B8014746F855683C47FF2E6EC46D656CA8_inline(_thisAdjusted, method);
+	return _returnValue;
+}
+// System.Void System.Buffers.MemoryHandle::Dispose()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryHandle_Dispose_m1F3EAA54B49EACFC7E489AEF1FF630553FEBE229 (MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IPinnable_tA3989EA495C0118966BAAF8848C0009947BB49C0_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_0 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle_1);
+		bool L_1;
+		L_1 = GCHandle_get_IsAllocated_m241908103D8D867E11CCAB73C918729825E86843(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC* L_2 = (GCHandle_tC44F6F72EE68BD4CFABA24309DA7A179D41127DC*)(&__this->____handle_1);
+		GCHandle_Free_m1320A260E487EB1EA6D95F9E54BFFCB5A4EF83A3(L_2, NULL);
+	}
+
+IL_0018:
+	{
+		RuntimeObject* L_3 = __this->____pinnable_2;
+		if (!L_3)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		RuntimeObject* L_4 = __this->____pinnable_2;
+		NullCheck(L_4);
+		InterfaceActionInvoker0::Invoke(0 /* System.Void System.Buffers.IPinnable::Unpin() */, IPinnable_tA3989EA495C0118966BAAF8848C0009947BB49C0_il2cpp_TypeInfo_var, L_4);
+		__this->____pinnable_2 = (RuntimeObject*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->____pinnable_2), (void*)(RuntimeObject*)NULL);
+	}
+
+IL_0032:
+	{
+		__this->____pointer_0 = (void*)((uintptr_t)0);
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void MemoryHandle_Dispose_m1F3EAA54B49EACFC7E489AEF1FF630553FEBE229_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+{
+	MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD*>(__this + _offset);
+	MemoryHandle_Dispose_m1F3EAA54B49EACFC7E489AEF1FF630553FEBE229(_thisAdjusted, method);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Int32 System.Buffers.Utilities::SelectBucketIndex(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Utilities_SelectBucketIndex_m9B3AC5D1921CE4B602233DBCF6CC49537CB8EE2E (int32_t ___0_bufferSize, const RuntimeMethod* method) 
+{
+	uint32_t V_0 = 0;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = ___0_bufferSize;
+		V_0 = ((int32_t)((uint32_t)((int32_t)il2cpp_codegen_subtract(L_0, 1))>>4));
+		V_1 = 0;
+		uint32_t L_1 = V_0;
+		if ((!(((uint32_t)L_1) > ((uint32_t)((int32_t)65535)))))
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		uint32_t L_2 = V_0;
+		V_0 = ((int32_t)((uint32_t)L_2>>((int32_t)16)));
+		V_1 = ((int32_t)16);
+	}
+
+IL_0018:
+	{
+		uint32_t L_3 = V_0;
+		if ((!(((uint32_t)L_3) > ((uint32_t)((int32_t)255)))))
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		uint32_t L_4 = V_0;
+		V_0 = ((int32_t)((uint32_t)L_4>>8));
+		int32_t L_5 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_5, 8));
+	}
+
+IL_0028:
+	{
+		uint32_t L_6 = V_0;
+		if ((!(((uint32_t)L_6) > ((uint32_t)((int32_t)15)))))
+		{
+			goto IL_0035;
+		}
+	}
+	{
+		uint32_t L_7 = V_0;
+		V_0 = ((int32_t)((uint32_t)L_7>>4));
+		int32_t L_8 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_8, 4));
+	}
+
+IL_0035:
+	{
+		uint32_t L_9 = V_0;
+		if ((!(((uint32_t)L_9) > ((uint32_t)3))))
+		{
+			goto IL_0041;
+		}
+	}
+	{
+		uint32_t L_10 = V_0;
+		V_0 = ((int32_t)((uint32_t)L_10>>2));
+		int32_t L_11 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 2));
+	}
+
+IL_0041:
+	{
+		uint32_t L_12 = V_0;
+		if ((!(((uint32_t)L_12) > ((uint32_t)1))))
+		{
+			goto IL_004d;
+		}
+	}
+	{
+		uint32_t L_13 = V_0;
+		V_0 = ((int32_t)((uint32_t)L_13>>1));
+		int32_t L_14 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+	}
+
+IL_004d:
+	{
+		int32_t L_15 = V_1;
+		uint32_t L_16 = V_0;
+		return ((int32_t)il2cpp_codegen_add(L_15, (int32_t)L_16));
+	}
+}
+// System.Int32 System.Buffers.Utilities::GetMaxSizeForBucket(System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Utilities_GetMaxSizeForBucket_mEC1D6B6E8946CCDC2CC12176874A9DE8A0EA5E96 (int32_t ___0_binIndex, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = ___0_binIndex;
+		return ((int32_t)(((int32_t)16)<<((int32_t)(L_0&((int32_t)31)))));
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -2423,6 +2809,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThrowStub_ThrowNotSupportedException_m02
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void* MemoryHandle_get_Pointer_mB37B69B8014746F855683C47FF2E6EC46D656CA8_inline (MemoryHandle_t505785861D4FF84F850A3FF775BE6AE1833D2AFD* __this, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = __this->____pointer_0;
+		return L_0;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t BinaryPrimitives_ReverseEndianness_mCCA2099164ECA9672968898DD996A9F04B392FFF_inline (uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;

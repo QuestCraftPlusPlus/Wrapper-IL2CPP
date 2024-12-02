@@ -1387,6 +1387,7 @@ IL2CPP_EXTERN_C RuntimeClass* VisualTreeStyleUpdaterTraversal_t7CCC9D063FAA493F3
 IL2CPP_EXTERN_C RuntimeClass* VisualTreeStyleUpdater_t5F2622AC7562F7647C21B9C3CB4D2B7E98C50D68_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* VisualTreeUpdater_tFDE7D9F9A146A26B2ED69565B7BD142B416AB9C9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* VisualTreeViewDataUpdater_t79CB853ABA16F193CFC65AA0826641D78CF8B986_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814____element_1_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral036F315CA9A0E0AB32664E59874AD967449B6942;
 IL2CPP_EXTERN_C String_t* _stringLiteral037C461B7701AD27801066F5D62BDC1991EF46AE;
 IL2CPP_EXTERN_C String_t* _stringLiteral09811B5178D666D24CFD1733243B6229579503A3;
@@ -1731,6 +1732,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* VisualTreeUpdater_SetUpdater_TisVisualTreeB
 IL2CPP_EXTERN_C const RuntimeMethod* VisualTreeUpdater_SetUpdater_TisVisualTreeStyleUpdater_t5F2622AC7562F7647C21B9C3CB4D2B7E98C50D68_mAE1E73D29AB563BEC9FB6BAC26003F185B2D3446_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* VisualTreeUpdater_SetUpdater_TisVisualTreeTransformClipUpdater_t3DFB28E52D60790DE253FA5746D1E3CA20B33C67_mDB8ED3E891DCE40059863E94397200807BEB9597_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* VisualTreeUpdater_SetUpdater_TisVisualTreeViewDataUpdater_t79CB853ABA16F193CFC65AA0826641D78CF8B986_mB436EFFA13D99D35730E3F4C93C08C8CD422A709_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* UxmlRootElementFactory_t2F773C3F5B052C30E6079D453A7242D22DA3C9E2_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* VisualTreeAsset_tFB5BF81F0780A412AE5A7C2C552B3EEA64EA2EEB_0_0_0_var;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_com;
@@ -28134,12 +28136,26 @@ IL_003a:
 // Conversion methods for marshalling of: UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair
 IL2CPP_EXTERN_C void ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_marshal_pinvoke(const ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814& unmarshaled, ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___element_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'element' of type 'ElementPropertyPair': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814____element_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___element_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814____element_1_FieldInfo_var, ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___element_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_marshal_pinvoke_back(const ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_marshaled_pinvoke& marshaled, ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814& unmarshaled)
 {
-	Exception_t* ___element_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'element' of type 'ElementPropertyPair': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814____element_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___element_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814____element_1_FieldInfo_var, ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___element_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair
@@ -28149,12 +28165,26 @@ IL2CPP_EXTERN_C void ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA68
 // Conversion methods for marshalling of: UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair
 IL2CPP_EXTERN_C void ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_marshal_com(const ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814& unmarshaled, ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_marshaled_com& marshaled)
 {
-	Exception_t* ___element_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'element' of type 'ElementPropertyPair': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814____element_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___element_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814____element_1_FieldInfo_var, ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___element_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_marshal_com_back(const ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_marshaled_com& marshaled, ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814& unmarshaled)
 {
-	Exception_t* ___element_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'element' of type 'ElementPropertyPair': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814____element_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___element_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814____element_1_FieldInfo_var, ElementPropertyPair_t4CBC92D2F951A9EB378EBFB6713B7566B0FA6814_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___element_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.StylePropertyAnimationSystem/ElementPropertyPair

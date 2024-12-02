@@ -6068,6 +6068,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataTableTypeConverter__ctor_mF62663895E
 		return;
 	}
 }
+// System.Boolean System.Data.DataTableTypeConverter::GetPropertiesSupported(System.ComponentModel.ITypeDescriptorContext)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DataTableTypeConverter_GetPropertiesSupported_m86F726749DF4BFF50DBE895EAD0EEB2F04DE6823 (DataTableTypeConverter_t506CC2F52B4C3BDCA7B60DB91D9AC2620B07BCC7* __this, RuntimeObject* ___0_context, const RuntimeMethod* method) 
+{
+	{
+		return (bool)0;
+	}
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -10100,7 +10107,7 @@ IL_000e:
 		DataTable_t9240A0D6726299C55832BF4EE085C864A1CCBB07* L_3 = ___0_table;
 		NullCheck(L_2);
 		RuntimeObject* L_4;
-		L_4 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(29 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_2, L_3);
+		L_4 = VirtualFuncInvoker1< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Object System.Collections.Hashtable::get_Item(System.Object) */, L_2, L_3);
 		V_0 = ((DataViewSetting_tB99FD9B965F9FD3E9BDB703E1A0B851FC8357601*)CastclassClass((RuntimeObject*)L_4, DataViewSetting_tB99FD9B965F9FD3E9BDB703E1A0B851FC8357601_il2cpp_TypeInfo_var));
 		DataViewSetting_tB99FD9B965F9FD3E9BDB703E1A0B851FC8357601* L_5 = V_0;
 		if (L_5)
@@ -10154,7 +10161,7 @@ IL_000e:
 		DataTable_t9240A0D6726299C55832BF4EE085C864A1CCBB07* L_7 = ___0_table;
 		DataViewSetting_tB99FD9B965F9FD3E9BDB703E1A0B851FC8357601* L_8 = ___1_value;
 		NullCheck(L_6);
-		VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(30 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_6, L_7, L_8);
+		VirtualActionInvoker2< RuntimeObject*, RuntimeObject* >::Invoke(31 /* System.Void System.Collections.Hashtable::set_Item(System.Object,System.Object) */, L_6, L_7, L_8);
 		return;
 	}
 }
@@ -10165,7 +10172,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DataViewSettingCollection_Remove_m0544BA
 		Hashtable_tEFC3B6496E6747787D8BB761B51F2AE3A8CFFE2D* L_0 = __this->____list_1;
 		DataTable_t9240A0D6726299C55832BF4EE085C864A1CCBB07* L_1 = ___0_table;
 		NullCheck(L_0);
-		VirtualActionInvoker1< RuntimeObject* >::Invoke(39 /* System.Void System.Collections.Hashtable::Remove(System.Object) */, L_0, L_1);
+		VirtualActionInvoker1< RuntimeObject* >::Invoke(40 /* System.Void System.Collections.Hashtable::Remove(System.Object) */, L_0, L_1);
 		return;
 	}
 }
@@ -24573,7 +24580,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExpressionParser_ScanReserved_mD3C734C95
 		L_11 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
 		NullCheck(L_11);
 		CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* L_12;
-		L_12 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(12 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_11);
+		L_12 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(13 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_11);
 		V_2 = L_12;
 		V_3 = 0;
 		il2cpp_codegen_runtime_class_init_inline(ExpressionParser_tF1402BCC536E58E0FC153624C9FF367A3179A311_il2cpp_TypeInfo_var);

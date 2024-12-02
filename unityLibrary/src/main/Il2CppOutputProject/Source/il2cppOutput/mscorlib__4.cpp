@@ -240,12 +240,16 @@ IL2CPP_EXTERN_C RuntimeClass* Type_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec_tB0A34C258E2060CAC08DEAD81BC8AC722F2C11C9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* UInt64U5BU5D_tAB1A62450AC0899188486EDB9FC066B8BEED9299_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722____calendar_10_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_____innerException_6_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89____calendar_0_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t9FFB0BEB067161CE52A63D5857FEA61F74F17A50____195ABC1ABB69B6BD65F20ACAFA79EED2D330BF513E25C830F24B8A78D8703446_10_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t9FFB0BEB067161CE52A63D5857FEA61F74F17A50____5292FD0A8E62FCCBE41F34EFE7575D097990A66FE23B3507971C5BF272A4362E_33_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t9FFB0BEB067161CE52A63D5857FEA61F74F17A50____93B42898102ACB2421875C45676880B8A07390D8DF0E1EE85C5D1AA26964B0C6_63_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t9FFB0BEB067161CE52A63D5857FEA61F74F17A50____96E3FDE919EC36694EFBEC22FEF80F84EE640CC5E46CED07C3E65AC04607C7D6_67_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t9FFB0BEB067161CE52A63D5857FEA61F74F17A50____C8EC70AC5A448C3A45CF1DFCC1375BE4E80DC6793E97D5E89BD97A0DC232B2E3_84_FieldInfo_var;
 IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t9FFB0BEB067161CE52A63D5857FEA61F74F17A50____F0CF66F9B123DCEBB39C38C5D8E4821D4E94DB593889C506BCA0827036F1B7EB_111_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637____m_info_3_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral02A7C4EF37893C2F6EC5DE096B85F28E75A99A54;
 IL2CPP_EXTERN_C String_t* _stringLiteral05ABA3CF47C1FCAEF66432D85D6B44E99603F880;
 IL2CPP_EXTERN_C String_t* _stringLiteral061124E28B93E647C6AA75774A91732587C06ECF;
@@ -321,6 +325,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral9DC029E8A2AE7210A6E64E6548ACE71AB0EAC1C4
 IL2CPP_EXTERN_C String_t* _stringLiteral9E73F441AA920D49C2AE389F5A0431D2B7955821;
 IL2CPP_EXTERN_C String_t* _stringLiteral9FE21686ED85979C6721683C1AE7814B97848718;
 IL2CPP_EXTERN_C String_t* _stringLiteralA019FB7F17AA36A9743C530E1F11D5613B8B1158;
+IL2CPP_EXTERN_C String_t* _stringLiteralA02431CF7C501A5B368C91E41283419D8FA9FB03;
 IL2CPP_EXTERN_C String_t* _stringLiteralA98FA2FFC82D1846A700EF7EC63A1B429FD4F10C;
 IL2CPP_EXTERN_C String_t* _stringLiteralAA665F32B703053351F7E870B8F846853A461A04;
 IL2CPP_EXTERN_C String_t* _stringLiteralAB1BFE74E7A4298B8F37FB9EB6B78547560992A2;
@@ -328,6 +333,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralACEB01644E7A4BCEFA0B7FD13C917DA74C936C31
 IL2CPP_EXTERN_C String_t* _stringLiteralACF7EBD89F85F7166021028EA7503E6D3600F722;
 IL2CPP_EXTERN_C String_t* _stringLiteralAF248E82BE9EBA1ADBF067429FAEE5A5B6E05A74;
 IL2CPP_EXTERN_C String_t* _stringLiteralAF58B0212B060B5C1E0C49A01A669F6E85E98C07;
+IL2CPP_EXTERN_C String_t* _stringLiteralB16CF3324CA15FF0851B0F99DD86AC638C3E0CAE;
 IL2CPP_EXTERN_C String_t* _stringLiteralB1EEC0D26B91AABE220113FD74CE99065239B040;
 IL2CPP_EXTERN_C String_t* _stringLiteralB7E7D625DFBC9C92FA0449D5E3E0BE263DECD0EA;
 IL2CPP_EXTERN_C String_t* _stringLiteralBB8099DED7DCA288864CAB4B7B6EFAA8079ADFBD;
@@ -371,6 +377,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Guid_ToString_mD2A93BCA0CBFABB680A93A8FA668
 IL2CPP_EXTERN_C const RuntimeMethod* Guid_TryFormat_m9D48F66E2448F329A3DD1234B0A8F3EAF6757E79_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Guid__ctor_m6533072DFD3E81582E8949EB2D5BFABEFC7C403D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Guid__ctor_m9BEFD9FC285BE9ACEC2EB97FC76C0E35E14D725C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Guid__ctor_m9C03A78803E0696A0A446B0CAC0AA55CB8E326EB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Guid__ctor_mAE66BA1C43B4194F4F7991E2E30370E36CBBF830_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Int16_CompareTo_m5BD2376522CEE1560FE0B5A3C2B5B1B214A62090_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Int16_Parse_m9C501B636910C2482FFC0A6CAA6E34981FD00546_RuntimeMethod_var;
@@ -393,6 +400,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* MemoryExtensions_StartsWith_TisChar_t521A6F
 IL2CPP_EXTERN_C const RuntimeMethod* MemoryMarshal_GetReference_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m9D86D3A7A7F6A344D16464E6638E2BEAD3F4BC90_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MemoryMarshal_GetReference_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m7FA6FA19030FDE5E3810FBFFD0FD8D6D36172527_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* MemoryMarshal_GetReference_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_mE4C181D41EF4A4EC432CD3610B2969041E6F2F7A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Nullable_1__ctor_m022C89CF0CE029B5C2C74E54632B610E20FBDA73_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Nullable_GetUnderlyingType_mA8FA7F61D3B8E56EB4E40378020FD2854838BDF8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Number_FormatFixed_m7D9E6403E14B11386EA5B5899E1127A08BB4AFEC_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Number_NumberToString_m72E01B1D501C81B35CED93990BC62954B6756755_RuntimeMethod_var;
@@ -423,7 +431,11 @@ IL2CPP_EXTERN_C const RuntimeMethod* Span_1_op_Implicit_m8619157C8809464A173FF53
 IL2CPP_EXTERN_C const RuntimeMethod* Span_1_op_Implicit_mA0E9FDCF2C5113BA9F9C4964D17D8BDFBD6F3C98_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeType* Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Char_t521A6F19B456D956AF452D926C32709DC03D6B17_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* Nullable_1_tCC12E6AC31BF7E862A033EBEFF48D5000D6291E6_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_0_0_0_var;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_com;
 struct CultureData_tEEFDCF4ECA1BBF6C0C8C94EB3541657245598F9D_marshaled_pinvoke;
 struct CultureInfo_t9BA817D41AD55AC8BD07480DD8AC22F8FFA378E0_marshaled_com;
@@ -1231,6 +1243,13 @@ struct ExceptionArgument_t60E7F8D9DE5362CBE9365893983C30302D83B778
 	int32_t ___value___2;
 };
 
+// System.Int32Enum
+struct Int32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C 
+{
+	// System.Int32 System.Int32Enum::value__
+	int32_t ___value___2;
+};
+
 // System.LazyState
 struct LazyState_tD222157674F8A23EC9AD86F87E6705D17F22F70D 
 {
@@ -1423,6 +1442,24 @@ struct NumberBuffer_tE874ADE8F26E879B88784939C623CCEEF30C7643
 	Il2CppChar* ____allDigits_4;
 };
 #pragma pack(pop, tp)
+
+// System.Nullable`1<System.Int32Enum>
+struct Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	int32_t ___value_1;
+};
+
+// System.Nullable`1<System.Threading.LazyThreadSafetyMode>
+struct Nullable_1_tD9A4AFB06DB90AB3FAD2F61F0888AD20DC159BF1 
+{
+	// System.Boolean System.Nullable`1::hasValue
+	bool ___hasValue_0;
+	// T System.Nullable`1::value
+	int32_t ___value_1;
+};
 
 // System.ReadOnlySpan`1<System.Byte>
 struct ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D 
@@ -2378,6 +2415,10 @@ struct Exception_t_StaticFields
 
 // System.ExceptionArgument
 
+// System.Int32Enum
+
+// System.Int32Enum
+
 // System.LazyState
 
 // System.LazyState
@@ -2462,6 +2503,14 @@ struct TextInfo_tD3BAFCFD77418851E7D5CB8D2588F47019E414B4_StaticFields
 // System.Number/NumberBuffer
 
 // System.Number/NumberBuffer
+
+// System.Nullable`1<System.Int32Enum>
+
+// System.Nullable`1<System.Int32Enum>
+
+// System.Nullable`1<System.Threading.LazyThreadSafetyMode>
+
+// System.Nullable`1<System.Threading.LazyThreadSafetyMode>
 
 // System.ReadOnlySpan`1<System.Byte>
 
@@ -3049,6 +3098,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Span_1_get_Length_mB79622
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppChar* MemoryMarshal_GetReference_TisChar_t521A6F19B456D956AF452D926C32709DC03D6B17_m7FA6FA19030FDE5E3810FBFFD0FD8D6D36172527_gshared (Span_1_tEDDF15FCF9EC6DEBA0F696BAACDDBAB9D92C252D ___0_span, const RuntimeMethod* method) ;
 // System.ReadOnlySpan`1<T> System.ReadOnlySpan`1<System.Char>::op_Implicit(T[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ReadOnlySpan_1_op_Implicit_mDFCA2CC95F3991458A0775D346FCEB9A2F770D4B_gshared (CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___0_array, const RuntimeMethod* method) ;
+// System.Void System.Nullable`1<System.Int32Enum>::.ctor(T)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Nullable_1__ctor_m5100B58428BDAD8C79F3D8576B0C2E1D4F3924EB_gshared (Nullable_1_t163D49A1147F217B7BD43BE8ACC8A5CC6B846D14* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // T& System.Runtime.InteropServices.MemoryMarshal::GetReference<System.Byte>(System.ReadOnlySpan`1<T>)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint8_t* MemoryMarshal_GetReference_TisByte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3_m9D86D3A7A7F6A344D16464E6638E2BEAD3F4BC90_gshared (ReadOnlySpan_1_tA850A6C0E88ABBA37646A078ACBC24D6D5FD9B4D ___0_span, const RuntimeMethod* method) ;
 // System.Void System.Math::ThrowMinMaxException<System.Int32>(T,T)
@@ -3190,6 +3241,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SR_Format_m9E8DC9AEFDC34AC67473EFAE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62 (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* __this, String_t* ___0_message, String_t* ___1_paramName, const RuntimeMethod* method) ;
 // System.Void System.Guid::.ctor(System.UInt32,System.UInt16,System.UInt16,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guid__ctor_m124D0C0C7E661194DA48CA77B878BF15F6D83871 (Guid_t* __this, uint32_t ___0_a, uint16_t ___1_b, uint16_t ___2_c, uint8_t ___3_d, uint8_t ___4_e, uint8_t ___5_f, uint8_t ___6_g, uint8_t ___7_h, uint8_t ___8_i, uint8_t ___9_j, uint8_t ___10_k, const RuntimeMethod* method) ;
+// System.Void System.Guid::.ctor(System.Int32,System.Int16,System.Int16,System.Byte[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guid__ctor_m9C03A78803E0696A0A446B0CAC0AA55CB8E326EB (Guid_t* __this, int32_t ___0_a, int16_t ___1_b, int16_t ___2_c, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___3_d, const RuntimeMethod* method) ;
 // System.Void System.Guid::.ctor(System.Int32,System.Int16,System.Int16,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guid__ctor_mC52E0191E06C110F9F6E0A417BCA4437D79CC130 (Guid_t* __this, int32_t ___0_a, int16_t ___1_b, int16_t ___2_c, uint8_t ___3_d, uint8_t ___4_e, uint8_t ___5_f, uint8_t ___6_g, uint8_t ___7_h, uint8_t ___8_i, uint8_t ___9_j, uint8_t ___10_k, const RuntimeMethod* method) ;
 // System.Void System.Guid/GuidResult::Init(System.Guid/GuidParseThrowStyle)
@@ -3623,6 +3676,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m412D5FC4D69035738F1DB88
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ExceptionDispatchInfo_tD7AF19E75FEC22F4A8329FD1E9EDF96615CB2757* ExceptionDispatchInfo_Capture_mC1C1C30D83DC04B2B7813DFCB67D07CCD4909803 (Exception_t* ___0_source, const RuntimeMethod* method) ;
 // System.Void System.Runtime.ExceptionServices.ExceptionDispatchInfo::Throw()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ExceptionDispatchInfo_Throw_m06F398E346AE94C1CCEB636763A8CB26511F6330 (ExceptionDispatchInfo_tD7AF19E75FEC22F4A8329FD1E9EDF96615CB2757* __this, const RuntimeMethod* method) ;
+// System.LazyState System.LazyHelper::get_State()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LazyHelper_get_State_m8EE9669E6DC61CC32EC9B8C29B006D83009971CD_inline (LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* __this, const RuntimeMethod* method) ;
+// System.Threading.LazyThreadSafetyMode System.LazyHelper::GetMode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LazyHelper_GetMode_m99B64A106876C28DCF546EAFCEB6C2A36D957490 (LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* __this, const RuntimeMethod* method) ;
+// System.Void System.Nullable`1<System.Threading.LazyThreadSafetyMode>::.ctor(T)
+inline void Nullable_1__ctor_m022C89CF0CE029B5C2C74E54632B610E20FBDA73 (Nullable_1_tD9A4AFB06DB90AB3FAD2F61F0888AD20DC159BF1* __this, int32_t ___0_value, const RuntimeMethod* method)
+{
+	((  void (*) (Nullable_1_tD9A4AFB06DB90AB3FAD2F61F0888AD20DC159BF1*, int32_t, const RuntimeMethod*))Nullable_1__ctor_m5100B58428BDAD8C79F3D8576B0C2E1D4F3924EB_gshared)(__this, ___0_value, method);
+}
 // System.Void System.LazyHelper::.ctor(System.LazyState)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LazyHelper__ctor_m5B03DFBE4CEF842FE313BD5B27F1F0A22708DDB6 (LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* __this, int32_t ___0_state, const RuntimeMethod* method) ;
 // System.Void System.ArgumentOutOfRangeException::.ctor(System.String,System.String)
@@ -3653,6 +3715,8 @@ inline void Math_ThrowMinMaxException_TisInt32_t680FF22E76F6EFAD4375103CBBFFA042
 {
 	((  void (*) (int32_t, int32_t, const RuntimeMethod*))Math_ThrowMinMaxException_TisInt32_t680FF22E76F6EFAD4375103CBBFFA0421349384C_mBC7732632C280D3AEE2B08C470A78B9C5C4CBD77_gshared)(___0_min, ___1_max, method);
 }
+// System.Decimal System.Decimal::Floor(System.Decimal)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F Decimal_Floor_m2BE09F241A5497A80E7F92A133B45AAC73ED061D (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___0_d, const RuntimeMethod* method) ;
 // System.Boolean System.Double::IsNaN(System.Double)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Double_IsNaN_mF2BC6D1FD4813179B2CAE58D29770E42830D0883_inline (double ___0_d, const RuntimeMethod* method) ;
 // System.Boolean System.Double::IsPositiveInfinity(System.Double)
@@ -4214,12 +4278,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MatchNumberDelegate_t099FBFD09058FE2C73C1CBA7
 // Conversion methods for marshalling of: System.__DTString
 IL2CPP_EXTERN_C void __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_marshal_pinvoke(const __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637& unmarshaled, __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_info_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_info' of type '__DTString': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&__DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&__DTString_t732683AF9A8EEC82B66C136920240C4033EF0637____m_info_3_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_info_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637____m_info_3_FieldInfo_var, __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_info_3Exception, NULL);
 }
 IL2CPP_EXTERN_C void __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_marshal_pinvoke_back(const __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_marshaled_pinvoke& marshaled, __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637& unmarshaled)
 {
-	Exception_t* ___m_info_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_info' of type '__DTString': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&__DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&__DTString_t732683AF9A8EEC82B66C136920240C4033EF0637____m_info_3_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_info_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637____m_info_3_FieldInfo_var, __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_info_3Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.__DTString
@@ -4229,12 +4307,26 @@ IL2CPP_EXTERN_C void __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_marsha
 // Conversion methods for marshalling of: System.__DTString
 IL2CPP_EXTERN_C void __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_marshal_com(const __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637& unmarshaled, __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_marshaled_com& marshaled)
 {
-	Exception_t* ___m_info_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_info' of type '__DTString': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&__DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&__DTString_t732683AF9A8EEC82B66C136920240C4033EF0637____m_info_3_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_info_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637____m_info_3_FieldInfo_var, __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_info_3Exception, NULL);
 }
 IL2CPP_EXTERN_C void __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_marshal_com_back(const __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_marshaled_com& marshaled, __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637& unmarshaled)
 {
-	Exception_t* ___m_info_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_info' of type '__DTString': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&__DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&__DTString_t732683AF9A8EEC82B66C136920240C4033EF0637____m_info_3_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_info_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637____m_info_3_FieldInfo_var, __DTString_t732683AF9A8EEC82B66C136920240C4033EF0637_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_info_3Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.__DTString
@@ -4317,7 +4409,7 @@ IL_0037:
 		L_6 = CultureInfo_get_CurrentCulture_m8A4580F49DDD7E9DB34C699965423DB8E3BBA9A5(NULL);
 		NullCheck(L_6);
 		CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* L_7;
-		L_7 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(12 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_6);
+		L_7 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(13 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_6);
 		__this->___m_info_3 = L_7;
 		__this->___m_checkDigitToken_4 = (bool)0;
 		return;
@@ -6388,12 +6480,26 @@ IL2CPP_EXTERN_C  int32_t DateTimeRawInfo_GetNumber_mD3A995185B82D464237FF9B32561
 // Conversion methods for marshalling of: System.DateTimeResult
 IL2CPP_EXTERN_C void DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_marshal_pinvoke(const DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722& unmarshaled, DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___calendar_10Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'calendar' of type 'DateTimeResult': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722____calendar_10_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___calendar_10Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722____calendar_10_FieldInfo_var, DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___calendar_10Exception, NULL);
 }
 IL2CPP_EXTERN_C void DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_marshal_pinvoke_back(const DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_marshaled_pinvoke& marshaled, DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722& unmarshaled)
 {
-	Exception_t* ___calendar_10Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'calendar' of type 'DateTimeResult': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722____calendar_10_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___calendar_10Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722____calendar_10_FieldInfo_var, DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___calendar_10Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.DateTimeResult
@@ -6403,12 +6509,26 @@ IL2CPP_EXTERN_C void DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_ma
 // Conversion methods for marshalling of: System.DateTimeResult
 IL2CPP_EXTERN_C void DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_marshal_com(const DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722& unmarshaled, DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_marshaled_com& marshaled)
 {
-	Exception_t* ___calendar_10Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'calendar' of type 'DateTimeResult': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722____calendar_10_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___calendar_10Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722____calendar_10_FieldInfo_var, DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___calendar_10Exception, NULL);
 }
 IL2CPP_EXTERN_C void DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_marshal_com_back(const DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_marshaled_com& marshaled, DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722& unmarshaled)
 {
-	Exception_t* ___calendar_10Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'calendar' of type 'DateTimeResult': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722____calendar_10_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___calendar_10Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722____calendar_10_FieldInfo_var, DateTimeResult_t88A2CAF7FB72DB24CD634B742B58043128BB9722_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___calendar_10Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.DateTimeResult
@@ -6542,12 +6662,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DateTimeResult_SetFailure_m62FF23BEC9EBC
 // Conversion methods for marshalling of: System.ParsingInfo
 IL2CPP_EXTERN_C void ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_marshal_pinvoke(const ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89& unmarshaled, ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___calendar_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'calendar' of type 'ParsingInfo': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89____calendar_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___calendar_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89____calendar_0_FieldInfo_var, ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___calendar_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_marshal_pinvoke_back(const ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_marshaled_pinvoke& marshaled, ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89& unmarshaled)
 {
-	Exception_t* ___calendar_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'calendar' of type 'ParsingInfo': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89____calendar_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___calendar_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89____calendar_0_FieldInfo_var, ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___calendar_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.ParsingInfo
@@ -6557,12 +6691,26 @@ IL2CPP_EXTERN_C void ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_marsh
 // Conversion methods for marshalling of: System.ParsingInfo
 IL2CPP_EXTERN_C void ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_marshal_com(const ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89& unmarshaled, ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_marshaled_com& marshaled)
 {
-	Exception_t* ___calendar_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'calendar' of type 'ParsingInfo': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89____calendar_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___calendar_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89____calendar_0_FieldInfo_var, ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___calendar_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_marshal_com_back(const ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_marshaled_com& marshaled, ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89& unmarshaled)
 {
-	Exception_t* ___calendar_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'calendar' of type 'ParsingInfo': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89____calendar_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___calendar_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89____calendar_0_FieldInfo_var, ParsingInfo_t1717753431089DD2385D3739360CF85BDB410F89_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___calendar_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.ParsingInfo
@@ -6799,6 +6947,99 @@ IL2CPP_EXTERN_C  void Guid__ctor_m124D0C0C7E661194DA48CA77B878BF15F6D83871_Adjus
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<Guid_t*>(__this + _offset);
 	Guid__ctor_m124D0C0C7E661194DA48CA77B878BF15F6D83871(_thisAdjusted, ___0_a, ___1_b, ___2_c, ___3_d, ___4_e, ___5_f, ___6_g, ___7_h, ___8_i, ___9_j, ___10_k, method);
+}
+// System.Void System.Guid::.ctor(System.Int32,System.Int16,System.Int16,System.Byte[])
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guid__ctor_m9C03A78803E0696A0A446B0CAC0AA55CB8E326EB (Guid_t* __this, int32_t ___0_a, int16_t ___1_b, int16_t ___2_c, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___3_d, const RuntimeMethod* method) 
+{
+	{
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___3_d;
+		if (L_0)
+		{
+			goto IL_000f;
+		}
+	}
+	{
+		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
+		NullCheck(L_1);
+		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA02431CF7C501A5B368C91E41283419D8FA9FB03)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Guid__ctor_m9C03A78803E0696A0A446B0CAC0AA55CB8E326EB_RuntimeMethod_var)));
+	}
+
+IL_000f:
+	{
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___3_d;
+		NullCheck(L_2);
+		if ((((int32_t)((int32_t)(((RuntimeArray*)L_2)->max_length))) == ((int32_t)8)))
+		{
+			goto IL_0030;
+		}
+	}
+	{
+		String_t* L_3;
+		L_3 = SR_Format_m9E8DC9AEFDC34AC67473EFAEAB78C5066C1A0D09(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9E73F441AA920D49C2AE389F5A0431D2B7955821)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralB16CF3324CA15FF0851B0F99DD86AC638C3E0CAE)), NULL);
+		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_4 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
+		NullCheck(L_4);
+		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_4, L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralA02431CF7C501A5B368C91E41283419D8FA9FB03)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Guid__ctor_m9C03A78803E0696A0A446B0CAC0AA55CB8E326EB_RuntimeMethod_var)));
+	}
+
+IL_0030:
+	{
+		int32_t L_5 = ___0_a;
+		__this->____a_1 = L_5;
+		int16_t L_6 = ___1_b;
+		__this->____b_2 = L_6;
+		int16_t L_7 = ___2_c;
+		__this->____c_3 = L_7;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = ___3_d;
+		NullCheck(L_8);
+		int32_t L_9 = 0;
+		uint8_t L_10 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		__this->____d_4 = L_10;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11 = ___3_d;
+		NullCheck(L_11);
+		int32_t L_12 = 1;
+		uint8_t L_13 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		__this->____e_5 = L_13;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_14 = ___3_d;
+		NullCheck(L_14);
+		int32_t L_15 = 2;
+		uint8_t L_16 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_15));
+		__this->____f_6 = L_16;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_17 = ___3_d;
+		NullCheck(L_17);
+		int32_t L_18 = 3;
+		uint8_t L_19 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
+		__this->____g_7 = L_19;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_20 = ___3_d;
+		NullCheck(L_20);
+		int32_t L_21 = 4;
+		uint8_t L_22 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		__this->____h_8 = L_22;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_23 = ___3_d;
+		NullCheck(L_23);
+		int32_t L_24 = 5;
+		uint8_t L_25 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_24));
+		__this->____i_9 = L_25;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_26 = ___3_d;
+		NullCheck(L_26);
+		int32_t L_27 = 6;
+		uint8_t L_28 = (L_26)->GetAt(static_cast<il2cpp_array_size_t>(L_27));
+		__this->____j_10 = L_28;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_29 = ___3_d;
+		NullCheck(L_29);
+		int32_t L_30 = 7;
+		uint8_t L_31 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
+		__this->____k_11 = L_31;
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void Guid__ctor_m9C03A78803E0696A0A446B0CAC0AA55CB8E326EB_AdjustorThunk (RuntimeObject* __this, int32_t ___0_a, int16_t ___1_b, int16_t ___2_c, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___3_d, const RuntimeMethod* method)
+{
+	Guid_t* _thisAdjusted;
+	int32_t _offset = 1;
+	_thisAdjusted = reinterpret_cast<Guid_t*>(__this + _offset);
+	Guid__ctor_m9C03A78803E0696A0A446B0CAC0AA55CB8E326EB(_thisAdjusted, ___0_a, ___1_b, ___2_c, ___3_d, method);
 }
 // System.Void System.Guid::.ctor(System.Int32,System.Int16,System.Int16,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Guid__ctor_mC52E0191E06C110F9F6E0A417BCA4437D79CC130 (Guid_t* __this, int32_t ___0_a, int16_t ___1_b, int16_t ___2_c, uint8_t ___3_d, uint8_t ___4_e, uint8_t ___5_f, uint8_t ___6_g, uint8_t ___7_h, uint8_t ___8_i, uint8_t ___9_j, uint8_t ___10_k, const RuntimeMethod* method) 
@@ -11026,12 +11267,26 @@ IL2CPP_EXTERN_C  bool Guid_System_ISpanFormattable_TryFormat_mAA4B1A160D805A87D0
 // Conversion methods for marshalling of: System.Guid/GuidResult
 IL2CPP_EXTERN_C void GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshal_pinvoke(const GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79& unmarshaled, GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ____innerException_6Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_innerException' of type 'GuidResult': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_____innerException_6_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____innerException_6Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_____innerException_6_FieldInfo_var, GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____innerException_6Exception, NULL);
 }
 IL2CPP_EXTERN_C void GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshal_pinvoke_back(const GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshaled_pinvoke& marshaled, GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79& unmarshaled)
 {
-	Exception_t* ____innerException_6Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_innerException' of type 'GuidResult': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_____innerException_6_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____innerException_6Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_____innerException_6_FieldInfo_var, GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____innerException_6Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Guid/GuidResult
@@ -11043,12 +11298,26 @@ IL2CPP_EXTERN_C void GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marsha
 // Conversion methods for marshalling of: System.Guid/GuidResult
 IL2CPP_EXTERN_C void GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshal_com(const GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79& unmarshaled, GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshaled_com& marshaled)
 {
-	Exception_t* ____innerException_6Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_innerException' of type 'GuidResult': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_____innerException_6_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____innerException_6Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_____innerException_6_FieldInfo_var, GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____innerException_6Exception, NULL);
 }
 IL2CPP_EXTERN_C void GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshal_com_back(const GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_marshaled_com& marshaled, GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79& unmarshaled)
 {
-	Exception_t* ____innerException_6Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '_innerException' of type 'GuidResult': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_____innerException_6_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ____innerException_6Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_____innerException_6_FieldInfo_var, GuidResult_t5B70D46D3C631BD00631FF6D700371C1E9C7AC79_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(____innerException_6Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Guid/GuidResult
@@ -14612,6 +14881,148 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LazyHelper_ThrowException_mE49F09D8EA546
 		return;
 	}
 }
+// System.Threading.LazyThreadSafetyMode System.LazyHelper::GetMode()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LazyHelper_GetMode_m99B64A106876C28DCF546EAFCEB6C2A36D957490 (LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0;
+		L_0 = LazyHelper_get_State_m8EE9669E6DC61CC32EC9B8C29B006D83009971CD_inline(__this, NULL);
+		V_0 = L_0;
+		int32_t L_1 = V_0;
+		switch (L_1)
+		{
+			case 0:
+			{
+				goto IL_0037;
+			}
+			case 1:
+			{
+				goto IL_0037;
+			}
+			case 2:
+			{
+				goto IL_0037;
+			}
+			case 3:
+			{
+				goto IL_0039;
+			}
+			case 4:
+			{
+				goto IL_0039;
+			}
+			case 5:
+			{
+				goto IL_0039;
+			}
+			case 6:
+			{
+				goto IL_0039;
+			}
+			case 7:
+			{
+				goto IL_003b;
+			}
+			case 8:
+			{
+				goto IL_003b;
+			}
+			case 9:
+			{
+				goto IL_003b;
+			}
+		}
+	}
+	{
+		goto IL_003d;
+	}
+
+IL_0037:
+	{
+		return (int32_t)(0);
+	}
+
+IL_0039:
+	{
+		return (int32_t)(1);
+	}
+
+IL_003b:
+	{
+		return (int32_t)(2);
+	}
+
+IL_003d:
+	{
+		return (int32_t)(0);
+	}
+}
+// System.Nullable`1<System.Threading.LazyThreadSafetyMode> System.LazyHelper::GetMode(System.LazyHelper)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Nullable_1_tD9A4AFB06DB90AB3FAD2F61F0888AD20DC159BF1 LazyHelper_GetMode_m22C5EEBAF8970A588272D7AA5BA309C998E5F6C1 (LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* ___0_state, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Nullable_1__ctor_m022C89CF0CE029B5C2C74E54632B610E20FBDA73_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Nullable_1_tD9A4AFB06DB90AB3FAD2F61F0888AD20DC159BF1 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* L_0 = ___0_state;
+		if (L_0)
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Nullable_1_tD9A4AFB06DB90AB3FAD2F61F0888AD20DC159BF1));
+		Nullable_1_tD9A4AFB06DB90AB3FAD2F61F0888AD20DC159BF1 L_1 = V_0;
+		return L_1;
+	}
+
+IL_000d:
+	{
+		LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* L_2 = ___0_state;
+		NullCheck(L_2);
+		int32_t L_3;
+		L_3 = LazyHelper_GetMode_m99B64A106876C28DCF546EAFCEB6C2A36D957490(L_2, NULL);
+		Nullable_1_tD9A4AFB06DB90AB3FAD2F61F0888AD20DC159BF1 L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		Nullable_1__ctor_m022C89CF0CE029B5C2C74E54632B610E20FBDA73((&L_4), L_3, /*hidden argument*/Nullable_1__ctor_m022C89CF0CE029B5C2C74E54632B610E20FBDA73_RuntimeMethod_var);
+		return L_4;
+	}
+}
+// System.Boolean System.LazyHelper::GetIsValueFaulted(System.LazyHelper)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool LazyHelper_GetIsValueFaulted_m9DFC32520AA1B57F8FF21F80568A6343117DE148 (LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* ___0_state, const RuntimeMethod* method) 
+{
+	ExceptionDispatchInfo_tD7AF19E75FEC22F4A8329FD1E9EDF96615CB2757* G_B3_0 = NULL;
+	{
+		LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* L_0 = ___0_state;
+		if (L_0)
+		{
+			goto IL_0006;
+		}
+	}
+	{
+		G_B3_0 = ((ExceptionDispatchInfo_tD7AF19E75FEC22F4A8329FD1E9EDF96615CB2757*)(NULL));
+		goto IL_000c;
+	}
+
+IL_0006:
+	{
+		LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* L_1 = ___0_state;
+		NullCheck(L_1);
+		ExceptionDispatchInfo_tD7AF19E75FEC22F4A8329FD1E9EDF96615CB2757* L_2 = L_1->____exceptionDispatch_6;
+		G_B3_0 = L_2;
+	}
+
+IL_000c:
+	{
+		return (bool)((!(((RuntimeObject*)(ExceptionDispatchInfo_tD7AF19E75FEC22F4A8329FD1E9EDF96615CB2757*)G_B3_0) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+	}
+}
 // System.LazyHelper System.LazyHelper::Create(System.Threading.LazyThreadSafetyMode,System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* LazyHelper_Create_m01DF07EC4B8E6F1EAC2C0D0B5498695B795AA335 (int32_t ___0_mode, bool ___1_useDefaultConstructor, const RuntimeMethod* method) 
 {
@@ -15371,6 +15782,23 @@ IL_0017:
 	{
 		int32_t L_10 = ___0_value;
 		return L_10;
+	}
+}
+// System.Decimal System.Math::Floor(System.Decimal)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F Math_Floor_m287F9D9F333DA30FF14FD5E22B23A4770C148AA7 (Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F ___0_d, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_0 = ___0_d;
+		il2cpp_codegen_runtime_class_init_inline(Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F_il2cpp_TypeInfo_var);
+		Decimal_tDA6C877282B2D789CF97C0949661CC11D643969F L_1;
+		L_1 = Decimal_Floor_m2BE09F241A5497A80E7F92A133B45AAC73ED061D(L_0, NULL);
+		return L_1;
 	}
 }
 // System.Double System.Math::Log(System.Double,System.Double)
@@ -16697,7 +17125,7 @@ IL_0031:
 		L_5 = CultureInfo_get_CurrentCulture_m8A4580F49DDD7E9DB34C699965423DB8E3BBA9A5(NULL);
 		NullCheck(L_5);
 		CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* L_6;
-		L_6 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(12 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_5);
+		L_6 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(13 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_5);
 		bool L_7;
 		L_7 = SpanHelpers_EndsWithCultureHelper_mE5FD23F444E1C5491DC271719076245E1BB536DA(L_3, L_4, L_6, NULL);
 		return L_7;
@@ -16712,7 +17140,7 @@ IL_0043:
 		L_10 = CultureInfo_get_CurrentCulture_m8A4580F49DDD7E9DB34C699965423DB8E3BBA9A5(NULL);
 		NullCheck(L_10);
 		CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* L_11;
-		L_11 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(12 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_10);
+		L_11 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(13 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_10);
 		bool L_12;
 		L_12 = SpanHelpers_EndsWithCultureIgnoreCaseHelper_m960F36EE021D2D244625188B9B5279FF496C968E(L_8, L_9, L_11, NULL);
 		return L_12;
@@ -34678,6 +35106,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Exception_set_HResult_m010A1
 		int32_t L_0 = ___0_value;
 		__this->____HResult_11 = L_0;
 		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LazyHelper_get_State_m8EE9669E6DC61CC32EC9B8C29B006D83009971CD_inline (LazyHelper_t1784351780B2D1AC002869BB3C7A35AA64762602* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->___U3CStateU3Ek__BackingField_5;
+		return L_0;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Marvin_Block_m379D26C9EA99762F2C6AF0075707ADFC2E7DE229_inline (uint32_t* ___0_rp0, uint32_t* ___1_rp1, const RuntimeMethod* method) 

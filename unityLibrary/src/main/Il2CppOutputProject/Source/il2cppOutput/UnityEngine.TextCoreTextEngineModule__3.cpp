@@ -340,6 +340,8 @@ IL2CPP_EXTERN_C RuntimeClass* UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC98
 IL2CPP_EXTERN_C RuntimeClass* UnicodeLineBreakingRules_t80BE36F5E16AE48FE7B6DE1C91D36B1142B4EC0E_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* WordInfoU5BU5D_tAD74C9720883D7BB229A20FFAE9EFD2CF9963F7B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26____fontAsset_1_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976____textElement_3_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral0045DCFC92141FBD29525BE5BBACE1599A1F74E6;
 IL2CPP_EXTERN_C String_t* _stringLiteral0398C15EFAAA19C93AF746DA24817D2791C3F8F5;
 IL2CPP_EXTERN_C String_t* _stringLiteral07371C2E1614A8AAA3B715F2AC7A11E33A6705A0;
@@ -496,6 +498,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CSortCharacterTableU3Eb__38_0_m6A
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CSortGlyphPairAdjustmentRecordsU3Eb__6_0_m4A2B8B22BA5C619432654E7A0F5DEDAE949E12BA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CSortGlyphPairAdjustmentRecordsU3Eb__6_1_m5BF29DF1AB0CBEC9E1D73F20A998CBEC05DC7572_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CSortGlyphTableU3Eb__37_0_mC479CF63F85C34FC407D92E67878B9B2AD99B739_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_0_0_0_var;
 struct Color32_t73C5004937BF5BB8AD55323D51AAA40A898EF48B;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
@@ -4618,12 +4622,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextAsset__ctor_m2C43EAC2D75854E6724A235
 // Conversion methods for marshalling of: UnityEngine.TextCore.Text.TextElementInfo
 IL2CPP_EXTERN_C void TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_marshal_pinvoke(const TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976& unmarshaled, TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___textElement_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'textElement' of type 'TextElementInfo': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976____textElement_3_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___textElement_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976____textElement_3_FieldInfo_var, TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___textElement_3Exception, NULL);
 }
 IL2CPP_EXTERN_C void TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_marshal_pinvoke_back(const TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_marshaled_pinvoke& marshaled, TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976& unmarshaled)
 {
-	Exception_t* ___textElement_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'textElement' of type 'TextElementInfo': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976____textElement_3_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___textElement_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976____textElement_3_FieldInfo_var, TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___textElement_3Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.TextCore.Text.TextElementInfo
@@ -4633,12 +4651,26 @@ IL2CPP_EXTERN_C void TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_m
 // Conversion methods for marshalling of: UnityEngine.TextCore.Text.TextElementInfo
 IL2CPP_EXTERN_C void TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_marshal_com(const TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976& unmarshaled, TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_marshaled_com& marshaled)
 {
-	Exception_t* ___textElement_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'textElement' of type 'TextElementInfo': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976____textElement_3_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___textElement_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976____textElement_3_FieldInfo_var, TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___textElement_3Exception, NULL);
 }
 IL2CPP_EXTERN_C void TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_marshal_com_back(const TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_marshaled_com& marshaled, TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976& unmarshaled)
 {
-	Exception_t* ___textElement_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'textElement' of type 'TextElementInfo': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976____textElement_3_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___textElement_3Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976____textElement_3_FieldInfo_var, TextElementInfo_tDD7A12E319505510E0B350E342BD55F32AB5F976_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___textElement_3Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.TextCore.Text.TextElementInfo
@@ -6849,12 +6881,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialReferenceManager__ctor_mC102EC44
 // Conversion methods for marshalling of: UnityEngine.TextCore.Text.MaterialReference
 IL2CPP_EXTERN_C void MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_marshal_pinvoke(const MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26& unmarshaled, MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___fontAsset_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'fontAsset' of type 'MaterialReference': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26____fontAsset_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___fontAsset_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26____fontAsset_1_FieldInfo_var, MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___fontAsset_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_marshal_pinvoke_back(const MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_marshaled_pinvoke& marshaled, MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26& unmarshaled)
 {
-	Exception_t* ___fontAsset_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'fontAsset' of type 'MaterialReference': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26____fontAsset_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___fontAsset_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26____fontAsset_1_FieldInfo_var, MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___fontAsset_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.TextCore.Text.MaterialReference
@@ -6864,12 +6910,26 @@ IL2CPP_EXTERN_C void MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26
 // Conversion methods for marshalling of: UnityEngine.TextCore.Text.MaterialReference
 IL2CPP_EXTERN_C void MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_marshal_com(const MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26& unmarshaled, MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_marshaled_com& marshaled)
 {
-	Exception_t* ___fontAsset_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'fontAsset' of type 'MaterialReference': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26____fontAsset_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___fontAsset_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26____fontAsset_1_FieldInfo_var, MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___fontAsset_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_marshal_com_back(const MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_marshaled_com& marshaled, MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26& unmarshaled)
 {
-	Exception_t* ___fontAsset_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'fontAsset' of type 'MaterialReference': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26____fontAsset_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___fontAsset_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26____fontAsset_1_FieldInfo_var, MaterialReference_t86DB0799D5C82869D4FF0A4F59624AED6910FD26_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___fontAsset_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.TextCore.Text.MaterialReference

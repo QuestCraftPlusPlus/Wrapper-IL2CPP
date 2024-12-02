@@ -38,7 +38,7 @@ BASELIB_INLINE_API bool Detail_Baselib_CappedSemaphore_ConsumeWakeup(Baselib_Cap
     int32_t previousCount = Baselib_atomic_load_32_relaxed(&semaphore->wakeups);
     while (previousCount > 0)
     {
-        if (Baselib_atomic_compare_exchange_weak_32_relaxed_relaxed(&semaphore->wakeups, &previousCount, previousCount - 1))
+        if (Baselib_atomic_compare_exchange_weak_32_acquire_relaxed(&semaphore->wakeups, &previousCount, previousCount - 1))
             return true;
     }
     return false;

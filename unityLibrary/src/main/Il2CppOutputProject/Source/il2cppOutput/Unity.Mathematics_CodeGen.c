@@ -202,205 +202,217 @@ extern void float2_ToString_m0921A1A5C64FC14E7E808684F079B7BE29EC5AB1 (void);
 extern void float2_op_Implicit_mBB339033BC4FFDA8BC7A41DF06C1FA97F60115D9 (void);
 // 0x0000005F Unity.Mathematics.float2 Unity.Mathematics.float2::op_Implicit(UnityEngine.Vector2)
 extern void float2_op_Implicit_m274CE0EFDC0FFD5168817614BF1A3699784DE02B (void);
-// 0x00000060 System.Void Unity.Mathematics.float3::.ctor(System.Single,System.Single,System.Single)
+// 0x00000060 System.Void Unity.Mathematics.float2/DebuggerProxy::.ctor(Unity.Mathematics.float2)
+extern void DebuggerProxy__ctor_mD03111C553C593ABABDF70B75AEA55958E2E3339 (void);
+// 0x00000061 System.Void Unity.Mathematics.float3::.ctor(System.Single,System.Single,System.Single)
 extern void float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9 (void);
-// 0x00000061 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Multiply(Unity.Mathematics.float3,Unity.Mathematics.float3)
+// 0x00000062 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Multiply(Unity.Mathematics.float3,Unity.Mathematics.float3)
 extern void float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7 (void);
-// 0x00000062 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Multiply(Unity.Mathematics.float3,System.Single)
+// 0x00000063 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Multiply(Unity.Mathematics.float3,System.Single)
 extern void float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81 (void);
-// 0x00000063 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Multiply(System.Single,Unity.Mathematics.float3)
+// 0x00000064 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Multiply(System.Single,Unity.Mathematics.float3)
 extern void float3_op_Multiply_m38F52B61F8E5636955A1A6DF3A75BD0724148350 (void);
-// 0x00000064 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Addition(Unity.Mathematics.float3,Unity.Mathematics.float3)
+// 0x00000065 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Addition(Unity.Mathematics.float3,Unity.Mathematics.float3)
 extern void float3_op_Addition_mFFCF4F7457594F5EFB0678C0DE90AAD3D3F6947B (void);
-// 0x00000065 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Subtraction(Unity.Mathematics.float3,Unity.Mathematics.float3)
+// 0x00000066 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Subtraction(Unity.Mathematics.float3,Unity.Mathematics.float3)
 extern void float3_op_Subtraction_mB6036E9849D95650D6E73DA0D179CD7B61E696F2 (void);
-// 0x00000066 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Division(Unity.Mathematics.float3,System.Single)
+// 0x00000067 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Division(Unity.Mathematics.float3,System.Single)
 extern void float3_op_Division_m59FB3E510B03034B8834D7D724561FB9EC4DBB81 (void);
-// 0x00000067 Unity.Mathematics.float3 Unity.Mathematics.float3::op_UnaryNegation(Unity.Mathematics.float3)
+// 0x00000068 Unity.Mathematics.float3 Unity.Mathematics.float3::op_UnaryNegation(Unity.Mathematics.float3)
 extern void float3_op_UnaryNegation_m862876969881839716CBAF9AE074FA4BFDFABDF1 (void);
-// 0x00000068 Unity.Mathematics.float4 Unity.Mathematics.float3::get_yxxy()
+// 0x00000069 Unity.Mathematics.float4 Unity.Mathematics.float3::get_yxxy()
 extern void float3_get_yxxy_mF003E86CB17AE3175090DEF37A636AD75087AF81 (void);
-// 0x00000069 Unity.Mathematics.float4 Unity.Mathematics.float3::get_zzyz()
+// 0x0000006A Unity.Mathematics.float4 Unity.Mathematics.float3::get_zzyz()
 extern void float3_get_zzyz_m78B967EBE527FA5705C0E7B38563D1E33BB992C1 (void);
-// 0x0000006A Unity.Mathematics.float3 Unity.Mathematics.float3::get_xyz()
+// 0x0000006B Unity.Mathematics.float3 Unity.Mathematics.float3::get_xyz()
 extern void float3_get_xyz_m720A862AA512BE0B0B1089527A43EEF2B6766BEF (void);
-// 0x0000006B Unity.Mathematics.float3 Unity.Mathematics.float3::get_yzx()
+// 0x0000006C Unity.Mathematics.float3 Unity.Mathematics.float3::get_yzx()
 extern void float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535 (void);
-// 0x0000006C System.Boolean Unity.Mathematics.float3::Equals(Unity.Mathematics.float3)
+// 0x0000006D System.Boolean Unity.Mathematics.float3::Equals(Unity.Mathematics.float3)
 extern void float3_Equals_m4A47BDC70977496712F3BE7DA359E840D99C020A (void);
-// 0x0000006D System.Boolean Unity.Mathematics.float3::Equals(System.Object)
+// 0x0000006E System.Boolean Unity.Mathematics.float3::Equals(System.Object)
 extern void float3_Equals_mD988046122040559D8C9EFED2DA347495D722A2C (void);
-// 0x0000006E System.Int32 Unity.Mathematics.float3::GetHashCode()
+// 0x0000006F System.Int32 Unity.Mathematics.float3::GetHashCode()
 extern void float3_GetHashCode_m659801FA23576CC26412BE644FA19636BFF8A017 (void);
-// 0x0000006F System.String Unity.Mathematics.float3::ToString()
+// 0x00000070 System.String Unity.Mathematics.float3::ToString()
 extern void float3_ToString_m334A7FA7041C2C5D83B68231F1FDEB4037CF5DEA (void);
-// 0x00000070 System.String Unity.Mathematics.float3::ToString(System.String,System.IFormatProvider)
+// 0x00000071 System.String Unity.Mathematics.float3::ToString(System.String,System.IFormatProvider)
 extern void float3_ToString_mE1BA3E91F84DDD745685C09F509410358A83D081 (void);
-// 0x00000071 UnityEngine.Vector3 Unity.Mathematics.float3::op_Implicit(Unity.Mathematics.float3)
+// 0x00000072 UnityEngine.Vector3 Unity.Mathematics.float3::op_Implicit(Unity.Mathematics.float3)
 extern void float3_op_Implicit_m9CC301DFD67EEFAA15CA05E91913E862B22326F6 (void);
-// 0x00000072 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Implicit(UnityEngine.Vector3)
+// 0x00000073 Unity.Mathematics.float3 Unity.Mathematics.float3::op_Implicit(UnityEngine.Vector3)
 extern void float3_op_Implicit_mE1831A3AC179B7EB3236F8202EC8DD5CE05376AB (void);
-// 0x00000073 System.Void Unity.Mathematics.float3x3::.ctor(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3)
+// 0x00000074 System.Void Unity.Mathematics.float3/DebuggerProxy::.ctor(Unity.Mathematics.float3)
+extern void DebuggerProxy__ctor_mF5A0AF04FF4FAC0E6998E136BB69C081676F98ED (void);
+// 0x00000075 System.Void Unity.Mathematics.float3x3::.ctor(Unity.Mathematics.float3,Unity.Mathematics.float3,Unity.Mathematics.float3)
 extern void float3x3__ctor_mA652DC011B892B36A8216646B51B2014F89CE93E (void);
-// 0x00000074 System.Void Unity.Mathematics.float3x3::.ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
+// 0x00000076 System.Void Unity.Mathematics.float3x3::.ctor(System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
 extern void float3x3__ctor_m3AB31C9B587ABDCF15C8BF0E3A5B0158996A75ED (void);
-// 0x00000075 System.Boolean Unity.Mathematics.float3x3::Equals(Unity.Mathematics.float3x3)
+// 0x00000077 System.Boolean Unity.Mathematics.float3x3::Equals(Unity.Mathematics.float3x3)
 extern void float3x3_Equals_m5AA50ACE9FA1CFD3981FD1F2F94B1C782C20ACD0 (void);
-// 0x00000076 System.Boolean Unity.Mathematics.float3x3::Equals(System.Object)
+// 0x00000078 System.Boolean Unity.Mathematics.float3x3::Equals(System.Object)
 extern void float3x3_Equals_m340F5B6BC1C9B1DCF517AA56077E2D3430CEFCFA (void);
-// 0x00000077 System.Int32 Unity.Mathematics.float3x3::GetHashCode()
+// 0x00000079 System.Int32 Unity.Mathematics.float3x3::GetHashCode()
 extern void float3x3_GetHashCode_mCA45DB35B95265E20B9E17E363AEAC9649056705 (void);
-// 0x00000078 System.String Unity.Mathematics.float3x3::ToString()
+// 0x0000007A System.String Unity.Mathematics.float3x3::ToString()
 extern void float3x3_ToString_m2265642475440D69F1A8D1C2C466E1DC31F48934 (void);
-// 0x00000079 System.String Unity.Mathematics.float3x3::ToString(System.String,System.IFormatProvider)
+// 0x0000007B System.String Unity.Mathematics.float3x3::ToString(System.String,System.IFormatProvider)
 extern void float3x3_ToString_m42DAD14EF6EAA5DFB6F501645C325D29A6079522 (void);
-// 0x0000007A System.Void Unity.Mathematics.float3x3::.cctor()
+// 0x0000007C System.Void Unity.Mathematics.float3x3::.cctor()
 extern void float3x3__cctor_mDD98D4703621A506785CC046B18E86B0B5388675 (void);
-// 0x0000007B System.Void Unity.Mathematics.float4::.ctor(System.Single,System.Single,System.Single,System.Single)
+// 0x0000007D System.Void Unity.Mathematics.float4::.ctor(System.Single,System.Single,System.Single,System.Single)
 extern void float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D (void);
-// 0x0000007C System.Void Unity.Mathematics.float4::.ctor(Unity.Mathematics.float3,System.Single)
+// 0x0000007E System.Void Unity.Mathematics.float4::.ctor(Unity.Mathematics.float3,System.Single)
 extern void float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345 (void);
-// 0x0000007D Unity.Mathematics.float4 Unity.Mathematics.float4::op_Multiply(Unity.Mathematics.float4,Unity.Mathematics.float4)
+// 0x0000007F Unity.Mathematics.float4 Unity.Mathematics.float4::op_Multiply(Unity.Mathematics.float4,Unity.Mathematics.float4)
 extern void float4_op_Multiply_m0E98338FB7DFF55B101EBCD78A8703ADB9C08667 (void);
-// 0x0000007E Unity.Mathematics.float4 Unity.Mathematics.float4::op_Multiply(Unity.Mathematics.float4,System.Single)
+// 0x00000080 Unity.Mathematics.float4 Unity.Mathematics.float4::op_Multiply(Unity.Mathematics.float4,System.Single)
 extern void float4_op_Multiply_m712573F441DA8AF0843DE2167927FB76E642B1EB (void);
-// 0x0000007F Unity.Mathematics.float4 Unity.Mathematics.float4::op_Multiply(System.Single,Unity.Mathematics.float4)
+// 0x00000081 Unity.Mathematics.float4 Unity.Mathematics.float4::op_Multiply(System.Single,Unity.Mathematics.float4)
 extern void float4_op_Multiply_m94C65B5751B7969CD82F15DADB8A6F182BFBD581 (void);
-// 0x00000080 Unity.Mathematics.float4 Unity.Mathematics.float4::op_Addition(Unity.Mathematics.float4,Unity.Mathematics.float4)
+// 0x00000082 Unity.Mathematics.float4 Unity.Mathematics.float4::op_Addition(Unity.Mathematics.float4,Unity.Mathematics.float4)
 extern void float4_op_Addition_m2CF2E1B2DAD4996DE3C5B6DFB90185E4CC8F0F44 (void);
-// 0x00000081 Unity.Mathematics.float4 Unity.Mathematics.float4::op_Subtraction(Unity.Mathematics.float4,Unity.Mathematics.float4)
+// 0x00000083 Unity.Mathematics.float4 Unity.Mathematics.float4::op_Subtraction(Unity.Mathematics.float4,Unity.Mathematics.float4)
 extern void float4_op_Subtraction_mBC40F52B8A8EF499A1AA3CC987E5935BD188B4E3 (void);
-// 0x00000082 Unity.Mathematics.float4 Unity.Mathematics.float4::op_UnaryNegation(Unity.Mathematics.float4)
+// 0x00000084 Unity.Mathematics.float4 Unity.Mathematics.float4::op_UnaryNegation(Unity.Mathematics.float4)
 extern void float4_op_UnaryNegation_m5A491FC1978650D62EBEDC51992CF4B2113C8C5B (void);
-// 0x00000083 Unity.Mathematics.float4 Unity.Mathematics.float4::get_xyzx()
+// 0x00000085 Unity.Mathematics.float4 Unity.Mathematics.float4::get_xyzx()
 extern void float4_get_xyzx_m5FFC709BBF25AC7B7755AE077E4288E47089C76C (void);
-// 0x00000084 Unity.Mathematics.float4 Unity.Mathematics.float4::get_yzxy()
+// 0x00000086 Unity.Mathematics.float4 Unity.Mathematics.float4::get_yzxy()
 extern void float4_get_yzxy_m78C60157637373AC6CB36343778B04CAA046ADDD (void);
-// 0x00000085 Unity.Mathematics.float4 Unity.Mathematics.float4::get_yzxz()
+// 0x00000087 Unity.Mathematics.float4 Unity.Mathematics.float4::get_yzxz()
 extern void float4_get_yzxz_mE81FC33B6A0D370B2C8DB339CC5501533BB31223 (void);
-// 0x00000086 Unity.Mathematics.float4 Unity.Mathematics.float4::get_zxyy()
+// 0x00000088 Unity.Mathematics.float4 Unity.Mathematics.float4::get_zxyy()
 extern void float4_get_zxyy_m4B8D0449EEB8DD3CE5A79C96E911C70617339C4E (void);
-// 0x00000087 Unity.Mathematics.float4 Unity.Mathematics.float4::get_zxyz()
+// 0x00000089 Unity.Mathematics.float4 Unity.Mathematics.float4::get_zxyz()
 extern void float4_get_zxyz_m91C90CDA336353253B33F0407198ACCC593EBB1B (void);
-// 0x00000088 Unity.Mathematics.float4 Unity.Mathematics.float4::get_zwxy()
+// 0x0000008A Unity.Mathematics.float4 Unity.Mathematics.float4::get_zwxy()
 extern void float4_get_zwxy_m8F8007FD25E49C0644615EABA414DA7672794563 (void);
-// 0x00000089 Unity.Mathematics.float4 Unity.Mathematics.float4::get_wzyx()
+// 0x0000008B Unity.Mathematics.float4 Unity.Mathematics.float4::get_wzyx()
 extern void float4_get_wzyx_mA9531BFB41E8CC9E8070F8C4A1C23BCAAD7648E8 (void);
-// 0x0000008A Unity.Mathematics.float4 Unity.Mathematics.float4::get_wwwx()
+// 0x0000008C Unity.Mathematics.float4 Unity.Mathematics.float4::get_wwwx()
 extern void float4_get_wwwx_m698BBD6517D0DCF19C3529E0E686FF430642E480 (void);
-// 0x0000008B Unity.Mathematics.float4 Unity.Mathematics.float4::get_wwww()
+// 0x0000008D Unity.Mathematics.float4 Unity.Mathematics.float4::get_wwww()
 extern void float4_get_wwww_mF04E8B99431D2717DEE58BDAE207EF4C7E1A0009 (void);
-// 0x0000008C Unity.Mathematics.float3 Unity.Mathematics.float4::get_xyz()
+// 0x0000008E Unity.Mathematics.float3 Unity.Mathematics.float4::get_xyz()
 extern void float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06 (void);
-// 0x0000008D System.Boolean Unity.Mathematics.float4::Equals(Unity.Mathematics.float4)
+// 0x0000008F System.Boolean Unity.Mathematics.float4::Equals(Unity.Mathematics.float4)
 extern void float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1 (void);
-// 0x0000008E System.Boolean Unity.Mathematics.float4::Equals(System.Object)
+// 0x00000090 System.Boolean Unity.Mathematics.float4::Equals(System.Object)
 extern void float4_Equals_m4D841ABA91D26FA16B07205DC9D51612265FFAB4 (void);
-// 0x0000008F System.Int32 Unity.Mathematics.float4::GetHashCode()
+// 0x00000091 System.Int32 Unity.Mathematics.float4::GetHashCode()
 extern void float4_GetHashCode_m73A9ACC41256A6E98F883A72ED1EB0047947DA48 (void);
-// 0x00000090 System.String Unity.Mathematics.float4::ToString()
+// 0x00000092 System.String Unity.Mathematics.float4::ToString()
 extern void float4_ToString_m63852A53A6218EBA6CF7782E0E38DE0719AA6DAA (void);
-// 0x00000091 System.String Unity.Mathematics.float4::ToString(System.String,System.IFormatProvider)
+// 0x00000093 System.String Unity.Mathematics.float4::ToString(System.String,System.IFormatProvider)
 extern void float4_ToString_mF0B7870047A0CB59185C85DE13ECECFAC5783C2A (void);
-// 0x00000092 Unity.Mathematics.float4 Unity.Mathematics.float4::op_Implicit(UnityEngine.Vector4)
+// 0x00000094 Unity.Mathematics.float4 Unity.Mathematics.float4::op_Implicit(UnityEngine.Vector4)
 extern void float4_op_Implicit_m6D2091EB2CF6E0629A029A7BE9AD230F5F394CB2 (void);
-// 0x00000093 UnityEngine.Vector4 Unity.Mathematics.float4::op_Implicit(Unity.Mathematics.float4)
+// 0x00000095 UnityEngine.Vector4 Unity.Mathematics.float4::op_Implicit(Unity.Mathematics.float4)
 extern void float4_op_Implicit_m5E3AEBAF5F12155549CC051E1EEEE81DF3516E92 (void);
-// 0x00000094 UnityEngine.Quaternion Unity.Mathematics.quaternion::op_Implicit(Unity.Mathematics.quaternion)
+// 0x00000096 System.Void Unity.Mathematics.float4/DebuggerProxy::.ctor(Unity.Mathematics.float4)
+extern void DebuggerProxy__ctor_m5868EDDBC438498A6A62CD1062B0CE7D8B58509F (void);
+// 0x00000097 UnityEngine.Quaternion Unity.Mathematics.quaternion::op_Implicit(Unity.Mathematics.quaternion)
 extern void quaternion_op_Implicit_m78F07E28F5AB9C26F0EE997B2F12AF4A209FCD41 (void);
-// 0x00000095 Unity.Mathematics.quaternion Unity.Mathematics.quaternion::op_Implicit(UnityEngine.Quaternion)
+// 0x00000098 Unity.Mathematics.quaternion Unity.Mathematics.quaternion::op_Implicit(UnityEngine.Quaternion)
 extern void quaternion_op_Implicit_m12C97CDC5FE642C53837F73E2F9B8761D530C502 (void);
-// 0x00000096 System.Void Unity.Mathematics.quaternion::.ctor(System.Single,System.Single,System.Single,System.Single)
+// 0x00000099 System.Void Unity.Mathematics.quaternion::.ctor(System.Single,System.Single,System.Single,System.Single)
 extern void quaternion__ctor_m8B8E0BD6A1BEC18AD2E0B7C5B30A4C87D5A695E9 (void);
-// 0x00000097 System.Void Unity.Mathematics.quaternion::.ctor(Unity.Mathematics.float4)
+// 0x0000009A System.Void Unity.Mathematics.quaternion::.ctor(Unity.Mathematics.float4)
 extern void quaternion__ctor_m2F6A34CCFD1150A326CB4CE108260A8BD8B1D75F (void);
-// 0x00000098 System.Void Unity.Mathematics.quaternion::.ctor(Unity.Mathematics.float3x3)
+// 0x0000009B System.Void Unity.Mathematics.quaternion::.ctor(Unity.Mathematics.float3x3)
 extern void quaternion__ctor_m354F09C0E50CA59DA43037E9993EAE9BF97E9120 (void);
-// 0x00000099 Unity.Mathematics.quaternion Unity.Mathematics.quaternion::EulerXYZ(Unity.Mathematics.float3)
+// 0x0000009C Unity.Mathematics.quaternion Unity.Mathematics.quaternion::EulerXYZ(Unity.Mathematics.float3)
 extern void quaternion_EulerXYZ_m0AD608E878C0F5683DD56F636D10C75071C50E83 (void);
-// 0x0000009A Unity.Mathematics.quaternion Unity.Mathematics.quaternion::EulerXZY(Unity.Mathematics.float3)
+// 0x0000009D Unity.Mathematics.quaternion Unity.Mathematics.quaternion::EulerXZY(Unity.Mathematics.float3)
 extern void quaternion_EulerXZY_m26440D15BEDC82C128C37089E3288057827813F4 (void);
-// 0x0000009B Unity.Mathematics.quaternion Unity.Mathematics.quaternion::EulerYXZ(Unity.Mathematics.float3)
+// 0x0000009E Unity.Mathematics.quaternion Unity.Mathematics.quaternion::EulerYXZ(Unity.Mathematics.float3)
 extern void quaternion_EulerYXZ_m0EF0816E8382D05FA816EFCAA904AD894252750E (void);
-// 0x0000009C Unity.Mathematics.quaternion Unity.Mathematics.quaternion::EulerYZX(Unity.Mathematics.float3)
+// 0x0000009F Unity.Mathematics.quaternion Unity.Mathematics.quaternion::EulerYZX(Unity.Mathematics.float3)
 extern void quaternion_EulerYZX_m83C2E3AE9BBAF6BC8158EE1B18ECEC43A334B191 (void);
-// 0x0000009D Unity.Mathematics.quaternion Unity.Mathematics.quaternion::EulerZXY(Unity.Mathematics.float3)
+// 0x000000A0 Unity.Mathematics.quaternion Unity.Mathematics.quaternion::EulerZXY(Unity.Mathematics.float3)
 extern void quaternion_EulerZXY_mB4AA3C34723ED7FA7ABCF56A8078D606EB835597 (void);
-// 0x0000009E Unity.Mathematics.quaternion Unity.Mathematics.quaternion::EulerZYX(Unity.Mathematics.float3)
+// 0x000000A1 Unity.Mathematics.quaternion Unity.Mathematics.quaternion::EulerZYX(Unity.Mathematics.float3)
 extern void quaternion_EulerZYX_m3005B4219207CB181E5EC8DB3F82FC8280A5BB55 (void);
-// 0x0000009F Unity.Mathematics.quaternion Unity.Mathematics.quaternion::Euler(Unity.Mathematics.float3,Unity.Mathematics.math/RotationOrder)
+// 0x000000A2 Unity.Mathematics.quaternion Unity.Mathematics.quaternion::Euler(Unity.Mathematics.float3,Unity.Mathematics.math/RotationOrder)
 extern void quaternion_Euler_m8CBB7FB5BC25727DF15AC03C3B77DDD9816CC42F (void);
-// 0x000000A0 Unity.Mathematics.quaternion Unity.Mathematics.quaternion::LookRotation(Unity.Mathematics.float3,Unity.Mathematics.float3)
+// 0x000000A3 Unity.Mathematics.quaternion Unity.Mathematics.quaternion::LookRotation(Unity.Mathematics.float3,Unity.Mathematics.float3)
 extern void quaternion_LookRotation_m31686118687AB9B057E6CFC574A3A20198DCA453 (void);
-// 0x000000A1 Unity.Mathematics.quaternion Unity.Mathematics.quaternion::LookRotationSafe(Unity.Mathematics.float3,Unity.Mathematics.float3)
+// 0x000000A4 Unity.Mathematics.quaternion Unity.Mathematics.quaternion::LookRotationSafe(Unity.Mathematics.float3,Unity.Mathematics.float3)
 extern void quaternion_LookRotationSafe_m66E9BBE50A4E0EF220CEE80EA248687D34F8D687 (void);
-// 0x000000A2 System.Boolean Unity.Mathematics.quaternion::Equals(Unity.Mathematics.quaternion)
+// 0x000000A5 System.Boolean Unity.Mathematics.quaternion::Equals(Unity.Mathematics.quaternion)
 extern void quaternion_Equals_m58271A16502DE355CBB7C1AA07F8F670C53850CE (void);
-// 0x000000A3 System.Boolean Unity.Mathematics.quaternion::Equals(System.Object)
+// 0x000000A6 System.Boolean Unity.Mathematics.quaternion::Equals(System.Object)
 extern void quaternion_Equals_m1E4294224F7667752144BC9428406E356350CA20 (void);
-// 0x000000A4 System.Int32 Unity.Mathematics.quaternion::GetHashCode()
+// 0x000000A7 System.Int32 Unity.Mathematics.quaternion::GetHashCode()
 extern void quaternion_GetHashCode_m1BD3621B7DA9BF2F4A0963A4A6CF33CDAAD4A1F0 (void);
-// 0x000000A5 System.String Unity.Mathematics.quaternion::ToString()
+// 0x000000A8 System.String Unity.Mathematics.quaternion::ToString()
 extern void quaternion_ToString_mA6A3D313DCC0B56922CA8D3F968DB3495986C7C8 (void);
-// 0x000000A6 System.String Unity.Mathematics.quaternion::ToString(System.String,System.IFormatProvider)
+// 0x000000A9 System.String Unity.Mathematics.quaternion::ToString(System.String,System.IFormatProvider)
 extern void quaternion_ToString_mD67EE41F69A4C8353D2B2C7EDBB2B158465E1349 (void);
-// 0x000000A7 System.Void Unity.Mathematics.quaternion::.cctor()
+// 0x000000AA System.Void Unity.Mathematics.quaternion::.cctor()
 extern void quaternion__cctor_mB4B1769F995B8CB2E48C997119A490F8AEBA2239 (void);
-// 0x000000A8 System.Void Unity.Mathematics.uint2::.ctor(System.UInt32,System.UInt32)
+// 0x000000AB System.Void Unity.Mathematics.uint2::.ctor(System.UInt32,System.UInt32)
 extern void uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F (void);
-// 0x000000A9 Unity.Mathematics.uint2 Unity.Mathematics.uint2::op_Multiply(Unity.Mathematics.uint2,Unity.Mathematics.uint2)
+// 0x000000AC Unity.Mathematics.uint2 Unity.Mathematics.uint2::op_Multiply(Unity.Mathematics.uint2,Unity.Mathematics.uint2)
 extern void uint2_op_Multiply_m2A4BC394328643E664AD9C17DA4BF1B0AC58E857 (void);
-// 0x000000AA System.Boolean Unity.Mathematics.uint2::Equals(Unity.Mathematics.uint2)
+// 0x000000AD System.Boolean Unity.Mathematics.uint2::Equals(Unity.Mathematics.uint2)
 extern void uint2_Equals_m3F1C93E4B1C83F2142B53B222A9966479229614C (void);
-// 0x000000AB System.Boolean Unity.Mathematics.uint2::Equals(System.Object)
+// 0x000000AE System.Boolean Unity.Mathematics.uint2::Equals(System.Object)
 extern void uint2_Equals_mDD29FD4B71CE0B814B38BA1CE90F3EF2C1782257 (void);
-// 0x000000AC System.Int32 Unity.Mathematics.uint2::GetHashCode()
+// 0x000000AF System.Int32 Unity.Mathematics.uint2::GetHashCode()
 extern void uint2_GetHashCode_m0B3D1D91DF8C75E948C020CD260B4114D6A158B4 (void);
-// 0x000000AD System.String Unity.Mathematics.uint2::ToString()
+// 0x000000B0 System.String Unity.Mathematics.uint2::ToString()
 extern void uint2_ToString_mFD106FD9C2FC96096DE048AAD1B4B59F6B11EFD5 (void);
-// 0x000000AE System.String Unity.Mathematics.uint2::ToString(System.String,System.IFormatProvider)
+// 0x000000B1 System.String Unity.Mathematics.uint2::ToString(System.String,System.IFormatProvider)
 extern void uint2_ToString_m19B7C2EAB06A69C94317C4ADC679E3AC551277AD (void);
-// 0x000000AF System.Void Unity.Mathematics.uint3::.ctor(System.UInt32,System.UInt32,System.UInt32)
+// 0x000000B2 System.Void Unity.Mathematics.uint2/DebuggerProxy::.ctor(Unity.Mathematics.uint2)
+extern void DebuggerProxy__ctor_m61D654567BFBC798E2EC37A0E2857EF0D2AAD6E3 (void);
+// 0x000000B3 System.Void Unity.Mathematics.uint3::.ctor(System.UInt32,System.UInt32,System.UInt32)
 extern void uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF (void);
-// 0x000000B0 Unity.Mathematics.uint3 Unity.Mathematics.uint3::op_Multiply(Unity.Mathematics.uint3,Unity.Mathematics.uint3)
+// 0x000000B4 Unity.Mathematics.uint3 Unity.Mathematics.uint3::op_Multiply(Unity.Mathematics.uint3,Unity.Mathematics.uint3)
 extern void uint3_op_Multiply_m756859015AC9BE9CB34BACE67DF92F64EA76C9AD (void);
-// 0x000000B1 Unity.Mathematics.uint3 Unity.Mathematics.uint3::op_Addition(Unity.Mathematics.uint3,Unity.Mathematics.uint3)
+// 0x000000B5 Unity.Mathematics.uint3 Unity.Mathematics.uint3::op_Addition(Unity.Mathematics.uint3,Unity.Mathematics.uint3)
 extern void uint3_op_Addition_mD11BEB362388E20A02C6D431C2ED912807585589 (void);
-// 0x000000B2 System.Boolean Unity.Mathematics.uint3::Equals(Unity.Mathematics.uint3)
+// 0x000000B6 System.Boolean Unity.Mathematics.uint3::Equals(Unity.Mathematics.uint3)
 extern void uint3_Equals_m071EEFA66ACDE8A413C27DD0E8C989D317B52D81 (void);
-// 0x000000B3 System.Boolean Unity.Mathematics.uint3::Equals(System.Object)
+// 0x000000B7 System.Boolean Unity.Mathematics.uint3::Equals(System.Object)
 extern void uint3_Equals_m02016E995E9557006CE71FEAD24C2B67E69A8A0D (void);
-// 0x000000B4 System.Int32 Unity.Mathematics.uint3::GetHashCode()
+// 0x000000B8 System.Int32 Unity.Mathematics.uint3::GetHashCode()
 extern void uint3_GetHashCode_m0EFF5352F8DE8618A24717A32EFA8EB66719F56D (void);
-// 0x000000B5 System.String Unity.Mathematics.uint3::ToString()
+// 0x000000B9 System.String Unity.Mathematics.uint3::ToString()
 extern void uint3_ToString_mCD235901AC027194EDB244BB9BD80A73CB6F3633 (void);
-// 0x000000B6 System.String Unity.Mathematics.uint3::ToString(System.String,System.IFormatProvider)
+// 0x000000BA System.String Unity.Mathematics.uint3::ToString(System.String,System.IFormatProvider)
 extern void uint3_ToString_m1EAAF8E74678E9D172485B76193CD1557FB8BFEE (void);
-// 0x000000B7 System.Void Unity.Mathematics.uint4::.ctor(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
+// 0x000000BB System.Void Unity.Mathematics.uint3/DebuggerProxy::.ctor(Unity.Mathematics.uint3)
+extern void DebuggerProxy__ctor_mC8FD8175B5319BCFCA99A6FF5D589C38016ECEF3 (void);
+// 0x000000BC System.Void Unity.Mathematics.uint4::.ctor(System.UInt32,System.UInt32,System.UInt32,System.UInt32)
 extern void uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008 (void);
-// 0x000000B8 System.Void Unity.Mathematics.uint4::.ctor(System.Int32)
+// 0x000000BD System.Void Unity.Mathematics.uint4::.ctor(System.Int32)
 extern void uint4__ctor_m00DD9230DF75F4825012D055BBF5FCC3A08D78B3 (void);
-// 0x000000B9 Unity.Mathematics.uint4 Unity.Mathematics.uint4::op_Multiply(Unity.Mathematics.uint4,Unity.Mathematics.uint4)
+// 0x000000BE Unity.Mathematics.uint4 Unity.Mathematics.uint4::op_Multiply(Unity.Mathematics.uint4,Unity.Mathematics.uint4)
 extern void uint4_op_Multiply_mDD93D0730642A1089848321B9B0E5E923EE575ED (void);
-// 0x000000BA Unity.Mathematics.uint4 Unity.Mathematics.uint4::op_OnesComplement(Unity.Mathematics.uint4)
+// 0x000000BF Unity.Mathematics.uint4 Unity.Mathematics.uint4::op_OnesComplement(Unity.Mathematics.uint4)
 extern void uint4_op_OnesComplement_m694E43D937D79E275E9633CF8BA49DE0D11E929F (void);
-// 0x000000BB Unity.Mathematics.uint4 Unity.Mathematics.uint4::op_BitwiseAnd(Unity.Mathematics.uint4,Unity.Mathematics.uint4)
+// 0x000000C0 Unity.Mathematics.uint4 Unity.Mathematics.uint4::op_BitwiseAnd(Unity.Mathematics.uint4,Unity.Mathematics.uint4)
 extern void uint4_op_BitwiseAnd_m1A9CB1A2976212FE13C84F970D4C59C30A54D875 (void);
-// 0x000000BC Unity.Mathematics.uint4 Unity.Mathematics.uint4::op_BitwiseOr(Unity.Mathematics.uint4,Unity.Mathematics.uint4)
+// 0x000000C1 Unity.Mathematics.uint4 Unity.Mathematics.uint4::op_BitwiseOr(Unity.Mathematics.uint4,Unity.Mathematics.uint4)
 extern void uint4_op_BitwiseOr_mDA88C9E25D0910D512ABABDC200D6E3A2E68B573 (void);
-// 0x000000BD Unity.Mathematics.uint4 Unity.Mathematics.uint4::op_ExclusiveOr(Unity.Mathematics.uint4,Unity.Mathematics.uint4)
+// 0x000000C2 Unity.Mathematics.uint4 Unity.Mathematics.uint4::op_ExclusiveOr(Unity.Mathematics.uint4,Unity.Mathematics.uint4)
 extern void uint4_op_ExclusiveOr_m5B57FB4F864B88CB06B4949AA275A70D02BF7889 (void);
-// 0x000000BE System.Boolean Unity.Mathematics.uint4::Equals(Unity.Mathematics.uint4)
+// 0x000000C3 System.Boolean Unity.Mathematics.uint4::Equals(Unity.Mathematics.uint4)
 extern void uint4_Equals_mAA88D674B2411C0A7D6C25AA596320EF79B58DDB (void);
-// 0x000000BF System.Boolean Unity.Mathematics.uint4::Equals(System.Object)
+// 0x000000C4 System.Boolean Unity.Mathematics.uint4::Equals(System.Object)
 extern void uint4_Equals_m689E5D21501C5846BF031E4864E8DBB46F467386 (void);
-// 0x000000C0 System.Int32 Unity.Mathematics.uint4::GetHashCode()
+// 0x000000C5 System.Int32 Unity.Mathematics.uint4::GetHashCode()
 extern void uint4_GetHashCode_m195FED91BE8D7CCE0039A8DE6B6B0BB849FBCC5A (void);
-// 0x000000C1 System.String Unity.Mathematics.uint4::ToString()
+// 0x000000C6 System.String Unity.Mathematics.uint4::ToString()
 extern void uint4_ToString_mEF61205FE152AAB74331B24080C347AA829E435B (void);
-// 0x000000C2 System.String Unity.Mathematics.uint4::ToString(System.String,System.IFormatProvider)
+// 0x000000C7 System.String Unity.Mathematics.uint4::ToString(System.String,System.IFormatProvider)
 extern void uint4_ToString_m3350471364AB1D6033E088C0DF789376954921E3 (void);
-static Il2CppMethodPointer s_methodPointers[194] = 
+// 0x000000C8 System.Void Unity.Mathematics.uint4/DebuggerProxy::.ctor(Unity.Mathematics.uint4)
+extern void DebuggerProxy__ctor_m1F653087085C8A6C95D4284E9C55C18A67B0F532 (void);
+static Il2CppMethodPointer s_methodPointers[200] = 
 {
 	Il2CppEagerStaticClassConstructionAttribute__ctor_mCACE94326399F3059F318EB568BD8E45037E3139,
 	math_hash_m102FB27D63A32D75D8CB1430F32BAFDEE29BCED8,
@@ -497,6 +509,7 @@ static Il2CppMethodPointer s_methodPointers[194] =
 	float2_ToString_m0921A1A5C64FC14E7E808684F079B7BE29EC5AB1,
 	float2_op_Implicit_mBB339033BC4FFDA8BC7A41DF06C1FA97F60115D9,
 	float2_op_Implicit_m274CE0EFDC0FFD5168817614BF1A3699784DE02B,
+	DebuggerProxy__ctor_mD03111C553C593ABABDF70B75AEA55958E2E3339,
 	float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9,
 	float3_op_Multiply_m05E57074FBD5FAB0E72940C9CC019C41915280D7,
 	float3_op_Multiply_m6E5DC552C8B0F9A180298BD9197FF47B14E0EA81,
@@ -516,6 +529,7 @@ static Il2CppMethodPointer s_methodPointers[194] =
 	float3_ToString_mE1BA3E91F84DDD745685C09F509410358A83D081,
 	float3_op_Implicit_m9CC301DFD67EEFAA15CA05E91913E862B22326F6,
 	float3_op_Implicit_mE1831A3AC179B7EB3236F8202EC8DD5CE05376AB,
+	DebuggerProxy__ctor_mF5A0AF04FF4FAC0E6998E136BB69C081676F98ED,
 	float3x3__ctor_mA652DC011B892B36A8216646B51B2014F89CE93E,
 	float3x3__ctor_m3AB31C9B587ABDCF15C8BF0E3A5B0158996A75ED,
 	float3x3_Equals_m5AA50ACE9FA1CFD3981FD1F2F94B1C782C20ACD0,
@@ -549,6 +563,7 @@ static Il2CppMethodPointer s_methodPointers[194] =
 	float4_ToString_mF0B7870047A0CB59185C85DE13ECECFAC5783C2A,
 	float4_op_Implicit_m6D2091EB2CF6E0629A029A7BE9AD230F5F394CB2,
 	float4_op_Implicit_m5E3AEBAF5F12155549CC051E1EEEE81DF3516E92,
+	DebuggerProxy__ctor_m5868EDDBC438498A6A62CD1062B0CE7D8B58509F,
 	quaternion_op_Implicit_m78F07E28F5AB9C26F0EE997B2F12AF4A209FCD41,
 	quaternion_op_Implicit_m12C97CDC5FE642C53837F73E2F9B8761D530C502,
 	quaternion__ctor_m8B8E0BD6A1BEC18AD2E0B7C5B30A4C87D5A695E9,
@@ -576,6 +591,7 @@ static Il2CppMethodPointer s_methodPointers[194] =
 	uint2_GetHashCode_m0B3D1D91DF8C75E948C020CD260B4114D6A158B4,
 	uint2_ToString_mFD106FD9C2FC96096DE048AAD1B4B59F6B11EFD5,
 	uint2_ToString_m19B7C2EAB06A69C94317C4ADC679E3AC551277AD,
+	DebuggerProxy__ctor_m61D654567BFBC798E2EC37A0E2857EF0D2AAD6E3,
 	uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF,
 	uint3_op_Multiply_m756859015AC9BE9CB34BACE67DF92F64EA76C9AD,
 	uint3_op_Addition_mD11BEB362388E20A02C6D431C2ED912807585589,
@@ -584,6 +600,7 @@ static Il2CppMethodPointer s_methodPointers[194] =
 	uint3_GetHashCode_m0EFF5352F8DE8618A24717A32EFA8EB66719F56D,
 	uint3_ToString_mCD235901AC027194EDB244BB9BD80A73CB6F3633,
 	uint3_ToString_m1EAAF8E74678E9D172485B76193CD1557FB8BFEE,
+	DebuggerProxy__ctor_mC8FD8175B5319BCFCA99A6FF5D589C38016ECEF3,
 	uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008,
 	uint4__ctor_m00DD9230DF75F4825012D055BBF5FCC3A08D78B3,
 	uint4_op_Multiply_mDD93D0730642A1089848321B9B0E5E923EE575ED,
@@ -596,6 +613,7 @@ static Il2CppMethodPointer s_methodPointers[194] =
 	uint4_GetHashCode_m195FED91BE8D7CCE0039A8DE6B6B0BB849FBCC5A,
 	uint4_ToString_mEF61205FE152AAB74331B24080C347AA829E435B,
 	uint4_ToString_m3350471364AB1D6033E088C0DF789376954921E3,
+	DebuggerProxy__ctor_m1F653087085C8A6C95D4284E9C55C18A67B0F532,
 };
 extern void float2__ctor_m3D598E2C2D173DE852F3AB157502968261383C97_AdjustorThunk (void);
 extern void float2_Equals_m1E68B5EDCDB491FEBA657E58D6A91E05AD550CDA_AdjustorThunk (void);
@@ -672,283 +690,289 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[67] =
 	{ 0x0600005B, float2_GetHashCode_m8E40B8206F9E87300406D8DCA54F6AC88CAC4FB7_AdjustorThunk },
 	{ 0x0600005C, float2_ToString_m41C07CB0EC7D3A938DBEC3A113A0FDB29E2B98D0_AdjustorThunk },
 	{ 0x0600005D, float2_ToString_m0921A1A5C64FC14E7E808684F079B7BE29EC5AB1_AdjustorThunk },
-	{ 0x06000060, float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_AdjustorThunk },
-	{ 0x06000068, float3_get_yxxy_mF003E86CB17AE3175090DEF37A636AD75087AF81_AdjustorThunk },
-	{ 0x06000069, float3_get_zzyz_m78B967EBE527FA5705C0E7B38563D1E33BB992C1_AdjustorThunk },
-	{ 0x0600006A, float3_get_xyz_m720A862AA512BE0B0B1089527A43EEF2B6766BEF_AdjustorThunk },
-	{ 0x0600006B, float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_AdjustorThunk },
-	{ 0x0600006C, float3_Equals_m4A47BDC70977496712F3BE7DA359E840D99C020A_AdjustorThunk },
-	{ 0x0600006D, float3_Equals_mD988046122040559D8C9EFED2DA347495D722A2C_AdjustorThunk },
-	{ 0x0600006E, float3_GetHashCode_m659801FA23576CC26412BE644FA19636BFF8A017_AdjustorThunk },
-	{ 0x0600006F, float3_ToString_m334A7FA7041C2C5D83B68231F1FDEB4037CF5DEA_AdjustorThunk },
-	{ 0x06000070, float3_ToString_mE1BA3E91F84DDD745685C09F509410358A83D081_AdjustorThunk },
-	{ 0x06000073, float3x3__ctor_mA652DC011B892B36A8216646B51B2014F89CE93E_AdjustorThunk },
-	{ 0x06000074, float3x3__ctor_m3AB31C9B587ABDCF15C8BF0E3A5B0158996A75ED_AdjustorThunk },
-	{ 0x06000075, float3x3_Equals_m5AA50ACE9FA1CFD3981FD1F2F94B1C782C20ACD0_AdjustorThunk },
-	{ 0x06000076, float3x3_Equals_m340F5B6BC1C9B1DCF517AA56077E2D3430CEFCFA_AdjustorThunk },
-	{ 0x06000077, float3x3_GetHashCode_mCA45DB35B95265E20B9E17E363AEAC9649056705_AdjustorThunk },
-	{ 0x06000078, float3x3_ToString_m2265642475440D69F1A8D1C2C466E1DC31F48934_AdjustorThunk },
-	{ 0x06000079, float3x3_ToString_m42DAD14EF6EAA5DFB6F501645C325D29A6079522_AdjustorThunk },
-	{ 0x0600007B, float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_AdjustorThunk },
-	{ 0x0600007C, float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_AdjustorThunk },
-	{ 0x06000083, float4_get_xyzx_m5FFC709BBF25AC7B7755AE077E4288E47089C76C_AdjustorThunk },
-	{ 0x06000084, float4_get_yzxy_m78C60157637373AC6CB36343778B04CAA046ADDD_AdjustorThunk },
-	{ 0x06000085, float4_get_yzxz_mE81FC33B6A0D370B2C8DB339CC5501533BB31223_AdjustorThunk },
-	{ 0x06000086, float4_get_zxyy_m4B8D0449EEB8DD3CE5A79C96E911C70617339C4E_AdjustorThunk },
-	{ 0x06000087, float4_get_zxyz_m91C90CDA336353253B33F0407198ACCC593EBB1B_AdjustorThunk },
-	{ 0x06000088, float4_get_zwxy_m8F8007FD25E49C0644615EABA414DA7672794563_AdjustorThunk },
-	{ 0x06000089, float4_get_wzyx_mA9531BFB41E8CC9E8070F8C4A1C23BCAAD7648E8_AdjustorThunk },
-	{ 0x0600008A, float4_get_wwwx_m698BBD6517D0DCF19C3529E0E686FF430642E480_AdjustorThunk },
-	{ 0x0600008B, float4_get_wwww_mF04E8B99431D2717DEE58BDAE207EF4C7E1A0009_AdjustorThunk },
-	{ 0x0600008C, float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_AdjustorThunk },
-	{ 0x0600008D, float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_AdjustorThunk },
-	{ 0x0600008E, float4_Equals_m4D841ABA91D26FA16B07205DC9D51612265FFAB4_AdjustorThunk },
-	{ 0x0600008F, float4_GetHashCode_m73A9ACC41256A6E98F883A72ED1EB0047947DA48_AdjustorThunk },
-	{ 0x06000090, float4_ToString_m63852A53A6218EBA6CF7782E0E38DE0719AA6DAA_AdjustorThunk },
-	{ 0x06000091, float4_ToString_mF0B7870047A0CB59185C85DE13ECECFAC5783C2A_AdjustorThunk },
-	{ 0x06000096, quaternion__ctor_m8B8E0BD6A1BEC18AD2E0B7C5B30A4C87D5A695E9_AdjustorThunk },
-	{ 0x06000097, quaternion__ctor_m2F6A34CCFD1150A326CB4CE108260A8BD8B1D75F_AdjustorThunk },
-	{ 0x06000098, quaternion__ctor_m354F09C0E50CA59DA43037E9993EAE9BF97E9120_AdjustorThunk },
-	{ 0x060000A2, quaternion_Equals_m58271A16502DE355CBB7C1AA07F8F670C53850CE_AdjustorThunk },
-	{ 0x060000A3, quaternion_Equals_m1E4294224F7667752144BC9428406E356350CA20_AdjustorThunk },
-	{ 0x060000A4, quaternion_GetHashCode_m1BD3621B7DA9BF2F4A0963A4A6CF33CDAAD4A1F0_AdjustorThunk },
-	{ 0x060000A5, quaternion_ToString_mA6A3D313DCC0B56922CA8D3F968DB3495986C7C8_AdjustorThunk },
-	{ 0x060000A6, quaternion_ToString_mD67EE41F69A4C8353D2B2C7EDBB2B158465E1349_AdjustorThunk },
-	{ 0x060000A8, uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F_AdjustorThunk },
-	{ 0x060000AA, uint2_Equals_m3F1C93E4B1C83F2142B53B222A9966479229614C_AdjustorThunk },
-	{ 0x060000AB, uint2_Equals_mDD29FD4B71CE0B814B38BA1CE90F3EF2C1782257_AdjustorThunk },
-	{ 0x060000AC, uint2_GetHashCode_m0B3D1D91DF8C75E948C020CD260B4114D6A158B4_AdjustorThunk },
-	{ 0x060000AD, uint2_ToString_mFD106FD9C2FC96096DE048AAD1B4B59F6B11EFD5_AdjustorThunk },
-	{ 0x060000AE, uint2_ToString_m19B7C2EAB06A69C94317C4ADC679E3AC551277AD_AdjustorThunk },
-	{ 0x060000AF, uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_AdjustorThunk },
-	{ 0x060000B2, uint3_Equals_m071EEFA66ACDE8A413C27DD0E8C989D317B52D81_AdjustorThunk },
-	{ 0x060000B3, uint3_Equals_m02016E995E9557006CE71FEAD24C2B67E69A8A0D_AdjustorThunk },
-	{ 0x060000B4, uint3_GetHashCode_m0EFF5352F8DE8618A24717A32EFA8EB66719F56D_AdjustorThunk },
-	{ 0x060000B5, uint3_ToString_mCD235901AC027194EDB244BB9BD80A73CB6F3633_AdjustorThunk },
-	{ 0x060000B6, uint3_ToString_m1EAAF8E74678E9D172485B76193CD1557FB8BFEE_AdjustorThunk },
-	{ 0x060000B7, uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_AdjustorThunk },
-	{ 0x060000B8, uint4__ctor_m00DD9230DF75F4825012D055BBF5FCC3A08D78B3_AdjustorThunk },
-	{ 0x060000BE, uint4_Equals_mAA88D674B2411C0A7D6C25AA596320EF79B58DDB_AdjustorThunk },
-	{ 0x060000BF, uint4_Equals_m689E5D21501C5846BF031E4864E8DBB46F467386_AdjustorThunk },
-	{ 0x060000C0, uint4_GetHashCode_m195FED91BE8D7CCE0039A8DE6B6B0BB849FBCC5A_AdjustorThunk },
-	{ 0x060000C1, uint4_ToString_mEF61205FE152AAB74331B24080C347AA829E435B_AdjustorThunk },
-	{ 0x060000C2, uint4_ToString_m3350471364AB1D6033E088C0DF789376954921E3_AdjustorThunk },
+	{ 0x06000061, float3__ctor_mC61002CD0EC13D7C37D846D021A78C028FB80DB9_AdjustorThunk },
+	{ 0x06000069, float3_get_yxxy_mF003E86CB17AE3175090DEF37A636AD75087AF81_AdjustorThunk },
+	{ 0x0600006A, float3_get_zzyz_m78B967EBE527FA5705C0E7B38563D1E33BB992C1_AdjustorThunk },
+	{ 0x0600006B, float3_get_xyz_m720A862AA512BE0B0B1089527A43EEF2B6766BEF_AdjustorThunk },
+	{ 0x0600006C, float3_get_yzx_mDF6DE39B69C5DE384F74C0D1EC91AA0388E23535_AdjustorThunk },
+	{ 0x0600006D, float3_Equals_m4A47BDC70977496712F3BE7DA359E840D99C020A_AdjustorThunk },
+	{ 0x0600006E, float3_Equals_mD988046122040559D8C9EFED2DA347495D722A2C_AdjustorThunk },
+	{ 0x0600006F, float3_GetHashCode_m659801FA23576CC26412BE644FA19636BFF8A017_AdjustorThunk },
+	{ 0x06000070, float3_ToString_m334A7FA7041C2C5D83B68231F1FDEB4037CF5DEA_AdjustorThunk },
+	{ 0x06000071, float3_ToString_mE1BA3E91F84DDD745685C09F509410358A83D081_AdjustorThunk },
+	{ 0x06000075, float3x3__ctor_mA652DC011B892B36A8216646B51B2014F89CE93E_AdjustorThunk },
+	{ 0x06000076, float3x3__ctor_m3AB31C9B587ABDCF15C8BF0E3A5B0158996A75ED_AdjustorThunk },
+	{ 0x06000077, float3x3_Equals_m5AA50ACE9FA1CFD3981FD1F2F94B1C782C20ACD0_AdjustorThunk },
+	{ 0x06000078, float3x3_Equals_m340F5B6BC1C9B1DCF517AA56077E2D3430CEFCFA_AdjustorThunk },
+	{ 0x06000079, float3x3_GetHashCode_mCA45DB35B95265E20B9E17E363AEAC9649056705_AdjustorThunk },
+	{ 0x0600007A, float3x3_ToString_m2265642475440D69F1A8D1C2C466E1DC31F48934_AdjustorThunk },
+	{ 0x0600007B, float3x3_ToString_m42DAD14EF6EAA5DFB6F501645C325D29A6079522_AdjustorThunk },
+	{ 0x0600007D, float4__ctor_mB2F7F2D8BCE8159BEF5A0D6400499E211858ED2D_AdjustorThunk },
+	{ 0x0600007E, float4__ctor_m2A21052EF06884F609D1CDA9A2C2ED84A7584345_AdjustorThunk },
+	{ 0x06000085, float4_get_xyzx_m5FFC709BBF25AC7B7755AE077E4288E47089C76C_AdjustorThunk },
+	{ 0x06000086, float4_get_yzxy_m78C60157637373AC6CB36343778B04CAA046ADDD_AdjustorThunk },
+	{ 0x06000087, float4_get_yzxz_mE81FC33B6A0D370B2C8DB339CC5501533BB31223_AdjustorThunk },
+	{ 0x06000088, float4_get_zxyy_m4B8D0449EEB8DD3CE5A79C96E911C70617339C4E_AdjustorThunk },
+	{ 0x06000089, float4_get_zxyz_m91C90CDA336353253B33F0407198ACCC593EBB1B_AdjustorThunk },
+	{ 0x0600008A, float4_get_zwxy_m8F8007FD25E49C0644615EABA414DA7672794563_AdjustorThunk },
+	{ 0x0600008B, float4_get_wzyx_mA9531BFB41E8CC9E8070F8C4A1C23BCAAD7648E8_AdjustorThunk },
+	{ 0x0600008C, float4_get_wwwx_m698BBD6517D0DCF19C3529E0E686FF430642E480_AdjustorThunk },
+	{ 0x0600008D, float4_get_wwww_mF04E8B99431D2717DEE58BDAE207EF4C7E1A0009_AdjustorThunk },
+	{ 0x0600008E, float4_get_xyz_mE6EC829F35512C7BC159047FDC134E80F3B37A06_AdjustorThunk },
+	{ 0x0600008F, float4_Equals_m5E14C29D104399C399A11F52E7C2D507504AC0D1_AdjustorThunk },
+	{ 0x06000090, float4_Equals_m4D841ABA91D26FA16B07205DC9D51612265FFAB4_AdjustorThunk },
+	{ 0x06000091, float4_GetHashCode_m73A9ACC41256A6E98F883A72ED1EB0047947DA48_AdjustorThunk },
+	{ 0x06000092, float4_ToString_m63852A53A6218EBA6CF7782E0E38DE0719AA6DAA_AdjustorThunk },
+	{ 0x06000093, float4_ToString_mF0B7870047A0CB59185C85DE13ECECFAC5783C2A_AdjustorThunk },
+	{ 0x06000099, quaternion__ctor_m8B8E0BD6A1BEC18AD2E0B7C5B30A4C87D5A695E9_AdjustorThunk },
+	{ 0x0600009A, quaternion__ctor_m2F6A34CCFD1150A326CB4CE108260A8BD8B1D75F_AdjustorThunk },
+	{ 0x0600009B, quaternion__ctor_m354F09C0E50CA59DA43037E9993EAE9BF97E9120_AdjustorThunk },
+	{ 0x060000A5, quaternion_Equals_m58271A16502DE355CBB7C1AA07F8F670C53850CE_AdjustorThunk },
+	{ 0x060000A6, quaternion_Equals_m1E4294224F7667752144BC9428406E356350CA20_AdjustorThunk },
+	{ 0x060000A7, quaternion_GetHashCode_m1BD3621B7DA9BF2F4A0963A4A6CF33CDAAD4A1F0_AdjustorThunk },
+	{ 0x060000A8, quaternion_ToString_mA6A3D313DCC0B56922CA8D3F968DB3495986C7C8_AdjustorThunk },
+	{ 0x060000A9, quaternion_ToString_mD67EE41F69A4C8353D2B2C7EDBB2B158465E1349_AdjustorThunk },
+	{ 0x060000AB, uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F_AdjustorThunk },
+	{ 0x060000AD, uint2_Equals_m3F1C93E4B1C83F2142B53B222A9966479229614C_AdjustorThunk },
+	{ 0x060000AE, uint2_Equals_mDD29FD4B71CE0B814B38BA1CE90F3EF2C1782257_AdjustorThunk },
+	{ 0x060000AF, uint2_GetHashCode_m0B3D1D91DF8C75E948C020CD260B4114D6A158B4_AdjustorThunk },
+	{ 0x060000B0, uint2_ToString_mFD106FD9C2FC96096DE048AAD1B4B59F6B11EFD5_AdjustorThunk },
+	{ 0x060000B1, uint2_ToString_m19B7C2EAB06A69C94317C4ADC679E3AC551277AD_AdjustorThunk },
+	{ 0x060000B3, uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_AdjustorThunk },
+	{ 0x060000B6, uint3_Equals_m071EEFA66ACDE8A413C27DD0E8C989D317B52D81_AdjustorThunk },
+	{ 0x060000B7, uint3_Equals_m02016E995E9557006CE71FEAD24C2B67E69A8A0D_AdjustorThunk },
+	{ 0x060000B8, uint3_GetHashCode_m0EFF5352F8DE8618A24717A32EFA8EB66719F56D_AdjustorThunk },
+	{ 0x060000B9, uint3_ToString_mCD235901AC027194EDB244BB9BD80A73CB6F3633_AdjustorThunk },
+	{ 0x060000BA, uint3_ToString_m1EAAF8E74678E9D172485B76193CD1557FB8BFEE_AdjustorThunk },
+	{ 0x060000BC, uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_AdjustorThunk },
+	{ 0x060000BD, uint4__ctor_m00DD9230DF75F4825012D055BBF5FCC3A08D78B3_AdjustorThunk },
+	{ 0x060000C3, uint4_Equals_mAA88D674B2411C0A7D6C25AA596320EF79B58DDB_AdjustorThunk },
+	{ 0x060000C4, uint4_Equals_m689E5D21501C5846BF031E4864E8DBB46F467386_AdjustorThunk },
+	{ 0x060000C5, uint4_GetHashCode_m195FED91BE8D7CCE0039A8DE6B6B0BB849FBCC5A_AdjustorThunk },
+	{ 0x060000C6, uint4_ToString_mEF61205FE152AAB74331B24080C347AA829E435B_AdjustorThunk },
+	{ 0x060000C7, uint4_ToString_m3350471364AB1D6033E088C0DF789376954921E3_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[194] = 
+static const int32_t s_InvokerIndices[200] = 
 {
-	6714,
-	10140,
-	10141,
-	8686,
-	10142,
-	8080,
-	9451,
-	10143,
+	7710,
+	11319,
+	11320,
+	9789,
+	11321,
+	9150,
+	10593,
+	11322,
+	10951,
+	11313,
+	11422,
+	11423,
+	11425,
+	11171,
+	11179,
+	11415,
+	10829,
+	10308,
+	10126,
+	10308,
+	10589,
+	9524,
+	9786,
+	9788,
+	9791,
+	9524,
+	11176,
+	10312,
+	10313,
+	10314,
+	11176,
+	11176,
+	11412,
+	11176,
+	11176,
+	11412,
+	11176,
+	11176,
+	11176,
+	11176,
+	11176,
+	11176,
+	11176,
+	11410,
+	11412,
+	11414,
+	10589,
+	11183,
+	11184,
+	11183,
+	11184,
+	11185,
+	10313,
+	10308,
+	10312,
+	10313,
+	10314,
+	10589,
+	9787,
+	9790,
+	10589,
 	9782,
-	10134,
-	10237,
-	10238,
-	10240,
-	9994,
-	10002,
-	10230,
-	9651,
-	9172,
-	8991,
-	9172,
-	9447,
-	8427,
-	8683,
-	8685,
-	8688,
-	8427,
-	9999,
-	9176,
-	9177,
-	9178,
-	9999,
-	9999,
-	10227,
-	9999,
-	9999,
-	10227,
-	9999,
-	9999,
-	9999,
-	9999,
-	9999,
-	9999,
-	9999,
-	10225,
-	10227,
-	10229,
-	9447,
-	10006,
-	10007,
-	10006,
-	10007,
-	10008,
-	9177,
-	9172,
-	9176,
-	9177,
-	9178,
-	9447,
-	8684,
-	8687,
-	9447,
-	8679,
-	9999,
-	10145,
-	10146,
-	10147,
-	10235,
-	10234,
-	10236,
-	9179,
-	10236,
-	9458,
-	9448,
-	8690,
-	8690,
-	10144,
-	9459,
-	10145,
-	8691,
-	10146,
-	8082,
-	10239,
-	10147,
-	3034,
-	9442,
-	9441,
-	9443,
-	9443,
-	3925,
-	3784,
-	6549,
-	6582,
-	2345,
-	10175,
-	10224,
-	1650,
-	9447,
-	9446,
-	9445,
-	9447,
-	9447,
-	9446,
-	10227,
-	6727,
-	6727,
-	6726,
-	6726,
-	3926,
-	3784,
-	6549,
-	6582,
-	2345,
-	10182,
-	10226,
-	1671,
+	11176,
+	11324,
+	11325,
+	11326,
+	11420,
+	11419,
+	11421,
+	10315,
+	11421,
+	10600,
+	10590,
+	9793,
+	9793,
+	11323,
+	10601,
+	11324,
+	9794,
+	11325,
+	9152,
+	11424,
+	11326,
+	3440,
+	10584,
+	10583,
+	10585,
+	10585,
+	4506,
+	4356,
+	7535,
+	7569,
+	2649,
+	11353,
+	11409,
+	6257,
+	1841,
+	10589,
+	10588,
+	10587,
+	10589,
+	10589,
+	10588,
+	11412,
+	7723,
+	7723,
+	7722,
+	7722,
+	4507,
+	4356,
+	7535,
+	7569,
+	2649,
+	11361,
+	11411,
+	6258,
+	1863,
 	54,
-	3927,
-	3784,
-	6549,
-	6582,
-	2345,
-	10416,
-	1189,
-	3077,
-	9453,
-	9452,
-	9450,
-	9453,
-	9453,
-	10229,
-	6727,
-	6727,
-	6727,
-	6727,
-	6727,
-	6727,
-	6727,
-	6727,
-	6727,
-	6726,
-	3928,
-	3784,
-	6549,
-	6582,
-	2345,
-	10228,
-	10187,
-	9956,
-	10232,
-	1189,
-	5475,
-	5474,
-	10233,
-	10233,
-	10233,
-	10233,
-	10233,
-	10233,
-	9456,
-	9457,
-	9457,
-	3931,
-	3784,
-	6549,
-	6582,
-	2345,
-	10416,
-	3060,
-	9460,
-	3932,
-	3784,
-	6549,
-	6582,
-	2345,
-	1660,
-	9461,
-	9461,
-	3933,
-	3784,
-	6549,
-	6582,
-	2345,
-	1197,
-	5319,
-	9462,
-	10241,
-	9462,
-	9462,
-	9462,
-	3934,
-	3784,
-	6549,
-	6582,
-	2345,
+	4508,
+	4356,
+	7535,
+	7569,
+	2649,
+	11623,
+	1311,
+	3488,
+	10595,
+	10594,
+	10592,
+	10595,
+	10595,
+	11414,
+	7723,
+	7723,
+	7723,
+	7723,
+	7723,
+	7723,
+	7723,
+	7723,
+	7723,
+	7722,
+	4509,
+	4356,
+	7535,
+	7569,
+	2649,
+	11413,
+	11366,
+	6260,
+	11136,
+	11417,
+	1311,
+	6260,
+	6259,
+	11418,
+	11418,
+	11418,
+	11418,
+	11418,
+	11418,
+	10598,
+	10599,
+	10599,
+	4512,
+	4356,
+	7535,
+	7569,
+	2649,
+	11623,
+	3469,
+	10602,
+	4513,
+	4356,
+	7535,
+	7569,
+	2649,
+	6264,
+	1851,
+	10603,
+	10603,
+	4514,
+	4356,
+	7535,
+	7569,
+	2649,
+	6265,
+	1321,
+	6091,
+	10604,
+	11426,
+	10604,
+	10604,
+	10604,
+	4515,
+	4356,
+	7535,
+	7569,
+	2649,
+	6266,
 };
 static TypeDefinitionIndex s_staticConstructorsToRunAtStartup[10] = 
 {
-	8362,
-	8364,
-	8366,
-	8367,
-	8369,
-	8370,
-	8372,
-	8374,
-	8376,
+	9043,
+	9045,
+	9047,
+	9048,
+	9050,
+	9051,
+	9053,
+	9055,
+	9057,
 	0,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Unity_Mathematics_CodeGenModule;
 const Il2CppCodeGenModule g_Unity_Mathematics_CodeGenModule = 
 {
 	"Unity.Mathematics.dll",
-	194,
+	200,
 	s_methodPointers,
 	67,
 	s_adjustorThunks,

@@ -108,6 +108,8 @@ IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_i
 IL2CPP_EXTERN_C RuntimeClass* UIVertex_tF5C663F4BBC786C9D56C28016FF66E6C6BF85207_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_0_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_2_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral0052C2B75AF160293B7E2B988F2F9D83DCD1D4D6;
 IL2CPP_EXTERN_C String_t* _stringLiteral7EE2EC0E141890ED13D1EEC3562248EA95485987;
 IL2CPP_EXTERN_C String_t* _stringLiteralC26096054589E56273AC485218FA5B65675C933E;
@@ -115,6 +117,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteralEEEF4964BE1943E118BB297F57BDB9955C6DA372
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m220A7CFB07F883D427D782347E3CF8B68F1AFE03_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mA625F85B21CB389422393F709122327ED0BF7CA9_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mD013968D6DAB756EA34E138E00BEF8922909C1BE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3;;
@@ -1259,12 +1263,26 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Max_mF5379E63D2BBAC76
 // Conversion methods for marshalling of: UnityEngine.TextGenerationSettings
 IL2CPP_EXTERN_C void TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshal_pinvoke(const TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3& unmarshaled, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___font_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'TextGenerationSettings': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___font_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_0_FieldInfo_var, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___font_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshal_pinvoke_back(const TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshaled_pinvoke& marshaled, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3& unmarshaled)
 {
-	Exception_t* ___font_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'TextGenerationSettings': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___font_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_0_FieldInfo_var, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___font_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.TextGenerationSettings
@@ -1274,12 +1292,26 @@ IL2CPP_EXTERN_C void TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04
 // Conversion methods for marshalling of: UnityEngine.TextGenerationSettings
 IL2CPP_EXTERN_C void TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshal_com(const TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3& unmarshaled, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshaled_com& marshaled)
 {
-	Exception_t* ___font_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'TextGenerationSettings': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___font_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_0_FieldInfo_var, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___font_0Exception, NULL);
 }
 IL2CPP_EXTERN_C void TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshal_com_back(const TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_marshaled_com& marshaled, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3& unmarshaled)
 {
-	Exception_t* ___font_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'TextGenerationSettings': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_0_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___font_0Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3____font_0_FieldInfo_var, TextGenerationSettings_tBB6E86AC0B348D19158D6721BE790865B04993F3_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___font_0Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.TextGenerationSettings
@@ -1633,12 +1665,26 @@ IL2CPP_EXTERN_C  bool TextGenerationSettings_Equals_m04DE9655555622E3A4EECC2EAB3
 // Conversion methods for marshalling of: UnityEngine.TextGenerator
 IL2CPP_EXTERN_C void TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshal_pinvoke(const TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC& unmarshaled, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_LastSettings_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_LastSettings' of type 'TextGenerator'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_LastSettings_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_2_FieldInfo_var, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_LastSettings_2Exception, NULL);
 }
 IL2CPP_EXTERN_C void TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshal_pinvoke_back(const TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshaled_pinvoke& marshaled, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC& unmarshaled)
 {
-	Exception_t* ___m_LastSettings_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_LastSettings' of type 'TextGenerator'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_LastSettings_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_2_FieldInfo_var, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_LastSettings_2Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.TextGenerator
@@ -1650,12 +1696,26 @@ IL2CPP_EXTERN_C void TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_mar
 // Conversion methods for marshalling of: UnityEngine.TextGenerator
 IL2CPP_EXTERN_C void TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshal_com(const TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC& unmarshaled, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshaled_com& marshaled)
 {
-	Exception_t* ___m_LastSettings_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_LastSettings' of type 'TextGenerator'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_LastSettings_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_2_FieldInfo_var, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_LastSettings_2Exception, NULL);
 }
 IL2CPP_EXTERN_C void TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshal_com_back(const TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_marshaled_com& marshaled, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC& unmarshaled)
 {
-	Exception_t* ___m_LastSettings_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_LastSettings' of type 'TextGenerator'.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_LastSettings_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s'.", TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC____m_LastSettings_2_FieldInfo_var, TextGenerator_t85D00417640A53953556C01F9D4E7DDE1ABD8FEC_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_LastSettings_2Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.TextGenerator

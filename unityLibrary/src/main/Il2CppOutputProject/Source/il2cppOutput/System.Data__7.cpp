@@ -787,6 +787,7 @@ IL2CPP_EXTERN_C RuntimeClass* XmlRootAttribute_t09EE81719C9B95C01B28D108765FB627
 IL2CPP_EXTERN_C RuntimeClass* XmlSerializerFactory_t2486639A11775A86C56EA319CD0AF4848B465BA1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XmlTextReader_tC907887DA34B51126640DA590B4C9358DF45738B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* XmlTextWriter_t9CB64E379F8FE646DA31698A03CE6AF8A594A73B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D____m_cmpInfo_1_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral05119745D20F83C96FF64EC9238D16AE415068EB;
 IL2CPP_EXTERN_C String_t* _stringLiteral07624473F417C06C74D59C64840A1532FCE2C626;
 IL2CPP_EXTERN_C String_t* _stringLiteral0B4FB0A34DFD1686FD3CB662B8DAAF8A57C5E255;
@@ -3013,19 +3014,19 @@ struct Type_t  : public MemberInfo_t
 struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
 {
 	// System.String System.Uri::m_String
-	String_t* ___m_String_13;
+	String_t* ___m_String_16;
 	// System.String System.Uri::m_originalUnicodeString
-	String_t* ___m_originalUnicodeString_14;
+	String_t* ___m_originalUnicodeString_17;
 	// System.UriParser System.Uri::m_Syntax
-	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax_15;
+	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax_18;
 	// System.String System.Uri::m_DnsSafeHost
-	String_t* ___m_DnsSafeHost_16;
+	String_t* ___m_DnsSafeHost_19;
 	// System.Uri/Flags System.Uri::m_Flags
-	uint64_t ___m_Flags_17;
+	uint64_t ___m_Flags_20;
 	// System.Uri/UriInfo System.Uri::m_Info
-	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info_18;
+	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info_21;
 	// System.Boolean System.Uri::m_iriParsing
-	bool ___m_iriParsing_19;
+	bool ___m_iriParsing_22;
 };
 
 // System.Xml.XmlParserContext
@@ -4637,23 +4638,23 @@ struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
 	// System.String System.Uri::SchemeDelimiter
 	String_t* ___SchemeDelimiter_12;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitialized
-	bool ___s_ConfigInitialized_20;
+	bool ___s_ConfigInitialized_23;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_ConfigInitializing
-	bool ___s_ConfigInitializing_21;
+	bool ___s_ConfigInitializing_24;
 	// System.UriIdnScope modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IdnScope
-	int32_t ___s_IdnScope_22;
+	int32_t ___s_IdnScope_25;
 	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.Uri::s_IriParsing
-	bool ___s_IriParsing_23;
+	bool ___s_IriParsing_26;
 	// System.Boolean System.Uri::useDotNetRelativeOrAbsolute
-	bool ___useDotNetRelativeOrAbsolute_24;
+	bool ___useDotNetRelativeOrAbsolute_27;
 	// System.Boolean System.Uri::IsWindowsFileSystem
-	bool ___IsWindowsFileSystem_25;
+	bool ___IsWindowsFileSystem_29;
 	// System.Object System.Uri::s_initLock
-	RuntimeObject* ___s_initLock_26;
+	RuntimeObject* ___s_initLock_30;
 	// System.Char[] System.Uri::HexLowerChars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_27;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars_34;
 	// System.Char[] System.Uri::_WSchars
-	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_28;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars_35;
 };
 
 // System.Uri
@@ -8079,12 +8080,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlSingle__cctor_m089A7EC26F4385ED1B2B75
 // Conversion methods for marshalling of: System.Data.SqlTypes.SqlString
 IL2CPP_EXTERN_C void SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_marshal_pinvoke(const SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D& unmarshaled, SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_cmpInfo_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_cmpInfo' of type 'SqlString': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D____m_cmpInfo_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_cmpInfo_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D____m_cmpInfo_1_FieldInfo_var, SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_cmpInfo_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_marshal_pinvoke_back(const SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_marshaled_pinvoke& marshaled, SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D& unmarshaled)
 {
-	Exception_t* ___m_cmpInfo_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_cmpInfo' of type 'SqlString': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D____m_cmpInfo_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_cmpInfo_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D____m_cmpInfo_1_FieldInfo_var, SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_cmpInfo_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Data.SqlTypes.SqlString
@@ -8094,12 +8109,26 @@ IL2CPP_EXTERN_C void SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_marshal
 // Conversion methods for marshalling of: System.Data.SqlTypes.SqlString
 IL2CPP_EXTERN_C void SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_marshal_com(const SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D& unmarshaled, SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_marshaled_com& marshaled)
 {
-	Exception_t* ___m_cmpInfo_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_cmpInfo' of type 'SqlString': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D____m_cmpInfo_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_cmpInfo_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D____m_cmpInfo_1_FieldInfo_var, SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_cmpInfo_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_marshal_com_back(const SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_marshaled_com& marshaled, SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D& unmarshaled)
 {
-	Exception_t* ___m_cmpInfo_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_cmpInfo' of type 'SqlString': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D____m_cmpInfo_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_cmpInfo_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D____m_cmpInfo_1_FieldInfo_var, SqlString_t49F9D31E7FD7F45509E26DEFEB61F006965D588D_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_cmpInfo_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: System.Data.SqlTypes.SqlString
@@ -8337,7 +8366,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SqlString_SetCompareInfo_m1BE59E2C319079
 		L_2 = CultureInfo_GetCultureInfo_m7B3C1F8F350401E2FE485E2D1693BA2A0B7BEB6D(L_1, NULL);
 		NullCheck(L_2);
 		CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* L_3;
-		L_3 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(12 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_2);
+		L_3 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(13 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_2);
 		__this->___m_cmpInfo_1 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_cmpInfo_1), (void*)L_3);
 	}
@@ -9842,7 +9871,7 @@ CATCH_0046:
 		L_10 = CultureInfo_get_InvariantCulture_mD1E96DC845E34B10F78CB744B0CB5D7D63CEB1E6(NULL);
 		NullCheck(L_10);
 		CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* L_11;
-		L_11 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(12 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_10);
+		L_11 = VirtualFuncInvoker0< CompareInfo_t1B1A6AC3486B570C76ABA52149C9BD4CD82F9E57* >::Invoke(13 /* System.Globalization.CompareInfo System.Globalization.CultureInfo::get_CompareInfo() */, L_10);
 		V_1 = L_11;
 		V_2 = 0;
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
@@ -12881,7 +12910,7 @@ IL_0013:
 		RuntimeObject* L_9 = ___1_value;
 		NullCheck(L_8);
 		bool L_10;
-		L_10 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(118 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_8, L_9);
+		L_10 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(119 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_8, L_9);
 		if (!L_10)
 		{
 			goto IL_0042;

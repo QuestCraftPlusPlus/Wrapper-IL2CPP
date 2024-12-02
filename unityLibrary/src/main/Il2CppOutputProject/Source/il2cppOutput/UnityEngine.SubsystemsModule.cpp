@@ -100,6 +100,7 @@ IL2CPP_EXTERN_C RuntimeClass* List_1_tACFC79734710927A89702FFC38900223BB85B5A6_i
 IL2CPP_EXTERN_C RuntimeClass* List_1_tD834E8FB7FDC0D4243FBCF922D7FE4E3C707AAC3_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SubsystemDescriptorStore_tEF3761B84B8C25EA4B93F94A487551820B268250_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SubsystemManager_t9A7261E4D0B53B996F04B8707D8E1C33AB65E824_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3____m_SubsystemDescriptor_1_FieldInfo_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m201FC29315140F56FD039B953C177A973D9FF991_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_Dispose_m3155DE7FAE64064D242AD56FA4205E69D37BF5FA_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Enumerator_MoveNext_m12584CD93CF1B39E17FDD6908B4A9B696F7A785C_RuntimeMethod_var;
@@ -126,6 +127,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mE880513B25584D4B37E79F50BC3AC
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m7E0401B70301939E63AFB1AEA0070D31D156608F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mA0C7AE870DA1E6D582A090A721DBCCC35B13E3C8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SubsystemDescriptorStore_RegisterDescriptor_TisSubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71_TisSubsystemDescriptor_tF417D2751C69A8B0DD86162EBCE55F84D3493A71_mCF1619B4D56F76AA321A1F5E1AF643181FFC1F22_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_0_0_0_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 
@@ -1561,12 +1563,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SubsystemDescriptorBindings_GetId_m
 // Conversion methods for marshalling of: UnityEngine.IntegratedSubsystem
 IL2CPP_EXTERN_C void IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_marshal_pinvoke(const IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3& unmarshaled, IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_SubsystemDescriptor_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SubsystemDescriptor' of type 'IntegratedSubsystem': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3____m_SubsystemDescriptor_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_SubsystemDescriptor_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3____m_SubsystemDescriptor_1_FieldInfo_var, IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SubsystemDescriptor_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_marshal_pinvoke_back(const IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_marshaled_pinvoke& marshaled, IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3& unmarshaled)
 {
-	Exception_t* ___m_SubsystemDescriptor_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SubsystemDescriptor' of type 'IntegratedSubsystem': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3____m_SubsystemDescriptor_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_SubsystemDescriptor_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3____m_SubsystemDescriptor_1_FieldInfo_var, IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SubsystemDescriptor_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.IntegratedSubsystem
@@ -1576,12 +1592,26 @@ IL2CPP_EXTERN_C void IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4C
 // Conversion methods for marshalling of: UnityEngine.IntegratedSubsystem
 IL2CPP_EXTERN_C void IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_marshal_com(const IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3& unmarshaled, IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_marshaled_com& marshaled)
 {
-	Exception_t* ___m_SubsystemDescriptor_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SubsystemDescriptor' of type 'IntegratedSubsystem': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3____m_SubsystemDescriptor_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_SubsystemDescriptor_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3____m_SubsystemDescriptor_1_FieldInfo_var, IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SubsystemDescriptor_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_marshal_com_back(const IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_marshaled_com& marshaled, IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3& unmarshaled)
 {
-	Exception_t* ___m_SubsystemDescriptor_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_SubsystemDescriptor' of type 'IntegratedSubsystem': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3____m_SubsystemDescriptor_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_SubsystemDescriptor_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3____m_SubsystemDescriptor_1_FieldInfo_var, IntegratedSubsystem_t990160A89854D87C0836DC589B720231C02D4CE3_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_SubsystemDescriptor_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.IntegratedSubsystem

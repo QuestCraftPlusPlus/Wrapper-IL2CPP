@@ -119,8 +119,8 @@ IL2CPP_EXTERN_C RuntimeClass* RemoteSettings_t9DFFC747AB3E7A39DF4527F245B529A407
 IL2CPP_EXTERN_C RuntimeClass* String_t_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral2276B6A66302EB28763BDF59157B4221777ADB5A;
 IL2CPP_EXTERN_C String_t* _stringLiteralECCC4B7A0DA4E8DB493886ED11AC56BA55FBE86F;
-IL2CPP_EXTERN_C const RuntimeMethod* Analytics_RegisterEvent_m82BE2F186E2F452E6FFE10DC44207C3438E660E4_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Analytics_SendEvent_m9E942728E301EA9E90741ADD1ED71DAD118819B5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Analytics_RegisterEvent_m37FA6A8FB5105EF3D38AA5F2C0CE6AFFF98677A8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Analytics_SendEvent_m173A6E9EA5B13374C565BB088C3178AD044B9F29_RuntimeMethod_var;
 struct Delegate_t_marshaled_com;
 struct Delegate_t_marshaled_pinvoke;
 struct Exception_t_marshaled_com;
@@ -256,7 +256,7 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 };
 
 // UnityEngine.Analytics.AnalyticsResult
-struct AnalyticsResult_tD3F23442DE6D00D9F160F7C9D3C7E3C5DEB91DCE 
+struct AnalyticsResult_t0AB6F113372F746E51646ECA6BBCE6B6BE3F2433 
 {
 	// System.Int32 UnityEngine.Analytics.AnalyticsResult::value__
 	int32_t ___value___2;
@@ -692,7 +692,7 @@ inline void Action_1_Invoke_m69C8773D6967F3B224777183E24EA621CE056F8F_inline (Ac
 // System.Reflection.Assembly System.Reflection.Assembly::GetCallingAssembly()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Assembly_t* Assembly_GetCallingAssembly_mDA96275EB27A0792D97CF9E45FB7919F39A3F97E (const RuntimeMethod* method) ;
 // UnityEngine.Analytics.AnalyticsResult UnityEngine.Analytics.Analytics::RegisterEvent(System.String,System.Int32,System.Int32,System.String,System.Int32,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_RegisterEvent_m82BE2F186E2F452E6FFE10DC44207C3438E660E4 (String_t* ___0_eventName, int32_t ___1_maxEventPerHour, int32_t ___2_maxItems, String_t* ___3_vendorKey, int32_t ___4_ver, String_t* ___5_prefix, String_t* ___6_assemblyInfo, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_RegisterEvent_m37FA6A8FB5105EF3D38AA5F2C0CE6AFFF98677A8 (String_t* ___0_eventName, int32_t ___1_maxEventPerHour, int32_t ___2_maxItems, String_t* ___3_vendorKey, int32_t ___4_ver, String_t* ___5_prefix, String_t* ___6_assemblyInfo, const RuntimeMethod* method) ;
 // System.Boolean System.String::IsNullOrEmpty(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478 (String_t* ___0_value, const RuntimeMethod* method) ;
 // System.Void System.ArgumentException::.ctor(System.String)
@@ -700,9 +700,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentException__ctor_m026938A67AF9D36
 // System.Boolean UnityEngine.Analytics.Analytics::IsInitialized()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Analytics_IsInitialized_mBC7670704DE959791C8DF859A7C66D5DD5168F12 (const RuntimeMethod* method) ;
 // UnityEngine.Analytics.AnalyticsResult UnityEngine.Analytics.Analytics::RegisterEventWithLimit(System.String,System.Int32,System.Int32,System.String,System.Int32,System.String,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_RegisterEventWithLimit_m1C2E9701EE73122C7788186C9EA9A3C23CF51252 (String_t* ___0_eventName, int32_t ___1_maxEventPerHour, int32_t ___2_maxItems, String_t* ___3_vendorKey, int32_t ___4_ver, String_t* ___5_prefix, String_t* ___6_assemblyInfo, bool ___7_notifyServer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_RegisterEventWithLimit_mA2859498FCA3D72621BBA323EAA8A00002CE658C (String_t* ___0_eventName, int32_t ___1_maxEventPerHour, int32_t ___2_maxItems, String_t* ___3_vendorKey, int32_t ___4_ver, String_t* ___5_prefix, String_t* ___6_assemblyInfo, bool ___7_notifyServer, const RuntimeMethod* method) ;
 // UnityEngine.Analytics.AnalyticsResult UnityEngine.Analytics.Analytics::SendEventWithLimit(System.String,System.Object,System.Int32,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_SendEventWithLimit_m084C487537F41F55CA161ED14838A6B892421956 (String_t* ___0_eventName, RuntimeObject* ___1_parameters, int32_t ___2_ver, String_t* ___3_prefix, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_SendEventWithLimit_mBEF7AF1067A9DF2FB8A8443384A6F07F3F209AC9 (String_t* ___0_eventName, RuntimeObject* ___1_parameters, int32_t ___2_ver, String_t* ___3_prefix, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Analytics.AnalyticsSessionInfo/SessionStateChanged::Invoke(UnityEngine.Analytics.AnalyticsSessionState,System.Int64,System.Int64,System.Boolean)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SessionStateChanged_Invoke_mB9195B30A226CB3E53E470C24FD31E039E5BB4F5_inline (SessionStateChanged_t1180FB66E702B635CAD9316DC661D931277B2A0C* __this, int32_t ___0_sessionState, int64_t ___1_sessionId, int64_t ___2_sessionElapsedTime, bool ___3_sessionChanged, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Analytics.AnalyticsSessionInfo/IdentityTokenChanged::Invoke(System.String)
@@ -1020,16 +1020,8 @@ IL_0018:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
 // UnityEngine.Analytics.AnalyticsResult UnityEngine.Analytics.Analytics::RegisterEvent(System.String,System.Int32,System.Int32,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t Analytics_RegisterEvent_mC82148D11A02968E347F9D11237D50826223A7C3 (String_t* ___0_eventName, int32_t ___1_maxEventPerHour, int32_t ___2_maxItems, String_t* ___3_vendorKey, String_t* ___4_prefix, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t Analytics_RegisterEvent_mB7990EA125BE03D0B1C9A09B4ADB35A86489E64D (String_t* ___0_eventName, int32_t ___1_maxEventPerHour, int32_t ___2_maxItems, String_t* ___3_vendorKey, String_t* ___4_prefix, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1055,7 +1047,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR int32_t Analytics_RegisterEv
 		String_t* L_7 = ___4_prefix;
 		String_t* L_8 = V_0;
 		int32_t L_9;
-		L_9 = Analytics_RegisterEvent_m82BE2F186E2F452E6FFE10DC44207C3438E660E4(L_3, L_4, L_5, L_6, 1, L_7, L_8, NULL);
+		L_9 = Analytics_RegisterEvent_m37FA6A8FB5105EF3D38AA5F2C0CE6AFFF98677A8(L_3, L_4, L_5, L_6, 1, L_7, L_8, NULL);
 		V_1 = L_9;
 		goto IL_0022;
 	}
@@ -1067,7 +1059,7 @@ IL_0022:
 	}
 }
 // UnityEngine.Analytics.AnalyticsResult UnityEngine.Analytics.Analytics::RegisterEvent(System.String,System.Int32,System.Int32,System.String,System.Int32,System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_RegisterEvent_m82BE2F186E2F452E6FFE10DC44207C3438E660E4 (String_t* ___0_eventName, int32_t ___1_maxEventPerHour, int32_t ___2_maxItems, String_t* ___3_vendorKey, int32_t ___4_ver, String_t* ___5_prefix, String_t* ___6_assemblyInfo, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_RegisterEvent_m37FA6A8FB5105EF3D38AA5F2C0CE6AFFF98677A8 (String_t* ___0_eventName, int32_t ___1_maxEventPerHour, int32_t ___2_maxItems, String_t* ___3_vendorKey, int32_t ___4_ver, String_t* ___5_prefix, String_t* ___6_assemblyInfo, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	bool V_1 = false;
@@ -1087,7 +1079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_RegisterEvent_m82BE2F186E2F
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_3 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		NullCheck(L_3);
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2276B6A66302EB28763BDF59157B4221777ADB5A)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Analytics_RegisterEvent_m82BE2F186E2F452E6FFE10DC44207C3438E660E4_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Analytics_RegisterEvent_m37FA6A8FB5105EF3D38AA5F2C0CE6AFFF98677A8_RuntimeMethod_var)));
 	}
 
 IL_0016:
@@ -1116,7 +1108,7 @@ IL_0026:
 		String_t* L_11 = ___5_prefix;
 		String_t* L_12 = ___6_assemblyInfo;
 		int32_t L_13;
-		L_13 = Analytics_RegisterEventWithLimit_m1C2E9701EE73122C7788186C9EA9A3C23CF51252(L_6, L_7, L_8, L_9, L_10, L_11, L_12, (bool)1, NULL);
+		L_13 = Analytics_RegisterEventWithLimit_mA2859498FCA3D72621BBA323EAA8A00002CE658C(L_6, L_7, L_8, L_9, L_10, L_11, L_12, (bool)1, NULL);
 		V_2 = L_13;
 		goto IL_0039;
 	}
@@ -1128,7 +1120,7 @@ IL_0039:
 	}
 }
 // UnityEngine.Analytics.AnalyticsResult UnityEngine.Analytics.Analytics::SendEvent(System.String,System.Object,System.Int32,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_SendEvent_m9E942728E301EA9E90741ADD1ED71DAD118819B5 (String_t* ___0_eventName, RuntimeObject* ___1_parameters, int32_t ___2_ver, String_t* ___3_prefix, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_SendEvent_m173A6E9EA5B13374C565BB088C3178AD044B9F29 (String_t* ___0_eventName, RuntimeObject* ___1_parameters, int32_t ___2_ver, String_t* ___3_prefix, const RuntimeMethod* method) 
 {
 	bool V_0 = false;
 	bool V_1 = false;
@@ -1149,7 +1141,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_SendEvent_m9E942728E301EA9E
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_3 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		NullCheck(L_3);
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral2276B6A66302EB28763BDF59157B4221777ADB5A)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Analytics_SendEvent_m9E942728E301EA9E90741ADD1ED71DAD118819B5_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Analytics_SendEvent_m173A6E9EA5B13374C565BB088C3178AD044B9F29_RuntimeMethod_var)));
 	}
 
 IL_0016:
@@ -1166,7 +1158,7 @@ IL_0016:
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_6 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		NullCheck(L_6);
 		ArgumentException__ctor_m026938A67AF9D36BB7ED27F80425D7194B514465(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralECCC4B7A0DA4E8DB493886ED11AC56BA55FBE86F)), NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Analytics_SendEvent_m9E942728E301EA9E90741ADD1ED71DAD118819B5_RuntimeMethod_var)));
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Analytics_SendEvent_m173A6E9EA5B13374C565BB088C3178AD044B9F29_RuntimeMethod_var)));
 	}
 
 IL_0029:
@@ -1192,7 +1184,7 @@ IL_0039:
 		int32_t L_11 = ___2_ver;
 		String_t* L_12 = ___3_prefix;
 		int32_t L_13;
-		L_13 = Analytics_SendEventWithLimit_m084C487537F41F55CA161ED14838A6B892421956(L_9, L_10, L_11, L_12, NULL);
+		L_13 = Analytics_SendEventWithLimit_mBEF7AF1067A9DF2FB8A8443384A6F07F3F209AC9(L_9, L_10, L_11, L_12, NULL);
 		V_3 = L_13;
 		goto IL_0045;
 	}
@@ -1214,22 +1206,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Analytics_IsInitialized_mBC7670704DE9597
 	return icallRetVal;
 }
 // UnityEngine.Analytics.AnalyticsResult UnityEngine.Analytics.Analytics::RegisterEventWithLimit(System.String,System.Int32,System.Int32,System.String,System.Int32,System.String,System.String,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_RegisterEventWithLimit_m1C2E9701EE73122C7788186C9EA9A3C23CF51252 (String_t* ___0_eventName, int32_t ___1_maxEventPerHour, int32_t ___2_maxItems, String_t* ___3_vendorKey, int32_t ___4_ver, String_t* ___5_prefix, String_t* ___6_assemblyInfo, bool ___7_notifyServer, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_RegisterEventWithLimit_mA2859498FCA3D72621BBA323EAA8A00002CE658C (String_t* ___0_eventName, int32_t ___1_maxEventPerHour, int32_t ___2_maxItems, String_t* ___3_vendorKey, int32_t ___4_ver, String_t* ___5_prefix, String_t* ___6_assemblyInfo, bool ___7_notifyServer, const RuntimeMethod* method) 
 {
-	typedef int32_t (*Analytics_RegisterEventWithLimit_m1C2E9701EE73122C7788186C9EA9A3C23CF51252_ftn) (String_t*, int32_t, int32_t, String_t*, int32_t, String_t*, String_t*, bool);
-	static Analytics_RegisterEventWithLimit_m1C2E9701EE73122C7788186C9EA9A3C23CF51252_ftn _il2cpp_icall_func;
+	typedef int32_t (*Analytics_RegisterEventWithLimit_mA2859498FCA3D72621BBA323EAA8A00002CE658C_ftn) (String_t*, int32_t, int32_t, String_t*, int32_t, String_t*, String_t*, bool);
+	static Analytics_RegisterEventWithLimit_mA2859498FCA3D72621BBA323EAA8A00002CE658C_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Analytics_RegisterEventWithLimit_m1C2E9701EE73122C7788186C9EA9A3C23CF51252_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Analytics.Analytics::RegisterEventWithLimit(System.String,System.Int32,System.Int32,System.String,System.Int32,System.String,System.String,System.Boolean)");
+	_il2cpp_icall_func = (Analytics_RegisterEventWithLimit_mA2859498FCA3D72621BBA323EAA8A00002CE658C_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Analytics.Analytics::RegisterEventWithLimit(System.String,System.Int32,System.Int32,System.String,System.Int32,System.String,System.String,System.Boolean)");
 	int32_t icallRetVal = _il2cpp_icall_func(___0_eventName, ___1_maxEventPerHour, ___2_maxItems, ___3_vendorKey, ___4_ver, ___5_prefix, ___6_assemblyInfo, ___7_notifyServer);
 	return icallRetVal;
 }
 // UnityEngine.Analytics.AnalyticsResult UnityEngine.Analytics.Analytics::SendEventWithLimit(System.String,System.Object,System.Int32,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_SendEventWithLimit_m084C487537F41F55CA161ED14838A6B892421956 (String_t* ___0_eventName, RuntimeObject* ___1_parameters, int32_t ___2_ver, String_t* ___3_prefix, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Analytics_SendEventWithLimit_mBEF7AF1067A9DF2FB8A8443384A6F07F3F209AC9 (String_t* ___0_eventName, RuntimeObject* ___1_parameters, int32_t ___2_ver, String_t* ___3_prefix, const RuntimeMethod* method) 
 {
-	typedef int32_t (*Analytics_SendEventWithLimit_m084C487537F41F55CA161ED14838A6B892421956_ftn) (String_t*, RuntimeObject*, int32_t, String_t*);
-	static Analytics_SendEventWithLimit_m084C487537F41F55CA161ED14838A6B892421956_ftn _il2cpp_icall_func;
+	typedef int32_t (*Analytics_SendEventWithLimit_mBEF7AF1067A9DF2FB8A8443384A6F07F3F209AC9_ftn) (String_t*, RuntimeObject*, int32_t, String_t*);
+	static Analytics_SendEventWithLimit_mBEF7AF1067A9DF2FB8A8443384A6F07F3F209AC9_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Analytics_SendEventWithLimit_m084C487537F41F55CA161ED14838A6B892421956_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Analytics.Analytics::SendEventWithLimit(System.String,System.Object,System.Int32,System.String)");
+	_il2cpp_icall_func = (Analytics_SendEventWithLimit_mBEF7AF1067A9DF2FB8A8443384A6F07F3F209AC9_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Analytics.Analytics::SendEventWithLimit(System.String,System.Object,System.Int32,System.String)");
 	int32_t icallRetVal = _il2cpp_icall_func(___0_eventName, ___1_parameters, ___2_ver, ___3_prefix);
 	return icallRetVal;
 }

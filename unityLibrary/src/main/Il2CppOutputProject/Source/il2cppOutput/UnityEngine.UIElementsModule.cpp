@@ -820,6 +820,8 @@ IL2CPP_EXTERN_C RuntimeClass* VisualElementPanelActivator_t1CCD740B7D2995A4097A8
 IL2CPP_EXTERN_C RuntimeClass* VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* YogaConfig_tE8B56F99460C291C1F7F46DBD8BAC9F0B653A345_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* YogaNode_t4B5B593220CCB315B5A60CB48BA4795636F04DDA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A____font_2_FieldInfo_var;
+IL2CPP_EXTERN_C RuntimeField* Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677____m_Owner_1_FieldInfo_var;
 IL2CPP_EXTERN_C String_t* _stringLiteral05BA33FC7FFF2013E3C524D47B41296B7EACC4E7;
 IL2CPP_EXTERN_C String_t* _stringLiteral09F849D760A70282F2C2D2A007883ECA528778A3;
 IL2CPP_EXTERN_C String_t* _stringLiteral0BD675F7A9F38223DB93AAB8D248B440D08DA595;
@@ -986,6 +988,8 @@ IL2CPP_EXTERN_C const RuntimeMethod* VisualElement_PlaceBehind_m248F49B17935C60E
 IL2CPP_EXTERN_C const RuntimeMethod* VisualElement_SetTooltip_m5AE5AE6B2F2A203517A173075A2CE5F6CE2D417D_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* VisualElement_StartAnimation_TisStyleValues_t4AED947A53B84B62EF2B589A40B74911CA77D11A_m85813DA3F6490D0F12C2CB27905500928CAF79EB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* VisualElement_U3CAssignMeasureFunctionU3Eb__288_0_m5EB37E05AFD99BECEADA0AA20CB0D62C119326FE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeType* CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_0_0_0_var;
+IL2CPP_EXTERN_C const RuntimeType* Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_0_0_0_var;
 IL2CPP_EXTERN_C const RuntimeType* StyleSheet_t6FAF43FCDB45BC6BED0522A222FD4C1A9BB10428_0_0_0_var;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_com;
 struct ComputedTransitionProperty_tD8E4D8EB5DD69E063944F27A48D9263F4F1354E1_marshaled_pinvoke;
@@ -24588,12 +24592,26 @@ IL_006f:
 // Conversion methods for marshalling of: UnityEngine.UIElements.VisualElement/Hierarchy
 IL2CPP_EXTERN_C void Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshal_pinvoke(const Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677& unmarshaled, Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___m_Owner_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Owner' of type 'Hierarchy': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677____m_Owner_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Owner_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677____m_Owner_1_FieldInfo_var, Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Owner_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshal_pinvoke_back(const Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshaled_pinvoke& marshaled, Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677& unmarshaled)
 {
-	Exception_t* ___m_Owner_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Owner' of type 'Hierarchy': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677____m_Owner_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Owner_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677____m_Owner_1_FieldInfo_var, Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Owner_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.VisualElement/Hierarchy
@@ -24603,12 +24621,26 @@ IL2CPP_EXTERN_C void Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshal
 // Conversion methods for marshalling of: UnityEngine.UIElements.VisualElement/Hierarchy
 IL2CPP_EXTERN_C void Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshal_com(const Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677& unmarshaled, Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshaled_com& marshaled)
 {
-	Exception_t* ___m_Owner_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Owner' of type 'Hierarchy': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677____m_Owner_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Owner_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677____m_Owner_1_FieldInfo_var, Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Owner_1Exception, NULL);
 }
 IL2CPP_EXTERN_C void Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshal_com_back(const Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_marshaled_com& marshaled, Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677& unmarshaled)
 {
-	Exception_t* ___m_Owner_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'm_Owner' of type 'Hierarchy': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677____m_Owner_1_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___m_Owner_1Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677____m_Owner_1_FieldInfo_var, Hierarchy_t4CF226F0EDE9C117C51C505730FC80641B1F1677_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___m_Owner_1Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.VisualElement/Hierarchy
@@ -28125,12 +28157,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StyleValues_t4AED947A53B84B62EF2B589A40B74911
 // Conversion methods for marshalling of: UnityEngine.UIElements.CursorPositionStylePainterParameters
 IL2CPP_EXTERN_C void CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_marshal_pinvoke(const CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A& unmarshaled, CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_marshaled_pinvoke& marshaled)
 {
-	Exception_t* ___font_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'CursorPositionStylePainterParameters': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A____font_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___font_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A____font_2_FieldInfo_var, CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___font_2Exception, NULL);
 }
 IL2CPP_EXTERN_C void CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_marshal_pinvoke_back(const CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_marshaled_pinvoke& marshaled, CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A& unmarshaled)
 {
-	Exception_t* ___font_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'CursorPositionStylePainterParameters': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A____font_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___font_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A____font_2_FieldInfo_var, CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___font_2Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.CursorPositionStylePainterParameters
@@ -28140,12 +28186,26 @@ IL2CPP_EXTERN_C void CursorPositionStylePainterParameters_tB79C17871EE8D6764B717
 // Conversion methods for marshalling of: UnityEngine.UIElements.CursorPositionStylePainterParameters
 IL2CPP_EXTERN_C void CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_marshal_com(const CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A& unmarshaled, CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_marshaled_com& marshaled)
 {
-	Exception_t* ___font_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'CursorPositionStylePainterParameters': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A____font_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___font_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A____font_2_FieldInfo_var, CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___font_2Exception, NULL);
 }
 IL2CPP_EXTERN_C void CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_marshal_com_back(const CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_marshaled_com& marshaled, CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A& unmarshaled)
 {
-	Exception_t* ___font_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field 'font' of type 'CursorPositionStylePainterParameters': Reference type field marshaling is not supported.");
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_0_0_0_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A____font_2_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Exception_t* ___font_2Exception = il2cpp_codegen_get_marshal_directive_exception("Cannot marshal field '%s' of type '%s': Reference type field marshaling is not supported.", CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A____font_2_FieldInfo_var, CursorPositionStylePainterParameters_tB79C17871EE8D6764B717689E7E93478D54BC81A_0_0_0_var);
 	IL2CPP_RAISE_MANAGED_EXCEPTION(___font_2Exception, NULL);
 }
 // Conversion method for clean up from marshalling of: UnityEngine.UIElements.CursorPositionStylePainterParameters
